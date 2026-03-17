@@ -58,10 +58,21 @@ public class ObjectFX : MonoBehaviour
     [Tooltip("消失动效完成时触发")]
     public UnityEvent onHideComplete;
 
+    [Header("循环缩放设置")]
+    [Tooltip("启用后会在OnEnable时自动开始循环缩放")]
+    public bool autoStartLoopScale = false;
+    [Tooltip("循环缩放的幅度(相对于原始大小)")]
+    public float loopScaleAmount = 1.2f;
+    [Tooltip("循环缩放的持续时间(一次完整循环)")]
+    public float loopScaleDuration = 1f;
+    [Tooltip("循环缩放的缓动类型")]
+    public Ease loopScaleEase = Ease.InOutSine;
+
     private Vector3 originalScale;
     private Vector3 originalPosition;
     private Renderer[] renderers;
     private readonly Dictionary<Renderer, Color> originalColors = new Dictionary<Renderer, Color>();
+    private Tween loopScaleTween;
 
     private void Awake()
     {
@@ -85,6 +96,11 @@ public class ObjectFX : MonoBehaviour
         {
             Show();
         }
+
+        if (autoStartLoopScale)
+        {
+            StartLoopScale();
+        }
     }
 
     #region 统一调用方法
@@ -103,6 +119,7 @@ public class ObjectFX : MonoBehaviour
     /// <param name="onComplete">自定义回调,如果为null则使用面板配置的回调</param>
     public void Show(Action onComplete)
     {
+        gameObject.SetActive(true);
         // 确定使用哪个回调
         Action finalCallback = onComplete ?? (() => onShowComplete?.Invoke());
 
@@ -391,6 +408,57 @@ public class ObjectFX : MonoBehaviour
 
     #endregion
 
+    #region 循环缩放动效
+
+    /// <summary>
+    /// 开始循环缩放动效 - 持续放大缩小
+    /// </summary>
+    public void StartLoopScale()
+    {
+        // 先停止之前的循环缩放
+        StopLoopScale();
+
+        // 创建循环缩放动画
+        loopScaleTween = transform.DOScale(originalScale * loopScaleAmount, loopScaleDuration / 2f)
+            .SetEase(loopScaleEase)
+            .SetLoops(-1, LoopType.Yoyo); // -1表示无限循环, Yoyo表示来回循环
+    }
+
+    /// <summary>
+    /// 停止循环缩放动效
+    /// </summary>
+    public void StopLoopScale()
+    {
+        if (loopScaleTween != null)
+        {
+            loopScaleTween.Kill();
+            loopScaleTween = null;
+        }
+        // 恢复原始大小
+        transform.localScale = originalScale;
+    }
+
+    /// <summary>
+    /// 停止循环缩放动效(平滑过渡)
+    /// </summary>
+    /// <param name="transitionDuration">过渡时间</param>
+    /// <param name="onComplete">完成回调</param>
+    public void StopLoopScaleSmooth(float transitionDuration = 0.3f, Action onComplete = null)
+    {
+        if (loopScaleTween != null)
+        {
+            loopScaleTween.Kill();
+            loopScaleTween = null;
+        }
+
+        // 平滑过渡回原始大小
+        transform.DOScale(originalScale, transitionDuration)
+            .SetEase(Ease.OutQuad)
+            .OnComplete(() => onComplete?.Invoke());
+    }
+
+    #endregion
+
     #region 辅助方法
 
     /// <summary>
@@ -414,6 +482,7 @@ public class ObjectFX : MonoBehaviour
     /// </summary>
     public void ResetObject()
     {
+        StopLoopScale(); // 停止循环缩放
         DOTween.Kill(transform);
         transform.localScale = originalScale;
         transform.localPosition = originalPosition;
@@ -434,6 +503,7 @@ public class ObjectFX : MonoBehaviour
     /// </summary>
     public void StopAllAnimations()
     {
+        StopLoopScale(); // 停止循环缩放
         DOTween.Kill(transform);
     }
 
@@ -441,6 +511,7 @@ public class ObjectFX : MonoBehaviour
 
     private void OnDestroy()
     {
+        StopLoopScale(); // 停止循环缩放
         DOTween.Kill(transform);
     }
 }

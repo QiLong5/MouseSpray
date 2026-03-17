@@ -130,7 +130,8 @@
             ],
             "includes": [
                 "Assets/Resources/DOTweenSettings.asset",
-                "Assets/TextMesh Pro/Resources/TMP Settings.asset"
+                "Assets/TextMesh Pro/Resources/TMP Settings.asset",
+                "Assets/Plugins/TextMesh Pro/Resources/TMP Settings.asset"
             ]
         },
         "scenes": [
