@@ -19,20 +19,31 @@ MonoBehaviour:
     playerTurnSmoothTime: 0.1
     playerMaxHp: 100
   "\u8001\u9F20\u6570\u636E":
-    enemyCount: 30
+    enemyCount: 20
     enemySpeed: 4
     enemyKnockbackForc: 20
-    enemyDropNum: 5
+    enemyDropMoney: 10
     enemyInitNum: 5
   "\u5176\u4ED6\u914D\u7F6E":
     wheatTime: 3
-    conveyorTime: 0.8
     patientNum: 6
-    famerPatientNum: 3
+    farmerPatientNum: 3
     elevatorTime: 0.5
-    wheatPerPatient: 1
     patienMoney: 10
-    famerPatienMoney: 50
+    farmerPatienMoney: 50
+    wheatPerPatient: 1
+    maxPatient1: 10
+    maxPatient2: 10
+    maxPatient3: 10
+    moneyValue: 10
+    collectTime: 2
+    collectNum: 1
+    HpTime: 2
+    HpPecent: 5
+    maxPatienNum: 6
+    maxfarmerPatienNum: 3
+    maxSoakNum: 3
+    maxElevatorNum: 6
   clerkInfo:
   - id: 1
     getTotalCoin: 50
@@ -47,91 +58,75 @@ MonoBehaviour:
   - id: 3
     getTotalCoin: 0
     unlockIds: 02000000
-    price: 200
+    price: 300
     eventStr: 
   - id: 4
     getTotalCoin: 0
     unlockIds: 03000000
-    price: 300
+    price: 800
     eventStr: 
   guildInfo:
   - id: 1
+    priority: 2
+    triggerType: 4
+    triggerNum: 0
+    triggerName: "Clerk_\u62A4\u58EB"
+    hideType: 5
+    hideNum: 0
+    hideName: "Clerk_\u62A4\u58EB"
+  - id: 2
+    priority: 2
+    triggerType: 4
+    triggerNum: 0
+    triggerName: "Clerk_\u642C\u8FD0\u5DE5"
+    hideType: 5
+    hideNum: 0
+    hideName: "Clerk_\u642C\u8FD0\u5DE5"
+  - id: 3
+    priority: 2
+    triggerType: 4
+    triggerNum: 0
+    triggerName: "Clerk_\u6CE1\u6C64\u6C60"
+    hideType: 5
+    hideNum: 0
+    hideName: "Clerk_\u6CE1\u6C64\u6C60"
+  - id: 4
+    priority: 2
+    triggerType: 4
+    triggerNum: 0
+    triggerName: "Clerk_\u5927\u573A\u666F"
+    hideType: 5
+    hideNum: 0
+    hideName: "Clerk_\u5927\u573A\u666F"
+  - id: 5
     priority: 1
     triggerType: 1
     triggerNum: 0
     triggerName: 
-    hideType: 0
+    hideType: 2
     hideNum: 0
-    hideName: 
-  - id: 2
-    priority: 1
-    triggerType: 3
-    triggerNum: 10
-    triggerName: 
-    hideType: 2
-    hideNum: 1
-    hideName: 
-  - id: 3
-    priority: 1
-    triggerType: 1
-    triggerNum: 10
-    triggerName: 
-    hideType: 3
-    hideNum: 1
-    hideName: 
-  - id: 4
-    priority: 1
-    triggerType: 3
-    triggerNum: 10
-    triggerName: 
-    hideType: 2
-    hideNum: 1
-    hideName: 
-  - id: 5
-    priority: 1
-    triggerType: 1
-    triggerNum: 10
-    triggerName: 
-    hideType: 3
-    hideNum: 1
     hideName: 
   - id: 6
     priority: 1
-    triggerType: 3
-    triggerNum: 10
+    triggerType: 2
+    triggerNum: 0
     triggerName: 
-    hideType: 2
+    hideType: 3
     hideNum: 1
     hideName: 
   - id: 7
     priority: 1
-    triggerType: 1
-    triggerNum: 10
+    triggerType: 3
+    triggerNum: 1
     triggerName: 
-    hideType: 3
-    hideNum: 1
+    hideType: 6
+    hideNum: 0
     hideName: 
   - id: 8
     priority: 1
-    triggerType: 3
-    triggerNum: 10
+    triggerType: 7
+    triggerNum: 0
     triggerName: 
-    hideType: 2
-    hideNum: 1
-    hideName: 
-  - id: 9
-    priority: 1
-    triggerType: 4
-    triggerNum: 1
-    triggerName: 
-    hideType: 5
-    hideNum: 1
-    hideName: 
-  - id: 10
-    priority: 1
-    triggerType: 4
-    triggerNum: 1
-    triggerName: 
-    hideType: 5
-    hideNum: 1
-    hideName: 
+    hideType: 4
+    hideNum: 0
+    hideName: "Clerk_\u62A4\u58EB"

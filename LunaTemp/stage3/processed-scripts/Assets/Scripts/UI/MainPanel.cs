@@ -15,9 +15,10 @@ public class MainPanel : MonoBehaviour
     public float mTime = 2;
     float mCurrentTime;
     bool isPress = false;
+    bool isFirstGuild=true;
     private void Start()
     {
-        
+        mCurrentTime=mTime;
     }
     void Update()
     {
@@ -44,6 +45,9 @@ public class MainPanel : MonoBehaviour
         {
             joystickTip.enabled=true;
             Tip.alpha = 1f;
+            if(isFirstGuild)
+                GuildManager.instance.CheckGuild(GuildTriggerType.First,1);
+            isFirstGuild = false;
         }        
     }
 

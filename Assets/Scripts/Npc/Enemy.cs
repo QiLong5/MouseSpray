@@ -42,6 +42,8 @@ public class Enemy : Npc
         isDie = false;
         isSelect = false;
         shouldDropLoot = true;
+        onDeathCallback = null;
+        isStationary = false;
         StateSwitch(EnemyState.Patrol);
         uIHealthBar = PoolManager.instance.GetEnemyHp();
         uIHealthBar.Init(transform);
@@ -63,7 +65,8 @@ public class Enemy : Npc
         uIHealthBar.SetHpFill(mHp/mHpMax);
         if (mHp <= 0)
         {
-            shouldDropLoot = dropLoot;
+            // 只有当前允许掉落且调用方也允许时才掉落
+            shouldDropLoot = shouldDropLoot && dropLoot;
             StateSwitch(EnemyState.Die);
         }
         else
@@ -77,8 +80,19 @@ public class Enemy : Npc
     /// </summary>
     [HideInInspector] public bool shouldDropLoot = true;
 
+    /// <summary>
+    /// 死亡时的回调（用于从外部列表中移除）
+    /// </summary>
+    [HideInInspector] public System.Action<Enemy> onDeathCallback;
+
+    /// <summary>
+    /// 是否为固定老鼠（路径老鼠），不做寻路逻辑，停留原地
+    /// </summary>
+    [HideInInspector] public bool isStationary;
+
     void OnTriggerEnter(Collider other)
     {
+        if (isStationary) return;
         if (other.tag.Equals("Player"))
         {
             if (!Player.instance.IsAtHome && !Player.instance.isDie)
@@ -97,6 +111,7 @@ public class Enemy : Npc
     }
     void OnTriggerStay(Collider other)
     {
+        if (isStationary) return;
         if (currentState==EnemyState.Patrol)
         {
             if (other.tag.Equals("Player"))
@@ -118,6 +133,7 @@ public class Enemy : Npc
     }
     void OnTriggerExit(Collider other)
     {
+        if (isStationary) return;
         if (other.tag.Equals("Player"))
         {
             if (currentState == EnemyState.Chase)
@@ -145,6 +161,11 @@ public class Enemy : Npc
         if (mAnimator == null||isDie)
         {
             return;
+        }
+        // 固定老鼠：巡逻和追击状态都转为Idle
+        if (isStationary && (state == EnemyState.Patrol || state == EnemyState.Chase))
+        {
+            state = EnemyState.Idle;
         }
         mStateInfo = mAnimator.GetCurrentAnimatorStateInfo(0);
         currentState = state;
@@ -209,6 +230,7 @@ public class Enemy : Npc
                 Knockback(Player.instance.transform.position);
                 uIHealthBar.Hide();
                 PoolManager.instance.ReturnEnemyHp(uIHealthBar);
+                onDeathCallback?.Invoke(this);
                 PoolManager.instance.ReturnEnemy(this,1f);
             
                 break;
@@ -256,7 +278,8 @@ public class Enemy : Npc
         {
             if (shouldDropLoot)
             {
-                GetDropRawMaterial(2);
+                int num = GameDataEditor.instance.GetMouseData.enemyDropMoney / GameDataEditor.instance.GetOtherData.moneyValue;
+                GetDropRawMaterial(num);
             }
         }
         yield return new WaitForSeconds(0.7f);//受击结束

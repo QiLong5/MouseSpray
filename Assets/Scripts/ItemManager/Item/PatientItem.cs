@@ -229,7 +229,7 @@ public class PatientItem : Item
 
     }
 
-    protected virtual void OnTriggerEnter(Collider other)
+    protected override void OnTriggerEnter(Collider other)
     {
         if (currentState == PatienState.Wait && (other.transform.CompareTag("Player") || other.transform.CompareTag("PorterNpc")) && !hasBeenAddedToPlayer)
         {

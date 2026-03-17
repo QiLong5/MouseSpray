@@ -1,10 +1,4 @@
-﻿using DG.Tweening;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using UnityEditor;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 /// <summary>
 /// 玩家控制脚本
@@ -12,6 +6,7 @@ using UnityEngine.UI;
 public class Player : MonoSingleton<Player>
 {
     [Header("Move")]
+    public bool isStop;//是否停止玩家操作
     public YangJoystick mJoystick;
     
     public Rigidbody mRigidbody;
@@ -83,7 +78,6 @@ public class Player : MonoSingleton<Player>
 
     float attackInterval=0;
     private bool _isAttack;
-
     public bool IsAttack
     {
         get => _isAttack;
@@ -111,8 +105,9 @@ public class Player : MonoSingleton<Player>
     }
    
    public bool IsAtHome;
-    void Start()
+   protected override void Start()
     {
+        base.Start();
         mHp = GameDataEditor.instance.playerMaxHp;
         mHpMax= GameDataEditor.instance.playerMaxHp;
         mAttackCollider.radius=GameDataEditor.instance.playerAttackRadius;
@@ -127,7 +122,7 @@ public class Player : MonoSingleton<Player>
         if (attackRangeIndicator != null)
         {
             attackRangeIndicator.UpdateRange(radius, startAngle, endAngle);
-            attackRangeIndicator.Hide(); 
+            attackRangeIndicator.Show(); // 初始显示攻击指示器
         }
     }
 
@@ -138,7 +133,7 @@ public class Player : MonoSingleton<Player>
 
     void FixedUpdate()
     {
-        if (isDie || !CameraManager.instance.IsCanMove)
+        if (isDie || !CameraManager.instance.IsCanMove || isStop)
         {
             return;
         }
@@ -185,22 +180,28 @@ public class Player : MonoSingleton<Player>
         if (other.tag.Equals("Home"))
         {
             IsAtHome = true;
-            attackRangeIndicator.Hide();
+            var npcOv = NpcManager.instance as NpcManagerOv;
+            if (npcOv == null || npcOv.IsPathEnemiesCleared)
+            {
+                attackRangeIndicator?.Hide();
+                mHpUi.Hide();
+            }
         }
         if (other.tag.Equals("Enemy"))
         {
+            var npcOv = NpcManager.instance as NpcManagerOv;
+            bool canAttackAtHome = npcOv != null && !npcOv.IsPathEnemiesCleared;
 
-            if (attackInterval <= 0&&!IsAttacking&&!IsAtHome)
+            if (attackInterval <= 0&&!IsAttacking&&(!IsAtHome || canAttackAtHome))
             {
                 if (CheckIsAttack())
                 {
                     IsAttack = true;
                     attackInterval = GameDataEditor.instance.playerAttackInterval;
                 }
-              
             }
         }
-        
+
     }
 
     private void OnTriggerStay(Collider other)
@@ -241,17 +242,23 @@ public class Player : MonoSingleton<Player>
             {
                 mHp++;
                 mHpUi.SetHpFill((mHp / mHpMax));
-                if (mHp==mHpMax)
+                if (mHp == mHpMax)
                 {
-                    mHpUi.Hide();
+                    var npcOv2 = NpcManager.instance as NpcManagerOv;
+                    if (npcOv2 == null || npcOv2.IsPathEnemiesCleared)
+                    {
+                        mHpUi.Hide();
+                    }
                 }
-               
                 UIManager.instance.StopDanger();
             }
         }
         if (other.tag.Equals("Enemy"))
         {
-            if (attackInterval<=0 && !IsAttacking && !IsAtHome)
+            var npcOv = NpcManager.instance as NpcManagerOv;
+            bool canAttackAtHome = npcOv != null && !npcOv.IsPathEnemiesCleared;
+
+            if (attackInterval<=0 && !IsAttacking && (!IsAtHome || canAttackAtHome))
             {
                 if (CheckIsAttack())
                 {
@@ -266,6 +273,13 @@ public class Player : MonoSingleton<Player>
             }
           
         }
+
+        // if (other.transform.CompareTag("Patient"))
+        // {
+        //     var index = itemStackManager.GetStackIndexByItemType(ItemType.Patient);
+        //     var stackLst = itemStackManager.stackList[index];
+        //     NpcManagerOv.instance.DequeueCustomer(stackLst,true);
+        // }
      
     }
 
@@ -289,7 +303,7 @@ public class Player : MonoSingleton<Player>
         if (other.tag.Equals("Home"))
         {
             IsAtHome = false;
-            attackRangeIndicator.Show();
+            attackRangeIndicator?.Show();
             mHpUi.gameObject.SetActive(true);
         }
     }
@@ -298,7 +312,6 @@ public class Player : MonoSingleton<Player>
     {
         if (LunaManager.instance.isGameOver)
         {
-            IsMove=false;
             OnStop();
             return;
         }
@@ -310,7 +323,8 @@ public class Player : MonoSingleton<Player>
         {
             IsMove = true;
             float targetAngle = Mathf.Atan2(mJoystick.Horizontal, mJoystick.Vertical) * Mathf.Rad2Deg;
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle - mAngleDis, ref mTurnSmoothVelocity, mTurnSmoothTime);
+            float worldTargetAngle = targetAngle + Camera.main.transform.eulerAngles.y - mAngleDis;
+            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, worldTargetAngle, ref mTurnSmoothVelocity, mTurnSmoothTime);
             mRigidbody.velocity = new Vector3((transform.forward * speed).x, mRigidbody.velocity.y, (transform.forward * speed).z);
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
         }
@@ -355,7 +369,26 @@ public class Player : MonoSingleton<Player>
     public void OnStop()
     {
         IsMove = false;
-        mRigidbody.velocity =new Vector3(0, 0,0);
+        mRigidbody.velocity = new Vector3(0, mRigidbody.velocity.y, 0);
+    }
+
+    /// <summary>
+    /// 进入电梯时调用，禁用物理并限制移动
+    /// </summary>
+    public void EnterElevator()
+    {
+        isStop = true;
+        OnStop();
+        mRigidbody.isKinematic = true;
+    }
+
+    /// <summary>
+    /// 离开电梯时调用，恢复物理和移动
+    /// </summary>
+    public void ExitElevator()
+    {
+        mRigidbody.isKinematic = false;
+        isStop = false;
     }
 
 
@@ -371,6 +404,7 @@ public class Player : MonoSingleton<Player>
             moneyAmount = 0;
         }
         UIManager.instance.SetGold(moneyAmount);
+        ClerkManager.instance?.AddTotalMoney(_value);
     }
 
     /// <summary>
@@ -422,7 +456,8 @@ public class Player : MonoSingleton<Player>
 
                                 targetItem.gameObject.SetActive(true);
                                 targetItem.cd.enabled = false;
-                                itemStackManager.stackList[targetItem.targetStackListIndex].StackItem(targetItem);
+                                var targetStackListIndex=itemStackManager.GetStackIndexByItemType(targetItem.itemType);
+                                itemStackManager.stackList[targetStackListIndex].StackItem(targetItem);
                             }
                         }
                         
@@ -537,6 +572,9 @@ public class Player : MonoSingleton<Player>
         Vector3 center = transform.position - transform.forward;
         Collider[] hits = Physics.OverlapSphere(center, radius, enemyLayerMask);
 
+        var npcOv = NpcManager.instance as NpcManagerOv;
+        bool onlyPathEnemies = npcOv != null && !npcOv.IsPathEnemiesCleared;
+
         foreach (var hit in hits)
         {
             Vector3 dir = hit.transform.position - center;
@@ -550,13 +588,15 @@ public class Player : MonoSingleton<Player>
 
             if (angle >= startAngle && angle <= endAngle)
             {
-                //Debug.Log("攻击到敌人 " + hit.name);
                 Enemy _enemy = hit.GetComponent<Enemy>();
-                if (_enemy!=null)
+                if (_enemy != null)
                 {
+                    // 路径老鼠未清除时，只攻击路径老鼠
+                    if (onlyPathEnemies && !npcOv.GetPathEnemies.Contains(_enemy))
+                        continue;
+
                     _enemy.SetHp(GameDataEditor.instance.playerAamage);
                 }
-               
             }
         }
     }
@@ -568,6 +608,10 @@ public class Player : MonoSingleton<Player>
     {
         Vector3 center = transform.position - transform.forward;
         Collider[] hits = Physics.OverlapSphere(center, radius, enemyLayerMask);
+
+        var npcOv = NpcManager.instance as NpcManagerOv;
+        bool onlyPathEnemies = npcOv != null && !npcOv.IsPathEnemiesCleared;
+
         foreach (var hit in hits)
         {
             Vector3 dir = hit.transform.position - center;
@@ -580,11 +624,16 @@ public class Player : MonoSingleton<Player>
 
             if (angle >= startAngle && angle <= endAngle)
             {
-              //  Debug.Log("前方有敌人，攻击");
-               return true;
+                // 路径老鼠未清除时，只检测路径老鼠
+                if (onlyPathEnemies)
+                {
+                    Enemy _enemy = hit.GetComponent<Enemy>();
+                    if (_enemy == null || !npcOv.GetPathEnemies.Contains(_enemy))
+                        continue;
+                }
+                return true;
             }
         }
-       // Debug.Log("前方没敌人");
         return false;
     }
 }

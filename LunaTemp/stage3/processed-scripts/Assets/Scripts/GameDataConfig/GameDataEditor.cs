@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using ExcelTool;
 using UnityEngine;
 
 public class GameDataEditor :MonoSingleton<GameDataEditor>
 {
+    public GameConfig gameConfig;
     [Header("玩家相关")]
     [Tooltip("玩家移动速度")] public float playerSpeed = 9f;
     [Tooltip("玩家旋转平滑系数")] public float playerTurnSmoothTime = 0.1f;
@@ -34,4 +36,34 @@ public class GameDataEditor :MonoSingleton<GameDataEditor>
     [Tooltip("每个顾客需要物品数量")] public int customerNeedCount = 3;
     [Tooltip("每个顾客给的金币")] public int customerGiveGoin = 3;
     [Tooltip("物品交易间隔")] public float itemSpawnInterval = 0.1f;
+
+    public int enemyDropNum;
+    public int enemyInitNum;
+
+    public override void Awake()
+    {
+        base.Awake();
+
+        playerSpeed = gameConfig.玩家数据.playerSpeed;
+        playerTurnSmoothTime = gameConfig.玩家数据.playerTurnSmoothTime;
+        playerMaxHp = gameConfig.玩家数据.playerMaxHp;
+
+        enemyCount = gameConfig.老鼠数据.enemyCount;
+        enemySpeed = gameConfig.老鼠数据.enemySpeed;
+        enemyKnockbackForc = gameConfig.老鼠数据.enemyKnockbackForc;
+        enemyInitNum = gameConfig.老鼠数据.enemyInitNum;
+    }
+
+    public GameConfig.其他配置Data GetOtherData
+    {
+        get{return gameConfig.其他配置;} 
+    }
+    public GameConfig.玩家数据Data GetPlayerData
+    {
+        get { return gameConfig.玩家数据; }
+    }
+    public GameConfig.老鼠数据Data GetMouseData
+    {
+        get { return gameConfig.老鼠数据; }
+    }
 }

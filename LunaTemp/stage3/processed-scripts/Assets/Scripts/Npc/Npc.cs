@@ -4,10 +4,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum NpcType : int
+{
+    Customer,//顾客
+    Enemy,//普通敌人
+    BigEnemy,//最终通关敌人
+    Porter,//搬运工
+}
 public class Npc : MonoBehaviour
 {
     [Header("组件引用")]
     public Animator mAnimator;
+    public NpcType npcType;
     public AnimatorStateInfo mStateInfo;
     public Collider mCollider;
     public Rigidbody mRigidbody;
@@ -116,7 +124,7 @@ public class Npc : MonoBehaviour
     IEnumerator MoveToTargetIE([Bridge.Ref] Vector3 target,Action targetAciton=null)
     {
 
-        while (Vector3.Distance(target, transform.position) > 0.3f)
+        while (Vector3.Distance(target, transform.position) > 0.5f)
         {
             // 计算目标方向
             Vector3 dir = (target - transform.position).normalized;

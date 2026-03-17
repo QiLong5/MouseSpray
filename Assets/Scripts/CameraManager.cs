@@ -53,8 +53,14 @@ public class CameraManager : MonoSingleton<CameraManager>
     public event Action CameraMoveAction;
     public event Action CameraZoomAction;
     public bool isCress;
-    void Start()
+
+    public Vector3 Offset
     {
+        get{ return mOffset; }
+    }
+    protected override void Start()
+    {
+        base.Start();
         if (Screen.width > Screen.height)
         {
             mCurrentCameraNum = mCameraCressNumFar;

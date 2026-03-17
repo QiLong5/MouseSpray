@@ -8,13 +8,31 @@ public class AnimationInvoke : MonoBehaviour
 
     public void PlayerAttack()
     {
-        Player.instance.IsAttacking=true;
-        Player.instance.Attack();
+        if (transform.parent.GetComponent<Player>() != null)
+        {
+            Player.instance.IsAttacking=true;
+            Player.instance.Attack();
+        }
+        if (transform.parent.GetComponent<FighterPatientItem>() != null)
+        {
+            var patien = transform.parent.GetComponent<FighterPatientItem>();
+            patien.IsAttacking=true;
+            patien.Attack();
+        }
     }
     public void PlayerAttackFinsh()
     {
-        Player.instance.IsAttacking =false;
-        Player.instance.IsAttack=false;
+        if (transform.parent.GetComponent<Player>() != null)
+        {
+            Player.instance.IsAttacking =false;
+            Player.instance.IsAttack=false;
+        }
+        if (transform.parent.GetComponent<FighterPatientItem>() != null)
+        {
+            var patien = transform.parent.GetComponent<FighterPatientItem>();
+            patien.IsAttacking=false;
+            patien.IsAttack=false;
+        }
     }
 
     public void EnemyAttack()

@@ -9,9 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/CutObjTest/TestScene.unity
+    path: Assets/CutObjTest/CutTestScene.unity
     guid: a3f3d88d229106b488e494b2cacb1ae2
   - enabled: 1
     path: Assets/SnowPlugin/SnowSimple.unity
     guid: 1b0404d0c5221524380914371d977e56
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: ea1faa37b2e25574db752d77a5d114b5
+  - enabled: 1
+    path: Assets/Scenes/New Scene.unity
+    guid: 1eee58ec0fc009e419cd1ce4b5572084
   m_configObjects: {}

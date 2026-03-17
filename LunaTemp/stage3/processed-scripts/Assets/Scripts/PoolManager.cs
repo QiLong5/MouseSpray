@@ -8,30 +8,30 @@ using UnityEngine;
 /// </summary>
 public class PoolManager :MonoSingleton<PoolManager>
 {
-    public Queue<Item> mMoneys = new Queue<Item>();
-    public Queue<Item> mRawMaterials = new Queue<Item>();
-    public Queue<Item> mProducts = new Queue<Item>();
-    public Queue<Enemy> mEnemys = new Queue<Enemy>();
-    public Queue<Customer> mCustomers = new Queue<Customer>();
     public Queue<UIHealthBar> mEnemyhps = new Queue<UIHealthBar>();
-    public Item mMoneyPrefab;
-    public Item mRawMaterialPrefab;
-    public Item mProductPrefab;
+    public Queue<UIHealthBar> mFighterhps = new Queue<UIHealthBar>();
+    public List<Item> itemPrefabs;
+    public List<Npc> npcPrefabs;
     public UIHealthBar mEnemyHpPrefab;
-
-    public Enemy mEnemyPrefab;
-    public Customer mCustomerPrefab;
-    private void Start()
-    {                
-    
+    public UIHealthBar mFighterHpPrefab;
+    private Dictionary<ItemType, Queue<Item>> items = new Dictionary<ItemType, Queue<Item>>();
+    private Dictionary<NpcType, Queue<Npc>> npcs = new Dictionary<NpcType, Queue<Npc>>();
+    public override void Awake()
+    {
+        base.Awake();
+        //初始化池子队列
+        for (int i = 0; i < itemPrefabs.Count; i++)
+            items.Add(itemPrefabs[i].itemType, new Queue<Item>());
+        for (int i = 0; i < npcPrefabs.Count; i++)
+            npcs.Add(npcPrefabs[i].npcType, new Queue<Npc>());
     }
 
     public UIHealthBar GetEnemyHp()
     {
-        UIHealthBar hp =null;
+        UIHealthBar hp = null;
         if (mEnemyhps.Count > 0)
         {
-            hp= mEnemyhps.Dequeue();
+            hp = mEnemyhps.Dequeue();
         }
         else
         {
@@ -40,106 +40,77 @@ public class PoolManager :MonoSingleton<PoolManager>
 
         return hp;
     }
-    public Enemy GetEnemy()
+    public UIHealthBar GetFighterHp()
     {
-        Enemy _enemy = null;
-        if (mEnemys.Count > 0)
+        UIHealthBar hp =null;
+        if (mFighterhps.Count > 0)
         {
-            _enemy = mEnemys.Dequeue();
+            hp= mFighterhps.Dequeue();
         }
         else
         {
-            _enemy = Instantiate(mEnemyPrefab, transform);
-        }
-        
-        return _enemy;
-    }
-    public Customer GetCustomer()
-    {
-        Customer _Customer = null;
-        if (mCustomers.Count > 0)
-        {
-            _Customer = mCustomers.Dequeue();
-        }
-        else
-        {
-            _Customer = Instantiate(mCustomerPrefab,transform);
+            hp = Instantiate(mFighterHpPrefab, UIManager.instance.mEnemyHps);
         }
 
-        return _Customer;
+        return hp;
+    }
+
+    public Npc GetNpc(NpcType npcType)
+    {
+        Npc _npc = null;
+        var queue = npcs[npcType];
+        if (queue.Count > 0)
+        {
+            _npc = queue.Dequeue();
+        }
+        else
+        {
+             var prefab= npcPrefabs.Find(t=>t.npcType==npcType);
+            _npc = Instantiate(prefab, transform);
+        }
+        
+        return _npc;
     }
     public Item GetItem(ItemType itemType)
     {
         Item obj = null;
-        switch (itemType)
+        var queue = items[itemType];
+        if(queue.Count>0)
+            obj = queue.Dequeue();
+        else
         {
-            case ItemType.RawMaterial:
-                if (mRawMaterials.Count > 0)
-                {
-                    obj = mRawMaterials.Dequeue();
-                }
-                else
-                {
-                    obj = Instantiate(mRawMaterialPrefab, this.transform);
-                }
-                break;
-            case ItemType.Product:
-                if (mProducts.Count > 0)
-                {
-                    obj = mProducts.Dequeue();
-                    obj.gameObject.SetActive(true);
-                    return obj;
-                }
-                else
-                {
-                    obj = Instantiate(mProductPrefab, this.transform);
-                }
-                break;
-            case ItemType.Money:
-                if (mMoneys.Count > 0)
-                {
-                    obj = mMoneys.Dequeue();
-                }
-                else
-                {
-                    obj = Instantiate(mMoneyPrefab, this.transform);
-                }
-                break;
-            default:
-                break;
+            var itemPrefab= itemPrefabs.Find(t=>t.itemType==itemType);
+            obj = Instantiate(itemPrefab, this.transform);
         }
-     //   obj.gameObject.SetActive(true);
+        if (itemType == ItemType.Product)
+            obj.gameObject.SetActive(true);
+        else if (itemType == ItemType.Money)
+            obj.value = GameDataEditor.instance.gameConfig.其他配置.moneyValue;
         return obj;
     }
 
     public void ReturnItem(Item item)
     {
-        switch (item.itemType)
-        {
-            case ItemType.RawMaterial:
-                mRawMaterials.Enqueue(item);
-                break;
-            case ItemType.Product:
-                mProducts.Enqueue(item);
-                break;
-            case ItemType.Money:
-                mMoneys.Enqueue(item);
-                break;
-            default:
-                break;
-        }
-
+        var queue = items[item.itemType];
+        queue.Enqueue(item);
         item.gameObject.SetActive(false);
     }
 
     public void ReturnEnemyHp(UIHealthBar _enemyhp)
     {
-        StartCoroutine(WaitDoIE(0.5f,()=>
+        StartCoroutine(WaitDoIE(0.5f, () =>
         {
             mEnemyhps.Enqueue(_enemyhp);
             _enemyhp.gameObject.SetActive(false);
         }));
-     
+    }
+    public void ReturnFighterHp(UIHealthBar _fighterhp)
+    {
+        StartCoroutine(WaitDoIE(0.5f,()=>
+        {
+            mFighterhps.Enqueue(_fighterhp);
+            _fighterhp.gameObject.SetActive(false);
+        }));
     }
 
     public void ReturnEnemy(Enemy _enemy,float waittimes=1f)
@@ -147,14 +118,16 @@ public class PoolManager :MonoSingleton<PoolManager>
         StartCoroutine(WaitDoIE(waittimes, () =>
         {
             NpcManager.instance.mEnemies.Remove(_enemy);
-            mEnemys.Enqueue(_enemy);
+            var queue = npcs[NpcType.Enemy];
+            queue.Enqueue(_enemy);
             _enemy.gameObject.SetActive(false);
         }));
        
     }
     public void ReturnCustomer(Customer _Customer)
     {
-        mCustomers.Enqueue(_Customer);
+        var queue = npcs[NpcType.Customer];
+        queue.Enqueue(_Customer);
         _Customer.gameObject.SetActive(false);
 
     }

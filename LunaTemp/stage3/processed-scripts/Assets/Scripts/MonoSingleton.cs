@@ -19,12 +19,12 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T
         if (s_Instance == null)
         {
             s_Instance = (T)this;
-            s_Instance.gameObject.name = s_Instance.GetType().Name;
+            //s_Instance.gameObject.name = s_Instance.GetType().Name;
         }
 
        
     }
-    private void Start()
+    protected virtual void Start()
     {
         LunaManager.instance.SceneResetEvent += OnSceneReset;
     }

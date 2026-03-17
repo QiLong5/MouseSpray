@@ -1,1 +1,1 @@
-{"requires":["DOTween"],"source_packages":[]}
+{"requires":["DOTween","Newtonsoft.Json"],"source_packages":[]}

@@ -102,7 +102,7 @@ public class Item : MonoBehaviour
     
 
     //物品碰到玩家时会被玩家捡起来
-    private void OnTriggerEnter(Collider other)
+    protected virtual void OnTriggerEnter(Collider other)
     {
         if (other.transform.CompareTag("Player") && !hasBeenAddedToPlayer)
         {

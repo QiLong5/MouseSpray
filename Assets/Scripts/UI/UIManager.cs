@@ -27,7 +27,7 @@ public class UIManager :MonoSingleton<UIManager>
     public Transform mEnemyHps;
     public TextMeshProUGUI mCoinUI;
     private int coinNum;//当前金币数量
-    void Start()
+    protected override void Start()
     {
        // SetGold(0);
        SetCoin(0,false);

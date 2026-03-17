@@ -24,6 +24,11 @@ public class UIHealthBar : UIFollowerBase
         SetHpFill(1f,false,false);
     }
 
+    private void LateUpdate()
+    {
+        FollowObjectWithUI();
+    }
+
     protected override void OnDisable()
     {
         base.OnDisable();

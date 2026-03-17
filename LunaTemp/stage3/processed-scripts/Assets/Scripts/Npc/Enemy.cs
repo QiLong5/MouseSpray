@@ -10,6 +10,7 @@ public class Enemy : Npc
     public bool isDie;
     public float mHp;
     public float mHpMax;
+    public bool isSelect;
 
     float attackInterval=-1;
 
@@ -38,7 +39,11 @@ public class Enemy : Npc
         attackCollider.radius = GameDataEditor.instance.enemyAttackRadius;
         alertCollider.radius = GameDataEditor.instance.enemyAlertRadius;
         mCollider.enabled=true;
-        isDie=false;
+        isDie = false;
+        isSelect = false;
+        shouldDropLoot = true;
+        onDeathCallback = null;
+        isStationary = false;
         StateSwitch(EnemyState.Patrol);
         uIHealthBar = PoolManager.instance.GetEnemyHp();
         uIHealthBar.Init(transform);
@@ -46,14 +51,22 @@ public class Enemy : Npc
     // 受击处理
     public void SetHp(int damage = 1)
     {
+        SetHp(damage, true);
+    }
+
+    /// <summary>
+    /// 受击处理（可控制是否掉落战利品）
+    /// </summary>
+    public void SetHp(int damage, bool dropLoot)
+    {
         if (isDie) return;
 
         mHp -= damage;
-        // Debug.Log("扣血，当前血量："+mHp);
         uIHealthBar.SetHpFill(mHp/mHpMax);
         if (mHp <= 0)
         {
-            
+            // 只有当前允许掉落且调用方也允许时才掉落
+            shouldDropLoot = shouldDropLoot && dropLoot;
             StateSwitch(EnemyState.Die);
         }
         else
@@ -62,8 +75,24 @@ public class Enemy : Npc
         }
     }
 
+    /// <summary>
+    /// 是否应该掉落战利品（被战士击杀时不掉落）
+    /// </summary>
+    [HideInInspector] public bool shouldDropLoot = true;
+
+    /// <summary>
+    /// 死亡时的回调（用于从外部列表中移除）
+    /// </summary>
+    [HideInInspector] public System.Action<Enemy> onDeathCallback;
+
+    /// <summary>
+    /// 是否为固定老鼠（路径老鼠），不做寻路逻辑，停留原地
+    /// </summary>
+    [HideInInspector] public bool isStationary;
+
     void OnTriggerEnter(Collider other)
     {
+        if (isStationary) return;
         if (other.tag.Equals("Player"))
         {
             if (!Player.instance.IsAtHome && !Player.instance.isDie)
@@ -82,6 +111,7 @@ public class Enemy : Npc
     }
     void OnTriggerStay(Collider other)
     {
+        if (isStationary) return;
         if (currentState==EnemyState.Patrol)
         {
             if (other.tag.Equals("Player"))
@@ -103,6 +133,7 @@ public class Enemy : Npc
     }
     void OnTriggerExit(Collider other)
     {
+        if (isStationary) return;
         if (other.tag.Equals("Player"))
         {
             if (currentState == EnemyState.Chase)
@@ -130,6 +161,11 @@ public class Enemy : Npc
         if (mAnimator == null||isDie)
         {
             return;
+        }
+        // 固定老鼠：巡逻和追击状态都转为Idle
+        if (isStationary && (state == EnemyState.Patrol || state == EnemyState.Chase))
+        {
+            state = EnemyState.Idle;
         }
         mStateInfo = mAnimator.GetCurrentAnimatorStateInfo(0);
         currentState = state;
@@ -186,6 +222,7 @@ public class Enemy : Npc
                 break;
             case EnemyState.Die:
                 isDie = true;
+                isSelect = false;
                 if (!mStateInfo.IsName("Die"))
                 {
                     mAnimator.Play("Die");
@@ -193,6 +230,7 @@ public class Enemy : Npc
                 Knockback(Player.instance.transform.position);
                 uIHealthBar.Hide();
                 PoolManager.instance.ReturnEnemyHp(uIHealthBar);
+                onDeathCallback?.Invoke(this);
                 PoolManager.instance.ReturnEnemy(this,1f);
             
                 break;
@@ -238,8 +276,11 @@ public class Enemy : Npc
         }
         else
         {
-            GetDropRawMaterial(2);
-           
+            if (shouldDropLoot)
+            {
+                int num = GameDataEditor.instance.GetMouseData.enemyDropMoney / GameDataEditor.instance.GetOtherData.moneyValue;
+                GetDropRawMaterial(num);
+            }
         }
         yield return new WaitForSeconds(0.7f);//受击结束
         if (!isDie)
@@ -339,7 +380,7 @@ public class Enemy : Npc
     {
         for (int j = 0; j < count; j++)
         {
-            var meet = PoolManager.instance.GetItem(ItemType.RawMaterial);
+            var meet = PoolManager.instance.GetItem(ItemType.Money);
             meet.transform.position = transform.position;
             meet.cd.enabled = false;
             meet.canDoFurtherMove = true;
@@ -363,7 +404,7 @@ public class Enemy : Npc
         }
 
         // 可调整参数
-        float throwDistance =3f;      // 抛物线距离
+        float throwDistance = 3f;      // 抛物线距离
         float throwHeight = 3.5f;      // 抛物线高度
         float dropDuration = 0.2f;     // 掉落时长
         float pickupDelay = 0.2f;      // 落地后延迟收取时间
@@ -404,8 +445,9 @@ public class Enemy : Npc
         // 落地后延迟收取
         yield return new WaitForSeconds(pickupDelay);
 
+        meet.cd.enabled = true;
         // 玩家收取
-        meet.PickUpToPlayer();
+        //meet.PickUpToPlayer();
     }
 
 

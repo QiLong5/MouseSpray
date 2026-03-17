@@ -82,8 +82,10 @@ public class PoolManager :MonoSingleton<PoolManager>
             var itemPrefab= itemPrefabs.Find(t=>t.itemType==itemType);
             obj = Instantiate(itemPrefab, this.transform);
         }
-        if(itemType== ItemType.Product)
+        if (itemType == ItemType.Product)
             obj.gameObject.SetActive(true);
+        else if (itemType == ItemType.Money)
+            obj.value = GameDataEditor.instance.gameConfig.其他配置.moneyValue;
         return obj;
     }
 

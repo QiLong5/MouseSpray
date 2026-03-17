@@ -39,15 +39,6 @@ public class GameDataEditor :MonoSingleton<GameDataEditor>
 
     public int enemyDropNum;
     public int enemyInitNum;
-    //其他数据
-    public float wheatTime;
-    public float conveyorTime;
-    public float patientNum;
-    public float famerPatientNum;
-    public float elevatorTime;
-    public float wheatPerPatient;
-    public float patienMoney;
-    public float famerPatienMoney;
 
     public override void Awake()
     {
@@ -61,14 +52,18 @@ public class GameDataEditor :MonoSingleton<GameDataEditor>
         enemySpeed = gameConfig.老鼠数据.enemySpeed;
         enemyKnockbackForc = gameConfig.老鼠数据.enemyKnockbackForc;
         enemyInitNum = gameConfig.老鼠数据.enemyInitNum;
+    }
 
-        wheatTime = gameConfig.其他配置.wheatTime;
-        conveyorTime = gameConfig.其他配置.conveyorTime;
-        patientNum = gameConfig.其他配置.patientNum;
-        famerPatientNum = gameConfig.其他配置.famerPatientNum;
-        elevatorTime = gameConfig.其他配置.elevatorTime;
-        wheatPerPatient = gameConfig.其他配置.wheatPerPatient;
-        patienMoney = gameConfig.其他配置.patienMoney;
-        famerPatienMoney = gameConfig.其他配置.famerPatienMoney;
+    public GameConfig.其他配置Data GetOtherData
+    {
+        get{return gameConfig.其他配置;} 
+    }
+    public GameConfig.玩家数据Data GetPlayerData
+    {
+        get { return gameConfig.玩家数据; }
+    }
+    public GameConfig.老鼠数据Data GetMouseData
+    {
+        get { return gameConfig.老鼠数据; }
     }
 }

@@ -156,7 +156,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   stackHeight: 0.5
   itemWidth: 1
-  value: 5
+  value: 10
 --- !u!65 &5049181839371739299
 BoxCollider:
   m_ObjectHideFlags: 0

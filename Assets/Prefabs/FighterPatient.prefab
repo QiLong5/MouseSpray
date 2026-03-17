@@ -296,7 +296,7 @@ Transform:
   m_GameObject: {fileID: 7937974097538887551}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.61, y: 0, z: -12.75}
+  m_LocalPosition: {x: 1.61, y: 0.5, z: -12.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -473,4 +473,12 @@ MonoBehaviour:
   currentState: 0
   mAttackCollider: {fileID: 6947243938665845853}
   attackRangeIndicator: {fileID: 8645982920523211989}
-  chaseRange: 10
+  standMinRadius: 2
+  standMaxRadius: 5
+  standAngleRange: 60
+  coinInterval: 3
+  coinsPerDrop: 2
+  fighterMaxHp: 100
+  hpLossInterval: 2
+  hpLossPercent: 0.05
+  turnDuration: 0.5

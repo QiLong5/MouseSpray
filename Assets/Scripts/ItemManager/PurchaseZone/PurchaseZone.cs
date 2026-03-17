@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.Events;
+using TMPro;
 
 public class PurchaseZone : MonoBehaviour
 {
@@ -19,7 +20,8 @@ public class PurchaseZone : MonoBehaviour
     [Space]
     [Header("Purchase progress info / 购买进度信息")]
     [SerializeField] protected Image fillImage; //用于填充的图片（绿色背景）
-    [SerializeField] private List<Image> remainingPrice_Img; //显示还需要的金钱数量
+    [SerializeField] protected TextMeshProUGUI remainTxt; //用于填充的图片（绿色背景）
+    //[SerializeField] private List<Image> remainingPrice_Img; //显示还需要的金钱数量
     protected float purchaseProgress;
 
     public bool iscomplete = false;
@@ -45,10 +47,12 @@ public class PurchaseZone : MonoBehaviour
     bool isbreath;
     bool isfinshPurchase=true;
     Vector3 mlocalescale;
+    Quaternion oriQua;
     protected virtual void Start()
     {
         remainingPrice = price;
 
+        oriQua = canvas.transform.localRotation;
         itemDropOffCooldown = Player.instance.itemDropOffCooldown;
         itemDropOffTimer = -1;
 
@@ -59,7 +63,8 @@ public class PurchaseZone : MonoBehaviour
 
         purchaseProgress = 0;
 
-        UIManager.instance.SetNum(remainingPrice_Img, remainingPrice);
+        //UIManager.instance.SetNum(remainingPrice_Img, remainingPrice);
+        remainTxt.text = remainingPrice.ToString();
         mlocalescale = canvas.transform.localScale;
         StartBreath();
     }
@@ -76,6 +81,7 @@ public class PurchaseZone : MonoBehaviour
     {
         this.price=price;
         remainingPrice = price;
+        remainTxt.text = remainingPrice.ToString();
     }
 
 
@@ -184,7 +190,8 @@ public class PurchaseZone : MonoBehaviour
         int paidAmount = price - remainingPrice;
         purchaseProgress = (float)paidAmount / (float)price;
         fillImage.fillAmount = purchaseProgress;
-        UIManager.instance.SetNum(remainingPrice_Img, remainingPrice);
+        //UIManager.instance.SetNum(remainingPrice_Img, remainingPrice);
+        remainTxt.text = remainingPrice.ToString();
         OnPurchaseProgress();
 
         if (remainingPrice <= 0)
@@ -229,7 +236,7 @@ public class PurchaseZone : MonoBehaviour
         if (cachedTargetStack != null && cachedTargetStack.stackAmount <= 0)
         {
             canvas.transform.DOKill();
-            canvas.transform.localRotation = Quaternion.identity;
+            canvas.transform.localRotation = oriQua;
             if (isPurchasing)
             {
                 borderNomoney.gameObject.SetActive(true);

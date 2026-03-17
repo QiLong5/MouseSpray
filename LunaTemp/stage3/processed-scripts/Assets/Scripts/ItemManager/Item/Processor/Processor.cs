@@ -104,11 +104,13 @@ public class Processor : MonoBehaviour
         // 等待产品全部生成
         yield return productWaitTime;
 
-        // 让顾客离开
-        NpcManager.instance.DequeueCustomer();
-
-        // 等待UI消失和顾客离开，以及下一个顾客停止移动
-        yield return customerWaitTime;
+        if(itemType== ItemType.Money)
+        {
+             // 让顾客离开
+            NpcManager.instance.DequeueCustomer();
+            // 等待UI消失和顾客离开，以及下一个顾客停止移动
+            yield return customerWaitTime;
+        }
 
         isProcessing = false;
     }

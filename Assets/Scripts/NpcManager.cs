@@ -9,8 +9,9 @@ public class NpcManager :MonoSingleton<NpcManager>
     public Queue<Customer> mCustomers =new Queue<Customer>();
     public List<Transform> mCustomerPath;
     public List<Transform> mCustomerExitPath;
-    void Start()
+    protected override void Start()
     {
+        base.Start();
         InitCustomer();
     }
     private void Update()
@@ -90,4 +91,8 @@ public class NpcManager :MonoSingleton<NpcManager>
 
     }
     
+    public virtual List<Enemy> GetEnemies2()
+    {
+        return null;
+    }
 }

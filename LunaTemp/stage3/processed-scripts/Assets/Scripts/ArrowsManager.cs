@@ -24,29 +24,37 @@ public class ArrowsManager : MonoSingleton<ArrowsManager>
     private Transform currentTarget;
 
     private Mesh lineMesh;
+    private Vector3 targetPos;
+    private Vector3 offsetPos;
     private Vector3[] vertices;
     private Vector3[] normals;
     private Material cachedMaterial;
+    public bool isCan=true;//是否初始化显示模板箭头
 
-    void Start()
+
+    protected override void Start()
     {
+        base.Start();
         InitGuideLine();
-        SetArrows(0);
+        if(isCan)
+            SetArrows(0);
+        else
+            CloseArrows();
     }
 
     private void Update()
     {
         if (playerTransform == null || currentTarget == null) return;
 
-        Vector3 playerPosFlat = new Vector3(playerTransform.position.x, 0, playerTransform.position.z);
-        Vector3 targetPosFlat = new Vector3(currentTarget.position.x, 0, currentTarget.position.z);
-        float distance = Vector3.Distance(playerPosFlat, targetPosFlat);
+        // Vector3 playerPosFlat = new Vector3(playerTransform.position.x, 0, playerTransform.position.z);
+        // Vector3 targetPosFlat = new Vector3(currentTarget.position.x, 0, currentTarget.position.z);
+        // float distance = Vector3.Distance(playerPosFlat, targetPosFlat);
 
-        if (distance < closeDistanceThreshold)
-        {
-            CloseArrows();
-            return;
-        }
+        // if (distance < closeDistanceThreshold)
+        // {
+        //     CloseArrows();
+        //     return;
+        // }
 
         mArrowsParent.gameObject.SetActive(true);
         Vector3 currentStart = playerTransform.position + Vector3.up * yOffset;
@@ -113,6 +121,7 @@ public class ArrowsManager : MonoSingleton<ArrowsManager>
 
     public void CloseArrows()
     {
+        currentTarget=null;
         lineRenderer.enabled = false;
         mArrowsParent.gameObject.SetActive(false);
     }
@@ -144,9 +153,15 @@ public class ArrowsManager : MonoSingleton<ArrowsManager>
 
     private void CreateArrow([Bridge.Ref] Vector3 targetPos)
     {
-        mArrowsParent.transform.position = targetPos;
+        this.targetPos=targetPos;
+        mArrowsParent.transform.position = targetPos+offsetPos;
         mArrowsParent.gameObject.SetActive(true);
     }
 
+    public void UpdateOffsetPos([Bridge.Ref] Vector3 offsetPos)
+    {
+        this.offsetPos=offsetPos;
+        mArrowsParent.transform.position = targetPos+offsetPos;
+    }
   
 }

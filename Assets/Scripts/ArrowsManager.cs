@@ -32,8 +32,9 @@ public class ArrowsManager : MonoSingleton<ArrowsManager>
     public bool isCan=true;//是否初始化显示模板箭头
 
 
-    void Start()
+    protected override void Start()
     {
+        base.Start();
         InitGuideLine();
         if(isCan)
             SetArrows(0);
@@ -45,15 +46,15 @@ public class ArrowsManager : MonoSingleton<ArrowsManager>
     {
         if (playerTransform == null || currentTarget == null) return;
 
-        Vector3 playerPosFlat = new Vector3(playerTransform.position.x, 0, playerTransform.position.z);
-        Vector3 targetPosFlat = new Vector3(currentTarget.position.x, 0, currentTarget.position.z);
-        float distance = Vector3.Distance(playerPosFlat, targetPosFlat);
+        // Vector3 playerPosFlat = new Vector3(playerTransform.position.x, 0, playerTransform.position.z);
+        // Vector3 targetPosFlat = new Vector3(currentTarget.position.x, 0, currentTarget.position.z);
+        // float distance = Vector3.Distance(playerPosFlat, targetPosFlat);
 
-        if (distance < closeDistanceThreshold)
-        {
-            CloseArrows();
-            return;
-        }
+        // if (distance < closeDistanceThreshold)
+        // {
+        //     CloseArrows();
+        //     return;
+        // }
 
         mArrowsParent.gameObject.SetActive(true);
         Vector3 currentStart = playerTransform.position + Vector3.up * yOffset;

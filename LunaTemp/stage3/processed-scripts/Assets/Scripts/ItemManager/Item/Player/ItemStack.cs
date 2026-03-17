@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ItemStack : MonoBehaviour
 {
-    [SerializeField] private ItemType stackedItemType;
+    [SerializeField] protected ItemType stackedItemType;
     public int maxStackAmount = 16;  //这个物品堆最多能堆多少个物品
 
     /// <summary>
@@ -33,28 +33,31 @@ public class ItemStack : MonoBehaviour
 
     [SerializeField]
     public int maxHeight =30;
+    public Vector3 offsetRotation;
 
     public int stackAmount { get; set; } = 0;  //当前堆叠的物品数量
     public Vector3 nextStackPosition { get; set; }  //下一个物品的堆叠位置，注意这里用的是本地空间的位置
 
-    private ItemStackManager stackManager;
-    protected List<Item> stackedItemList;
+    protected ItemStackManager stackManager;
+    public List<Item> stackedItemList;
     [Header("弯曲效果设置")]
     [SerializeField] bool isOpenBend = false;
-    [SerializeField] private float bendDistance = 0.1f; // 每个物品向后弯曲的距离
-    [SerializeField] private float bendDuration = 0.5f; // 弯曲动画持续时间
+    [SerializeField] protected float bendDistance = 0.1f; // 每个物品向后弯曲的距离
+    [SerializeField] protected float bendDuration = 0.5f; // 弯曲动画持续时间
 
 
     //用于存储物品弯曲前的状态，以便恢复
-    private List<Vector3> originalLocalPositions = new List<Vector3>();
+    protected List<Vector3> originalLocalPositions = new List<Vector3>();
     public  bool iscomplet_bend=false;//是否处于弯曲
     public bool iscomplet_origina = true;//是否处于笔直
+    private bool isPlayer;
     protected virtual void Start()
     {
         stackManager = GetComponentInParent<ItemStackManager>();
         stackedItemList = new List<Item>();
 
         nextStackPosition = Vector3.zero;
+        isPlayer = transform.parent.parent.GetComponent<Player>() != null;
     }
 
     protected virtual void Update()
@@ -75,9 +78,13 @@ public class ItemStack : MonoBehaviour
     }
 
     //调整物品堆在玩家背后的位置
-    private void AdjustPosition()
+    protected void AdjustPosition()
     {
         if (stackManager == null) return;
+        if (stackedItemType == ItemType.FigherPatient || stackedItemType == ItemType.FarmerPatient)
+        {
+            return;//病人显示在最前面
+        }
 
         // 如果没有堆栈在使用，返回起始位置
         if (stackManager.amountOfStackInUse <= 0)
@@ -105,7 +112,7 @@ public class ItemStack : MonoBehaviour
     /// 获取当前堆栈在所有激活堆栈中的排名（从0开始）
     /// 激活的堆栈按照在 stackList 中的顺序排序
     /// </summary>
-    private int GetRankInActiveStacks()
+    protected int GetRankInActiveStacks()
     {
         if (stackAmount <= 0) return -1;
 
@@ -118,7 +125,7 @@ public class ItemStack : MonoBehaviour
             }
 
             // 只有有物品的堆栈才占用排名
-            if (stack.stackAmount > 0)
+            if (stack.stackAmount > 0&&stack.stackedItemType!= ItemType.FarmerPatient&& stack.stackedItemType!= ItemType.FigherPatient)
             {
                 rank++;
             }
@@ -138,7 +145,7 @@ public class ItemStack : MonoBehaviour
             return;
            // _item.StopAllCoroutines();
         }
-        if (stackAmount >= maxStackAmount)
+        if (stackAmount >= maxStackAmount&&isPlayer)
         {
             Player.instance.maxImg.gameObject.SetActive(true);
             return;
@@ -147,8 +154,6 @@ public class ItemStack : MonoBehaviour
         _item.cd.enabled=false;
         _item.transform.parent = transform;
         _item.hasBeenAddedToPlayer = true;
-
-
 
         if (iscomplet_bend)//处于弯曲状态时飞到弯曲的位置
         {
@@ -161,7 +166,7 @@ public class ItemStack : MonoBehaviour
             _item.gameObject.SetActive(true);
             if (stackAmount <= maxHeight)
             {
-                _item.MoveAlongCurve(_item.transform.localPosition, newItemBentPos);
+                _item.MoveAlongCurve(_item.transform.localPosition, newItemBentPos,offsetRotation:offsetRotation);
             }
             else
             {
@@ -173,7 +178,7 @@ public class ItemStack : MonoBehaviour
         {
             if (stackAmount <= maxHeight)
             {
-                _item.MoveAlongCurve(_item.transform.localPosition, nextStackPosition);
+                _item.MoveAlongCurve(_item.transform.localPosition, nextStackPosition,offsetRotation:offsetRotation);
             }
             else
             {
@@ -182,7 +187,7 @@ public class ItemStack : MonoBehaviour
                 
         }
         stackAmount++;
-        if (stackAmount >= maxStackAmount)
+        if (stackAmount >= maxStackAmount&&isPlayer)
         {
             Player.instance.maxImg.gameObject.SetActive(true);
         }
@@ -203,6 +208,8 @@ public class ItemStack : MonoBehaviour
         }
 
         Player.instance?.MoneyAmountChange(_item.value);
+        if (stackedItemType == ItemType.FigherPatient)
+            GuildManager.instance.CheckGuild(GuildTriggerType.Transport, stackAmount);
     }
 
  
@@ -276,7 +283,7 @@ public class ItemStack : MonoBehaviour
     /// 弯曲协程
     /// </summary>
     /// <returns></returns>
-    private IEnumerator BendItemsCoroutine()
+    protected IEnumerator BendItemsCoroutine()
     {
         float elapsedTime = 0f;
         iscomplet_bend = true;//设置弯曲状态
@@ -316,7 +323,7 @@ public class ItemStack : MonoBehaviour
         StartCoroutine(RestoreItemsCoroutine());
     }
 
-    private IEnumerator RestoreItemsCoroutine()
+    protected IEnumerator RestoreItemsCoroutine()
     {
         float elapsedTime = 0f;
         iscomplet_bend = false;

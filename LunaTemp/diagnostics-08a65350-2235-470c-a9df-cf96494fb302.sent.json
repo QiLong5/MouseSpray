@@ -1,0 +1,383 @@
+{
+    "BuildID": "08a65350-2235-470c-a9df-cf96494fb302",
+    "Command": "project:deploy",
+    "ProjectID": "557b5b614ba9021468899f7566834b85",
+    "ProjectStateHash": "6e40e37650c0b3959538ef03d7c665820c76cf993cbf21e44eba8af201f0cb2e",
+    "StageCompletedAt": 3,
+    "EarliestFatalError": 0,
+    "StartTime": 1773717744086,
+    "EndTime": 1773717856312,
+    "PlaygroundUserID": 32904,
+    "OperatingSystem": "win32",
+    "UnityPackageID": null,
+    "TargetPlatform": "playground",
+    "UnityVersion": "2022.3.62f3c1",
+    "LunaVersion": "7.1.0",
+    "LogCount": 14,
+    "Logs": [
+        {
+            "LogID": "2cdd194b-6e15-42f4-962f-1d245c2a9fcc",
+            "Order": 10,
+            "Timestamp": 1773717856459,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3009",
+            "Description": "You are using an unsupported feature: OnGUI",
+            "Details": [
+                "You are using a function/component which are currently not supported in Luna: OnGUI. "
+            ],
+            "DescriptionValues": [
+                "OnGUI",
+                ""
+            ],
+            "DetailsValues": [
+                "OnGUI",
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": 72,
+            "FilePath": "C:\\Users\\Administrator\\Desktop\\unity Project\\MouseSpray\\Assets\\CutObjTest\\CutObjTest.cs",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "e5398371-e9f3-48f7-ac47-9b30caf63e5a",
+            "Order": 10,
+            "Timestamp": 1773717856857,
+            "Stage": 3,
+            "ErrorType": 1,
+            "ErrorCode": "LP3006",
+            "Description": "You are not using the Luna API: Playable.InstallFullGame",
+            "Details": [
+                "You are not using the Luna API: Playable.InstallFullGame. Some ad networks require these calls. Please add these calls to ensure your playable works on all ad networks. Check documentation for more information."
+            ],
+            "DescriptionValues": [
+                "Playable",
+                "InstallFullGame"
+            ],
+            "DetailsValues": [
+                "Playable",
+                "InstallFullGame"
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "b844fa0b-8287-4190-8a5b-8e65e381d609",
+            "Order": 10,
+            "Timestamp": 1773717856858,
+            "Stage": 3,
+            "ErrorType": 1,
+            "ErrorCode": "LP3015",
+            "Description": "You are not the Game Ended API: LifeCycle.GameEnded",
+            "Details": [
+                "You are not using the Game Ended API: LifeCycle.GameEnded. Some ad networks require this call, please add the event to avoid the ad being rejected."
+            ],
+            "DescriptionValues": [
+                "LifeCycle",
+                "GameEnded"
+            ],
+            "DetailsValues": [
+                "LifeCycle",
+                "GameEnded"
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "d0a6c042-9b9d-4948-a8c4-4a653027f8bd",
+            "Order": 10,
+            "Timestamp": 1773717856859,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3007",
+            "Description": "You are not using any custom events",
+            "Details": [
+                "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+            ],
+            "DescriptionValues": [
+                ""
+            ],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "8ad6a338-15fb-4b93-b9a3-909dd666a87f",
+            "Order": 10,
+            "Timestamp": 1773717856859,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3011",
+            "Description": "You are not using any LunaPlaygroundFields attributes.",
+            "Details": [
+                "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+            ],
+            "DescriptionValues": null,
+            "DetailsValues": null,
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "7b4d869f-b3da-4e4b-871b-c40f7b737c0c",
+            "Order": 0,
+            "Timestamp": 1773717748220,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1030",
+            "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
+            "Details": [
+                "TMP Font Asset '{0}' uses Atlas Population Mode '{1}' which is not supported"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "LiberationSans SDF - Fallback",
+                "Dynamic"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "2245240c-d295-4653-ae31-b5135290a812",
+            "Order": 1,
+            "Timestamp": 1773717748520,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1001",
+            "Description": "Update shader stripping settings",
+            "Details": [
+                "Some of the scenes appear to have fog enabled and / or lightmapping data. Please modify 'Shader stripping' settings to always include required shader variants."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "bc9fc156-3dfa-449a-bc5f-7ff306c71b20",
+            "Order": 2,
+            "Timestamp": 1773717749416,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1040",
+            "Description": "URP ScreenSpaceAmbientOcclusion (SSAO) is active in URP UniversalRenderData.",
+            "Details": [
+                "The Unity Playworks Plugin doesn't directly support Unity's built-in SSAO. If you enable this effect in Unity, it will not appear in your final build. To use SSAO, you can enable it directly in Dev Environment or Creative Editor on Unity Playworks."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "SSAO"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "095be60d-efcb-422d-94ac-ab4fd49f1131",
+            "Order": 3,
+            "Timestamp": 1773717833715,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1014",
+            "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+            "Details": [
+                "Navigate to the Runtime Analysis → Code tab to enable code stripping. Before uploading the playable, please make sure to have played all scenario’s of the playable in a development build to make Runtime Analysis work properly."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "b4793ebc-7071-4f1c-99b2-f74f82debb38",
+            "Order": 4,
+            "Timestamp": 1773717833716,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1016",
+            "Description": "Extensive usage of Rigidbody Component",
+            "Details": [
+                "There is extensive usage of the Rigidbody component.\nExcessive usage of any component can be detrimental to performance on lower and in some cases higher end devices, consider reducing the amount the component is used.\nRecommended count: 10, current count 13."
+            ],
+            "DescriptionValues": [
+                "Rigidbody"
+            ],
+            "DetailsValues": [
+                "Rigidbody",
+                "10",
+                "13"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "ff1bccb0-e14e-4a7a-bdbc-b3e529e181fc",
+            "Order": 5,
+            "Timestamp": 1773717833717,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1022",
+            "Description": "Extensive use of shader variants",
+            "Details": [
+                "Extensive usage of shader variants negatively affects playable startup time. Please consider them to be less than 20 (30 found). Check Runtime analysis -> shader tab to see used shaders."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "20",
+                "30"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "6606eba8-7d79-4e34-9c37-2caf3345c1ce",
+            "Order": 6,
+            "Timestamp": 1773717833731,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1032",
+            "Description": "Package(s) is not supported in Luna",
+            "Details": [
+                "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+            ],
+            "DescriptionValues": [
+                "com.unity.timeline (1.7.7)"
+            ],
+            "DetailsValues": [
+                "com.unity.timeline"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "C:/Users/Administrator/Desktop/unity Project/MouseSpray/Packages\\manifest.json",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "b313332e-08f1-47ef-8b22-65e11e50d925",
+            "Order": 7,
+            "Timestamp": 1773717833733,
+            "Stage": 1,
+            "ErrorType": 3,
+            "ErrorCode": "LP1002",
+            "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+            "Details": [
+                "Repeat wrap mode used on 'LiberationSans SDF Atlas' texture at 'Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' with non power-of-two dimensions, this might not be rendered correctly."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "LiberationSans SDF Atlas",
+                "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "04832f59-833c-4de9-aa30-32c12b5096a3",
+            "Order": 8,
+            "Timestamp": 1773717833733,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1010",
+            "Description": "Looks like a collider was scaled, this might affect performance.",
+            "Details": [
+                "安全区",
+                "安全区 (1)",
+                "RawMaterialManager",
+                "Collision",
+                "Collision (1)",
+                "Collision (2)",
+                "Collision (3)",
+                "Collision (4)",
+                "Collision (5)",
+                "Collision (7)",
+                "Collision (6)",
+                "Collision (8)",
+                "Collision (9)",
+                "Collision (10)",
+                "Collision (11)",
+                "Collision (12)",
+                "Collision (13)",
+                "Collision (14)",
+                "Collision (15)",
+                "Collision (16)",
+                "Collision (17)",
+                "Collision (18)",
+                "Collision (19)",
+                "Collision (20)",
+                "Collision (21)",
+                "Collision (22)",
+                "Collision (23)",
+                "Collision (24)",
+                "Collision (25)",
+                "Collision (35)",
+                "Collision (34)",
+                "Collision (32)",
+                "Collision (33)",
+                "Collision (26)",
+                "Collision (27)",
+                "Collision (31)",
+                "Collision (28)",
+                "Collision (29)",
+                "Collision (30)",
+                "Collision (37)",
+                "Collision (40)",
+                "Collision (36)"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 42,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        }
+    ]
+}

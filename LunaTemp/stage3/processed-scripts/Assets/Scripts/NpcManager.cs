@@ -9,31 +9,36 @@ public class NpcManager :MonoSingleton<NpcManager>
     public Queue<Customer> mCustomers =new Queue<Customer>();
     public List<Transform> mCustomerPath;
     public List<Transform> mCustomerExitPath;
-    void Start()
+    protected override void Start()
     {
+        base.Start();
         InitCustomer();
     }
     private void Update()
     {
-       if (mEnemies.Count< GameDataEditor.instance.enemyCount)
-       {
-            var e= PoolManager.instance.GetEnemy();
-            e.transform.position=new Vector3(
-                Random.Range(GameDataEditor.instance.patrolAreaMin.position.x,GameDataEditor.instance.patrolAreaMax.position.x),
-                 e.transform.position.y,
-                 Random.Range(GameDataEditor.instance.patrolAreaMin.position.z, GameDataEditor.instance.patrolAreaMax.position.z)
-                ) ;
-            mEnemies.Add(e);
-            e.gameObject.SetActive(true);
-       }
-      
+        EnemyCreate();
     }
 
-    public void InitCustomer()
+    public virtual void EnemyCreate()
+    {
+        if (mEnemies.Count < GameDataEditor.instance.enemyCount)
+        {
+            var e = PoolManager.instance.GetNpc(NpcType.Enemy) as Enemy;
+            e.transform.position = new Vector3(
+                Random.Range(GameDataEditor.instance.patrolAreaMin.position.x, GameDataEditor.instance.patrolAreaMax.position.x),
+                 e.transform.position.y,
+                 Random.Range(GameDataEditor.instance.patrolAreaMin.position.z, GameDataEditor.instance.patrolAreaMax.position.z)
+                );
+            mEnemies.Add(e);
+            e.gameObject.SetActive(true);
+        }
+    }
+
+    public virtual void InitCustomer()
     {
         for (int i = 0; i < mCustomerPath.Count; i++)
         {
-            Customer _Customer = PoolManager.instance.GetCustomer();
+            Customer _Customer = PoolManager.instance.GetNpc(NpcType.Customer) as Customer;
             _Customer.transform.position = mCustomerPath[i].transform.position;
             _Customer.transform.forward = mCustomerPath[i].transform.forward;
             _Customer.gameObject.SetActive(true);
@@ -41,10 +46,10 @@ public class NpcManager :MonoSingleton<NpcManager>
         }
     }
 
-    public void DequeueCustomer()
+    public virtual void DequeueCustomer()
     {
         StartCoroutine(CustomerExit(mCustomers.Dequeue()));
-        Customer _Customer = PoolManager.instance.GetCustomer();
+        Customer _Customer = PoolManager.instance.GetNpc(NpcType.Customer) as Customer;
         _Customer.transform.position = mCustomerPath[mCustomerPath.Count-1].transform.position;
         _Customer.transform.forward = mCustomerPath[mCustomerPath.Count - 1].transform.forward;
         _Customer.transform.position -= _Customer.transform.forward*2.5f;
@@ -56,12 +61,10 @@ public class NpcManager :MonoSingleton<NpcManager>
             item.MoveToTarget(mCustomerPath[i].position,()=>{ item.StopMovement();});
             i++;
         }
-       
-
     }
 
 
-    IEnumerator CustomerExit(Customer _customer)
+    protected IEnumerator CustomerExit(Customer _customer)
     { 
        foreach (var item in mCustomerExitPath)
        {
@@ -69,10 +72,27 @@ public class NpcManager :MonoSingleton<NpcManager>
             _customer.MoveToTarget(item.position,()=>{isfinsh=true;});
             while (!isfinsh)
             {
-               
                 yield return null;
             }
         }
        PoolManager.instance.ReturnCustomer(_customer);
+    }
+
+    public virtual void RemovePatient(PatientItem item)
+    {
+
+    }
+    public virtual List<PatientItem> GetPatients(ItemType itemType)
+    {
+        return null;
+    }
+    public virtual void UnlockLevel()
+    {
+
+    }
+    
+    public virtual List<Enemy> GetEnemies2()
+    {
+        return null;
     }
 }

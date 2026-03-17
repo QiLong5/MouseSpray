@@ -12,11 +12,6 @@ public class CustomURPLitShaderGUI : ShaderGUI
     private MaterialProperty baseMap;
     private MaterialProperty baseColor;
 
-    private MaterialProperty enableOutline;
-    private MaterialProperty useVertexColor;
-    private MaterialProperty outlineWidth;
-    private MaterialProperty outlineColor;
-
     private MaterialProperty metallicMap;
     private MaterialProperty metallic;
     private MaterialProperty smoothness;
@@ -44,24 +39,19 @@ public class CustomURPLitShaderGUI : ShaderGUI
     private MaterialProperty customLightColor;
     private MaterialProperty customAmbientColor;
 
-    private MaterialProperty useFakePointLight;
-    private MaterialProperty fakeLightCount;
-
-    // Arrays for 8 lights
-    private MaterialProperty[] fakeLightEnabled = new MaterialProperty[8];
-    private MaterialProperty[] fakeLightPos = new MaterialProperty[8];
-    private MaterialProperty[] fakeLightColor = new MaterialProperty[8];
-    private MaterialProperty[] fakeLightIntensity = new MaterialProperty[8];
-    private MaterialProperty[] fakeLightRange = new MaterialProperty[8];
-    private MaterialProperty[] fakeLightAttenuationPower = new MaterialProperty[8];
-
     private MaterialProperty mainTiling;
     private MaterialProperty queueOffset;
 
-    private bool m_FirstTimeApply = true;
+    private MaterialProperty useFakePointLight;
+    private MaterialProperty useVertexColor;
+    private MaterialProperty[] fakeLightEnabled = new MaterialProperty[12];
+    private MaterialProperty[] fakeLightPos = new MaterialProperty[12];
+    private MaterialProperty[] fakeLightColor = new MaterialProperty[12];
+    private MaterialProperty[] fakeLightIntensity = new MaterialProperty[12];
+    private MaterialProperty[] fakeLightRange = new MaterialProperty[12];
+    private MaterialProperty[] fakeLightAttenuationPower = new MaterialProperty[12];
 
-    // Foldout states for fake lights (max 8)
-    private bool[] fakeLightFoldouts = new bool[8] { true, false, false, false, false, false, false, false };
+    private bool m_FirstTimeApply = true;
 
     public override void OnGUI(MaterialEditor materialEditor, MaterialProperty[] properties)
     {
@@ -134,33 +124,6 @@ public class CustomURPLitShaderGUI : ShaderGUI
             material.DisableKeyword("_USE_CUSTOM_LIGHTING");
         }
 
-        // Outline
-        EditorGUILayout.Space();
-        EditorGUILayout.LabelField("描边", EditorStyles.boldLabel);
-        materialEditor.ShaderProperty(enableOutline, "启用描边");
-        if (enableOutline.floatValue > 0.5f)
-        {
-            material.EnableKeyword("_ENABLE_OUTLINE");
-            materialEditor.ShaderProperty(useVertexColor, "使用顶点色平滑法线");
-            if (useVertexColor.floatValue > 0.5f)
-            {
-                material.EnableKeyword("_USE_VERTEX_COLOR");
-                EditorGUILayout.HelpBox("描边断裂时使用，需要先烘焙平滑法线到顶点色\n选中模型->右键MeshFilter组件 ->Outline -> Bake Smooth Normals to Color", MessageType.Info);
-            }
-            else
-            {
-                material.DisableKeyword("_USE_VERTEX_COLOR");
-            }
-
-            materialEditor.ShaderProperty(outlineWidth, "描边粗细");
-            materialEditor.ShaderProperty(outlineColor, "描边颜色");
-        }
-        else
-        {
-            material.DisableKeyword("_ENABLE_OUTLINE");
-            material.DisableKeyword("_USE_VERTEX_COLOR");
-        }
-
         // Surface
         EditorGUILayout.Space();
         EditorGUILayout.LabelField("表面", EditorStyles.boldLabel);
@@ -218,6 +181,8 @@ public class CustomURPLitShaderGUI : ShaderGUI
             material.DisableKeyword("_USE_RIM_LIGHT");
         }
 
+        // 注释掉未使用的风格化光照部分
+        /*
         // Stylized Lighting
         EditorGUILayout.Space();
         EditorGUILayout.LabelField("风格化光照", EditorStyles.boldLabel);
@@ -232,60 +197,7 @@ public class CustomURPLitShaderGUI : ShaderGUI
         {
             material.DisableKeyword("_USE_STYLIZED_LIGHTING");
         }
-
-        // Fake Point Lights (Dynamic List)
-        EditorGUILayout.Space();
-        EditorGUILayout.LabelField("假点光源列表", EditorStyles.boldLabel);
-        materialEditor.ShaderProperty(useFakePointLight, "启用假点光源系统");
-        if (useFakePointLight.floatValue > 0.5f)
-        {
-            material.EnableKeyword("_USE_FAKE_POINT_LIGHT");
-
-            int currentCount = (int)fakeLightCount.floatValue;
-            currentCount = Mathf.Clamp(currentCount, 1, 8);
-
-            EditorGUILayout.BeginHorizontal();
-            EditorGUILayout.HelpBox($"当前光源数量: {currentCount}/8  (禁用的光源不消耗性能)", MessageType.Info);
-            EditorGUILayout.EndHorizontal();
-
-            // Draw existing lights
-            for (int i = 0; i < currentCount; i++)
-            {
-                DrawFakeLightGUI(materialEditor, i, $"光源 {i + 1}",
-                    fakeLightEnabled[i], fakeLightPos[i], fakeLightColor[i],
-                    fakeLightIntensity[i], fakeLightRange[i], fakeLightAttenuationPower[i]);
-            }
-
-            // Add/Remove buttons
-            EditorGUILayout.Space(5);
-            EditorGUILayout.BeginHorizontal();
-
-            if (currentCount < 8)
-            {
-                if (GUILayout.Button("+ 添加光源", GUILayout.Height(25)))
-                {
-                    currentCount++;
-                    fakeLightCount.floatValue = currentCount;
-                    fakeLightEnabled[currentCount - 1].floatValue = 1f;
-                }
-            }
-
-            if (currentCount > 1)
-            {
-                if (GUILayout.Button("- 删除最后一个", GUILayout.Height(25)))
-                {
-                    currentCount--;
-                    fakeLightCount.floatValue = currentCount;
-                    fakeLightEnabled[currentCount].floatValue = 0f;
-                }
-            }
-
-            EditorGUILayout.EndHorizontal();
-        }
-        else
-        {
-            material.DisableKeyword("_USE_FAKE_POINT_LIGHT");
-        }
+        */
 
         // Tiling and Offset
         EditorGUILayout.Space();
@@ -298,9 +210,136 @@ public class CustomURPLitShaderGUI : ShaderGUI
         offset = EditorGUILayout.Vector2Field("偏移", offset);
         mainTiling.vectorValue = new Vector4(tiling.x, tiling.y, offset.x, offset.y);
 
+        // Fake Point Lights
+        EditorGUILayout.Space();
+        EditorGUILayout.LabelField("假点光源", EditorStyles.boldLabel);
+
+        // 顶点颜色烘焙选项
+        materialEditor.ShaderProperty(useVertexColor, "使用顶点颜色光照（烘焙）");
+        if (useVertexColor.floatValue > 0.5f)
+        {
+            material.EnableKeyword("_USE_VERTEX_COLOR");
+            EditorGUILayout.HelpBox(
+                "✓ 使用烘焙到顶点颜色的光照数据\n" +
+                "• 性能：极低（只读取顶点颜色）\n" +
+                "• 支持批处理，减少 Draw Call\n" +
+                "• 使用 假光源管理器 > 烘焙光照 Tab 进行烘焙",
+                MessageType.Info);
+        }
+        else
+        {
+            material.DisableKeyword("_USE_VERTEX_COLOR");
+        }
+
+        EditorGUILayout.Space(5);
+
+        materialEditor.ShaderProperty(useFakePointLight, "启用假点光源");
+
+        if (useFakePointLight.floatValue > 0.5f)
+        {
+            material.EnableKeyword("_USE_FAKE_POINT_LIGHT");
+
+            EditorGUILayout.HelpBox("假点光源：模拟点光源效果，性能开销低于真实光源\n建议使用 假光源管理器 工具进行批量设置（Tools > 假光源管理器）", MessageType.Info);
+
+            // 如果同时启用了顶点颜色，显示警告
+            if (useVertexColor.floatValue > 0.5f)
+            {
+                EditorGUILayout.HelpBox(
+                    "⚠️ 同时启用了 顶点颜色 和 假点光源\n" +
+                    "两者会叠加，可能导致光照过亮。\n" +
+                    "建议：烘焙后关闭假点光源",
+                    MessageType.Warning);
+            }
+
+            // 统计启用的光源数量
+            int enabledCount = 0;
+            for (int i = 0; i < 12; i++)
+            {
+                if (fakeLightEnabled[i].floatValue > 0.5f)
+                    enabledCount++;
+            }
+            EditorGUILayout.LabelField($"已启用光源数量: {enabledCount}/12", EditorStyles.miniLabel);
+
+            EditorGUILayout.Space(5);
+
+            for (int i = 0; i < 12; i++)
+            {
+                EditorGUILayout.BeginVertical("box");
+
+                // 使用 Toggle 勾选框代替数值输入
+                bool isEnabled = fakeLightEnabled[i].floatValue > 0.5f;
+                EditorGUI.BeginChangeCheck();
+
+                // 添加颜色指示器
+                GUIStyle labelStyle = new GUIStyle(EditorStyles.label);
+                if (isEnabled)
+                {
+                    Color lightColor = fakeLightColor[i].colorValue;
+                    labelStyle.normal.textColor = new Color(lightColor.r * 0.8f + 0.2f, lightColor.g * 0.8f + 0.2f, lightColor.b * 0.8f + 0.2f);
+                }
+
+                isEnabled = EditorGUILayout.Toggle(new GUIContent($"光源 {i + 1} 启用",
+                    isEnabled ? $"位置: ({fakeLightPos[i].vectorValue.x:F1}, {fakeLightPos[i].vectorValue.y:F1}, {fakeLightPos[i].vectorValue.z:F1})" : ""),
+                    isEnabled);
+
+                if (EditorGUI.EndChangeCheck())
+                {
+                    fakeLightEnabled[i].floatValue = isEnabled ? 1.0f : 0.0f;
+                }
+
+                if (isEnabled)
+                {
+                    EditorGUI.indentLevel++;
+
+                    // 颜色和强度放在同一行
+                    EditorGUILayout.BeginHorizontal();
+                    materialEditor.ShaderProperty(fakeLightColor[i], "颜色");
+                    EditorGUILayout.EndHorizontal();
+
+                    materialEditor.ShaderProperty(fakeLightIntensity[i], new GUIContent("强度", "光照强度，无上限"));
+
+                    // 位置使用Vector3字段以便更直观
+                    Vector3 pos = new Vector3(
+                        fakeLightPos[i].vectorValue.x,
+                        fakeLightPos[i].vectorValue.y,
+                        fakeLightPos[i].vectorValue.z);
+                    EditorGUI.BeginChangeCheck();
+                    pos = EditorGUILayout.Vector3Field("位置", pos);
+                    if (EditorGUI.EndChangeCheck())
+                    {
+                        fakeLightPos[i].vectorValue = new Vector4(pos.x, pos.y, pos.z, 0);
+                    }
+
+                    materialEditor.ShaderProperty(fakeLightRange[i], "范围");
+                    materialEditor.ShaderProperty(fakeLightAttenuationPower[i], new GUIContent("衰减指数", "控制光照衰减速度，值越大衰减越快"));
+
+                    EditorGUI.indentLevel--;
+                }
+
+                EditorGUILayout.EndVertical();
+                EditorGUILayout.Space(2);
+            }
+        }
+        else
+        {
+            material.DisableKeyword("_USE_FAKE_POINT_LIGHT");
+        }
+
         // Advanced
         EditorGUILayout.Space();
         EditorGUILayout.LabelField("高级", EditorStyles.boldLabel);
+
+        // GPU Instancing
+        EditorGUI.BeginChangeCheck();
+        materialEditor.EnableInstancingField();
+        if (EditorGUI.EndChangeCheck())
+        {
+            // GPU Instancing状态改变时的处理
+            foreach (Material mat in materialEditor.targets)
+            {
+                mat.enableInstancing = materialEditor.targets[0] is Material m && m.enableInstancing;
+            }
+        }
 
         // Queue Offset
         EditorGUI.BeginChangeCheck();
@@ -312,7 +351,6 @@ public class CustomURPLitShaderGUI : ShaderGUI
 
         // Display current render queue
         EditorGUILayout.LabelField("当前渲染队列", material.renderQueue.ToString());
-
 
         if (EditorGUI.EndChangeCheck())
         {
@@ -330,11 +368,6 @@ public class CustomURPLitShaderGUI : ShaderGUI
 
         baseMap = FindProperty("_BaseMap", properties);
         baseColor = FindProperty("_BaseColor", properties);
-
-        enableOutline = FindProperty("_EnableOutline", properties);
-        useVertexColor = FindProperty("_UseVertexColor", properties);
-        outlineWidth = FindProperty("_OutlineWidth", properties);
-        outlineColor = FindProperty("_OutlineColor", properties);
 
         metallicMap = FindProperty("_MetallicMap", properties);
         metallic = FindProperty("_Metallic", properties);
@@ -355,36 +388,37 @@ public class CustomURPLitShaderGUI : ShaderGUI
         rimPower = FindProperty("_RimPower", properties);
         rimIntensity = FindProperty("_RimIntensity", properties);
 
-        useStylizedLighting = FindProperty("_UseStylizedLighting", properties);
-        shadowSteps = FindProperty("_ShadowSteps", properties);
-        shadowSmoothness = FindProperty("_ShadowSmoothness", properties);
+        // 注释掉未使用的风格化光照属性查找
+        // useStylizedLighting = FindProperty("_UseStylizedLighting", properties);
+        // shadowSteps = FindProperty("_ShadowSteps", properties);
+        // shadowSmoothness = FindProperty("_ShadowSmoothness", properties);
 
         useCustomLighting = FindProperty("_UseCustomLighting", properties);
         customLightColor = FindProperty("_CustomLightColor", properties);
         customAmbientColor = FindProperty("_CustomAmbientColor", properties);
 
-        useFakePointLight = FindProperty("_UseFakePointLight", properties);
-        fakeLightCount = FindProperty("_FakeLightCount", properties);
-
-        // Find all 8 lights
-        for (int i = 0; i < 8; i++)
-        {
-            int lightNum = i + 1;
-            fakeLightEnabled[i] = FindProperty($"_FakeLight{lightNum}_Enabled", properties);
-            fakeLightPos[i] = FindProperty($"_FakeLight{lightNum}_Pos", properties);
-            fakeLightColor[i] = FindProperty($"_FakeLight{lightNum}_Color", properties);
-            fakeLightIntensity[i] = FindProperty($"_FakeLight{lightNum}_Intensity", properties);
-            fakeLightRange[i] = FindProperty($"_FakeLight{lightNum}_Range", properties);
-            fakeLightAttenuationPower[i] = FindProperty($"_FakeLight{lightNum}_AttenuationPower", properties);
-        }
-
         mainTiling = FindProperty("_MainTiling", properties);
         queueOffset = FindProperty("_QueueOffset", properties);
+
+        useFakePointLight = FindProperty("_UseFakePointLight", properties);
+        useVertexColor = FindProperty("_UseVertexColor", properties);
+        for (int i = 0; i < 12; i++)
+        {
+            fakeLightEnabled[i] = FindProperty($"_FakeLight{i + 1}_Enabled", properties);
+            fakeLightPos[i] = FindProperty($"_FakeLight{i + 1}_Pos", properties);
+            fakeLightColor[i] = FindProperty($"_FakeLight{i + 1}_Color", properties);
+            fakeLightIntensity[i] = FindProperty($"_FakeLight{i + 1}_Intensity", properties);
+            fakeLightRange[i] = FindProperty($"_FakeLight{i + 1}_Range", properties);
+            fakeLightAttenuationPower[i] = FindProperty($"_FakeLight{i + 1}_AttenuationPower", properties);
+        }
     }
 
     private void UpdateRenderMode(Material material)
     {
-        switch ((int)renderMode.floatValue)
+        // 安全检查：如果属性未初始化，直接从材质读取值
+        float renderModeValue = renderMode != null ? renderMode.floatValue : material.GetFloat("_RenderMode");
+
+        switch ((int)renderModeValue)
         {
             case 0: // Opaque
                 material.SetOverrideTag("RenderType", "Opaque");
@@ -406,13 +440,21 @@ public class CustomURPLitShaderGUI : ShaderGUI
 
     private void UpdateRenderQueue(Material material)
     {
-        if (queueOffset == null) return;
+        if (queueOffset == null)
+        {
+            // 如果属性未初始化，尝试从材质获取，如果没有则使用默认值0
+            if (!material.HasProperty("_QueueOffset"))
+                return;
+        }
 
-        int baseQueue = (int)renderMode.floatValue == 0
+        float renderModeValue = renderMode != null ? renderMode.floatValue : material.GetFloat("_RenderMode");
+        float offsetValue = queueOffset != null ? queueOffset.floatValue : material.GetFloat("_QueueOffset");
+
+        int baseQueue = (int)renderModeValue == 0
             ? (int)UnityEngine.Rendering.RenderQueue.Geometry
             : (int)UnityEngine.Rendering.RenderQueue.Transparent;
 
-        int offset = (int)queueOffset.floatValue;
+        int offset = (int)offsetValue;
         material.renderQueue = baseQueue + offset;
     }
 
@@ -449,61 +491,5 @@ public class CustomURPLitShaderGUI : ShaderGUI
     {
         // Ensure render state is correct on first open
         UpdateRenderMode(material);
-    }
-
-    private void DrawFakeLightGUI(MaterialEditor materialEditor, int index, string title,
-        MaterialProperty enabled, MaterialProperty pos, MaterialProperty color,
-        MaterialProperty intensity, MaterialProperty range, MaterialProperty attenuationPower)
-    {
-        EditorGUILayout.Space(5);
-
-        EditorGUILayout.BeginVertical("box");
-
-        // Title bar with toggle
-        EditorGUILayout.BeginHorizontal();
-        fakeLightFoldouts[index] = EditorGUILayout.Foldout(fakeLightFoldouts[index], title, true, EditorStyles.foldoutHeader);
-
-        GUILayout.FlexibleSpace();
-
-        // Enable toggle
-        EditorGUI.BeginChangeCheck();
-        bool isEnabled = enabled.floatValue > 0.5f;
-        isEnabled = EditorGUILayout.Toggle(isEnabled, GUILayout.Width(20));
-        if (EditorGUI.EndChangeCheck())
-        {
-            enabled.floatValue = isEnabled ? 1f : 0f;
-        }
-
-        EditorGUILayout.EndHorizontal();
-
-        // Light properties (only show when foldout is open)
-        if (fakeLightFoldouts[index])
-        {
-            EditorGUI.BeginDisabledGroup(!isEnabled);
-
-            EditorGUILayout.Space(3);
-
-            // Position
-            Vector4 currentPos = pos.vectorValue;
-            Vector3 pos3 = new Vector3(currentPos.x, currentPos.y, currentPos.z);
-            pos3 = EditorGUILayout.Vector3Field("位置", pos3);
-            pos.vectorValue = new Vector4(pos3.x, pos3.y, pos3.z, 0);
-
-            // Color
-            materialEditor.ShaderProperty(color, "颜色");
-
-            // Intensity
-            materialEditor.ShaderProperty(intensity, "强度");
-
-            // Range
-            materialEditor.ShaderProperty(range, "范围");
-
-            // Attenuation
-            materialEditor.ShaderProperty(attenuationPower, "衰减");
-
-            EditorGUI.EndDisabledGroup();
-        }
-
-        EditorGUILayout.EndVertical();
     }
 }

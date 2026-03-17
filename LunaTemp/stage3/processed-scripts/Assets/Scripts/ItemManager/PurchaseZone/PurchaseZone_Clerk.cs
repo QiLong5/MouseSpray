@@ -14,5 +14,8 @@ public class PurchaseZone_Clerk : PurchaseZone
         completeAction?.Invoke();
         cd.enabled = false;
         DisableGameObject(3);
+        
+        GuildManager.instance?.CheckGuild(GuildTriggerType.UnlockFinish,0,transform.name);
+        ClerkManager.instance?.Check();
     }
 }

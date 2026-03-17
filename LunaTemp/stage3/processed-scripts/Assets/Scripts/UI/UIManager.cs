@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using TMPro;
 
 public class UIManager :MonoSingleton<UIManager>
 {
@@ -24,9 +25,12 @@ public class UIManager :MonoSingleton<UIManager>
     public bool mIsDanger;
 
     public Transform mEnemyHps;
-    void Start()
+    public TextMeshProUGUI mCoinUI;
+    private int coinNum;//当前金币数量
+    protected override void Start()
     {
        // SetGold(0);
+       SetCoin(0,false);
     }
 
     void Update()
@@ -58,6 +62,7 @@ public class UIManager :MonoSingleton<UIManager>
     public void SetGold(int num)
     {
      //   SetNum(gold, num);
+        SetCoin(num,true);
     }
     /// <summary>
     /// 设置图片数字
@@ -164,6 +169,29 @@ public class UIManager :MonoSingleton<UIManager>
             yield return new WaitForSeconds(0.2f);
             mDangerImage.DOFade(0, 0.2f);
             yield return new WaitForSeconds(0.2f);
+        }
+    }
+
+    private int lastNum;
+    private Tween numberTween;
+    /// <summary>
+    /// 金币数量更改
+    /// </summary>
+    /// <param name="num"></param>
+    /// <param name="isPlayAni"></param>
+    public void SetCoin(int num, bool isPlayAni)
+    {
+        if (mCoinUI == null) return;
+        lastNum = coinNum;
+        coinNum = num;
+        if (isPlayAni)
+        {
+            numberTween?.Kill();
+            numberTween = DOTween.To(() => lastNum, x => mCoinUI.text = x.ToString(), coinNum, 0.5f).SetEase(Ease.OutQuad);
+        }
+        else
+        {
+            mCoinUI.text = coinNum.ToString();
         }
     }
 }

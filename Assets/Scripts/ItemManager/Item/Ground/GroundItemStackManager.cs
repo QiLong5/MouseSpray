@@ -15,9 +15,27 @@ public class GroundItemStackManager : MonoBehaviour
     
     public int totalStackedItemsAmount= 0;
     public int totalMaxAmount = 0;
-    [SerializeField] protected SpriteRenderer nomalSR;
-    [SerializeField] protected SpriteRenderer heighLightSR;
+    [SerializeField] protected GameObject nomalSR;
+    [SerializeField] protected GameObject heighLightSR;
     public UnityEvent stackItemAcion;
+    void Start()
+    {
+        if (transform.name == "MoneyManager1")
+        {
+            for (int i = 0; i < stackList.Count; i++)
+                stackList[i].maxHeight = GameDataEditor.instance.GetOtherData.maxPatient3;
+        }
+        else if(transform.name == "MoneyManager2")
+        {
+            for (int i = 0; i < stackList.Count; i++)
+                stackList[i].maxHeight = GameDataEditor.instance.GetOtherData.maxPatient2;
+        }
+        else if (transform.name == "MoneyManager3")
+        {
+            for (int i = 0; i < stackList.Count; i++)
+                stackList[i].maxHeight = GameDataEditor.instance.GetOtherData.maxPatient3;
+        }
+    }
 
     protected virtual void Update()
     {
@@ -108,8 +126,8 @@ public class GroundItemStackManager : MonoBehaviour
         {
             return;
         }
-        nomalSR.gameObject.SetActive(false);
-        heighLightSR.gameObject.SetActive(true);
+        nomalSR.SetActive(false);
+        heighLightSR.SetActive(true);
     }
 
     public void ShowWhiteSprite()
@@ -118,8 +136,8 @@ public class GroundItemStackManager : MonoBehaviour
         {
             return;
         }
-        nomalSR.gameObject.SetActive(true);
-        heighLightSR.gameObject.SetActive(false);
+        nomalSR.SetActive(true);
+        heighLightSR.SetActive(false);
     }
 
 }

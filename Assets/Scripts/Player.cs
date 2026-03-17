@@ -105,8 +105,9 @@ public class Player : MonoSingleton<Player>
     }
    
    public bool IsAtHome;
-    void Start()
+   protected override void Start()
     {
+        base.Start();
         mHp = GameDataEditor.instance.playerMaxHp;
         mHpMax= GameDataEditor.instance.playerMaxHp;
         mAttackCollider.radius=GameDataEditor.instance.playerAttackRadius;
@@ -121,7 +122,7 @@ public class Player : MonoSingleton<Player>
         if (attackRangeIndicator != null)
         {
             attackRangeIndicator.UpdateRange(radius, startAngle, endAngle);
-            attackRangeIndicator.Hide(); 
+            attackRangeIndicator.Show(); // 初始显示攻击指示器
         }
     }
 
@@ -179,13 +180,19 @@ public class Player : MonoSingleton<Player>
         if (other.tag.Equals("Home"))
         {
             IsAtHome = true;
-            attackRangeIndicator?.Hide();
-            mHpUi.Hide();
+            var npcOv = NpcManager.instance as NpcManagerOv;
+            if (npcOv == null || npcOv.IsPathEnemiesCleared)
+            {
+                attackRangeIndicator?.Hide();
+                mHpUi.Hide();
+            }
         }
         if (other.tag.Equals("Enemy"))
         {
+            var npcOv = NpcManager.instance as NpcManagerOv;
+            bool canAttackAtHome = npcOv != null && !npcOv.IsPathEnemiesCleared;
 
-            if (attackInterval <= 0&&!IsAttacking&&!IsAtHome)
+            if (attackInterval <= 0&&!IsAttacking&&(!IsAtHome || canAttackAtHome))
             {
                 if (CheckIsAttack())
                 {
@@ -194,7 +201,7 @@ public class Player : MonoSingleton<Player>
                 }
             }
         }
-        
+
     }
 
     private void OnTriggerStay(Collider other)
@@ -237,14 +244,21 @@ public class Player : MonoSingleton<Player>
                 mHpUi.SetHpFill((mHp / mHpMax));
                 if (mHp == mHpMax)
                 {
-                    mHpUi.Hide();
+                    var npcOv2 = NpcManager.instance as NpcManagerOv;
+                    if (npcOv2 == null || npcOv2.IsPathEnemiesCleared)
+                    {
+                        mHpUi.Hide();
+                    }
                 }
                 UIManager.instance.StopDanger();
             }
         }
         if (other.tag.Equals("Enemy"))
         {
-            if (attackInterval<=0 && !IsAttacking && !IsAtHome)
+            var npcOv = NpcManager.instance as NpcManagerOv;
+            bool canAttackAtHome = npcOv != null && !npcOv.IsPathEnemiesCleared;
+
+            if (attackInterval<=0 && !IsAttacking && (!IsAtHome || canAttackAtHome))
             {
                 if (CheckIsAttack())
                 {
@@ -309,7 +323,8 @@ public class Player : MonoSingleton<Player>
         {
             IsMove = true;
             float targetAngle = Mathf.Atan2(mJoystick.Horizontal, mJoystick.Vertical) * Mathf.Rad2Deg;
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle - mAngleDis, ref mTurnSmoothVelocity, mTurnSmoothTime);
+            float worldTargetAngle = targetAngle + Camera.main.transform.eulerAngles.y - mAngleDis;
+            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, worldTargetAngle, ref mTurnSmoothVelocity, mTurnSmoothTime);
             mRigidbody.velocity = new Vector3((transform.forward * speed).x, mRigidbody.velocity.y, (transform.forward * speed).z);
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
         }
@@ -557,6 +572,9 @@ public class Player : MonoSingleton<Player>
         Vector3 center = transform.position - transform.forward;
         Collider[] hits = Physics.OverlapSphere(center, radius, enemyLayerMask);
 
+        var npcOv = NpcManager.instance as NpcManagerOv;
+        bool onlyPathEnemies = npcOv != null && !npcOv.IsPathEnemiesCleared;
+
         foreach (var hit in hits)
         {
             Vector3 dir = hit.transform.position - center;
@@ -570,13 +588,15 @@ public class Player : MonoSingleton<Player>
 
             if (angle >= startAngle && angle <= endAngle)
             {
-                //Debug.Log("攻击到敌人 " + hit.name);
                 Enemy _enemy = hit.GetComponent<Enemy>();
-                if (_enemy!=null)
+                if (_enemy != null)
                 {
+                    // 路径老鼠未清除时，只攻击路径老鼠
+                    if (onlyPathEnemies && !npcOv.GetPathEnemies.Contains(_enemy))
+                        continue;
+
                     _enemy.SetHp(GameDataEditor.instance.playerAamage);
                 }
-               
             }
         }
     }
@@ -588,6 +608,10 @@ public class Player : MonoSingleton<Player>
     {
         Vector3 center = transform.position - transform.forward;
         Collider[] hits = Physics.OverlapSphere(center, radius, enemyLayerMask);
+
+        var npcOv = NpcManager.instance as NpcManagerOv;
+        bool onlyPathEnemies = npcOv != null && !npcOv.IsPathEnemiesCleared;
+
         foreach (var hit in hits)
         {
             Vector3 dir = hit.transform.position - center;
@@ -600,11 +624,16 @@ public class Player : MonoSingleton<Player>
 
             if (angle >= startAngle && angle <= endAngle)
             {
-              //  Debug.Log("前方有敌人，攻击");
-               return true;
+                // 路径老鼠未清除时，只检测路径老鼠
+                if (onlyPathEnemies)
+                {
+                    Enemy _enemy = hit.GetComponent<Enemy>();
+                    if (_enemy == null || !npcOv.GetPathEnemies.Contains(_enemy))
+                        continue;
+                }
+                return true;
             }
         }
-       // Debug.Log("前方没敌人");
         return false;
     }
 }

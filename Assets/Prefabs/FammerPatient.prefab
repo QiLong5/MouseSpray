@@ -48,6 +48,7 @@ MonoBehaviour:
   maxStackAmount: 5
   maxHeight: 5
   offsetRotation: {x: 0, y: 0, z: 0}
+  stackedItemList: []
   isOpenBend: 0
   bendDistance: 1
   bendDuration: 0.5
@@ -399,7 +400,7 @@ Transform:
   m_GameObject: {fileID: 7937974097538887551}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.61, y: 0, z: -12.75}
+  m_LocalPosition: {x: 1.61, y: 0.5, z: -12.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -575,7 +576,6 @@ MonoBehaviour:
   mMoveSpeed: 8
   mTurnSmoothTime: 0.1
   currentState: 0
-  maxHarvestCapacity: 5
-  harvestDelay: 0.5
+  harvestInterval: 2
   farmerItemStackManager: {fileID: 4157404950138273347}
   farmerState: 0

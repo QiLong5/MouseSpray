@@ -18,11 +18,9 @@ public class ItemStackManager : MonoBehaviour
     //目前有被堆放物品的物品堆数量
     public int amountOfStackInUse = 0;
 
-    private Player player;
-
     private void Start()
     {
-        player = Player.instance;
+        
     }
 
     /// <summary>

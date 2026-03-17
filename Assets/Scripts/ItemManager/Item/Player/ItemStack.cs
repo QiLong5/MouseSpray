@@ -208,6 +208,8 @@ public class ItemStack : MonoBehaviour
         }
 
         Player.instance?.MoneyAmountChange(_item.value);
+        if (stackedItemType == ItemType.FigherPatient)
+            GuildManager.instance.CheckGuild(GuildTriggerType.Transport, stackAmount);
     }
 
  

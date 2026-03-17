@@ -1,6 +1,6 @@
-if ( TRACE ) { TRACE( JSON.parse( '["AnimationInvoke#PlayerAttack","AnimationInvoke#PlayerAttackFinsh","AnimationInvoke#EnemyAttack","MonoSingleton$1#instance#get","MonoSingleton$1#init","MonoSingleton$1#Awake","MonoSingleton$1#Start","MonoSingleton$1#OnSceneReset","AttackRangeIndicator#init","AttackRangeIndicator#Awake","AttackRangeIndicator#UpdateRange","AttackRangeIndicator#GenerateMesh","AttackRangeIndicator#Show","AttackRangeIndicator#Hide","AttackRangeIndicator#GetCurrentAlpha","AttackRangeIndicator#SetAlpha","AttackRangeIndicator#SetColor","ConveyorController#init","ConveyorController#Start","ConveyorController#FixedUpdate","ConveyorController#InitializePool","ConveyorController#GetFromPool","ConveyorController#ReturnToPool","ConveyorController#StartConveyor","ConveyorController#PauseConveyor","ConveyorController#ResumeConveyor","ConveyorController#SpawnItem","ConveyorController#OnItemReachedDestination","ConveyorController#SpawnItemRoutine","Npc#init","Npc#StopMovement","Npc#MoveToTarget$1","Npc#MoveToTarget","Npc#MoveToTarget$2","Npc#MoveToTargetIE$1","Npc#MoveToTargetIE$2","Npc#MoveToTargetIE","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","ItemStack#init","ItemStack#GetStackedItemType","ItemStack#GetItemWidth","ItemStack#Start","ItemStack#Update","ItemStack#AdjustPosition","ItemStack#GetRankInActiveStacks","ItemStack#StackItem","ItemStack#RemoveTopItem","ItemStack#BendItems","ItemStack#BendItemsCoroutine","ItemStack#RestoreItems","ItemStack#RestoreItemsCoroutine","GroundItemStackManager#init","GroundItemStackManager#Update","GroundItemStackManager#OnTriggerEnter","GroundItemStackManager#OnTriggerStay","GroundItemStackManager#OnTriggerExit","GroundItemStackManager#StackItem","GroundItemStackManager#RemoveItem","GroundItemStackManager#ModifyTargetStackListIndex","GroundItemStackManager#ShowBlueSprite","GroundItemStackManager#ShowWhiteSprite","HideAnimSettings#init","Item#init","Item#Awake","Item#OnEnable","Item#Start","Item#Update","Item#PickUpToPlayer","Item#OnTriggerEnter","Item#MoveAlongCurve","Item#MoveAlongCurve$1","Item#MoveAlongCurve_Coroutine","Item#MoveAlongCurve_Coroutine$1","Item#CalculateBezierPoint","Item#ScaleFX","Item#ScaleFX_Coroutine","Item#ReturnSelf","Item#ReturnSelfIE","ItemStackManager#init","ItemStackManager#Start","ItemStackManager#GetStackPositionByRank","ItemStackManager#GetStackIndexByItemType","ItemStackManager#GetStackByItemType","ItemStackManager#ModifyAmountOfStackInUse","LoopAnimSettings#init","LunaManager#instance#get","LunaManager#Awake","LunaManager#Start","LunaManager#Update","LunaManager#GameOver","LunaManager#ReLoad","LunaManager#GotoStore","LunaManager#GameStart","MainPanel#init","MainPanel#Start","MainPanel#Update","ObjectFX#init","ObjectFX#Awake","ObjectFX#OnEnable","ObjectFX#Show","ObjectFX#Show$1","ObjectFX#Hide","ObjectFX#Hide$1","ObjectFX#ShowByScale","ObjectFX#ShowByBounce","ObjectFX#ShowByDropDown","ObjectFX#ShowByRiseUp","ObjectFX#ShowByFade","ObjectFX#ShowByFadeScale","ObjectFX#ShowByRotate","ObjectFX#HideByScale","ObjectFX#HideByFlyUp","ObjectFX#HideBySinkDown","ObjectFX#HideByFade","ObjectFX#HideByFadeScale","ObjectFX#HideByExplode","ObjectFX#HideByShrink","ObjectFX#SetAlpha","ObjectFX#ResetObject","ObjectFX#StopAllAnimations","ObjectFX#OnDestroy","ObjStartButton#OnTriggerEnter","ObjStartButton#OnTriggerStay","ObjStartButton#OnTriggerExit","ObjStartButton#SetAlwayEnter","Processor#itemSpawnInterval#get","Processor#itemsPerCustomer#get","Processor#productsPerTransaction#get","Processor#init","Processor#Start","Processor#Update","Processor#StackitemProgress","Processor#ProcessingCoroutine","Processor#OnTriggerEnter","Processor#OnTriggerStay","Processor#OnTriggerExit","Processor#ProcessMaterial","Processor#DestroyRawMaterial","Processor#SpawnProducts","PurchaseZone#canvas#get","PurchaseZone#cd#get","PurchaseZone#init","PurchaseZone#Start","PurchaseZone#Update","PurchaseZone#OnTriggerEnter","PurchaseZone#OnTriggerExit","PurchaseZone#Purchase","PurchaseZone#ProgressPurchase","PurchaseZone#OnPurchaseProgress","PurchaseZone#OnPurchaseComplete","PurchaseZone#DisableGameObject","PurchaseZone#NoMoneyShake","PurchaseZone#DisableGameObject_Coroutine","PurchaseZone#ShowBlueSprite","PurchaseZone#ShowWhiteSprite","PurchaseZone#BreathIE","PurchaseZone#StartBreath","PurchaseZone#StopBreath","ShowAnimSettings#init","TouchArea#init","TouchArea#OnBeginDrag","TouchArea#OnDrag","TouchArea#OnEndDrag","TouchArea#Update","UIFollowerBase#init","UIFollowerBase#OnEnable","UIFollowerBase#OnDisable","UIFollowerBase#Init","UIFollowerBase#Hide","UIFollowerBase#FollowObjectWithUI","UIFollowerBase#UpdateScaleByCameraZoom","UIFollowerBase#Show","UIFollowerBase#PlayLoopAnimation","UIFollowerBase#PlayLoopScale","UIFollowerBase#PlayLoopFloat","UIFollowerBase#StopLoopAnimation","UIFollowerBase#RegisterCameraEvents","UIFollowerBase#UnregisterCameraEvents","UIFollowerBase#OnHideComplete","YangJoystick#Horizontal#get","YangJoystick#Vertical#get","YangJoystick#Direction#get","YangJoystick#Delta#get","YangJoystick#rectTransform#get","YangJoystick#dragging#get","YangJoystick#init","YangJoystick#OnEnable","YangJoystick#Update","YangJoystick#SetPos","ArrowsManager#inherits","ArrowsManager#init","ArrowsManager#Start$1","ArrowsManager#Update","ArrowsManager#InitGuideLine","ArrowsManager#SetArrows","ArrowsManager#SetArrows$1","ArrowsManager#CloseArrows","ArrowsManager#CreateGuideLine","ArrowsManager#CreateArrow","AudioManager#inherits","CameraManager#inherits","CameraManager#IsCanMove#get","CameraManager#init","CameraManager#Start$1","CameraManager#Update","CameraManager#LateUpdate","CameraManager#ForceLookByIndex","CameraManager#ForceLookIE","CameraManager#CamerZoom","CameraManager#CamerZoomIE","Customer#Start","Customer#Update","Enemy#init","Enemy#Start","Enemy#OnEnable","Enemy#FixedUpdate","Enemy#Init","Enemy#SetHp","Enemy#OnTriggerEnter","Enemy#OnTriggerStay","Enemy#OnTriggerExit","Enemy#StopMovement","Enemy#StateSwitch","Enemy#Knockback","Enemy#KnockbackIE","Enemy#PatrolIE","Enemy#GetRamdomPos","Enemy#GetDropRawMaterial","Enemy#ParabolicDrop","Enemy#AttackPlayer","GameDataEditor#inherits","GameDataEditor#init","GroundItemStack#Start","GroundItemStack#Update","GroundItemStack#StackItem","GroundItemStack#RemoveTopItem","IdleNpc#Start","IdleNpc#Update","LoaderNpc#init","LoaderNpc#Start","LoaderNpc#HasEnoughItems","LoaderNpc#WorkCycle","LoaderNpc#MoveToPointCoroutine","LoaderNpc#StartWork","LoaderNpc#StopWork","MercenaryNpc#init","MercenaryNpc#Start","MercenaryNpc#FixedUpdate","MercenaryNpc#StartWork","MercenaryNpc#StopWork","MercenaryNpc#WorkCycle","MercenaryNpc#GoingOutPhase","MercenaryNpc#FightingPhase","MercenaryNpc#ReturningHomePhase","MercenaryNpc#DroppingLootPhase","MercenaryNpc#MoveToTargetCoroutine","MercenaryNpc#FindNearestEnemy","MercenaryNpc#IsBagFull","MercenaryNpc#CheckCanAttack","MercenaryNpc#FindEnemyInAttackRange","MercenaryNpc#Attack","MercenaryNpc#OnTriggerEnter","MercenaryNpc#OnTriggerExit","NpcManager#inherits","NpcManager#init","NpcManager#Start$1","NpcManager#Update","NpcManager#InitCustomer","NpcManager#DequeueCustomer","NpcManager#CustomerExit","Player#inherits","Player#speed#get","Player#mTurnSmoothTime#get","Player#IsMove#get","Player#IsMove#set","Player#isDie#get","Player#isDie#set","Player#radius#get","Player#startAngle#get","Player#endAngle#get","Player#IsAttack#get","Player#IsAttack#set","Player#IsAttacking#get","Player#IsAttacking#set","Player#init","Player#Start$1","Player#Update","Player#FixedUpdate","Player#OnTriggerEnter","Player#OnTriggerStay","Player#OnTriggerExit","Player#Move","Player#SetHp","Player#OnStop","Player#MoneyAmountChange","Player#CollectItemFromGroundStack","Player#DropItemToGroundStack","Player#Attack","Player#CheckIsAttack","PoolManager#inherits","PoolManager#init","PoolManager#Start$1","PoolManager#GetEnemyHp","PoolManager#GetEnemy","PoolManager#GetCustomer","PoolManager#GetItem","PoolManager#ReturnItem","PoolManager#ReturnEnemyHp","PoolManager#ReturnEnemy","PoolManager#ReturnCustomer","PoolManager#WaitDoIE","PurchaseZone_Clerk#OnPurchaseComplete","UIBubbleExpression#init","UIBubbleExpression#OnInit","UIBubbleExpression#OnEnable","UIBubbleExpression#OnDisable","UIBubbleExpression#ShowExpression","UIBubbleExpression#ShowExpression$1","UIBubbleExpression#GetCurrentExpression","UIBubbleExpression#GetExpressionSprite","UIBubbleExpression#StartAutoHide","UIBubbleExpression#AutoHideCoroutine","UIBubbleExpression#StopAutoHide","UIHealthBar#init","UIHealthBar#OnInit","UIHealthBar#OnDisable","UIHealthBar#SetHpFill","UIHealthBar#UpdateHealthBar","UIHealthBar#GetHealthPercent","UIManager#inherits","UIManager#Start$1","UIManager#Update","UIManager#SetGold","UIManager#SetNum","UIManager#StartDanger","UIManager#StopDanger","UIManager#DangerFlash","UIProgress#init","UIProgress#OnInit","UIProgress#SetFill","UIProgress#UpdateProgressBar","UIProgress#UpdateNumberDisplay"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["AnimationInvoke#PlayerAttack","AnimationInvoke#PlayerAttackFinsh","AnimationInvoke#EnemyAttack","MonoSingleton$1#instance#get","MonoSingleton$1#init","MonoSingleton$1#Awake","MonoSingleton$1#Start","MonoSingleton$1#OnSceneReset","AttackRangeIndicator#init","AttackRangeIndicator#Awake","AttackRangeIndicator#UpdateRange","AttackRangeIndicator#GenerateMesh","AttackRangeIndicator#Show","AttackRangeIndicator#Hide","AttackRangeIndicator#GetCurrentAlpha","AttackRangeIndicator#SetAlpha","AttackRangeIndicator#SetColor","BedProcess#Awake","ConveyorController#init","ConveyorController#Start","ConveyorController#FixedUpdate","ConveyorController#InitializePool","ConveyorController#GetFromPool","ConveyorController#ReturnToPool","ConveyorController#StartConveyor","ConveyorController#PauseConveyor","ConveyorController#ResumeConveyor","ConveyorController#SpawnItem","ConveyorController#OnItemReachedDestination","ConveyorController#SpawnItemRoutine","Npc#init","Npc#StopMovement","Npc#MoveToTarget$1","Npc#MoveToTarget","Npc#MoveToTarget$2","Npc#MoveToTargetIE$1","Npc#MoveToTargetIE$2","Npc#MoveToTargetIE","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","Elevator#IsAtTop#get","Elevator#MaxFarmerCapacity#get","Elevator#IsQueueFull#get","Elevator#init","Elevator#Start","Elevator#OnTriggerEnter","Elevator#RegisterWaitingFarmer","Elevator#MoveFarmerToQueuePosition","Elevator#ShiftQueueForward","Elevator#StartElevator","Elevator#BoardFarmersAndMove","Elevator#UnboardFarmers","Elevator#SetCollider","ExcelTool.GameConfig#init","ExcelTool.GameConfig.老鼠数据Data#init","ExcelTool.GameConfig.其他配置Data#init","ExcelTool.GameConfig.玩家数据Data#init","Item#init","Item#Awake","Item#OnEnable","Item#Start","Item#Update","Item#PickUpToPlayer","Item#PickUpToPlayer$1","Item#OnTriggerEnter","Item#MoveAlongCurve","Item#MoveAlongCurve_Coroutine","Item#CalculateBezierPoint","Item#ScaleFX","Item#ScaleFX_Coroutine","Item#ReturnSelf","Item#ReturnSelfIE","ItemStack#init","ItemStack#GetStackedItemType","ItemStack#GetItemWidth","ItemStack#Start","ItemStack#Update","ItemStack#AdjustPosition","ItemStack#GetRankInActiveStacks","ItemStack#StackItem","ItemStack#RemoveTopItem","ItemStack#BendItems","ItemStack#BendItemsCoroutine","ItemStack#RestoreItems","ItemStack#RestoreItemsCoroutine","GroundItemStackManager#init","GroundItemStackManager#Start","GroundItemStackManager#Update","GroundItemStackManager#OnTriggerEnter","GroundItemStackManager#OnTriggerStay","GroundItemStackManager#OnTriggerExit","GroundItemStackManager#StackItem","GroundItemStackManager#RemoveItem","GroundItemStackManager#ModifyTargetStackListIndex","GroundItemStackManager#ShowBlueSprite","GroundItemStackManager#ShowWhiteSprite","HideAnimSettings#init","ItemStackManager#init","ItemStackManager#Start","ItemStackManager#GetStackPositionByRank","ItemStackManager#GetStackIndexByItemType","ItemStackManager#GetStackByItemType","ItemStackManager#ModifyAmountOfStackInUse","LoopAnimSettings#init","LunaManager#instance#get","LunaManager#Awake","LunaManager#Start","LunaManager#Update","LunaManager#GameOver","LunaManager#ReLoad","LunaManager#GotoStore","LunaManager#GameStart","MainPanel#init","MainPanel#Start","MainPanel#Update","ObjectFX#init","ObjectFX#Awake","ObjectFX#OnEnable","ObjectFX#Show","ObjectFX#Show$1","ObjectFX#Hide","ObjectFX#Hide$1","ObjectFX#ShowByScale","ObjectFX#ShowByBounce","ObjectFX#ShowByDropDown","ObjectFX#ShowByRiseUp","ObjectFX#ShowByFade","ObjectFX#ShowByFadeScale","ObjectFX#ShowByRotate","ObjectFX#HideByScale","ObjectFX#HideByFlyUp","ObjectFX#HideBySinkDown","ObjectFX#HideByFade","ObjectFX#HideByFadeScale","ObjectFX#HideByExplode","ObjectFX#HideByShrink","ObjectFX#SetAlpha","ObjectFX#ResetObject","ObjectFX#StopAllAnimations","ObjectFX#OnDestroy","ObjStartButton#OnTriggerEnter","ObjStartButton#OnTriggerStay","ObjStartButton#OnTriggerExit","ObjStartButton#SetAlwayEnter","PatientInjection#Awake","PatientInjection#Update","PatientInjection#OnTriggerEnter","PatientInjection#OnTriggerExit","PatientInjection#ShowBlueSprite","PatientInjection#ShowWhiteSprite","PatientInjection#Injection","PatientInjection#InjectionEnd","PatientInjection#DropMoneyToManager","Processor#itemSpawnInterval#get","Processor#itemsPerCustomer#get","Processor#productsPerTransaction#get","Processor#init","Processor#Start","Processor#Update","Processor#StackitemProgress","Processor#ProcessingCoroutine","Processor#OnTriggerEnter","Processor#OnTriggerStay","Processor#OnTriggerExit","Processor#ProcessMaterial","Processor#DestroyRawMaterial","Processor#SpawnProducts","PurchaseZone#canvas#get","PurchaseZone#cd#get","PurchaseZone#init","PurchaseZone#Start","PurchaseZone#Update","PurchaseZone#InitPrice","PurchaseZone#OnTriggerEnter","PurchaseZone#OnTriggerExit","PurchaseZone#Purchase","PurchaseZone#ProgressPurchase","PurchaseZone#OnPurchaseProgress","PurchaseZone#OnPurchaseComplete","PurchaseZone#DisableGameObject","PurchaseZone#NoMoneyShake","PurchaseZone#DisableGameObject_Coroutine","PurchaseZone#ShowBlueSprite","PurchaseZone#ShowWhiteSprite","PurchaseZone#BreathIE","PurchaseZone#StartBreath","PurchaseZone#StopBreath","ShowAnimSettings#init","TouchArea#init","TouchArea#OnBeginDrag","TouchArea#OnDrag","TouchArea#OnEndDrag","TouchArea#Update","UIFollowerBase#init","UIFollowerBase#OnEnable","UIFollowerBase#OnDisable","UIFollowerBase#Init","UIFollowerBase#Hide","UIFollowerBase#FollowObjectWithUI","UIFollowerBase#UpdateScaleByCameraZoom","UIFollowerBase#Show","UIFollowerBase#PlayLoopAnimation","UIFollowerBase#PlayLoopScale","UIFollowerBase#PlayLoopFloat","UIFollowerBase#StopLoopAnimation","UIFollowerBase#RegisterCameraEvents","UIFollowerBase#UnregisterCameraEvents","UIFollowerBase#OnHideComplete","YangJoystick#Horizontal#get","YangJoystick#Vertical#get","YangJoystick#Direction#get","YangJoystick#Delta#get","YangJoystick#rectTransform#get","YangJoystick#dragging#get","YangJoystick#init","YangJoystick#OnEnable","YangJoystick#Update","YangJoystick#SetPos","ArrowsManager#inherits","ArrowsManager#init","ArrowsManager#Start","ArrowsManager#Update","ArrowsManager#InitGuideLine","ArrowsManager#SetArrows","ArrowsManager#SetArrows$1","ArrowsManager#CloseArrows","ArrowsManager#CreateGuideLine","ArrowsManager#CreateArrow","ArrowsManager#UpdateOffsetPos","AudioManager#inherits","CameraManager#inherits","CameraManager#IsCanMove#get","CameraManager#init","CameraManager#Start","CameraManager#Update","CameraManager#LateUpdate","CameraManager#ForceLookByIndex","CameraManager#ForceLookIE","CameraManager#CamerZoom","CameraManager#CamerZoomIE","ClerkManager#inherits","ClerkManager#init","ClerkManager#Start","ClerkManager#AddTotalMoney","ClerkManager#Check","Customer#Start","Customer#Update","Enemy#init","Enemy#Start","Enemy#OnEnable","Enemy#FixedUpdate","Enemy#Init","Enemy#SetHp","Enemy#SetHp$1","Enemy#OnTriggerEnter","Enemy#OnTriggerStay","Enemy#OnTriggerExit","Enemy#StopMovement","Enemy#StateSwitch","Enemy#Knockback","Enemy#KnockbackIE","Enemy#PatrolIE","Enemy#GetRamdomPos","Enemy#GetDropRawMaterial","Enemy#ParabolicDrop","Enemy#AttackPlayer","PatientItem#init","PatientItem#Start","PatientItem#StopMovement","PatientItem#MoveToTarget$1","PatientItem#MoveToTarget","PatientItem#MoveToTarget$2","PatientItem#MoveToTargetIE$1","PatientItem#MoveToTargetIE$2","PatientItem#MoveToTargetIE","PatientItem#StateSwitch","PatientItem#Fighter","PatientItem#OnTriggerEnter","PatientItem#OnTriggerStay","PatientItem#Farmer","GameDataEditor#inherits","GameDataEditor#GetOtherData#get","GameDataEditor#GetPlayerData#get","GameDataEditor#GetMouseData#get","GameDataEditor#init","GameDataEditor#Awake","GroundItemStack#Start","GroundItemStack#Update","GroundItemStack#GetPatient","GroundItemStack#StackItem","GroundItemStack#RemoveTopItem","GuildManager#inherits","GuildManager#init","GuildManager#init","GuildManager#Awake","GuildManager#SetGuildLine","GuildManager#UpdateArrowHeight","GuildManager#CheckGuild","GuildManager#CheckGuild$1","IdleNpc#Start","IdleNpc#Update","LoaderNpc#init","LoaderNpc#Start","LoaderNpc#HasEnoughItems","LoaderNpc#WorkCycle","LoaderNpc#MoveToPointCoroutine","LoaderNpc#StartWork","LoaderNpc#StopWork","MercenaryNpc#init","MercenaryNpc#Start","MercenaryNpc#FixedUpdate","MercenaryNpc#StartWork","MercenaryNpc#StopWork","MercenaryNpc#WorkCycle","MercenaryNpc#GoingOutPhase","MercenaryNpc#FightingPhase","MercenaryNpc#ReturningHomePhase","MercenaryNpc#DroppingLootPhase","MercenaryNpc#MoveToTargetCoroutine","MercenaryNpc#FindNearestEnemy","MercenaryNpc#IsBagFull","MercenaryNpc#CheckCanAttack","MercenaryNpc#FindEnemyInAttackRange","MercenaryNpc#Attack","MercenaryNpc#OnTriggerEnter","MercenaryNpc#OnTriggerExit","NpcManager#inherits","NpcManager#init","NpcManager#Start","NpcManager#Update","NpcManager#EnemyCreate","NpcManager#InitCustomer","NpcManager#DequeueCustomer","NpcManager#CustomerExit","NpcManager#RemovePatient","NpcManager#GetPatients","NpcManager#UnlockLevel","NpcManager#GetEnemies2","Player#inherits","Player#speed#get","Player#mTurnSmoothTime#get","Player#IsMove#get","Player#IsMove#set","Player#isDie#get","Player#isDie#set","Player#radius#get","Player#startAngle#get","Player#endAngle#get","Player#IsAttack#get","Player#IsAttack#set","Player#IsAttacking#get","Player#IsAttacking#set","Player#init","Player#Start","Player#Update","Player#FixedUpdate","Player#OnTriggerEnter","Player#OnTriggerStay","Player#OnTriggerExit","Player#Move","Player#SetHp","Player#OnStop","Player#EnterElevator","Player#ExitElevator","Player#MoneyAmountChange","Player#CollectItemFromGroundStack","Player#DropItemToGroundStack","Player#Attack","Player#CheckIsAttack","PoolManager#inherits","PoolManager#init","PoolManager#Awake","PoolManager#GetEnemyHp","PoolManager#GetFighterHp","PoolManager#GetNpc","PoolManager#GetItem","PoolManager#ReturnItem","PoolManager#ReturnEnemyHp","PoolManager#ReturnFighterHp","PoolManager#ReturnEnemy","PoolManager#ReturnCustomer","PoolManager#WaitDoIE","PorterNpc#init","PorterNpc#Start","PorterNpc#FixedUpdate","PorterNpc#GetAvailableBedCount","PorterNpc#GetRemainFamerCount","PorterNpc#GetEmptyBed","PorterNpc#GetPatient","PorterNpc#WorkCycle","PorterNpc#OnTriggerStay","PorterNpc#OnTriggerExit","PorterNpc#DropItemToGroundStack","PurchaseZone_Clerk#OnPurchaseComplete","SoakManager#inherits","SoakManager#init","SoakManager#Start","SoakManager#Update","SoakManager#FindHealablePatient","SoakManager#HealPatientIE","SoakManager#WaitForTopWheatReady","SoakManager#RemovePatientFromPool","SoakManager#DropMoneyToManager","UIBubbleExpression#init","UIBubbleExpression#OnInit","UIBubbleExpression#OnEnable","UIBubbleExpression#OnDisable","UIBubbleExpression#ShowExpression","UIBubbleExpression#ShowExpression$1","UIBubbleExpression#GetCurrentExpression","UIBubbleExpression#GetExpressionSprite","UIBubbleExpression#StartAutoHide","UIBubbleExpression#AutoHideCoroutine","UIBubbleExpression#StopAutoHide","UIHealthBar#init","UIHealthBar#OnInit","UIHealthBar#LateUpdate","UIHealthBar#OnDisable","UIHealthBar#SetHpFill","UIHealthBar#UpdateHealthBar","UIHealthBar#GetHealthPercent","UIManager#inherits","UIManager#Start","UIManager#Update","UIManager#SetGold","UIManager#SetNum","UIManager#StartDanger","UIManager#StopDanger","UIManager#DangerFlash","UIManager#SetCoin","UIProgress#init","UIProgress#OnInit","UIProgress#SetFill","UIProgress#UpdateProgressBar","UIProgress#UpdateNumberDisplay","Wheat#IsHarvested#get","Wheat#init","Wheat#IsAvailableForFarmer","Wheat#ReserveForFarmer","Wheat#ReleaseReservation","Wheat#Awake","Wheat#Start","Wheat#OnEnable$1","Wheat#SetState","Wheat#OnTriggerEnter$1","Wheat#Harvest","Wheat#SpawnWheatItem","Wheat#RegrowCoroutine","Wheat#FarmerHarvest","Wheat#SpawnWheatItemToDelivery","WheatManager#inherits","WheatManager#init","WheatManager#Start$1","WheatManager#SpawnWheatField","WheatManager#GetRandomAvailableWheat","WheatManager#GetNearestAvailableWheat","FarmerPatientItem#init","FarmerPatientItem#Start","FarmerPatientItem#Farmer","FarmerPatientItem#FarmerWorkflowIE","FarmerPatientItem#EnterElevatorAsFarmer","FarmerPatientItem#ExitElevatorAsFarmer","FighterPatientItem#IsAttack#get","FighterPatientItem#IsAttack#set","FighterPatientItem#IsAttacking#get","FighterPatientItem#IsAttacking#set","FighterPatientItem#radius#get","FighterPatientItem#startAngle#get","FighterPatientItem#endAngle#get","FighterPatientItem#init","FighterPatientItem#Fighter","FighterPatientItem#StartFighting","FighterPatientItem#FighterStationIE","FighterPatientItem#CombatLoopIE","FighterPatientItem#FindNearestEnemyInRange","FighterPatientItem#CoinGenerateIE","FighterPatientItem#HpLossIE","FighterPatientItem#FighterDie","FighterPatientItem#DelayReturnItem","FighterPatientItem#Attack","FighterPatientItem#CheckIsAttack","FighterPatientItem#OnTriggerEnter","FighterPatientItem#OnTriggerStay","NpcManagerOv#IsPathEnemiesCleared#get","NpcManagerOv#GetPathEnemies#get","NpcManagerOv#init","NpcManagerOv#Start","NpcManagerOv#Update$1","NpcManagerOv#UnlockFarmerPatien","NpcManagerOv#InitPathEnemies","NpcManagerOv#GetEnemies2","NpcManagerOv#RemovePathEnemy","NpcManagerOv#PatientCreate","NpcManagerOv#FammerPatientCreate","NpcManagerOv#InitCustomer","NpcManagerOv#RemovePatient","NpcManagerOv#OccupyFighterStation","NpcManagerOv#ReleaseFighterStation","NpcManagerOv#GetPatients","NpcManagerOv#DequeueCustomer","NpcManagerOv#CustomerExit$1","NpcManagerOv#UnlockLevel","NpcManagerOv#Delay"]' ) ); }
 /**
- * @version 1.0.9560.32223
+ * @version 1.0.9571.37588
  * @copyright anton
  * @compiler Bridge.NET 17.9.42-luna
  */
@@ -18,8 +18,15 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
             PlayerAttack: function () {
 if ( TRACE ) { TRACE( "AnimationInvoke#PlayerAttack", this ); }
 
-                MonoSingleton$1(Player).instance.IsAttacking = true;
-                MonoSingleton$1(Player).instance.Attack();
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.transform.parent.GetComponent(Player), null)) {
+                    MonoSingleton$1(Player).instance.IsAttacking = true;
+                    MonoSingleton$1(Player).instance.Attack();
+                }
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.transform.parent.GetComponent(FighterPatientItem), null)) {
+                    var patien = this.transform.parent.GetComponent(FighterPatientItem);
+                    patien.IsAttacking = true;
+                    patien.Attack();
+                }
             },
             /*AnimationInvoke.PlayerAttack end.*/
 
@@ -27,8 +34,15 @@ if ( TRACE ) { TRACE( "AnimationInvoke#PlayerAttack", this ); }
             PlayerAttackFinsh: function () {
 if ( TRACE ) { TRACE( "AnimationInvoke#PlayerAttackFinsh", this ); }
 
-                MonoSingleton$1(Player).instance.IsAttacking = false;
-                MonoSingleton$1(Player).instance.IsAttack = false;
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.transform.parent.GetComponent(Player), null)) {
+                    MonoSingleton$1(Player).instance.IsAttacking = false;
+                    MonoSingleton$1(Player).instance.IsAttack = false;
+                }
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.transform.parent.GetComponent(FighterPatientItem), null)) {
+                    var patien = this.transform.parent.GetComponent(FighterPatientItem);
+                    patien.IsAttacking = false;
+                    patien.IsAttack = false;
+                }
             },
             /*AnimationInvoke.PlayerAttackFinsh end.*/
 
@@ -86,7 +100,7 @@ if ( TRACE ) { TRACE( "MonoSingleton$1#Awake", this ); }
 
                 if (Bridge.rValue(MonoSingleton$1(T).s_Instance) == null) {
                     MonoSingleton$1(T).s_Instance = Bridge.cast(this, T);
-Bridge.rValue(                    MonoSingleton$1(T).s_Instance).gameObject.name = Bridge.Reflection.getTypeName(Bridge.getType(Bridge.rValue(MonoSingleton$1(T).s_Instance), T));
+                    //s_Instance.gameObject.name = s_Instance.GetType().Name;
                 }
 
 
@@ -392,6 +406,32 @@ if ( TRACE ) { TRACE( "AttackRangeIndicator#SetColor", this ); }
         }
     });
     /*AttackRangeIndicator end.*/
+
+    /*BedProcess start.*/
+    Bridge.define("BedProcess", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            moneyPos: null,
+            path: null,
+            doorPos: null,
+            groundItemStack: null
+        },
+        methods: {
+            /*BedProcess.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "BedProcess#Awake", this ); }
+
+                this.path = this.transform.Find("Path");
+                this.doorPos = UnityEngine.GameObject.Find("DoorPos").transform;
+                this.moneyPos = UnityEngine.GameObject.Find("MoneyManager").transform;
+                this.groundItemStack = this.transform.Find("RawMaterialManager").GetComponent(GroundItemStackManager);
+            },
+            /*BedProcess.Awake end.*/
+
+
+        }
+    });
+    /*BedProcess end.*/
 
     /*CamreaModel start.*/
     Bridge.define("CamreaModel", {
@@ -858,6 +898,7 @@ if ( TRACE ) { TRACE( "ConveyorController#SpawnItemRoutine", this ); }
         inherits: [UnityEngine.MonoBehaviour],
         fields: {
             mAnimator: null,
+            npcType: 0,
             mStateInfo: null,
             mCollider: null,
             mRigidbody: null,
@@ -1066,7 +1107,7 @@ if ( TRACE ) { TRACE( "Npc#MoveToTargetIE$2", this ); }
                                     continue;
                                 }
                                 case 1: {
-                                    if ( pc.Vec3.distance( target, this.transform.position ) > 0.3 ) {
+                                    if ( pc.Vec3.distance( target, this.transform.position ) > 0.5 ) {
                                             $step = 2;
                                             continue;
                                         } 
@@ -4298,6 +4339,410 @@ if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathT
     });
     /*DG.Tweening.DOTweenModuleUtils+Physics end.*/
 
+    /*Elevator start.*/
+    /**
+     * 电梯控制脚本
+     Player进入触发器后，先移动到电梯中心，然后电梯和Player一起移动
+     支持农夫搭乘：农夫在电梯外排队等待，玩家进入电梯后农夫依次从第一个排队点走入电梯站位
+     站位点数量决定电梯最多容纳农夫数
+     *
+     * @public
+     * @class Elevator
+     * @augments UnityEngine.MonoBehaviour
+     */
+    Bridge.define("Elevator", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            elevatorPlatform: null,
+            elevatorCenter: null,
+            moveDistance: 0,
+            moveToCenterDuration: 0,
+            duration: 0,
+            easeType: 0,
+            colliders: null,
+            farmerStandingPositions: null,
+            topQueuePath: null,
+            farmerBoardSpeed: 0,
+            topHeight: 0,
+            isAtTop: false,
+            isRunning: false,
+            waitingFarmersTop: null,
+            farmersOnElevator: null
+        },
+        props: {
+            IsAtTop: {
+                get: function () {
+if ( TRACE ) { TRACE( "Elevator#IsAtTop#get", this ); }
+
+                    return this.isAtTop;
+                }
+            },
+            /**
+             * 电梯最大容纳农夫数（由站位点数量决定）
+             *
+             * @instance
+             * @public
+             * @readonly
+             * @memberof Elevator
+             * @function MaxFarmerCapacity
+             * @type number
+             */
+            MaxFarmerCapacity: {
+                get: function () {
+if ( TRACE ) { TRACE( "Elevator#MaxFarmerCapacity#get", this ); }
+
+                    return this.farmerStandingPositions.Count;
+                }
+            },
+            /**
+             * 排队路径是否已满（排队农夫数 &gt;= 排队站位点数量）
+             *
+             * @instance
+             * @public
+             * @readonly
+             * @memberof Elevator
+             * @function IsQueueFull
+             * @type boolean
+             */
+            IsQueueFull: {
+                get: function () {
+if ( TRACE ) { TRACE( "Elevator#IsQueueFull#get", this ); }
+
+                    if (UnityEngine.Component.op_Equality(this.topQueuePath, null)) {
+                        return false;
+                    }
+                    return this.waitingFarmersTop.Count >= this.topQueuePath.childCount;
+                }
+            }
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "Elevator#init", this ); }
+
+                this.moveDistance = 9.0;
+                this.moveToCenterDuration = 0.5;
+                this.duration = 2.0;
+                this.easeType = DG.Tweening.Ease.InOutQuad;
+                this.colliders = new (System.Collections.Generic.List$1(UnityEngine.Collider)).ctor();
+                this.farmerStandingPositions = new (System.Collections.Generic.List$1(UnityEngine.Transform)).ctor();
+                this.farmerBoardSpeed = 0.3;
+                this.isAtTop = true;
+                this.isRunning = false;
+                this.waitingFarmersTop = new (System.Collections.Generic.List$1(FarmerPatientItem)).ctor();
+                this.farmersOnElevator = new (System.Collections.Generic.List$1(FarmerPatientItem)).ctor();
+            }
+        },
+        methods: {
+            /*Elevator.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "Elevator#Start", this ); }
+
+                if (UnityEngine.Component.op_Equality(this.elevatorPlatform, null)) {
+                    UnityEngine.Debug.LogError$2("Elevator: elevatorPlatform \u672a\u8d4b\u503c\uff01", this);
+                    this.enabled = false;
+                    return;
+                }
+                this.topHeight = this.elevatorPlatform.position.y;
+                this.moveToCenterDuration = MonoSingleton$1(GameDataEditor).instance.GetOtherData.elevatorTime;
+            },
+            /*Elevator.Start end.*/
+
+            /*Elevator.OnTriggerEnter start.*/
+            OnTriggerEnter: function (other) {
+if ( TRACE ) { TRACE( "Elevator#OnTriggerEnter", this ); }
+
+                if (!other.CompareTag("Player") || this.isRunning) {
+                    return;
+                }
+                this.StartElevator(MonoSingleton$1(Player).instance);
+            },
+            /*Elevator.OnTriggerEnter end.*/
+
+            /*Elevator.RegisterWaitingFarmer start.*/
+            /**
+             * 农夫注册等待电梯（只在上方排队）
+             *
+             * @instance
+             * @public
+             * @this Elevator
+             * @memberof Elevator
+             * @param   {FarmerPatientItem}    farmer    
+             * @param   {boolean}              atTop
+             * @return  {void}
+             */
+            RegisterWaitingFarmer: function (farmer, atTop) {
+if ( TRACE ) { TRACE( "Elevator#RegisterWaitingFarmer", this ); }
+
+                if (!atTop) {
+                    return;
+                } // 农夫不再从下方搭电梯
+                if (this.waitingFarmersTop.contains(farmer)) {
+                    return;
+                }
+
+                this.waitingFarmersTop.add(farmer);
+                this.MoveFarmerToQueuePosition(farmer, ((this.waitingFarmersTop.Count - 1) | 0));
+            },
+            /*Elevator.RegisterWaitingFarmer end.*/
+
+            /*Elevator.MoveFarmerToQueuePosition start.*/
+            /**
+             * 移动农夫到上方排队路径的指定位置
+             *
+             * @instance
+             * @private
+             * @this Elevator
+             * @memberof Elevator
+             * @param   {FarmerPatientItem}    farmer        
+             * @param   {number}               queueIndex
+             * @return  {void}
+             */
+            MoveFarmerToQueuePosition: function (farmer, queueIndex) {
+if ( TRACE ) { TRACE( "Elevator#MoveFarmerToQueuePosition", this ); }
+
+                if (UnityEngine.Component.op_Equality(this.topQueuePath, null) || queueIndex >= this.topQueuePath.childCount) {
+                    return;
+                }
+
+                var targetPos = this.topQueuePath.GetChild(queueIndex).position.$clone();
+                targetPos = new pc.Vec3( targetPos.x, farmer.transform.position.y, targetPos.z );
+                farmer.MoveToTarget$2(targetPos, function () {
+                    farmer.StopMovement();
+                });
+            },
+            /*Elevator.MoveFarmerToQueuePosition end.*/
+
+            /*Elevator.ShiftQueueForward start.*/
+            /**
+             * 剩余排队农夫向前移动填补空位
+             *
+             * @instance
+             * @private
+             * @this Elevator
+             * @memberof Elevator
+             * @return  {void}
+             */
+            ShiftQueueForward: function () {
+if ( TRACE ) { TRACE( "Elevator#ShiftQueueForward", this ); }
+
+                for (var i = 0; i < this.waitingFarmersTop.Count; i = (i + 1) | 0) {
+                    this.MoveFarmerToQueuePosition(this.waitingFarmersTop.getItem(i), i);
+                }
+            },
+            /*Elevator.ShiftQueueForward end.*/
+
+            /*Elevator.StartElevator start.*/
+            StartElevator: function (player) {
+if ( TRACE ) { TRACE( "Elevator#StartElevator", this ); }
+
+                this.isRunning = true;
+                var goingDown = this.isAtTop;
+                player.EnterElevator();
+
+                var centerPos = UnityEngine.Component.op_Inequality(this.elevatorCenter, null) ? this.elevatorCenter.position.$clone() : this.elevatorPlatform.position.$clone();
+                var moveToCenterTarget = new pc.Vec3( centerPos.x, player.transform.position.y, centerPos.z );
+                DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMove(player.transform, moveToCenterTarget.$clone(), this.moveToCenterDuration), DG.Tweening.Ease.OutQuad), Bridge.fn.bind(this, function () {
+                    // 农夫依次上电梯，完成后再启动电梯移动
+                    this.StartCoroutine$1(this.BoardFarmersAndMove(player, goingDown));
+                }));
+            },
+            /*Elevator.StartElevator end.*/
+
+            /*Elevator.BoardFarmersAndMove start.*/
+            /**
+             * 电梯下行时农夫依次从排队点进入电梯站位，全部上完后电梯开始移动
+             上行时不搭载农夫
+             *
+             * @instance
+             * @private
+             * @this Elevator
+             * @memberof Elevator
+             * @param   {Player}                            player       
+             * @param   {boolean}                           goingDown
+             * @return  {System.Collections.IEnumerator}
+             */
+            BoardFarmersAndMove: function (player, goingDown) {
+if ( TRACE ) { TRACE( "Elevator#BoardFarmersAndMove", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    count,
+                    i,
+                    farmer,
+                    standPos,
+                    arrived,
+                    platformTargetY,
+                    playerTargetY,
+                    seq,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    // 只有下行时才搭载农夫
+                                        if (goingDown) {
+                                            $step = 1;
+                                            continue;
+                                        } 
+                                        $step = 10;
+                                        continue;
+                                }
+                                case 1: {
+                                    count = UnityEngine.Mathf.Min(this.waitingFarmersTop.Count, this.farmerStandingPositions.Count);
+
+                                        i = 0;
+                                        $step = 2;
+                                        continue;
+                                }
+                                case 2: {
+                                    if ( i < count ) {
+                                            $step = 3;
+                                            continue;
+                                        }
+                                    $step = 9;
+                                    continue;
+                                }
+                                case 3: {
+                                    // 取出队首农夫
+                                        farmer = this.waitingFarmersTop.getItem(0);
+                                        this.waitingFarmersTop.removeAt(0);
+
+                                        // 剩余农夫向前移动到前一个排队位置
+                                        this.ShiftQueueForward();
+
+                                        // 农夫进入电梯
+                                        farmer.StopMovement();
+                                        farmer.mRigidbody.isKinematic = true;
+                                        farmer.farmerState = FarmerState.RidingElevator;
+
+                                        // 移动到电梯站位
+                                        standPos = this.farmerStandingPositions.getItem(i).position.$clone();
+                                        farmer.transform.SetParent(this.elevatorPlatform);
+                                        this.farmersOnElevator.add(farmer);
+
+                                        // 使用DOTween平滑移动到站位
+                                        arrived = { v : false };
+                                        DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMove(farmer.transform, standPos.$clone(), this.farmerBoardSpeed), DG.Tweening.Ease.OutQuad), (function ($me, arrived) {
+                                            return function () {
+                                                arrived.v = true;
+                                            };
+                                        })(this, arrived));
+                                    $step = 4;
+                                    continue;
+                                }
+                                case 4: {
+                                    if ( !arrived.v ) {
+                                            $step = 5;
+                                            continue;
+                                        } 
+                                        $step = 7;
+                                        continue;
+                                }
+                                case 5: {
+                                    $enumerator.current = null;
+                                        $step = 6;
+                                        return true;
+                                }
+                                case 6: {
+                                    
+                                        $step = 4;
+                                        continue;
+                                }
+                                case 7: {
+                                    $step = 8;
+                                    continue;
+                                }
+                                case 8: {
+                                    i = (i + 1) | 0;
+                                    $step = 2;
+                                    continue;
+                                }
+                                case 9: {
+                                    $step = 10;
+                                    continue;
+                                }
+                                case 10: {
+                                    // 所有农夫上完，启动电梯移动
+                                        platformTargetY = this.isAtTop ? this.topHeight - this.moveDistance : this.topHeight;
+                                        playerTargetY = player.transform.position.y + (this.isAtTop ? -this.moveDistance : this.moveDistance);
+
+                                        seq = DG.Tweening.DOTween.Sequence();
+                                        DG.Tweening.TweenSettingsExtensions.Join(seq, DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMoveY(this.elevatorPlatform, platformTargetY, this.duration), this.easeType));
+                                        DG.Tweening.TweenSettingsExtensions.Join(seq, DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMoveY(player.transform, playerTargetY, this.duration), this.easeType));
+                                        DG.Tweening.TweenSettingsExtensions.InsertCallback(seq, this.duration, Bridge.fn.bind(this, function () {
+                                            this.isAtTop = !this.isAtTop;
+                                            player.ExitElevator();
+                                            this.SetCollider(this.isAtTop);
+                                            this.UnboardFarmers(goingDown);
+                                        }));
+                                        DG.Tweening.TweenSettingsExtensions.InsertCallback(seq, this.duration + 0.1, Bridge.fn.bind(this, function () {
+                                            this.isRunning = false;
+                                        }));
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*Elevator.BoardFarmersAndMove end.*/
+
+            /*Elevator.UnboardFarmers start.*/
+            /**
+             * 农夫下电梯
+             *
+             * @instance
+             * @private
+             * @this Elevator
+             * @memberof Elevator
+             * @param   {boolean}    wasGoingDown
+             * @return  {void}
+             */
+            UnboardFarmers: function (wasGoingDown) {
+if ( TRACE ) { TRACE( "Elevator#UnboardFarmers", this ); }
+
+                var $t;
+                $t = Bridge.getEnumerator(this.farmersOnElevator);
+                try {
+                    while ($t.moveNext()) {
+                        var farmer = $t.Current;
+                        farmer.transform.SetParent(null);
+                        farmer.ExitElevatorAsFarmer(wasGoingDown);
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+                this.farmersOnElevator.clear();
+            },
+            /*Elevator.UnboardFarmers end.*/
+
+            /*Elevator.SetCollider start.*/
+            SetCollider: function (enabled) {
+if ( TRACE ) { TRACE( "Elevator#SetCollider", this ); }
+
+                for (var i = 0; i < this.colliders.Count; i = (i + 1) | 0) {
+                    this.colliders.getItem(i).enabled = enabled;
+                }
+            },
+            /*Elevator.SetCollider end.*/
+
+
+        }
+    });
+    /*Elevator end.*/
+
     /*EnemyState start.*/
     /**
      * 敌人状态
@@ -4321,6 +4766,604 @@ if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathT
     });
     /*EnemyState end.*/
 
+    /*ExcelTool.GameConfig start.*/
+    /** @namespace ExcelTool */
+
+    /**
+     * GameConfig 配置数据
+     自动生成，请勿手动修改
+     *
+     * @public
+     * @class ExcelTool.GameConfig
+     * @augments UnityEngine.ScriptableObject
+     */
+    Bridge.define("ExcelTool.GameConfig", {
+        inherits: [UnityEngine.ScriptableObject],
+        fields: {
+            /**
+             * 元数据：Excel文件路径
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig
+             * @default ""
+             * @type string
+             */
+            _excelFilePath: null,
+            /**
+             * 元数据：使用的工作表索引（逗号分隔）
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig
+             * @default ""
+             * @type string
+             */
+            _sheetIndices: null,
+            /**
+             * 玩家数据
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig
+             * @type ExcelTool.GameConfig.玩家数据Data
+             */
+            "\u73a9\u5bb6\u6570\u636e": null,
+            /**
+             * 老鼠数据
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig
+             * @type ExcelTool.GameConfig.老鼠数据Data
+             */
+            "\u8001\u9f20\u6570\u636e": null,
+            /**
+             * 其他配置
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig
+             * @type ExcelTool.GameConfig.其他配置Data
+             */
+            "\u5176\u4ed6\u914d\u7f6e": null,
+            /**
+             * 图标配置 - ClerkInfo
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig
+             * @type System.Collections.Generic.List$1
+             */
+            clerkInfo: null,
+            /**
+             * 引导配置 - GuildInfo
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig
+             * @type System.Collections.Generic.List$1
+             */
+            guildInfo: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "ExcelTool.GameConfig#init", this ); }
+
+                this._excelFilePath = "";
+                this._sheetIndices = "";
+                this["\u73a9\u5bb6\u6570\u636e"] = new ExcelTool.GameConfig.玩家数据Data();
+                this["\u8001\u9f20\u6570\u636e"] = new ExcelTool.GameConfig.老鼠数据Data();
+                this["\u5176\u4ed6\u914d\u7f6e"] = new ExcelTool.GameConfig.其他配置Data();
+                this.clerkInfo = new (System.Collections.Generic.List$1(ExcelTool.GameConfig.ClerkInfoItem)).ctor();
+                this.guildInfo = new (System.Collections.Generic.List$1(ExcelTool.GameConfig.GuildInfoItem)).ctor();
+            }
+        }
+    });
+    /*ExcelTool.GameConfig end.*/
+
+    /*ExcelTool.GameConfig+ClerkInfoItem start.*/
+    /**
+     * 图标配置 - ClerkInfo 数据项
+     *
+     * @public
+     * @class ExcelTool.GameConfig.ClerkInfoItem
+     */
+    Bridge.define("ExcelTool.GameConfig.ClerkInfoItem", {
+        $kind: 1002,
+        fields: {
+            /**
+             * 图标id
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.ClerkInfoItem
+             * @type number
+             */
+            id: 0,
+            /**
+             * 累计获得金币数后
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.ClerkInfoItem
+             * @type number
+             */
+            getTotalCoin: 0,
+            /**
+             * 需解锁id前提
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.ClerkInfoItem
+             * @type System.Collections.Generic.List$1
+             */
+            unlockIds: null,
+            /**
+             * 需投入金币数
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.ClerkInfoItem
+             * @type number
+             */
+            price: 0,
+            /**
+             * 触发事件
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.ClerkInfoItem
+             * @type string
+             */
+            eventStr: null
+        }
+    });
+    /*ExcelTool.GameConfig+ClerkInfoItem end.*/
+
+    /*ExcelTool.GameConfig+GuildInfoItem start.*/
+    /**
+     * 引导配置 - GuildInfo 数据项
+     *
+     * @public
+     * @class ExcelTool.GameConfig.GuildInfoItem
+     */
+    Bridge.define("ExcelTool.GameConfig.GuildInfoItem", {
+        $kind: 1002,
+        fields: {
+            /**
+             * 引导id
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.GuildInfoItem
+             * @type number
+             */
+            id: 0,
+            /**
+             * 优先级
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.GuildInfoItem
+             * @type number
+             */
+            priority: 0,
+            /**
+             * 触发的引导类型
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.GuildInfoItem
+             * @type number
+             */
+            triggerType: 0,
+            /**
+             * 数量条件
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.GuildInfoItem
+             * @type number
+             */
+            triggerNum: 0,
+            /**
+             * 触发对象
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.GuildInfoItem
+             * @type string
+             */
+            triggerName: null,
+            /**
+             * 移除引导的触发类型
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.GuildInfoItem
+             * @type number
+             */
+            hideType: 0,
+            /**
+             * 数量条件
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.GuildInfoItem
+             * @type number
+             */
+            hideNum: 0,
+            /**
+             * 触发对象
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.GuildInfoItem
+             * @type string
+             */
+            hideName: null
+        }
+    });
+    /*ExcelTool.GameConfig+GuildInfoItem end.*/
+
+    /*ExcelTool.GameConfig+老鼠数据Data start.*/
+    /**
+     * 老鼠数据 数据
+     *
+     * @public
+     * @class ExcelTool.GameConfig.老鼠数据Data
+     */
+    Bridge.define("ExcelTool.GameConfig.\u8001\u9f20\u6570\u636eData", {
+        $kind: 1002,
+        fields: {
+            /**
+             * 老鼠数量上限
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.老鼠数据Data
+             * @default 30
+             * @type number
+             */
+            enemyCount: 0,
+            /**
+             * 老鼠移动速度
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.老鼠数据Data
+             * @default 4.0
+             * @type number
+             */
+            enemySpeed: 0,
+            /**
+             * 老鼠击退距离
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.老鼠数据Data
+             * @default 20.0
+             * @type number
+             */
+            enemyKnockbackForc: 0,
+            /**
+             * 老鼠掉落金币值
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.老鼠数据Data
+             * @default 10
+             * @type number
+             */
+            enemyDropMoney: 0,
+            /**
+             * 初始老鼠数量
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.老鼠数据Data
+             * @default 5
+             * @type number
+             */
+            enemyInitNum: 0
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "ExcelTool.GameConfig.老鼠数据Data#init", this ); }
+
+                this.enemyCount = 30;
+                this.enemySpeed = 4.0;
+                this.enemyKnockbackForc = 20.0;
+                this.enemyDropMoney = 10;
+                this.enemyInitNum = 5;
+            }
+        }
+    });
+    /*ExcelTool.GameConfig+老鼠数据Data end.*/
+
+    /*ExcelTool.GameConfig+其他配置Data start.*/
+    /**
+     * 其他配置 数据
+     *
+     * @public
+     * @class ExcelTool.GameConfig.其他配置Data
+     */
+    Bridge.define("ExcelTool.GameConfig.\u5176\u4ed6\u914d\u7f6eData", {
+        $kind: 1002,
+        fields: {
+            /**
+             * 小麦生长时间
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 3.0
+             * @type number
+             */
+            wheatTime: 0,
+            /**
+             * 门口普通病人上限
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 6
+             * @type number
+             */
+            patientNum: 0,
+            /**
+             * 门口泡汤类病人上限
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 3
+             * @type number
+             */
+            farmerPatientNum: 0,
+            /**
+             * 电梯升/降时间
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 0.5
+             * @type number
+             */
+            elevatorTime: 0,
+            /**
+             * 病人打针后掉落金币值
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 10
+             * @type number
+             */
+            patienMoney: 0,
+            /**
+             * 病人泡汤后掉落金币值
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 50
+             * @type number
+             */
+            farmerPatienMoney: 0,
+            /**
+             * 病人泡汤消耗小麦数量
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 1
+             * @type number
+             */
+            wheatPerPatient: 0,
+            /**
+             * 打针给金币的金币储存上限
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 10
+             * @type number
+             */
+            maxPatient1: 0,
+            /**
+             * 泡汤给金币的金币储存上限
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 10
+             * @type number
+             */
+            maxPatient2: 0,
+            /**
+             * 战士金币存储最大高度
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 10
+             * @type number
+             */
+            maxPatient3: 0,
+            /**
+             * 一颗金币价值
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 10
+             * @type number
+             */
+            moneyValue: 0,
+            /**
+             * 每个npc采集麦子的效率_间隔(秒)
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 2.0
+             * @type number
+             */
+            collectTime: 0,
+            /**
+             * 每个npc采集麦子的效率_数量
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 1
+             * @type number
+             */
+            collectNum: 0,
+            /**
+             * 战士的掉血效率_间隔(秒)
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 2.0
+             * @type number
+             */
+            HpTime: 0,
+            /**
+             * 战士的掉血效率_百分比
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 5.0
+             * @type number
+             */
+            HpPecent: 0,
+            /**
+             * 主角一次运送普通病人的数量上限
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 6
+             * @type number
+             */
+            maxPatienNum: 0,
+            /**
+             * 主角一次运送泡汤病人的数量上限
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 3
+             * @type number
+             */
+            maxfarmerPatienNum: 0,
+            /**
+             * 泡汤区一次最多容纳的病人数量上限
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 3
+             * @type number
+             */
+            maxSoakNum: 0,
+            /**
+             * 电梯最大容纳农夫数量
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.其他配置Data
+             * @default 6
+             * @type number
+             */
+            maxElevatorNum: 0
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "ExcelTool.GameConfig.其他配置Data#init", this ); }
+
+                this.wheatTime = 3.0;
+                this.patientNum = 6;
+                this.farmerPatientNum = 3;
+                this.elevatorTime = 0.5;
+                this.patienMoney = 10;
+                this.farmerPatienMoney = 50;
+                this.wheatPerPatient = 1;
+                this.maxPatient1 = 10;
+                this.maxPatient2 = 10;
+                this.maxPatient3 = 10;
+                this.moneyValue = 10;
+                this.collectTime = 2.0;
+                this.collectNum = 1;
+                this.HpTime = 2.0;
+                this.HpPecent = 5.0;
+                this.maxPatienNum = 6;
+                this.maxfarmerPatienNum = 3;
+                this.maxSoakNum = 3;
+                this.maxElevatorNum = 6;
+            }
+        }
+    });
+    /*ExcelTool.GameConfig+其他配置Data end.*/
+
+    /*ExcelTool.GameConfig+玩家数据Data start.*/
+    /**
+     * 玩家数据 数据
+     *
+     * @public
+     * @class ExcelTool.GameConfig.玩家数据Data
+     */
+    Bridge.define("ExcelTool.GameConfig.\u73a9\u5bb6\u6570\u636eData", {
+        $kind: 1002,
+        fields: {
+            /**
+             * 玩家移动速度
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.玩家数据Data
+             * @default 6.0
+             * @type number
+             */
+            playerSpeed: 0,
+            /**
+             * 玩家旋转平滑系数
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.玩家数据Data
+             * @default 0.1
+             * @type number
+             */
+            playerTurnSmoothTime: 0,
+            /**
+             * 玩家最大血量
+             *
+             * @instance
+             * @public
+             * @memberof ExcelTool.GameConfig.玩家数据Data
+             * @default 100
+             * @type number
+             */
+            playerMaxHp: 0
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "ExcelTool.GameConfig.玩家数据Data#init", this ); }
+
+                this.playerSpeed = 6.0;
+                this.playerTurnSmoothTime = 0.1;
+                this.playerMaxHp = 100;
+            }
+        }
+    });
+    /*ExcelTool.GameConfig+玩家数据Data end.*/
+
     /*ExpressionType start.*/
     /**
      * 表情类型枚举
@@ -4340,6 +5383,394 @@ if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathT
     });
     /*ExpressionType end.*/
 
+    /*Item start.*/
+    Bridge.define("Item", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            cd: null,
+            itemType: 0,
+            movementEase: null,
+            stackHeight: 0,
+            itemWidth: 0,
+            value: 0,
+            hasBeenAddedToPlayer: false,
+            canDoFurtherMove: false,
+            returnSelfIE: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "Item#init", this ); }
+
+                this.movementEase = pc.AnimationCurve.createEaseInOut(0, 0, 1, 1);
+                this.stackHeight = 0.2;
+                this.itemWidth = 0.25;
+                this.hasBeenAddedToPlayer = false;
+                this.canDoFurtherMove = true;
+            }
+        },
+        methods: {
+            /*Item.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "Item#Awake", this ); }
+
+                this.cd = this.GetComponent(UnityEngine.Collider);
+            },
+            /*Item.Awake end.*/
+
+            /*Item.OnEnable start.*/
+            OnEnable: function () {
+if ( TRACE ) { TRACE( "Item#OnEnable", this ); }
+
+                this.hasBeenAddedToPlayer = false;
+                this.transform.localScale = new pc.Vec3( 1, 1, 1 );
+            },
+            /*Item.OnEnable end.*/
+
+            /*Item.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "Item#Start", this ); }
+
+                //if (Player.instance==null) return;
+                //playerStackManager = Player.instance.itemStackManager;
+
+                // 在 Start 中根据物品类型自动分配堆栈索引
+                //targetStackListIndex = playerStackManager.GetStackIndexByItemType(itemType);
+            },
+            /*Item.Start end.*/
+
+            /*Item.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "Item#Update", this ); }
+ },
+            /*Item.Update end.*/
+
+            /*Item.PickUpToPlayer start.*/
+            PickUpToPlayer: function () {
+if ( TRACE ) { TRACE( "Item#PickUpToPlayer", this ); }
+
+                var playerStackManager = MonoSingleton$1(Player).instance.itemStackManager;
+                var targetStackListIndex = playerStackManager.GetStackIndexByItemType(this.itemType);
+                if (playerStackManager.stackList.getItem(targetStackListIndex).stackAmount >= playerStackManager.stackList.getItem(targetStackListIndex).maxStackAmount) {
+                    this.ReturnSelf();
+                    MonoSingleton$1(Player).instance.maxImg.gameObject.SetActive(true);
+                } else {
+                    playerStackManager.stackList.getItem(targetStackListIndex).StackItem(this);
+                }
+            },
+            /*Item.PickUpToPlayer end.*/
+
+            /*Item.PickUpToPlayer$1 start.*/
+            PickUpToPlayer$1: function (item, isPlayer) {
+if ( TRACE ) { TRACE( "Item#PickUpToPlayer$1", this ); }
+
+                if (item.stackAmount >= item.maxStackAmount) {
+                    this.ReturnSelf();
+                    if (isPlayer) {
+                        MonoSingleton$1(Player).instance.maxImg.gameObject.SetActive(true);
+                    }
+                } else {
+                    item.StackItem(this);
+                }
+            },
+            /*Item.PickUpToPlayer$1 end.*/
+
+            /*Item.OnTriggerEnter start.*/
+            OnTriggerEnter: function (other) {
+if ( TRACE ) { TRACE( "Item#OnTriggerEnter", this ); }
+
+                if (other.transform.CompareTag("Player") && !this.hasBeenAddedToPlayer) {
+                    var playerStackManager = MonoSingleton$1(Player).instance.itemStackManager;
+                    var targetStackListIndex = playerStackManager.GetStackIndexByItemType(this.itemType);
+                    playerStackManager.stackList.getItem(targetStackListIndex).StackItem(this);
+                }
+            },
+            /*Item.OnTriggerEnter end.*/
+
+            /*Item.MoveAlongCurve start.*/
+            MoveAlongCurve: function (_startPosition, _endPosition, action, offsetRotation) {
+if ( TRACE ) { TRACE( "Item#MoveAlongCurve", this ); }
+
+                if (action === void 0) { action = null; }
+                if (offsetRotation === void 0) { offsetRotation = new UnityEngine.Vector3(); }
+                this.StopAllCoroutines();
+                this.StartCoroutine$1(this.MoveAlongCurve_Coroutine(_startPosition, _endPosition, action, offsetRotation));
+            },
+            /*Item.MoveAlongCurve end.*/
+
+            /*Item.MoveAlongCurve_Coroutine start.*/
+            MoveAlongCurve_Coroutine: function (_startPosition, _endPosition, action, offsetRotate) {
+if ( TRACE ) { TRACE( "Item#MoveAlongCurve_Coroutine", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    movementDuration,
+                    curveHeight,
+                    startRotation,
+                    endRotation,
+                    startScale,
+                    endScale,
+                    midPoint,
+                    controlPoint,
+                    elapsedTime,
+                    t,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    if (action === void 0) { action = null; }
+                                        if (offsetRotate === void 0) { offsetRotate = new UnityEngine.Vector3(); }
+                                        this.canDoFurtherMove = false;
+
+                                        movementDuration = 0.5;
+                                        curveHeight = _startPosition.y + MonoSingleton$1(GameDataEditor).instance.itemHeightY;
+                                        if (_endPosition.y > _startPosition.y) {
+                                            curveHeight = _endPosition.y + MonoSingleton$1(GameDataEditor).instance.itemHeightY;
+                                        }
+
+
+                                        startRotation = this.transform.localRotation.$clone();
+                                        endRotation = new pc.Quat().setFromEulerAngles_Unity( offsetRotate.x, offsetRotate.y, offsetRotate.z );
+
+                                        startScale = this.transform.localScale.$clone();
+                                        endScale = new pc.Vec3( 1, 1, 1 );
+
+                                        midPoint = (_startPosition.$clone().add( _endPosition )).clone().scale( 0.5 );
+                                        controlPoint = midPoint.$clone().add( pc.Vec3.UP.clone().clone().scale( curveHeight ) );
+
+                                        elapsedTime = 0.0;
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 1: {
+                                    if ( elapsedTime < movementDuration ) {
+                                            $step = 2;
+                                            continue;
+                                        } 
+                                        $step = 4;
+                                        continue;
+                                }
+                                case 2: {
+                                    // 应用缓动曲线计算插值比例
+                                        t = this.movementEase.value(elapsedTime / movementDuration);
+
+                                        // 计算贝塞尔曲线上的位置
+                                        this.transform.localPosition = this.CalculateBezierPoint(t, _startPosition, controlPoint, _endPosition);
+                                        this.transform.localRotation = new pc.Quat().lerpUnclamped( startRotation, endRotation, pc.math.clamp( t, 0, 1 ) );
+                                        this.transform.localScale = new pc.Vec3().lerp( startScale, endScale, t );
+
+                                        elapsedTime += UnityEngine.Time.deltaTime;
+                                        $enumerator.current = null;
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 4: {
+                                    // 确保最终位置准确
+                                        this.transform.localPosition = _endPosition.$clone();
+                                        this.transform.localRotation = endRotation.$clone();
+                                        this.transform.localScale = endScale.$clone();
+
+                                        this.ScaleFX();
+                                        !Bridge.staticEquals(action, null) ? action() : null;
+                                        $enumerator.current = null;
+                                        $step = 5;
+                                        return true;
+                                }
+                                case 5: {
+                                    this.canDoFurtherMove = true;
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*Item.MoveAlongCurve_Coroutine end.*/
+
+            /*Item.CalculateBezierPoint start.*/
+            CalculateBezierPoint: function (t, p0, p1, p2) {
+if ( TRACE ) { TRACE( "Item#CalculateBezierPoint", this ); }
+
+                var u = 1 - t;
+                var tt = t * t;
+                var uu = u * u;
+
+                return p0.clone().scale( uu ).add( p1.clone().scale( 2 * u * t ) ).add( p2.clone().scale( tt ) );
+            },
+            /*Item.CalculateBezierPoint end.*/
+
+            /*Item.ScaleFX start.*/
+            ScaleFX: function () {
+if ( TRACE ) { TRACE( "Item#ScaleFX", this ); }
+
+                this.StartCoroutine$1(this.ScaleFX_Coroutine());
+            },
+            /*Item.ScaleFX end.*/
+
+            /*Item.ScaleFX_Coroutine start.*/
+            ScaleFX_Coroutine: function () {
+if ( TRACE ) { TRACE( "Item#ScaleFX_Coroutine", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    startScale,
+                    endScale,
+                    timer,
+                    duration,
+                    progress,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    startScale = new pc.Vec3( 1, 1, 1 ).clone().scale( 1.25 );
+                                        endScale = new pc.Vec3( 1, 1, 1 );
+                                        this.transform.localScale = startScale.$clone();
+
+                                        timer = 0;
+                                        duration = 0.2;
+                                        progress = 0;
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 1: {
+                                    if ( timer < duration ) {
+                                            $step = 2;
+                                            continue;
+                                        } 
+                                        $step = 4;
+                                        continue;
+                                }
+                                case 2: {
+                                    progress = timer / duration;
+                                        this.transform.localScale = new pc.Vec3().lerp( startScale, endScale, progress );
+
+                                        timer += UnityEngine.Time.deltaTime;
+                                        $enumerator.current = null;
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 4: {
+                                    this.transform.localScale = endScale.$clone();
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*Item.ScaleFX_Coroutine end.*/
+
+            /*Item.ReturnSelf start.*/
+            ReturnSelf: function () {
+if ( TRACE ) { TRACE( "Item#ReturnSelf", this ); }
+
+                this.returnSelfIE = this.ReturnSelfIE();
+                this.StartCoroutine$1(this.returnSelfIE);
+            },
+            /*Item.ReturnSelf end.*/
+
+            /*Item.ReturnSelfIE start.*/
+            ReturnSelfIE: function () {
+if ( TRACE ) { TRACE( "Item#ReturnSelfIE", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    $enumerator.current = new UnityEngine.WaitForSeconds(2.0);
+                                        $step = 1;
+                                        return true;
+                                }
+                                case 1: {
+                                    DG.Tweening.ShortcutExtensions.DOScale(this.transform, 0, 0.5);
+                                        $enumerator.current = new UnityEngine.WaitForSeconds(0.5);
+                                        $step = 2;
+                                        return true;
+                                }
+                                case 2: {
+                                    MonoSingleton$1(PoolManager).instance.ReturnItem(this);
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*Item.ReturnSelfIE end.*/
+
+
+        },
+        overloads: {
+            "PickUpToPlayer(ItemStack, bool)": "PickUpToPlayer$1"
+        }
+    });
+    /*Item end.*/
+
+    /*FarmerState start.*/
+    /**
+     * 农夫子状态
+     *
+     * @public
+     * @class FarmerState
+     */
+    Bridge.define("FarmerState", {
+        $kind: 6,
+        statics: {
+            fields: {
+                Idle: 0,
+                WaitingForElevatorTop: 1,
+                RidingElevator: 2,
+                MovingToWheat: 3,
+                Harvesting: 4
+            }
+        }
+    });
+    /*FarmerState end.*/
+
     /*GameObjectEvent start.*/
     Bridge.define("GameObjectEvent", {
         inherits: [UnityEngine.Events.UnityEvent$1(UnityEngine.GameObject)]
@@ -4353,6 +5784,7 @@ if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathT
             stackedItemType: 0,
             maxStackAmount: 0,
             maxHeight: 0,
+            offsetRotation: null,
             stackAmount: 0,
             nextStackPosition: null,
             stackManager: null,
@@ -4362,12 +5794,14 @@ if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathT
             bendDuration: 0,
             originalLocalPositions: null,
             iscomplet_bend: false,
-            iscomplet_origina: false
+            iscomplet_origina: false,
+            isPlayer: false
         },
         ctors: {
             init: function () {
 if ( TRACE ) { TRACE( "ItemStack#init", this ); }
 
+                this.offsetRotation = new UnityEngine.Vector3();
                 this.nextStackPosition = new UnityEngine.Vector3();
                 this.maxStackAmount = 16;
                 this.maxHeight = 30;
@@ -4430,6 +5864,7 @@ if ( TRACE ) { TRACE( "ItemStack#Start", this ); }
                 this.stackedItemList = new (System.Collections.Generic.List$1(Item)).ctor();
 
                 this.nextStackPosition = pc.Vec3.ZERO.clone();
+                this.isPlayer = UnityEngine.MonoBehaviour.op_Inequality(this.transform.parent.parent.GetComponent(Player), null);
             },
             /*ItemStack.Start end.*/
 
@@ -4455,6 +5890,9 @@ if ( TRACE ) { TRACE( "ItemStack#AdjustPosition", this ); }
 
                 if (UnityEngine.MonoBehaviour.op_Equality(this.stackManager, null)) {
                     return;
+                }
+                if (this.stackedItemType === ItemType.FigherPatient || this.stackedItemType === ItemType.FarmerPatient) {
+                    return; //病人显示在最前面
                 }
 
                 // 如果没有堆栈在使用，返回起始位置
@@ -4484,7 +5922,7 @@ if ( TRACE ) { TRACE( "ItemStack#AdjustPosition", this ); }
              激活的堆栈按照在 stackList 中的顺序排序
              *
              * @instance
-             * @private
+             * @protected
              * @this ItemStack
              * @memberof ItemStack
              * @return  {number}
@@ -4507,7 +5945,7 @@ if ( TRACE ) { TRACE( "ItemStack#GetRankInActiveStacks", this ); }
                         }
 
                         // 只有有物品的堆栈才占用排名
-                        if (stack.stackAmount > 0) {
+                        if (stack.stackAmount > 0 && stack.stackedItemType !== ItemType.FarmerPatient && stack.stackedItemType !== ItemType.FigherPatient) {
                             rank = (rank + 1) | 0;
                         }
                     }
@@ -4540,7 +5978,7 @@ if ( TRACE ) { TRACE( "ItemStack#StackItem", this ); }
                     return;
                     // _item.StopAllCoroutines();
                 }
-                if (this.stackAmount >= this.maxStackAmount) {
+                if (this.stackAmount >= this.maxStackAmount && this.isPlayer) {
                     MonoSingleton$1(Player).instance.maxImg.gameObject.SetActive(true);
                     return;
                 }
@@ -4549,8 +5987,6 @@ if ( TRACE ) { TRACE( "ItemStack#StackItem", this ); }
                 _item.transform.parent = this.transform;
                 _item.hasBeenAddedToPlayer = true;
 
-
-
                 if (this.iscomplet_bend) {
                     var newItemIndex = (this.stackedItemList.Count - 1) | 0;
                     var linearLayerRatio = newItemIndex >= this.maxHeight ? 1.0 : newItemIndex / (((this.maxHeight - 1) | 0));
@@ -4558,25 +5994,25 @@ if ( TRACE ) { TRACE( "ItemStack#StackItem", this ); }
                     var newItemBentPos = this.nextStackPosition.$clone().add( new pc.Vec3( 0, 0, -1 ).clone().scale( this.bendDistance ).clone().scale( curveRatio ) );
                     _item.gameObject.SetActive(true);
                     if (this.stackAmount <= this.maxHeight) {
-                        _item.MoveAlongCurve(_item.transform.localPosition, newItemBentPos);
+                        _item.MoveAlongCurve(_item.transform.localPosition, newItemBentPos, void 0, this.offsetRotation);
                     } else {
-                        _item.MoveAlongCurve$1(_item.transform.localPosition, newItemBentPos, function () {
+                        _item.MoveAlongCurve(_item.transform.localPosition, newItemBentPos, function () {
                             _item.gameObject.SetActive(false);
                         });
                     }
 
                 } else {
                     if (this.stackAmount <= this.maxHeight) {
-                        _item.MoveAlongCurve(_item.transform.localPosition, this.nextStackPosition);
+                        _item.MoveAlongCurve(_item.transform.localPosition, this.nextStackPosition, void 0, this.offsetRotation);
                     } else {
-                        _item.MoveAlongCurve$1(_item.transform.localPosition, this.nextStackPosition, function () {
+                        _item.MoveAlongCurve(_item.transform.localPosition, this.nextStackPosition, function () {
                             _item.gameObject.SetActive(false);
                         });
                     }
 
                 }
                 this.stackAmount = (this.stackAmount + 1) | 0;
-                if (this.stackAmount >= this.maxStackAmount) {
+                if (this.stackAmount >= this.maxStackAmount && this.isPlayer) {
                     MonoSingleton$1(Player).instance.maxImg.gameObject.SetActive(true);
                 }
 
@@ -4592,6 +6028,9 @@ if ( TRACE ) { TRACE( "ItemStack#StackItem", this ); }
                 }
 
                 UnityEngine.MonoBehaviour.op_Inequality(($t = MonoSingleton$1(Player).instance), null) ? $t.MoneyAmountChange(_item.value) : null;
+                if (this.stackedItemType === ItemType.FigherPatient) {
+                    MonoSingleton$1(GuildManager).instance.CheckGuild$1(GuildTriggerType.Transport, this.stackAmount);
+                }
             },
             /*ItemStack.StackItem end.*/
 
@@ -4659,7 +6098,7 @@ if ( TRACE ) { TRACE( "ItemStack#BendItems", this ); }
              * 弯曲协程
              *
              * @instance
-             * @private
+             * @protected
              * @this ItemStack
              * @memberof ItemStack
              * @return  {System.Collections.IEnumerator}
@@ -4872,6 +6311,26 @@ if ( TRACE ) { TRACE( "GroundItemStackManager#init", this ); }
             }
         },
         methods: {
+            /*GroundItemStackManager.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "GroundItemStackManager#Start", this ); }
+
+                if (Bridge.referenceEquals(this.transform.name, "MoneyManager1")) {
+                    for (var i = 0; i < this.stackList.Count; i = (i + 1) | 0) {
+                        this.stackList.getItem(i).maxHeight = MonoSingleton$1(GameDataEditor).instance.GetOtherData.maxPatient3;
+                    }
+                } else if (Bridge.referenceEquals(this.transform.name, "MoneyManager2")) {
+                    for (var i1 = 0; i1 < this.stackList.Count; i1 = (i1 + 1) | 0) {
+                        this.stackList.getItem(i1).maxHeight = MonoSingleton$1(GameDataEditor).instance.GetOtherData.maxPatient2;
+                    }
+                } else if (Bridge.referenceEquals(this.transform.name, "MoneyManager3")) {
+                    for (var i2 = 0; i2 < this.stackList.Count; i2 = (i2 + 1) | 0) {
+                        this.stackList.getItem(i2).maxHeight = MonoSingleton$1(GameDataEditor).instance.GetOtherData.maxPatient3;
+                    }
+                }
+            },
+            /*GroundItemStackManager.Start end.*/
+
             /*GroundItemStackManager.Update start.*/
             Update: function () {
 if ( TRACE ) { TRACE( "GroundItemStackManager#Update", this ); }
@@ -4981,11 +6440,11 @@ if ( TRACE ) { TRACE( "GroundItemStackManager#ModifyTargetStackListIndex", this 
             ShowBlueSprite: function () {
 if ( TRACE ) { TRACE( "GroundItemStackManager#ShowBlueSprite", this ); }
 
-                if (UnityEngine.Component.op_Equality(this.nomalSR, null) || UnityEngine.Component.op_Equality(this.heighLightSR, null)) {
+                if (UnityEngine.GameObject.op_Equality(this.nomalSR, null) || UnityEngine.GameObject.op_Equality(this.heighLightSR, null)) {
                     return;
                 }
-                this.nomalSR.gameObject.SetActive(false);
-                this.heighLightSR.gameObject.SetActive(true);
+                this.nomalSR.SetActive(false);
+                this.heighLightSR.SetActive(true);
             },
             /*GroundItemStackManager.ShowBlueSprite end.*/
 
@@ -4993,11 +6452,11 @@ if ( TRACE ) { TRACE( "GroundItemStackManager#ShowBlueSprite", this ); }
             ShowWhiteSprite: function () {
 if ( TRACE ) { TRACE( "GroundItemStackManager#ShowWhiteSprite", this ); }
 
-                if (UnityEngine.Component.op_Equality(this.nomalSR, null) || UnityEngine.Component.op_Equality(this.heighLightSR, null)) {
+                if (UnityEngine.GameObject.op_Equality(this.nomalSR, null) || UnityEngine.GameObject.op_Equality(this.heighLightSR, null)) {
                     return;
                 }
-                this.nomalSR.gameObject.SetActive(true);
-                this.heighLightSR.gameObject.SetActive(false);
+                this.nomalSR.SetActive(true);
+                this.heighLightSR.SetActive(false);
             },
             /*GroundItemStackManager.ShowWhiteSprite end.*/
 
@@ -5005,6 +6464,24 @@ if ( TRACE ) { TRACE( "GroundItemStackManager#ShowWhiteSprite", this ); }
         }
     });
     /*GroundItemStackManager end.*/
+
+    /*GuildTriggerType start.*/
+    Bridge.define("GuildTriggerType", {
+        $kind: 6,
+        statics: {
+            fields: {
+                None: 0,
+                First: 1,
+                Mouse: 2,
+                Transport: 3,
+                UnlockIcon: 4,
+                UnlockFinish: 5,
+                Treatment: 6,
+                PatienMoney: 7
+            }
+        }
+    });
+    /*GuildTriggerType end.*/
 
     /*HideAnimSettings start.*/
     /**
@@ -5058,469 +6535,6 @@ if ( TRACE ) { TRACE( "HideAnimSettings#init", this ); }
     });
     /*IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty end.*/
 
-    /*Item start.*/
-    Bridge.define("Item", {
-        inherits: [UnityEngine.MonoBehaviour],
-        fields: {
-            cd: null,
-            itemType: 0,
-            movementEase: null,
-            stackHeight: 0,
-            itemWidth: 0,
-            targetStackListIndex: 0,
-            value: 0,
-            playerStackManager: null,
-            hasBeenAddedToPlayer: false,
-            canDoFurtherMove: false,
-            returnSelfIE: null
-        },
-        ctors: {
-            init: function () {
-if ( TRACE ) { TRACE( "Item#init", this ); }
-
-                this.movementEase = pc.AnimationCurve.createEaseInOut(0, 0, 1, 1);
-                this.stackHeight = 0.2;
-                this.itemWidth = 0.25;
-                this.targetStackListIndex = 0;
-                this.hasBeenAddedToPlayer = false;
-                this.canDoFurtherMove = true;
-            }
-        },
-        methods: {
-            /*Item.Awake start.*/
-            Awake: function () {
-if ( TRACE ) { TRACE( "Item#Awake", this ); }
-
-                this.cd = this.GetComponent(UnityEngine.Collider);
-            },
-            /*Item.Awake end.*/
-
-            /*Item.OnEnable start.*/
-            OnEnable: function () {
-if ( TRACE ) { TRACE( "Item#OnEnable", this ); }
-
-                this.hasBeenAddedToPlayer = false;
-                this.transform.localScale = new pc.Vec3( 1, 1, 1 );
-            },
-            /*Item.OnEnable end.*/
-
-            /*Item.Start start.*/
-            Start: function () {
-if ( TRACE ) { TRACE( "Item#Start", this ); }
-
-                if (UnityEngine.MonoBehaviour.op_Equality(MonoSingleton$1(Player).instance, null)) {
-                    return;
-                }
-                this.playerStackManager = MonoSingleton$1(Player).instance.itemStackManager;
-
-                // 在 Start 中根据物品类型自动分配堆栈索引
-                this.targetStackListIndex = this.playerStackManager.GetStackIndexByItemType(this.itemType);
-            },
-            /*Item.Start end.*/
-
-            /*Item.Update start.*/
-            Update: function () {
-if ( TRACE ) { TRACE( "Item#Update", this ); }
- },
-            /*Item.Update end.*/
-
-            /*Item.PickUpToPlayer start.*/
-            PickUpToPlayer: function () {
-if ( TRACE ) { TRACE( "Item#PickUpToPlayer", this ); }
-
-                if (this.playerStackManager.stackList.getItem(this.targetStackListIndex).stackAmount >= this.playerStackManager.stackList.getItem(this.targetStackListIndex).maxStackAmount) {
-                    this.ReturnSelf();
-                    MonoSingleton$1(Player).instance.maxImg.gameObject.SetActive(true);
-                } else {
-                    this.playerStackManager.stackList.getItem(this.targetStackListIndex).StackItem(this);
-                }
-
-            },
-            /*Item.PickUpToPlayer end.*/
-
-            /*Item.OnTriggerEnter start.*/
-            OnTriggerEnter: function (other) {
-if ( TRACE ) { TRACE( "Item#OnTriggerEnter", this ); }
-
-                if (System.String.equals(other.tag, "Player") && !this.hasBeenAddedToPlayer) {
-                    this.playerStackManager.stackList.getItem(this.targetStackListIndex).StackItem(this);
-                }
-            },
-            /*Item.OnTriggerEnter end.*/
-
-            /*Item.MoveAlongCurve start.*/
-            MoveAlongCurve: function (_startPosition, _endPosition) {
-if ( TRACE ) { TRACE( "Item#MoveAlongCurve", this ); }
-
-                this.StopAllCoroutines();
-                this.StartCoroutine$1(this.MoveAlongCurve_Coroutine(_startPosition, _endPosition));
-            },
-            /*Item.MoveAlongCurve end.*/
-
-            /*Item.MoveAlongCurve$1 start.*/
-            MoveAlongCurve$1: function (_startPosition, _endPosition, action) {
-if ( TRACE ) { TRACE( "Item#MoveAlongCurve$1", this ); }
-
-                this.StopAllCoroutines();
-                this.StartCoroutine$1(this.MoveAlongCurve_Coroutine$1(_startPosition, _endPosition, action));
-            },
-            /*Item.MoveAlongCurve$1 end.*/
-
-            /*Item.MoveAlongCurve_Coroutine start.*/
-            MoveAlongCurve_Coroutine: function (_startPosition, _endPosition) {
-if ( TRACE ) { TRACE( "Item#MoveAlongCurve_Coroutine", this ); }
-
-                var $step = 0,
-                    $jumpFromFinally,
-                    $returnValue,
-                    movementDuration,
-                    curveHeight,
-                    startRotation,
-                    endRotation,
-                    startScale,
-                    endScale,
-                    midPoint,
-                    controlPoint,
-                    elapsedTime,
-                    t,
-                    $async_e;
-
-                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
-                    try {
-                        for (;;) {
-                            switch ($step) {
-                                case 0: {
-                                    this.canDoFurtherMove = false;
-
-                                        movementDuration = 0.5;
-                                        curveHeight = _startPosition.y + MonoSingleton$1(GameDataEditor).instance.itemHeightY;
-                                        if (_endPosition.y > _startPosition.y) {
-                                            curveHeight = _endPosition.y + MonoSingleton$1(GameDataEditor).instance.itemHeightY;
-                                        }
-
-
-                                        startRotation = this.transform.localRotation.$clone();
-                                        endRotation = pc.Quat.IDENTITY.clone();
-
-                                        startScale = this.transform.localScale.$clone();
-                                        endScale = new pc.Vec3( 1, 1, 1 );
-
-                                        midPoint = (_startPosition.$clone().add( _endPosition )).clone().scale( 0.5 );
-                                        controlPoint = midPoint.$clone().add( pc.Vec3.UP.clone().clone().scale( curveHeight ) );
-
-                                        elapsedTime = 0.0;
-                                    $step = 1;
-                                    continue;
-                                }
-                                case 1: {
-                                    if ( elapsedTime < movementDuration ) {
-                                            $step = 2;
-                                            continue;
-                                        } 
-                                        $step = 4;
-                                        continue;
-                                }
-                                case 2: {
-                                    // 应用缓动曲线计算插值比例
-                                        t = this.movementEase.value(elapsedTime / movementDuration);
-
-                                        // 计算贝塞尔曲线上的位置
-                                        this.transform.localPosition = this.CalculateBezierPoint(t, _startPosition, controlPoint, _endPosition);
-                                        this.transform.localRotation = new pc.Quat().lerpUnclamped( startRotation, endRotation, pc.math.clamp( t, 0, 1 ) );
-                                        this.transform.localScale = new pc.Vec3().lerp( startScale, endScale, t );
-
-                                        elapsedTime += UnityEngine.Time.deltaTime;
-                                        $enumerator.current = null;
-                                        $step = 3;
-                                        return true;
-                                }
-                                case 3: {
-                                    
-                                        $step = 1;
-                                        continue;
-                                }
-                                case 4: {
-                                    // 确保最终位置准确
-                                        this.transform.localPosition = _endPosition.$clone();
-                                        this.transform.localRotation = endRotation.$clone();
-                                        this.transform.localScale = endScale.$clone();
-
-                                        this.ScaleFX();
-
-                                        $enumerator.current = null;
-                                        $step = 5;
-                                        return true;
-                                }
-                                case 5: {
-                                    this.canDoFurtherMove = true;
-
-                                }
-                                default: {
-                                    return false;
-                                }
-                            }
-                        }
-                    } catch($async_e1) {
-                        $async_e = System.Exception.create($async_e1);
-                        throw $async_e;
-                    }
-                }));
-                return $enumerator;
-            },
-            /*Item.MoveAlongCurve_Coroutine end.*/
-
-            /*Item.MoveAlongCurve_Coroutine$1 start.*/
-            MoveAlongCurve_Coroutine$1: function (_startPosition, _endPosition, action) {
-if ( TRACE ) { TRACE( "Item#MoveAlongCurve_Coroutine$1", this ); }
-
-                var $step = 0,
-                    $jumpFromFinally,
-                    $returnValue,
-                    movementDuration,
-                    curveHeight,
-                    startRotation,
-                    endRotation,
-                    startScale,
-                    endScale,
-                    midPoint,
-                    controlPoint,
-                    elapsedTime,
-                    t,
-                    $async_e;
-
-                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
-                    try {
-                        for (;;) {
-                            switch ($step) {
-                                case 0: {
-                                    this.canDoFurtherMove = false;
-
-                                        movementDuration = 0.5;
-                                        curveHeight = _startPosition.y + MonoSingleton$1(GameDataEditor).instance.itemHeightY;
-                                        if (_endPosition.y > _startPosition.y) {
-                                            curveHeight = _endPosition.y + MonoSingleton$1(GameDataEditor).instance.itemHeightY;
-                                        }
-
-
-                                        startRotation = this.transform.localRotation.$clone();
-                                        endRotation = pc.Quat.IDENTITY.clone();
-
-                                        startScale = this.transform.localScale.$clone();
-                                        endScale = new pc.Vec3( 1, 1, 1 );
-
-                                        midPoint = (_startPosition.$clone().add( _endPosition )).clone().scale( 0.5 );
-                                        controlPoint = midPoint.$clone().add( pc.Vec3.UP.clone().clone().scale( curveHeight ) );
-
-                                        elapsedTime = 0.0;
-                                    $step = 1;
-                                    continue;
-                                }
-                                case 1: {
-                                    if ( elapsedTime < movementDuration ) {
-                                            $step = 2;
-                                            continue;
-                                        } 
-                                        $step = 4;
-                                        continue;
-                                }
-                                case 2: {
-                                    // 应用缓动曲线计算插值比例
-                                        t = this.movementEase.value(elapsedTime / movementDuration);
-
-                                        // 计算贝塞尔曲线上的位置
-                                        this.transform.localPosition = this.CalculateBezierPoint(t, _startPosition, controlPoint, _endPosition);
-                                        this.transform.localRotation = new pc.Quat().lerpUnclamped( startRotation, endRotation, pc.math.clamp( t, 0, 1 ) );
-                                        this.transform.localScale = new pc.Vec3().lerp( startScale, endScale, t );
-
-                                        elapsedTime += UnityEngine.Time.deltaTime;
-                                        $enumerator.current = null;
-                                        $step = 3;
-                                        return true;
-                                }
-                                case 3: {
-                                    
-                                        $step = 1;
-                                        continue;
-                                }
-                                case 4: {
-                                    // 确保最终位置准确
-                                        this.transform.localPosition = _endPosition.$clone();
-                                        this.transform.localRotation = endRotation.$clone();
-                                        this.transform.localScale = endScale.$clone();
-
-                                        this.ScaleFX();
-                                        !Bridge.staticEquals(action, null) ? action() : null;
-                                        $enumerator.current = null;
-                                        $step = 5;
-                                        return true;
-                                }
-                                case 5: {
-                                    this.canDoFurtherMove = true;
-
-                                }
-                                default: {
-                                    return false;
-                                }
-                            }
-                        }
-                    } catch($async_e1) {
-                        $async_e = System.Exception.create($async_e1);
-                        throw $async_e;
-                    }
-                }));
-                return $enumerator;
-            },
-            /*Item.MoveAlongCurve_Coroutine$1 end.*/
-
-            /*Item.CalculateBezierPoint start.*/
-            CalculateBezierPoint: function (t, p0, p1, p2) {
-if ( TRACE ) { TRACE( "Item#CalculateBezierPoint", this ); }
-
-                var u = 1 - t;
-                var tt = t * t;
-                var uu = u * u;
-
-                return p0.clone().scale( uu ).add( p1.clone().scale( 2 * u * t ) ).add( p2.clone().scale( tt ) );
-            },
-            /*Item.CalculateBezierPoint end.*/
-
-            /*Item.ScaleFX start.*/
-            ScaleFX: function () {
-if ( TRACE ) { TRACE( "Item#ScaleFX", this ); }
-
-                this.StartCoroutine$1(this.ScaleFX_Coroutine());
-            },
-            /*Item.ScaleFX end.*/
-
-            /*Item.ScaleFX_Coroutine start.*/
-            ScaleFX_Coroutine: function () {
-if ( TRACE ) { TRACE( "Item#ScaleFX_Coroutine", this ); }
-
-                var $step = 0,
-                    $jumpFromFinally,
-                    $returnValue,
-                    startScale,
-                    endScale,
-                    timer,
-                    duration,
-                    progress,
-                    $async_e;
-
-                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
-                    try {
-                        for (;;) {
-                            switch ($step) {
-                                case 0: {
-                                    startScale = new pc.Vec3( 1, 1, 1 ).clone().scale( 1.25 );
-                                        endScale = new pc.Vec3( 1, 1, 1 );
-                                        this.transform.localScale = startScale.$clone();
-
-                                        timer = 0;
-                                        duration = 0.2;
-                                        progress = 0;
-                                    $step = 1;
-                                    continue;
-                                }
-                                case 1: {
-                                    if ( timer < duration ) {
-                                            $step = 2;
-                                            continue;
-                                        } 
-                                        $step = 4;
-                                        continue;
-                                }
-                                case 2: {
-                                    progress = timer / duration;
-                                        this.transform.localScale = new pc.Vec3().lerp( startScale, endScale, progress );
-
-                                        timer += UnityEngine.Time.deltaTime;
-                                        $enumerator.current = null;
-                                        $step = 3;
-                                        return true;
-                                }
-                                case 3: {
-                                    
-                                        $step = 1;
-                                        continue;
-                                }
-                                case 4: {
-                                    this.transform.localScale = endScale.$clone();
-
-                                }
-                                default: {
-                                    return false;
-                                }
-                            }
-                        }
-                    } catch($async_e1) {
-                        $async_e = System.Exception.create($async_e1);
-                        throw $async_e;
-                    }
-                }));
-                return $enumerator;
-            },
-            /*Item.ScaleFX_Coroutine end.*/
-
-            /*Item.ReturnSelf start.*/
-            ReturnSelf: function () {
-if ( TRACE ) { TRACE( "Item#ReturnSelf", this ); }
-
-                this.returnSelfIE = this.ReturnSelfIE();
-                this.StartCoroutine$1(this.returnSelfIE);
-            },
-            /*Item.ReturnSelf end.*/
-
-            /*Item.ReturnSelfIE start.*/
-            ReturnSelfIE: function () {
-if ( TRACE ) { TRACE( "Item#ReturnSelfIE", this ); }
-
-                var $step = 0,
-                    $jumpFromFinally,
-                    $returnValue,
-                    $async_e;
-
-                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
-                    try {
-                        for (;;) {
-                            switch ($step) {
-                                case 0: {
-                                    $enumerator.current = new UnityEngine.WaitForSeconds(2.0);
-                                        $step = 1;
-                                        return true;
-                                }
-                                case 1: {
-                                    DG.Tweening.ShortcutExtensions.DOScale(this.transform, 0, 0.5);
-                                        $enumerator.current = new UnityEngine.WaitForSeconds(0.5);
-                                        $step = 2;
-                                        return true;
-                                }
-                                case 2: {
-                                    MonoSingleton$1(PoolManager).instance.ReturnItem(this);
-
-                                }
-                                default: {
-                                    return false;
-                                }
-                            }
-                        }
-                    } catch($async_e1) {
-                        $async_e = System.Exception.create($async_e1);
-                        throw $async_e;
-                    }
-                }));
-                return $enumerator;
-            },
-            /*Item.ReturnSelfIE end.*/
-
-
-        },
-        overloads: {
-            "MoveAlongCurve(Vector3, Vector3, Action)": "MoveAlongCurve$1",
-            "MoveAlongCurve_Coroutine(Vector3, Vector3, Action)": "MoveAlongCurve_Coroutine$1"
-        }
-    });
-    /*Item end.*/
-
     /*ItemStackManager start.*/
     Bridge.define("ItemStackManager", {
         inherits: [UnityEngine.MonoBehaviour],
@@ -5528,8 +6542,7 @@ if ( TRACE ) { TRACE( "Item#ReturnSelfIE", this ); }
             stackList: null,
             startPosition: null,
             spacingDirection: null,
-            amountOfStackInUse: 0,
-            player: null
+            amountOfStackInUse: 0
         },
         ctors: {
             init: function () {
@@ -5547,7 +6560,7 @@ if ( TRACE ) { TRACE( "ItemStackManager#init", this ); }
             Start: function () {
 if ( TRACE ) { TRACE( "ItemStackManager#Start", this ); }
 
-                this.player = MonoSingleton$1(Player).instance;
+
             },
             /*ItemStackManager.Start end.*/
 
@@ -5674,7 +6687,11 @@ if ( TRACE ) { TRACE( "ItemStackManager#ModifyAmountOfStackInUse", this ); }
             fields: {
                 RawMaterial: 0,
                 Product: 1,
-                Money: 2
+                Money: 2,
+                FigherPatient: 3,
+                FarmerPatient: 4,
+                Wheat: 5,
+                WheatItem: 6
             }
         }
     });
@@ -5841,7 +6858,8 @@ if ( TRACE ) { TRACE( "LunaManager#GameStart", this ); }
             joystickTip: null,
             mTime: 0,
             mCurrentTime: 0,
-            isPress: false
+            isPress: false,
+            isFirstGuild: false
         },
         ctors: {
             init: function () {
@@ -5849,6 +6867,7 @@ if ( TRACE ) { TRACE( "MainPanel#init", this ); }
 
                 this.mTime = 2;
                 this.isPress = false;
+                this.isFirstGuild = true;
             }
         },
         methods: {
@@ -5856,7 +6875,7 @@ if ( TRACE ) { TRACE( "MainPanel#init", this ); }
             Start: function () {
 if ( TRACE ) { TRACE( "MainPanel#Start", this ); }
 
-
+                this.mCurrentTime = this.mTime;
             },
             /*MainPanel.Start end.*/
 
@@ -5882,6 +6901,10 @@ if ( TRACE ) { TRACE( "MainPanel#Update", this ); }
                 if (this.mCurrentTime >= this.mTime) {
                     this.joystickTip.enabled = true;
                     this.Tip.alpha = 1.0;
+                    if (this.isFirstGuild) {
+                        MonoSingleton$1(GuildManager).instance.CheckGuild$1(GuildTriggerType.First, 1);
+                    }
+                    this.isFirstGuild = false;
                 }
             },
             /*MainPanel.Update end.*/
@@ -5927,6 +6950,20 @@ if ( TRACE ) { TRACE( "MainPanel#Update", this ); }
         }
     });
     /*NpcState end.*/
+
+    /*NpcType start.*/
+    Bridge.define("NpcType", {
+        $kind: 6,
+        statics: {
+            fields: {
+                Customer: 0,
+                Enemy: 1,
+                BigEnemy: 2,
+                Porter: 3
+            }
+        }
+    });
+    /*NpcType end.*/
 
     /*ObjectFX start.*/
     Bridge.define("ObjectFX", {
@@ -6654,6 +7691,323 @@ if ( TRACE ) { TRACE( "ObjStartButton#SetAlwayEnter", this ); }
     });
     /*ObjStartButton end.*/
 
+    /*PatienState start.*/
+    /**
+     * 病人状态
+     *
+     * @public
+     * @class PatienState
+     * @augments number
+     */
+    Bridge.define("PatienState", {
+        $kind: 6,
+        statics: {
+            fields: {
+                Wait: 0,
+                Injection: 1,
+                Fighter: 2,
+                Farmer: 3,
+                Attack: 4
+            }
+        }
+    });
+    /*PatienState end.*/
+
+    /*PatientInjection start.*/
+    /**
+     * 病人打针
+     *
+     * @public
+     * @class PatientInjection
+     * @augments UnityEngine.MonoBehaviour
+     */
+    Bridge.define("PatientInjection", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            itemGround: null,
+            nomalSR: null,
+            heighLightSR: null,
+            nurseNpc: null,
+            bedProcess: null,
+            isInjection: false
+        },
+        methods: {
+            /*PatientInjection.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "PatientInjection#Awake", this ); }
+
+                this.bedProcess = this.GetComponentInParent(BedProcess);
+            },
+            /*PatientInjection.Awake end.*/
+
+            /*PatientInjection.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "PatientInjection#Update", this ); }
+
+                if (!this.isInjection && this.nurseNpc.gameObject.activeInHierarchy && UnityEngine.MonoBehaviour.op_Inequality(this.itemGround.stackList.getItem(0).GetPatient(), null)) {
+                    this.Injection(this.nurseNpc.transform);
+                }
+            },
+            /*PatientInjection.Update end.*/
+
+            /*PatientInjection.OnTriggerEnter start.*/
+            OnTriggerEnter: function (other) {
+if ( TRACE ) { TRACE( "PatientInjection#OnTriggerEnter", this ); }
+
+                if (!this.nurseNpc.gameObject.activeInHierarchy && other.transform.CompareTag("Player")) {
+                    if (this.isInjection) {
+                        return;
+                    }
+                    this.ShowBlueSprite();
+                    this.Injection(other.transform);
+                }
+            },
+            /*PatientInjection.OnTriggerEnter end.*/
+
+            /*PatientInjection.OnTriggerExit start.*/
+            OnTriggerExit: function (other) {
+if ( TRACE ) { TRACE( "PatientInjection#OnTriggerExit", this ); }
+
+                if (!this.nurseNpc.gameObject.activeInHierarchy && other.transform.CompareTag("Player")) {
+                    this.ShowWhiteSprite();
+                    // 如果治疗尚未完成（DOTween回调未触发），确保恢复玩家物理状态
+                    if (this.isInjection && MonoSingleton$1(Player).instance.mRigidbody.isKinematic) {
+                        MonoSingleton$1(Player).instance.mRigidbody.isKinematic = false;
+                    }
+                }
+            },
+            /*PatientInjection.OnTriggerExit end.*/
+
+            /*PatientInjection.ShowBlueSprite start.*/
+            ShowBlueSprite: function () {
+if ( TRACE ) { TRACE( "PatientInjection#ShowBlueSprite", this ); }
+
+                if (UnityEngine.GameObject.op_Equality(this.nomalSR, null) || UnityEngine.GameObject.op_Equality(this.heighLightSR, null)) {
+                    return;
+                }
+                this.nomalSR.SetActive(false);
+                this.heighLightSR.SetActive(true);
+            },
+            /*PatientInjection.ShowBlueSprite end.*/
+
+            /*PatientInjection.ShowWhiteSprite start.*/
+            ShowWhiteSprite: function () {
+if ( TRACE ) { TRACE( "PatientInjection#ShowWhiteSprite", this ); }
+
+                if (UnityEngine.GameObject.op_Equality(this.nomalSR, null) || UnityEngine.GameObject.op_Equality(this.heighLightSR, null)) {
+                    return;
+                }
+                this.nomalSR.SetActive(true);
+                this.heighLightSR.SetActive(false);
+            },
+            /*PatientInjection.ShowWhiteSprite end.*/
+
+            /*PatientInjection.Injection start.*/
+            /**
+             * 玩家给病人打针
+             *
+             * @instance
+             * @public
+             * @this PatientInjection
+             * @memberof PatientInjection
+             * @param   {UnityEngine.Transform}    tf
+             * @return  {void}
+             */
+            Injection: function (tf) {
+if ( TRACE ) { TRACE( "PatientInjection#Injection", this ); }
+
+                var patien = Bridge.as(this.itemGround.stackList.getItem(0).GetPatient(), FighterPatientItem); //获取病人
+                if (UnityEngine.MonoBehaviour.op_Equality(patien, null)) {
+                    return;
+                }
+                if (this.isInjection) {
+                    return;
+                }
+
+                //玩家指向病人并播放动画
+                var player = tf.GetComponent(Player);
+                if (UnityEngine.MonoBehaviour.op_Inequality(player, null)) {
+                    MonoSingleton$1(Player).instance.isStop = true;
+                    MonoSingleton$1(Player).instance.mRigidbody.velocity = pc.Vec3.ZERO.clone();
+                    DG.Tweening.ShortcutExtensions.DOMove(MonoSingleton$1(Player).instance.transform, new pc.Vec3( this.transform.position.x, MonoSingleton$1(Player).instance.transform.position.y, this.transform.position.z ), 0.2);
+                }
+
+                this.isInjection = true;
+                patien.StateSwitch(PatienState.Injection);
+                DG.Tweening.TweenSettingsExtensions.InsertCallback(DG.Tweening.TweenSettingsExtensions.Insert(DG.Tweening.DOTween.Sequence(), 0, DG.Tweening.ShortcutExtensions.DOLookAt(tf, patien.transform.position.$clone(), 0.2)), 1, Bridge.fn.bind(this, function () {
+                    if (UnityEngine.MonoBehaviour.op_Inequality(player, null)) {
+                        MonoSingleton$1(Player).instance.isStop = false;
+                    }
+                    //病人状态更改
+                    this.isInjection = false;
+                    var pathTF = this.bedProcess.path;
+                    this.itemGround.RemoveItem();
+                    this.StartCoroutine$1(this.InjectionEnd(pathTF, patien));
+                    MonoSingleton$1(GuildManager).instance.CheckGuild$1(GuildTriggerType.Treatment, 0);
+                }));
+            },
+            /*PatientInjection.Injection end.*/
+
+            /*PatientInjection.InjectionEnd start.*/
+            InjectionEnd: function (pathTF, patien) {
+if ( TRACE ) { TRACE( "PatientInjection#InjectionEnd", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    i,
+                    isfinsh,
+                    pos,
+                    isMoneyDropFinished,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    i = 0;
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 1: {
+                                    if ( i < pathTF.childCount ) {
+                                            $step = 2;
+                                            continue;
+                                        }
+                                    $step = 8;
+                                    continue;
+                                }
+                                case 2: {
+                                    isfinsh = { v : false };
+                                        pos = pathTF.GetChild(i).position.$clone();
+                                        pos = new pc.Vec3( pos.x, patien.transform.position.y, pos.z );
+                                        patien.mRigidbody.isKinematic = false;
+                                        patien.MoveToTarget$2(pos, (function ($me, isfinsh) {
+                                            return function () {
+                                                isfinsh.v = true;
+                                            };
+                                        })(this, isfinsh));
+                                    $step = 3;
+                                    continue;
+                                }
+                                case 3: {
+                                    if ( !isfinsh.v ) {
+                                            $step = 4;
+                                            continue;
+                                        } 
+                                        $step = 6;
+                                        continue;
+                                }
+                                case 4: {
+                                    $enumerator.current = null;
+                                        $step = 5;
+                                        return true;
+                                }
+                                case 5: {
+                                    
+                                        $step = 3;
+                                        continue;
+                                }
+                                case 6: {
+                                    $step = 7;
+                                    continue;
+                                }
+                                case 7: {
+                                    i = (i + 1) | 0;
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 8: {
+                                    //移动到指定点后 - 掉落金币到MoneyManager位置
+                                        isMoneyDropFinished = false;
+                                        this.DropMoneyToManager(patien, function () {
+                                            isMoneyDropFinished = true;
+                                        });
+
+                                        //等待金币掉落结束
+                                    $step = 9;
+                                    continue;
+                                }
+                                case 9: {
+                                    if ( !isMoneyDropFinished ) {
+                                            $step = 10;
+                                            continue;
+                                        } 
+                                        $step = 12;
+                                        continue;
+                                }
+                                case 10: {
+                                    $enumerator.current = null;
+                                        $step = 11;
+                                        return true;
+                                }
+                                case 11: {
+                                    
+                                        $step = 9;
+                                        continue;
+                                }
+                                case 12: {
+                                    //切换到Fighter状态
+                                        patien.StateSwitch(PatienState.Fighter);
+                                        //移动到门口
+                                        patien.MoveToTarget(this.bedProcess.doorPos, function () {
+                                            //到达门口后开始战斗
+                                            patien.StartFighting();
+                                        });
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*PatientInjection.InjectionEnd end.*/
+
+            /*PatientInjection.DropMoneyToManager start.*/
+            /**
+             * 掉落金币到MoneyManager位置
+             *
+             * @instance
+             * @private
+             * @this PatientInjection
+             * @memberof PatientInjection
+             * @param   {PatientItem}      patien        
+             * @param   {System.Action}    onComplete
+             * @return  {void}
+             */
+            DropMoneyToManager: function (patien, onComplete) {
+if ( TRACE ) { TRACE( "PatientInjection#DropMoneyToManager", this ); }
+
+                var num = (Bridge.Int.div(MonoSingleton$1(GameDataEditor).instance.GetOtherData.patienMoney, MonoSingleton$1(GameDataEditor).instance.GetOtherData.moneyValue)) | 0;
+                var manager = this.bedProcess.moneyPos.GetComponent(GroundItemStackManager);
+                for (var i = 0; i < num; i = (i + 1) | 0) {
+                    var money = MonoSingleton$1(PoolManager).instance.GetItem(ItemType.Money); //生成金币
+                    //设置金币初始位置（从病人位置抛出）
+                    money.transform.position = patien.transform.position.$clone().add( pc.Vec3.UP.clone().clone().scale( 0.5 ) );
+                    money.cd.enabled = false;
+                    money.canDoFurtherMove = true;
+                    money.gameObject.SetActive(true);
+                    manager.StackItem(money);
+                }
+                !Bridge.staticEquals(onComplete, null) ? onComplete() : null;
+                MonoSingleton$1(GuildManager).instance.CheckGuild$1(GuildTriggerType.PatienMoney, 0);
+                return;
+            },
+            /*PatientInjection.DropMoneyToManager end.*/
+
+
+        }
+    });
+    /*PatientInjection end.*/
+
     /*Processor start.*/
     Bridge.define("Processor", {
         inherits: [UnityEngine.MonoBehaviour],
@@ -6852,15 +8206,26 @@ if ( TRACE ) { TRACE( "Processor#ProcessingCoroutine", this ); }
                                         return true;
                                 }
                                 case 11: {
-                                    // 让顾客离开
-                                        MonoSingleton$1(NpcManager).instance.DequeueCustomer();
-
-                                        // 等待UI消失和顾客离开，以及下一个顾客停止移动
-                                        $enumerator.current = this.customerWaitTime;
-                                        $step = 12;
-                                        return true;
+                                    if (this.itemType === ItemType.Money) {
+                                            $step = 12;
+                                            continue;
+                                        } 
+                                        $step = 14;
+                                        continue;
                                 }
                                 case 12: {
+                                    // 让顾客离开
+                                        MonoSingleton$1(NpcManager).instance.DequeueCustomer();
+                                        // 等待UI消失和顾客离开，以及下一个顾客停止移动
+                                        $enumerator.current = this.customerWaitTime;
+                                        $step = 13;
+                                        return true;
+                                }
+                                case 13: {
+                                    $step = 14;
+                                    continue;
+                                }
+                                case 14: {
                                     this.isProcessing = false;
 
                                 }
@@ -6921,7 +8286,7 @@ if ( TRACE ) { TRACE( "Processor#ProcessMaterial", this ); }
                     if (UnityEngine.MonoBehaviour.op_Inequality(rawMaterial, null)) {
                         rawMaterial.gameObject.SetActive(true);
                         rawMaterial.transform.parent = this.transform;
-                        rawMaterial.MoveAlongCurve$1(rawMaterial.transform.localPosition, this.processPosition.localPosition, Bridge.fn.bind(this, function () {
+                        rawMaterial.MoveAlongCurve(rawMaterial.transform.localPosition, this.processPosition.localPosition, Bridge.fn.bind(this, function () {
                             this.StartCoroutine$1(this.DestroyRawMaterial(rawMaterial));
                         }));
                     }
@@ -7042,13 +8407,14 @@ if ( TRACE ) { TRACE( "Processor#SpawnProducts", this ); }
     Bridge.define("PurchaseZone", {
         inherits: [UnityEngine.MonoBehaviour],
         fields: {
+            id: 0,
             price: 0,
             remainingPrice: 0,
             requiredItemType: 0,
             itemDropOffCooldown: 0,
             itemDropOffTimer: 0,
             fillImage: null,
-            remainingPrice_Img: null,
+            remainTxt: null,
             purchaseProgress: 0,
             iscomplete: false,
             borderNomal: null,
@@ -7112,7 +8478,8 @@ if ( TRACE ) { TRACE( "PurchaseZone#Start", this ); }
 
                 this.purchaseProgress = 0;
 
-                MonoSingleton$1(UIManager).instance.SetNum(this.remainingPrice_Img, this.remainingPrice);
+                //UIManager.instance.SetNum(remainingPrice_Img, remainingPrice);
+                this.remainTxt.text = Bridge.toString(this.remainingPrice);
                 this.mlocalescale = this.canvas.transform.localScale.$clone();
                 this.StartBreath();
             },
@@ -7125,9 +8492,18 @@ if ( TRACE ) { TRACE( "PurchaseZone#Update", this ); }
                 if (!this.hasCompletedPurchase && this.isPurchasing) {
                     this.Purchase();
                 }
-
             },
             /*PurchaseZone.Update end.*/
+
+            /*PurchaseZone.InitPrice start.*/
+            InitPrice: function (price) {
+if ( TRACE ) { TRACE( "PurchaseZone#InitPrice", this ); }
+
+                this.price = price;
+                this.remainingPrice = price;
+                this.remainTxt.text = Bridge.toString(this.remainingPrice);
+            },
+            /*PurchaseZone.InitPrice end.*/
 
             /*PurchaseZone.OnTriggerEnter start.*/
             OnTriggerEnter: function (other) {
@@ -7193,7 +8569,7 @@ if ( TRACE ) { TRACE( "PurchaseZone#Purchase", this ); }
                             targetItem.v.gameObject.SetActive(true);
                             //增涨购买进度要放在物品移动之前，防止由于物品飞行时间过长，购买完成的时间不能够卡上物品飞行的进度导致多余的物品也飞过去
                             this.ProgressPurchase(targetItem.v);
-                            targetItem.v.MoveAlongCurve$1(targetItem.v.transform.localPosition, this.itemMoveTargetPosition, (function ($me, targetItem) {
+                            targetItem.v.MoveAlongCurve(targetItem.v.transform.localPosition, this.itemMoveTargetPosition, (function ($me, targetItem) {
                                 return Bridge.fn.bind($me, function () {
                                     if (this.isfinshPurchase) {
                                         if (!this.iscomplete) {
@@ -7233,7 +8609,8 @@ if ( TRACE ) { TRACE( "PurchaseZone#ProgressPurchase", this ); }
                 var paidAmount = (this.price - this.remainingPrice) | 0;
                 this.purchaseProgress = paidAmount / this.price;
                 this.fillImage.fillAmount = this.purchaseProgress;
-                MonoSingleton$1(UIManager).instance.SetNum(this.remainingPrice_Img, this.remainingPrice);
+                //UIManager.instance.SetNum(remainingPrice_Img, remainingPrice);
+                this.remainTxt.text = Bridge.toString(this.remainingPrice);
                 this.OnPurchaseProgress();
 
                 if (this.remainingPrice <= 0) {
@@ -7600,7 +8977,11 @@ if ( TRACE ) { TRACE( "TouchArea#OnEndDrag", this ); }
             Update: function () {
 if ( TRACE ) { TRACE( "TouchArea#Update", this ); }
 
-
+                if (LunaManager.instance.isGameOver) {
+                    this.mJoystickBG.gameObject.SetActive(false);
+                    this.mCanvasGp.alpha = 0;
+                    return;
+                }
                 if (UnityEngine.Input.GetMouseButtonDown(0)) {
                     this.transform.position = UnityEngine.Input.mousePosition.$clone();
                     this.mCanvasGp.alpha = 1;
@@ -8357,28 +9738,39 @@ if ( TRACE ) { TRACE( "ArrowsManager#inherits", this ); }
             lineRenderer: null,
             currentTarget: null,
             lineMesh: null,
+            targetPos: null,
+            offsetPos: null,
             vertices: null,
             normals: null,
-            cachedMaterial: null
+            cachedMaterial: null,
+            isCan: false
         },
         ctors: {
             init: function () {
 if ( TRACE ) { TRACE( "ArrowsManager#init", this ); }
 
+                this.targetPos = new UnityEngine.Vector3();
+                this.offsetPos = new UnityEngine.Vector3();
                 this.lineWidth = 0.2;
                 this.closeDistanceThreshold = 1.0;
                 this.yOffset = 0.1;
+                this.isCan = true;
             }
         },
         methods: {
-            /*ArrowsManager.Start$1 start.*/
-            Start$1: function () {
-if ( TRACE ) { TRACE( "ArrowsManager#Start$1", this ); }
+            /*ArrowsManager.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "ArrowsManager#Start", this ); }
 
+                MonoSingleton$1(ArrowsManager).prototype.Start.call(this);
                 this.InitGuideLine();
-                this.SetArrows(0);
+                if (this.isCan) {
+                    this.SetArrows(0);
+                } else {
+                    this.CloseArrows();
+                }
             },
-            /*ArrowsManager.Start$1 end.*/
+            /*ArrowsManager.Start end.*/
 
             /*ArrowsManager.Update start.*/
             Update: function () {
@@ -8388,14 +9780,15 @@ if ( TRACE ) { TRACE( "ArrowsManager#Update", this ); }
                     return;
                 }
 
-                var playerPosFlat = new pc.Vec3( this.playerTransform.position.x, 0, this.playerTransform.position.z );
-                var targetPosFlat = new pc.Vec3( this.currentTarget.position.x, 0, this.currentTarget.position.z );
-                var distance = pc.Vec3.distance( playerPosFlat, targetPosFlat );
+                // Vector3 playerPosFlat = new Vector3(playerTransform.position.x, 0, playerTransform.position.z);
+                // Vector3 targetPosFlat = new Vector3(currentTarget.position.x, 0, currentTarget.position.z);
+                // float distance = Vector3.Distance(playerPosFlat, targetPosFlat);
 
-                if (distance < this.closeDistanceThreshold) {
-                    this.CloseArrows();
-                    return;
-                }
+                // if (distance < closeDistanceThreshold)
+                // {
+                //     CloseArrows();
+                //     return;
+                // }
 
                 this.mArrowsParent.gameObject.SetActive(true);
                 var currentStart = this.playerTransform.position.$clone().add( pc.Vec3.UP.clone().clone().scale( this.yOffset ) );
@@ -8469,6 +9862,7 @@ if ( TRACE ) { TRACE( "ArrowsManager#SetArrows$1", this ); }
             CloseArrows: function () {
 if ( TRACE ) { TRACE( "ArrowsManager#CloseArrows", this ); }
 
+                this.currentTarget = null;
                 this.lineRenderer.enabled = false;
                 this.mArrowsParent.gameObject.SetActive(false);
             },
@@ -8507,15 +9901,24 @@ if ( TRACE ) { TRACE( "ArrowsManager#CreateGuideLine", this ); }
             CreateArrow: function (targetPos) {
 if ( TRACE ) { TRACE( "ArrowsManager#CreateArrow", this ); }
 
-                this.mArrowsParent.transform.position = targetPos.$clone();
+                this.targetPos = targetPos.$clone();
+                this.mArrowsParent.transform.position = targetPos.$clone().add( this.offsetPos );
                 this.mArrowsParent.gameObject.SetActive(true);
             },
             /*ArrowsManager.CreateArrow end.*/
 
+            /*ArrowsManager.UpdateOffsetPos start.*/
+            UpdateOffsetPos: function (offsetPos) {
+if ( TRACE ) { TRACE( "ArrowsManager#UpdateOffsetPos", this ); }
+
+                this.offsetPos = offsetPos.$clone();
+                this.mArrowsParent.transform.position = this.targetPos.$clone().add( offsetPos );
+            },
+            /*ArrowsManager.UpdateOffsetPos end.*/
+
 
         },
         overloads: {
-            "Start()": "Start$1",
             "SetArrows(Transform)": "SetArrows$1"
         }
     });
@@ -8594,10 +9997,11 @@ if ( TRACE ) { TRACE( "CameraManager#init", this ); }
             }
         },
         methods: {
-            /*CameraManager.Start$1 start.*/
-            Start$1: function () {
-if ( TRACE ) { TRACE( "CameraManager#Start$1", this ); }
+            /*CameraManager.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "CameraManager#Start", this ); }
 
+                MonoSingleton$1(CameraManager).prototype.Start.call(this);
                 if (UnityEngine.Screen.width > UnityEngine.Screen.height) {
                     this.mCurrentCameraNum = this.mCameraCressNumFar;
                     this.isCress = true;
@@ -8608,7 +10012,7 @@ if ( TRACE ) { TRACE( "CameraManager#Start$1", this ); }
                 this.mOffset = this.transform.position.$clone().sub( MonoSingleton$1(Player).instance.transform.position );
                 this.CamerZoom(false, 1);
             },
-            /*CameraManager.Start$1 end.*/
+            /*CameraManager.Start end.*/
 
             /*CameraManager.Update start.*/
             Update: function () {
@@ -8851,12 +10255,123 @@ if ( TRACE ) { TRACE( "CameraManager#CamerZoomIE", this ); }
             /*CameraManager.CamerZoomIE end.*/
 
 
-        },
-        overloads: {
-            "Start()": "Start$1"
         }
     });
     /*CameraManager end.*/
+
+    /*ClerkManager start.*/
+    /**
+     * 待解锁图标控制
+     *
+     * @public
+     * @class ClerkManager
+     * @augments MonoSingleton$1
+     */
+    Bridge.define("ClerkManager", {
+        inherits: function () {
+if ( TRACE ) { TRACE( "ClerkManager#inherits", this ); }
+ return [MonoSingleton$1(ClerkManager)]; },
+        fields: {
+            totalMoney: 0,
+            infos: null,
+            displayIds: null,
+            clerks: null,
+            hideObjs: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "ClerkManager#init", this ); }
+
+                this.displayIds = new (System.Collections.Generic.List$1(System.Int32)).ctor();
+                this.clerks = new (System.Collections.Generic.List$1(PurchaseZone_Clerk)).ctor();
+                this.hideObjs = new (System.Collections.Generic.List$1(UnityEngine.GameObject)).ctor();
+            }
+        },
+        methods: {
+            /*ClerkManager.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "ClerkManager#Start", this ); }
+
+                this.infos = MonoSingleton$1(GameDataEditor).instance.gameConfig.clerkInfo;
+                //初始化配置
+                for (var i = 0; i < this.clerks.Count; i = (i + 1) | 0) {
+                    this.clerks.getItem(i).id = this.infos.getItem(i).id;
+                    this.clerks.getItem(i).InitPrice(this.infos.getItem(i).price);
+                    this.clerks.getItem(i).gameObject.SetActive(false);
+                }
+                for (var i1 = 0; i1 < this.hideObjs.Count; i1 = (i1 + 1) | 0) {
+                    this.hideObjs.getItem(i1).SetActive(false);
+                }
+
+                this.Check();
+            },
+            /*ClerkManager.Start end.*/
+
+            /*ClerkManager.AddTotalMoney start.*/
+            AddTotalMoney: function (num) {
+if ( TRACE ) { TRACE( "ClerkManager#AddTotalMoney", this ); }
+
+                if (num <= 0) {
+                    return;
+                } //仅计算增加的金币
+
+                this.totalMoney = (this.totalMoney + num) | 0;
+                this.Check();
+            },
+            /*ClerkManager.AddTotalMoney end.*/
+
+            /*ClerkManager.Check start.*/
+            Check: function () {
+if ( TRACE ) { TRACE( "ClerkManager#Check", this ); }
+
+                var $t;
+                if (this.clerks.Count === 0) {
+                    return;
+                }
+                for (var i = 0; i < this.infos.Count; i = (i + 1) | 0) {
+                    var info = { v : this.infos.getItem(i) };
+                    if (!this.displayIds.contains(info.v.id) && info.v.getTotalCoin <= this.totalMoney) {
+                        var isFull = true;
+                        $t = Bridge.getEnumerator(info.v.unlockIds);
+                        try {
+                            while ($t.moveNext()) {
+                                var item = { v : $t.Current };
+                                if (this.clerks.Exists((function ($me, item) {
+                                    return function (t) {
+                                        return t.id === item.v && !t.hasCompletedPurchase;
+                                    };
+                                })(this, item))) {
+                                    isFull = false;
+                                    break;
+                                }
+                            }
+                        } finally {
+                            if (Bridge.is($t, System.IDisposable)) {
+                                $t.System$IDisposable$Dispose();
+                            }
+                        }
+
+                        if (isFull) {
+                            this.displayIds.add(info.v.id);
+                            var clerk = this.clerks.Find((function ($me, info) {
+                                return function (t) {
+                                    return t.id === info.v.id;
+                                };
+                            })(this, info));
+                            clerk.gameObject.SetActive(true);
+
+                            MonoSingleton$1(GuildManager).instance.CheckGuild$1(GuildTriggerType.UnlockIcon, 0, clerk.name);
+                        }
+                    }
+                }
+
+            },
+            /*ClerkManager.Check end.*/
+
+
+        }
+    });
+    /*ClerkManager end.*/
 
     /*Customer start.*/
     Bridge.define("Customer", {
@@ -8893,9 +10408,38 @@ if ( TRACE ) { TRACE( "Customer#Update", this ); }
             isDie: false,
             mHp: 0,
             mHpMax: 0,
+            isSelect: false,
             attackInterval: 0,
             playerLayerMask: 0,
             uIHealthBar: null,
+            /**
+             * 是否应该掉落战利品（被战士击杀时不掉落）
+             *
+             * @instance
+             * @public
+             * @memberof Enemy
+             * @default true
+             * @type boolean
+             */
+            shouldDropLoot: false,
+            /**
+             * 死亡时的回调（用于从外部列表中移除）
+             *
+             * @instance
+             * @public
+             * @memberof Enemy
+             * @type System.Action
+             */
+            onDeathCallback: null,
+            /**
+             * 是否为固定老鼠（路径老鼠），不做寻路逻辑，停留原地
+             *
+             * @instance
+             * @public
+             * @memberof Enemy
+             * @type boolean
+             */
+            isStationary: false,
             knockbackIE: null,
             patrolIE: null
         },
@@ -8904,6 +10448,7 @@ if ( TRACE ) { TRACE( "Customer#Update", this ); }
 if ( TRACE ) { TRACE( "Enemy#init", this ); }
 
                 this.attackInterval = -1;
+                this.shouldDropLoot = true;
             }
         },
         methods: {
@@ -8945,6 +10490,10 @@ if ( TRACE ) { TRACE( "Enemy#Init", this ); }
                 this.alertCollider.radius = MonoSingleton$1(GameDataEditor).instance.enemyAlertRadius;
                 this.mCollider.enabled = true;
                 this.isDie = false;
+                this.isSelect = false;
+                this.shouldDropLoot = true;
+                this.onDeathCallback = null;
+                this.isStationary = false;
                 this.StateSwitch(EnemyState.Patrol);
                 this.uIHealthBar = MonoSingleton$1(PoolManager).instance.GetEnemyHp();
                 this.uIHealthBar.Init(this.transform);
@@ -8956,26 +10505,48 @@ if ( TRACE ) { TRACE( "Enemy#Init", this ); }
 if ( TRACE ) { TRACE( "Enemy#SetHp", this ); }
 
                 if (damage === void 0) { damage = 1; }
+                this.SetHp$1(damage, true);
+            },
+            /*Enemy.SetHp end.*/
+
+            /*Enemy.SetHp$1 start.*/
+            /**
+             * 受击处理（可控制是否掉落战利品）
+             *
+             * @instance
+             * @public
+             * @this Enemy
+             * @memberof Enemy
+             * @param   {number}     damage      
+             * @param   {boolean}    dropLoot
+             * @return  {void}
+             */
+            SetHp$1: function (damage, dropLoot) {
+if ( TRACE ) { TRACE( "Enemy#SetHp$1", this ); }
+
                 if (this.isDie) {
                     return;
                 }
 
                 this.mHp -= damage;
-                // Debug.Log("扣血，当前血量："+mHp);
                 this.uIHealthBar.SetHpFill(this.mHp / this.mHpMax);
                 if (this.mHp <= 0) {
-
+                    // 只有当前允许掉落且调用方也允许时才掉落
+                    this.shouldDropLoot = this.shouldDropLoot && dropLoot;
                     this.StateSwitch(EnemyState.Die);
                 } else {
                     this.StateSwitch(EnemyState.Hit);
                 }
             },
-            /*Enemy.SetHp end.*/
+            /*Enemy.SetHp$1 end.*/
 
             /*Enemy.OnTriggerEnter start.*/
             OnTriggerEnter: function (other) {
 if ( TRACE ) { TRACE( "Enemy#OnTriggerEnter", this ); }
 
+                if (this.isStationary) {
+                    return;
+                }
                 if (System.String.equals(other.tag, "Player")) {
                     if (!MonoSingleton$1(Player).instance.IsAtHome && !MonoSingleton$1(Player).instance.isDie) {
                         if (this.currentState === EnemyState.Chase) {
@@ -8993,6 +10564,9 @@ if ( TRACE ) { TRACE( "Enemy#OnTriggerEnter", this ); }
             OnTriggerStay: function (other) {
 if ( TRACE ) { TRACE( "Enemy#OnTriggerStay", this ); }
 
+                if (this.isStationary) {
+                    return;
+                }
                 if (this.currentState === EnemyState.Patrol) {
                     if (System.String.equals(other.tag, "Player")) {
                         if (!MonoSingleton$1(Player).instance.IsAtHome && !MonoSingleton$1(Player).instance.isDie) {
@@ -9013,6 +10587,9 @@ if ( TRACE ) { TRACE( "Enemy#OnTriggerStay", this ); }
             OnTriggerExit: function (other) {
 if ( TRACE ) { TRACE( "Enemy#OnTriggerExit", this ); }
 
+                if (this.isStationary) {
+                    return;
+                }
                 if (System.String.equals(other.tag, "Player")) {
                     if (this.currentState === EnemyState.Chase) {
                         this.StateSwitch(EnemyState.Patrol);
@@ -9041,6 +10618,10 @@ if ( TRACE ) { TRACE( "Enemy#StateSwitch", this ); }
 
                 if (UnityEngine.Component.op_Equality(this.mAnimator, null) || this.isDie) {
                     return;
+                }
+                // 固定老鼠：巡逻和追击状态都转为Idle
+                if (this.isStationary && (state === EnemyState.Patrol || state === EnemyState.Chase)) {
+                    state = EnemyState.Idle;
                 }
                 this.mStateInfo = this.mAnimator.GetCurrentAnimatorStateInfo(0);
                 this.currentState = state;
@@ -9086,12 +10667,14 @@ if ( TRACE ) { TRACE( "Enemy#StateSwitch", this ); }
                         break;
                     case EnemyState.Die: 
                         this.isDie = true;
+                        this.isSelect = false;
                         if (!this.mStateInfo.IsName("Die")) {
                             this.mAnimator.Play$2("Die");
                         }
                         this.Knockback(MonoSingleton$1(Player).instance.transform.position);
                         this.uIHealthBar.Hide();
                         MonoSingleton$1(PoolManager).instance.ReturnEnemyHp(this.uIHealthBar);
+                        !Bridge.staticEquals(this.onDeathCallback, null) ? this.onDeathCallback(this) : null;
                         MonoSingleton$1(PoolManager).instance.ReturnEnemy(this, 1.0);
                         break;
                 }
@@ -9140,6 +10723,7 @@ if ( TRACE ) { TRACE( "Enemy#KnockbackIE", this ); }
                     $returnValue,
                     direction,
                     enemyOriMat,
+                    num,
                     hits,
                     hits1,
                     $async_e;
@@ -9166,8 +10750,10 @@ if ( TRACE ) { TRACE( "Enemy#KnockbackIE", this ); }
                                         if (!this.isDie) {
                                             this.mCollider.enabled = true;
                                         } else {
-                                            this.GetDropRawMaterial(2);
-
+                                            if (this.shouldDropLoot) {
+                                                num = (Bridge.Int.div(MonoSingleton$1(GameDataEditor).instance.GetMouseData.enemyDropMoney, MonoSingleton$1(GameDataEditor).instance.GetOtherData.moneyValue)) | 0;
+                                                this.GetDropRawMaterial(num);
+                                            }
                                         }
                                         $enumerator.current = new UnityEngine.WaitForSeconds(0.7);
                                         $step = 2;
@@ -9334,7 +10920,7 @@ if ( TRACE ) { TRACE( "Enemy#GetDropRawMaterial", this ); }
 
                 if (count === void 0) { count = 1; }
                 for (var j = 0; j < count; j = (j + 1) | 0) {
-                    var meet = MonoSingleton$1(PoolManager).instance.GetItem(ItemType.RawMaterial);
+                    var meet = MonoSingleton$1(PoolManager).instance.GetItem(ItemType.Money);
                     meet.transform.position = this.transform.position.$clone();
                     meet.cd.enabled = false;
                     meet.canDoFurtherMove = true;
@@ -9458,8 +11044,9 @@ if ( TRACE ) { TRACE( "Enemy#ParabolicDrop", this ); }
                                         return true;
                                 }
                                 case 8: {
-                                    // 玩家收取
-                                        meet.PickUpToPlayer();
+                                    meet.cd.enabled = true;
+                                        // 玩家收取
+                                        //meet.PickUpToPlayer();
 
                                 }
                                 default: {
@@ -9487,9 +11074,442 @@ if ( TRACE ) { TRACE( "Enemy#AttackPlayer", this ); }
             /*Enemy.AttackPlayer end.*/
 
 
+        },
+        overloads: {
+            "SetHp(int, bool)": "SetHp$1"
         }
     });
     /*Enemy end.*/
+
+    /*PatientItem start.*/
+    /**
+     * 病人[可搬运]
+     *
+     * @public
+     * @class PatientItem
+     * @augments Item
+     */
+    Bridge.define("PatientItem", {
+        inherits: [Item],
+        fields: {
+            mAnimator: null,
+            npcType: 0,
+            mStateInfo: null,
+            mCollider: null,
+            mRigidbody: null,
+            mMoveSpeed: 0,
+            mTurnSmoothTime: 0,
+            mTurnSmoothVelocity: 0,
+            currentState: 0,
+            moveToTargerIE: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "PatientItem#init", this ); }
+
+                this.mTurnSmoothTime = 0.1;
+            }
+        },
+        methods: {
+            /*PatientItem.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "PatientItem#Start", this ); }
+
+                Item.prototype.Start.call(this);
+                this.StateSwitch(PatienState.Wait);
+            },
+            /*PatientItem.Start end.*/
+
+            /*PatientItem.StopMovement start.*/
+            StopMovement: function () {
+if ( TRACE ) { TRACE( "PatientItem#StopMovement", this ); }
+
+                if (this.moveToTargerIE != null) {
+                    this.StopCoroutine(this.moveToTargerIE);
+                    this.moveToTargerIE = null;
+                }
+                this.mRigidbody.velocity = pc.Vec3.ZERO.clone();
+
+            },
+            /*PatientItem.StopMovement end.*/
+
+            /*PatientItem.MoveToTarget$1 start.*/
+            /**
+             * 动态跟随目标，如果是目标玩家的话，玩家在家就跳出移动，并调用跳出事件；
+             *
+             * @instance
+             * @public
+             * @this PatientItem
+             * @memberof PatientItem
+             * @param   {UnityEngine.Transform}    target        目标
+             * @param   {boolean}                  isplayer      玩家在家判断
+             * @param   {System.Action}            breakAcion    跳出事件
+             * @return  {void}
+             */
+            MoveToTarget$1: function (target, isplayer, breakAcion) {
+if ( TRACE ) { TRACE( "PatientItem#MoveToTarget$1", this ); }
+
+                if (isplayer === void 0) { isplayer = false; }
+                if (breakAcion === void 0) { breakAcion = null; }
+                if (this.moveToTargerIE != null) {
+                    this.StopCoroutine(this.moveToTargerIE);
+                    this.moveToTargerIE = null;
+                }
+                this.moveToTargerIE = this.MoveToTargetIE$1(target, isplayer, breakAcion);
+                this.StartCoroutine$1(this.moveToTargerIE);
+            },
+            /*PatientItem.MoveToTarget$1 end.*/
+
+            /*PatientItem.MoveToTarget start.*/
+            MoveToTarget: function (target, targetAcion) {
+if ( TRACE ) { TRACE( "PatientItem#MoveToTarget", this ); }
+
+                if (targetAcion === void 0) { targetAcion = null; }
+                if (this.moveToTargerIE != null) {
+                    this.StopCoroutine(this.moveToTargerIE);
+                    this.moveToTargerIE = null;
+                }
+                this.moveToTargerIE = this.MoveToTargetIE(target, targetAcion);
+                this.StartCoroutine$1(this.moveToTargerIE);
+            },
+            /*PatientItem.MoveToTarget end.*/
+
+            /*PatientItem.MoveToTarget$2 start.*/
+            MoveToTarget$2: function (target, targetAcion) {
+if ( TRACE ) { TRACE( "PatientItem#MoveToTarget$2", this ); }
+
+                if (targetAcion === void 0) { targetAcion = null; }
+                if (this.moveToTargerIE != null) {
+                    this.StopCoroutine(this.moveToTargerIE);
+                    this.moveToTargerIE = null;
+                }
+                this.moveToTargerIE = this.MoveToTargetIE$2(target, targetAcion);
+                this.StartCoroutine$1(this.moveToTargerIE);
+            },
+            /*PatientItem.MoveToTarget$2 end.*/
+
+            /*PatientItem.MoveToTargetIE$1 start.*/
+            MoveToTargetIE$1: function (target, isplayer, breakAcion) {
+if ( TRACE ) { TRACE( "PatientItem#MoveToTargetIE$1", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    dir,
+                    targetAngle,
+                    angle,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    if ( pc.Vec3.distance( target.position, this.transform.position ) > 0.3 ) {
+                                            $step = 1;
+                                            continue;
+                                        } 
+                                        $step = 7;
+                                        continue;
+                                }
+                                case 1: {
+                                    if (isplayer) {
+                                            $step = 2;
+                                            continue;
+                                        } 
+                                        $step = 5;
+                                        continue;
+                                }
+                                case 2: {
+                                    if (MonoSingleton$1(Player).instance.IsAtHome || MonoSingleton$1(Player).instance.isDie) {
+                                            $step = 3;
+                                            continue;
+                                        } 
+                                        $step = 4;
+                                        continue;
+                                }
+                                case 3: {
+                                    !Bridge.staticEquals(breakAcion, null) ? breakAcion() : null;
+                                        return false;
+                                    $step = 4;
+                                    continue;
+                                }
+                                case 4: {
+                                    $step = 5;
+                                    continue;
+                                }
+                                case 5: {
+                                    // 计算目标方向
+                                        dir = (target.position.$clone().sub( this.transform.position )).clone().normalize().$clone();
+
+                                        // 计算目标角度（绕 Y 轴）
+                                        targetAngle = Math.atan2(dir.x, dir.z) * UnityEngine.Mathf.Rad2Deg;
+
+                                        // 平滑旋转到目标角度
+                                        angle = UnityEngine.Mathf.SmoothDampAngle(this.transform.eulerAngles.y, targetAngle, Bridge.ref(this, "mTurnSmoothVelocity"), this.mTurnSmoothTime);
+
+                                        // 设置旋转
+                                        this.transform.rotation = new pc.Quat().setFromEulerAngles_Unity( 0.0, angle, 0.0 );
+
+                                        // 设置移动速度（保持 Y 方向速度不变）
+                                        this.mRigidbody.velocity = new pc.Vec3( (this.transform.forward.$clone().clone().scale( this.mMoveSpeed )).x, this.mRigidbody.velocity.y, (this.transform.forward.$clone().clone().scale( this.mMoveSpeed )).z );
+                                        $enumerator.current = null;
+                                        $step = 6;
+                                        return true;
+                                }
+                                case 6: {
+                                    
+                                        $step = 0;
+                                        continue;
+                                }
+                                case 7: {
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*PatientItem.MoveToTargetIE$1 end.*/
+
+            /*PatientItem.MoveToTargetIE$2 start.*/
+            /**
+             * 移动到指定位置，并移动完成后执行事件
+             *
+             * @instance
+             * @private
+             * @this PatientItem
+             * @memberof PatientItem
+             * @param   {UnityEngine.Vector3}               target          
+             * @param   {System.Action}                     targetAciton    执行的事件
+             * @param   {number}                            range
+             * @return  {System.Collections.IEnumerator}
+             */
+            MoveToTargetIE$2: function (target, targetAciton, range) {
+if ( TRACE ) { TRACE( "PatientItem#MoveToTargetIE$2", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    dir,
+                    targetAngle,
+                    angle,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    if (targetAciton === void 0) { targetAciton = null; }
+                                        if (range === void 0) { range = 1.0; }
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 1: {
+                                    if ( pc.Vec3.distance( target, this.transform.position ) > range ) {
+                                            $step = 2;
+                                            continue;
+                                        } 
+                                        $step = 4;
+                                        continue;
+                                }
+                                case 2: {
+                                    // 计算目标方向
+                                        dir = (target.$clone().sub( this.transform.position )).clone().normalize().$clone();
+
+                                        // 计算目标角度（绕 Y 轴）
+                                        targetAngle = Math.atan2(dir.x, dir.z) * UnityEngine.Mathf.Rad2Deg;
+
+                                        // 平滑旋转到目标角度
+                                        angle = UnityEngine.Mathf.SmoothDampAngle(this.transform.eulerAngles.y, targetAngle, Bridge.ref(this, "mTurnSmoothVelocity"), this.mTurnSmoothTime);
+
+                                        // 设置旋转
+                                        this.transform.rotation = new pc.Quat().setFromEulerAngles_Unity( 0.0, angle, 0.0 );
+
+                                        // 设置移动速度（保持 Y 方向速度不变）
+                                        this.mRigidbody.velocity = new pc.Vec3( (this.transform.forward.$clone().clone().scale( this.mMoveSpeed )).x, this.mRigidbody.velocity.y, (this.transform.forward.$clone().clone().scale( this.mMoveSpeed )).z );
+                                        $enumerator.current = null;
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 4: {
+                                    !Bridge.staticEquals(targetAciton, null) ? targetAciton() : null;
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*PatientItem.MoveToTargetIE$2 end.*/
+
+            /*PatientItem.MoveToTargetIE start.*/
+            MoveToTargetIE: function (target, targetAciton) {
+if ( TRACE ) { TRACE( "PatientItem#MoveToTargetIE", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    dir,
+                    targetAngle,
+                    angle,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    if (targetAciton === void 0) { targetAciton = null; }
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 1: {
+                                    if ( pc.Vec3.distance( target.position, this.transform.position ) > 0.3 ) {
+                                            $step = 2;
+                                            continue;
+                                        } 
+                                        $step = 4;
+                                        continue;
+                                }
+                                case 2: {
+                                    // 计算目标方向
+                                        dir = (target.position.$clone().sub( this.transform.position )).clone().normalize().$clone();
+
+                                        // 计算目标角度（绕 Y 轴）
+                                        targetAngle = Math.atan2(dir.x, dir.z) * UnityEngine.Mathf.Rad2Deg;
+
+                                        // 平滑旋转到目标角度
+                                        angle = UnityEngine.Mathf.SmoothDampAngle(this.transform.eulerAngles.y, targetAngle, Bridge.ref(this, "mTurnSmoothVelocity"), this.mTurnSmoothTime);
+
+                                        // 设置旋转
+                                        this.transform.rotation = new pc.Quat().setFromEulerAngles_Unity( 0.0, angle, 0.0 );
+
+                                        // 设置移动速度（保持 Y 方向速度不变）
+                                        this.mRigidbody.velocity = new pc.Vec3( (this.transform.forward.$clone().clone().scale( this.mMoveSpeed )).x, this.mRigidbody.velocity.y, (this.transform.forward.$clone().clone().scale( this.mMoveSpeed )).z );
+                                        $enumerator.current = null;
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 4: {
+                                    !Bridge.staticEquals(targetAciton, null) ? targetAciton() : null;
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*PatientItem.MoveToTargetIE end.*/
+
+            /*PatientItem.StateSwitch start.*/
+            StateSwitch: function (state) {
+if ( TRACE ) { TRACE( "PatientItem#StateSwitch", this ); }
+
+                if (UnityEngine.Component.op_Equality(this.mAnimator, null)) {
+                    return;
+                }
+                this.mStateInfo = this.mAnimator.GetCurrentAnimatorStateInfo(0);
+                this.currentState = state;
+                switch (state) {
+                    case PatienState.Injection: 
+                        break;
+                    case PatienState.Fighter: 
+                        this.Fighter();
+                        break;
+                    case PatienState.Farmer: 
+                        this.Farmer();
+                        break;
+                }
+            },
+            /*PatientItem.StateSwitch end.*/
+
+            /*PatientItem.Fighter start.*/
+            Fighter: function () {
+if ( TRACE ) { TRACE( "PatientItem#Fighter", this ); }
+
+
+            },
+            /*PatientItem.Fighter end.*/
+
+            /*PatientItem.OnTriggerEnter start.*/
+            OnTriggerEnter: function (other) {
+if ( TRACE ) { TRACE( "PatientItem#OnTriggerEnter", this ); }
+
+                if (this.currentState === PatienState.Wait && (other.transform.CompareTag("Player") || other.transform.CompareTag("PorterNpc")) && !this.hasBeenAddedToPlayer) {
+                    this.mRigidbody.isKinematic = true;
+                    if (other.transform.CompareTag("Player")) {
+                        var playerStackManager = MonoSingleton$1(Player).instance.itemStackManager;
+                        var targetStackListIndex = playerStackManager.GetStackIndexByItemType(this.itemType);
+                        playerStackManager.stackList.getItem(targetStackListIndex).StackItem(this);
+                    } else {
+                        var itemStackManager = other.GetComponent(PorterNpc).itemStackManager;
+                        var targetStackListIndex1 = itemStackManager.GetStackIndexByItemType(this.itemType);
+                        itemStackManager.stackList.getItem(targetStackListIndex1).StackItem(this);
+                    }
+                    MonoSingleton$1(NpcManager).instance.RemovePatient(this);
+                }
+            },
+            /*PatientItem.OnTriggerEnter end.*/
+
+            /*PatientItem.OnTriggerStay start.*/
+            OnTriggerStay: function (other) {
+if ( TRACE ) { TRACE( "PatientItem#OnTriggerStay", this ); }
+
+
+            },
+            /*PatientItem.OnTriggerStay end.*/
+
+            /*PatientItem.Farmer start.*/
+            Farmer: function () {
+if ( TRACE ) { TRACE( "PatientItem#Farmer", this ); }
+
+
+            },
+            /*PatientItem.Farmer end.*/
+
+
+        },
+        overloads: {
+            "MoveToTarget(Transform, bool, Action)": "MoveToTarget$1",
+            "MoveToTarget(Vector3, Action)": "MoveToTarget$2",
+            "MoveToTargetIE(Transform, bool, Action)": "MoveToTargetIE$1",
+            "MoveToTargetIE(Vector3, Action, float)": "MoveToTargetIE$2"
+        }
+    });
+    /*PatientItem end.*/
 
     /*GameDataEditor start.*/
     Bridge.define("GameDataEditor", {
@@ -9497,6 +11517,7 @@ if ( TRACE ) { TRACE( "Enemy#AttackPlayer", this ); }
 if ( TRACE ) { TRACE( "GameDataEditor#inherits", this ); }
  return [MonoSingleton$1(GameDataEditor)]; },
         fields: {
+            gameConfig: null,
             playerSpeed: 0,
             playerTurnSmoothTime: 0,
             playerMaxHp: 0,
@@ -9518,7 +11539,32 @@ if ( TRACE ) { TRACE( "GameDataEditor#inherits", this ); }
             enemyHurtMat: null,
             customerNeedCount: 0,
             customerGiveGoin: 0,
-            itemSpawnInterval: 0
+            itemSpawnInterval: 0,
+            enemyDropNum: 0,
+            enemyInitNum: 0
+        },
+        props: {
+            GetOtherData: {
+                get: function () {
+if ( TRACE ) { TRACE( "GameDataEditor#GetOtherData#get", this ); }
+
+                    return this.gameConfig["\u5176\u4ed6\u914d\u7f6e"];
+                }
+            },
+            GetPlayerData: {
+                get: function () {
+if ( TRACE ) { TRACE( "GameDataEditor#GetPlayerData#get", this ); }
+
+                    return this.gameConfig["\u73a9\u5bb6\u6570\u636e"];
+                }
+            },
+            GetMouseData: {
+                get: function () {
+if ( TRACE ) { TRACE( "GameDataEditor#GetMouseData#get", this ); }
+
+                    return this.gameConfig["\u8001\u9f20\u6570\u636e"];
+                }
+            }
         },
         ctors: {
             init: function () {
@@ -9544,6 +11590,26 @@ if ( TRACE ) { TRACE( "GameDataEditor#init", this ); }
                 this.customerGiveGoin = 3;
                 this.itemSpawnInterval = 0.1;
             }
+        },
+        methods: {
+            /*GameDataEditor.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "GameDataEditor#Awake", this ); }
+
+                MonoSingleton$1(GameDataEditor).prototype.Awake.call(this);
+
+                this.playerSpeed = this.gameConfig["\u73a9\u5bb6\u6570\u636e"].playerSpeed;
+                this.playerTurnSmoothTime = this.gameConfig["\u73a9\u5bb6\u6570\u636e"].playerTurnSmoothTime;
+                this.playerMaxHp = this.gameConfig["\u73a9\u5bb6\u6570\u636e"].playerMaxHp;
+
+                this.enemyCount = this.gameConfig["\u8001\u9f20\u6570\u636e"].enemyCount;
+                this.enemySpeed = this.gameConfig["\u8001\u9f20\u6570\u636e"].enemySpeed;
+                this.enemyKnockbackForc = this.gameConfig["\u8001\u9f20\u6570\u636e"].enemyKnockbackForc;
+                this.enemyInitNum = this.gameConfig["\u8001\u9f20\u6570\u636e"].enemyInitNum;
+            },
+            /*GameDataEditor.Awake end.*/
+
+
         }
     });
     /*GameDataEditor end.*/
@@ -9568,6 +11634,19 @@ if ( TRACE ) { TRACE( "GroundItemStack#Update", this ); }
  },
             /*GroundItemStack.Update end.*/
 
+            /*GroundItemStack.GetPatient start.*/
+            GetPatient: function () {
+if ( TRACE ) { TRACE( "GroundItemStack#GetPatient", this ); }
+
+                for (var i = 0; i < this.stackedItemList.Count; i = (i + 1) | 0) {
+                    if (this.stackedItemList.getItem(i).itemType === ItemType.FigherPatient || this.stackedItemList.getItem(i).itemType === ItemType.FarmerPatient) {
+                        return Bridge.as(this.stackedItemList.getItem(i), PatientItem);
+                    }
+                }
+                return null;
+            },
+            /*GroundItemStack.GetPatient end.*/
+
             /*GroundItemStack.StackItem start.*/
             StackItem: function (_item) {
 if ( TRACE ) { TRACE( "GroundItemStack#StackItem", this ); }
@@ -9575,11 +11654,11 @@ if ( TRACE ) { TRACE( "GroundItemStack#StackItem", this ); }
                 _item.transform.parent = this.transform;
                 _item.gameObject.SetActive(true);
                 if (this.stackAmount >= this.maxHeight) {
-                    _item.MoveAlongCurve$1(_item.transform.localPosition, this.nextStackPosition, function () {
+                    _item.MoveAlongCurve(_item.transform.localPosition, this.nextStackPosition, function () {
                         _item.gameObject.SetActive(false);
-                    });
+                    }, this.offsetRotation);
                 } else {
-                    _item.MoveAlongCurve(_item.transform.localPosition, this.nextStackPosition);
+                    _item.MoveAlongCurve(_item.transform.localPosition, this.nextStackPosition, void 0, this.offsetRotation);
                 }
 
                 this.stackAmount = (this.stackAmount + 1) | 0;
@@ -9615,6 +11694,7 @@ if ( TRACE ) { TRACE( "GroundItemStack#RemoveTopItem", this ); }
                 }
 
                 this.stackedItemList.remove(itemToRemove);
+                itemToRemove.transform.parent = null;
                 itemToRemove.gameObject.SetActive(true);
                 return itemToRemove;
             },
@@ -9624,6 +11704,314 @@ if ( TRACE ) { TRACE( "GroundItemStack#RemoveTopItem", this ); }
         }
     });
     /*GroundItemStack end.*/
+
+    /*GuildManager start.*/
+    /**
+     * 引导管理
+     *
+     * @public
+     * @class GuildManager
+     * @augments MonoSingleton$1
+     */
+    Bridge.define("GuildManager", {
+        inherits: function () {
+if ( TRACE ) { TRACE( "GuildManager#inherits", this ); }
+ return [MonoSingleton$1(GuildManager)]; },
+        statics: {
+            fields: {
+                itemDic: null
+            },
+            ctors: {
+                init: function () {
+if ( TRACE ) { TRACE( "GuildManager#init", this ); }
+
+                    this.itemDic = function (_o1) {
+                            _o1.add(ItemType.FarmerPatient, "FarmerPatient");
+                            _o1.add(ItemType.FigherPatient, "FigherPatient");
+                            _o1.add(ItemType.Wheat, "Wheat");
+                            _o1.add(ItemType.WheatItem, "WheatItem");
+                            _o1.add(ItemType.Money, "Money");
+                            return _o1;
+                        }(new (System.Collections.Generic.Dictionary$2(ItemType,System.String)).ctor());
+                }
+            }
+        },
+        fields: {
+            guild: null,
+            guildLst: null,
+            infos: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "GuildManager#init", this ); }
+
+                this.guildLst = new (System.Collections.Generic.List$1(System.Int32)).ctor();
+            }
+        },
+        methods: {
+            /*GuildManager.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "GuildManager#Awake", this ); }
+
+                MonoSingleton$1(GuildManager).prototype.Awake.call(this);
+                this.infos = MonoSingleton$1(GameDataEditor).instance.gameConfig.guildInfo;
+            },
+            /*GuildManager.Awake end.*/
+
+            /*GuildManager.SetGuildLine start.*/
+            /**
+             * 设置引导线
+             *
+             * @instance
+             * @public
+             * @this GuildManager
+             * @memberof GuildManager
+             * @param   {boolean}                               isEnd    是否结束引导
+             * @param   {ExcelTool.GameConfig.GuildInfoItem}    info
+             * @return  {void}
+             */
+            SetGuildLine: function (isEnd, info) {
+if ( TRACE ) { TRACE( "GuildManager#SetGuildLine", this ); }
+
+                if (info === void 0) { info = null; }
+                var GetMousePos = null;
+                GetMousePos = Bridge.fn.bind(this, function () {
+                    var $step = 0,
+                        $jumpFromFinally,
+                        $returnValue,
+                        enemys,
+                        target,
+                        minSqr,
+                        sqr,
+                        $async_e;
+
+                    var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                        try {
+                            for (;;) {
+                                switch ($step) {
+                                    case 0: {
+                                        enemys = MonoSingleton$1(NpcManager).instance.GetEnemies2();
+                                        $step = 1;
+                                        continue;
+                                    }
+                                    case 1: {
+                                        if ( enemys.Count > 0 ) {
+                                                $step = 2;
+                                                continue;
+                                            } 
+                                            $step = 8;
+                                            continue;
+                                    }
+                                    case 2: {
+                                        $enumerator.current = null;
+                                            $step = 3;
+                                            return true;
+                                    }
+                                    case 3: {
+                                        target = null;
+                                            minSqr = 3.40282347E+38;
+                                            for (var i = 0; i < enemys.Count; i = (i + 1) | 0) {
+                                                sqr = (enemys.getItem(i).transform.position.$clone().sub( MonoSingleton$1(Player).instance.transform.position )).lengthSq();
+                                                if (sqr < minSqr) {
+                                                    minSqr = sqr;
+                                                    target = enemys.getItem(i);
+                                                }
+                                            }
+                                        $step = 4;
+                                        continue;
+                                    }
+                                    case 4: {
+                                        if ( !target.isDie ) {
+                                                $step = 5;
+                                                continue;
+                                            } 
+                                            $step = 7;
+                                            continue;
+                                    }
+                                    case 5: {
+                                        MonoSingleton$1(ArrowsManager).instance.SetArrows$1(target.transform);
+                                            $enumerator.current = null;
+                                            $step = 6;
+                                            return true;
+                                    }
+                                    case 6: {
+                                        
+                                            $step = 4;
+                                            continue;
+                                    }
+                                    case 7: {
+                                        
+                                            $step = 1;
+                                            continue;
+                                    }
+                                    case 8: {
+
+                                    }
+                                    default: {
+                                        return false;
+                                    }
+                                }
+                            }
+                        } catch($async_e1) {
+                            $async_e = System.Exception.create($async_e1);
+                            throw $async_e;
+                        }
+                    }));
+                    return $enumerator;
+                });
+                if (isEnd) {
+                    this.guildLst.add(this.guild.id);
+                    MonoSingleton$1(ArrowsManager).instance.CloseArrows();
+                    this.guild = null;
+                } else {
+                    this.guild = info;
+                    MonoSingleton$1(ArrowsManager).instance.UpdateOffsetPos(pc.Vec3.ZERO.clone());
+                    if (info.triggerType === GuildTriggerType.First) {
+                        this.StartCoroutine$1(GetMousePos());
+                    } else if (info.triggerType === GuildTriggerType.Mouse) {
+                        var patients = MonoSingleton$1(NpcManager).instance.GetPatients(ItemType.FigherPatient);
+                        var minSqr = 3.40282347E+38;
+                        var target = null;
+                        var pos = new pc.Vec3( -2.73, 0, -8.94 );
+                        for (var i = 0; i < patients.Count; i = (i + 1) | 0) {
+                            var sqr = (patients.getItem(i).transform.position.$clone().sub( pos )).lengthSq();
+                            if (sqr < minSqr) {
+                                minSqr = sqr;
+                                target = patients.getItem(i);
+                            }
+                        }
+                        MonoSingleton$1(ArrowsManager).instance.SetArrows$1(target.transform);
+                    } else if (info.triggerType === GuildTriggerType.Transport) {
+                        var bed = UnityEngine.GameObject.Find("Bed1");
+                        MonoSingleton$1(ArrowsManager).instance.SetArrows$1(bed.transform);
+                    } else {
+                        MonoSingleton$1(ArrowsManager).instance.SetArrows(((info.id - 1) | 0));
+                    } //设置引导目标
+                }
+
+
+            },
+            /*GuildManager.SetGuildLine end.*/
+
+            /*GuildManager.UpdateArrowHeight start.*/
+            /**
+             * 更新箭头高度
+             *
+             * @instance
+             * @public
+             * @this GuildManager
+             * @memberof GuildManager
+             * @param   {ItemType}    itemType     
+             * @param   {boolean}     isProduce    
+             * @param   {number}      offsetY
+             * @return  {void}
+             */
+            UpdateArrowHeight: function (itemType, isProduce, offsetY) {
+if ( TRACE ) { TRACE( "GuildManager#UpdateArrowHeight", this ); }
+
+                if (this.guild == null) {
+                    return;
+                } //没有正在进行中的引导
+
+                // if(guild.triggerName==itemDic[itemType]&&
+                // (guild.triggerType== (int)GuildTriggerType.ItemProduce&&isProduce
+                // ||guild.triggerType== (int)GuildTriggerType.Item&&!isProduce))
+
+                MonoSingleton$1(ArrowsManager).instance.UpdateOffsetPos(pc.Vec3.UP.clone().clone().scale( offsetY ));
+            },
+            /*GuildManager.UpdateArrowHeight end.*/
+
+            /*GuildManager.CheckGuild start.*/
+            /**
+             * 引导检测
+             *
+             * @instance
+             * @public
+             * @this GuildManager
+             * @memberof GuildManager
+             * @param   {GuildTriggerType}    triggerType    
+             * @param   {number}              num            
+             * @param   {ItemType}            itemType
+             * @return  {void}
+             */
+            CheckGuild: function (triggerType, num, itemType) {
+if ( TRACE ) { TRACE( "GuildManager#CheckGuild", this ); }
+
+                this.CheckGuild$1(triggerType, num, GuildManager.itemDic.getItem(itemType));
+            },
+            /*GuildManager.CheckGuild end.*/
+
+            /*GuildManager.CheckGuild$1 start.*/
+            /**
+             * 引导检测
+             *
+             * @instance
+             * @public
+             * @this GuildManager
+             * @memberof GuildManager
+             * @param   {GuildTriggerType}    triggerType    
+             * @param   {number}              num            
+             * @param   {string}              objName
+             * @return  {void}
+             */
+            CheckGuild$1: function (triggerType, num, objName) {
+if ( TRACE ) { TRACE( "GuildManager#CheckGuild$1", this ); }
+
+                if (objName === void 0) { objName = ""; }
+                if (this.infos.Exists(Bridge.fn.bind(this, function (t) {
+                    return !this.guildLst.contains(t.id) && (t.triggerType === triggerType || t.hideType === triggerType);
+                }))) {
+                    switch (triggerType) {
+                        case GuildTriggerType.UnlockIcon: 
+                        case GuildTriggerType.UnlockFinish: 
+                            {
+                                if (this.guild != null && Bridge.referenceEquals(this.guild.hideName, objName)) {
+                                    this.SetGuildLine(true);
+                                }
+
+                                var info = this.infos.Find(Bridge.fn.bind(this, function (t) {
+                                    return !this.guildLst.contains(t.id) && Bridge.referenceEquals(t.triggerName, objName);
+                                }));
+                                if (Bridge.referenceEquals(info, this.guild) || this.guild != null && info.priority < this.guild.priority) {
+                                    return;
+                                } //当前进行中的引导优先级大于触发的引导
+                                this.SetGuildLine(false, info);
+                            }
+                            break;
+                        default: 
+                            {
+                                //先判断该触发条件下的引导是否满足条件
+                                if (this.guild != null && this.guild.hideType === triggerType && Bridge.referenceEquals(this.guild.hideName, objName)) {
+                                    if (this.guild.hideNum <= num) {
+                                        this.SetGuildLine(true);
+                                    }
+                                }
+
+                                //检测新的引导是否满足条件
+                                var info1 = this.infos.Find(Bridge.fn.bind(this, function (t) {
+                                    return !this.guildLst.contains(t.id) && t.triggerType === triggerType && Bridge.referenceEquals(t.triggerName, objName);
+                                })); //触发式
+                                if (info1 != null && info1.triggerNum <= num) {
+                                    if (Bridge.referenceEquals(info1, this.guild) || this.guild != null && info1.priority < this.guild.priority) {
+                                        return;
+                                    } //当前进行中的引导优先级大于触发的引导
+                                    this.SetGuildLine(false, info1);
+                                }
+                            }
+                            break;
+                    }
+                }
+
+            },
+            /*GuildManager.CheckGuild$1 end.*/
+
+
+        },
+        overloads: {
+            "CheckGuild(GuildTriggerType, int, string)": "CheckGuild$1"
+        }
+    });
+    /*GuildManager end.*/
 
     /*IdleNpc start.*/
     /**
@@ -10987,34 +13375,42 @@ if ( TRACE ) { TRACE( "NpcManager#init", this ); }
             }
         },
         methods: {
-            /*NpcManager.Start$1 start.*/
-            Start$1: function () {
-if ( TRACE ) { TRACE( "NpcManager#Start$1", this ); }
+            /*NpcManager.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "NpcManager#Start", this ); }
 
+                MonoSingleton$1(NpcManager).prototype.Start.call(this);
                 this.InitCustomer();
             },
-            /*NpcManager.Start$1 end.*/
+            /*NpcManager.Start end.*/
 
             /*NpcManager.Update start.*/
             Update: function () {
 if ( TRACE ) { TRACE( "NpcManager#Update", this ); }
 
+                this.EnemyCreate();
+            },
+            /*NpcManager.Update end.*/
+
+            /*NpcManager.EnemyCreate start.*/
+            EnemyCreate: function () {
+if ( TRACE ) { TRACE( "NpcManager#EnemyCreate", this ); }
+
                 if (this.mEnemies.Count < MonoSingleton$1(GameDataEditor).instance.enemyCount) {
-                    var e = MonoSingleton$1(PoolManager).instance.GetEnemy();
+                    var e = Bridge.as(MonoSingleton$1(PoolManager).instance.GetNpc(NpcType.Enemy), Enemy);
                     e.transform.position = new pc.Vec3( UnityEngine.Random.Range$1(MonoSingleton$1(GameDataEditor).instance.patrolAreaMin.position.x, MonoSingleton$1(GameDataEditor).instance.patrolAreaMax.position.x), e.transform.position.y, UnityEngine.Random.Range$1(MonoSingleton$1(GameDataEditor).instance.patrolAreaMin.position.z, MonoSingleton$1(GameDataEditor).instance.patrolAreaMax.position.z) );
                     this.mEnemies.add(e);
                     e.gameObject.SetActive(true);
                 }
-
             },
-            /*NpcManager.Update end.*/
+            /*NpcManager.EnemyCreate end.*/
 
             /*NpcManager.InitCustomer start.*/
             InitCustomer: function () {
 if ( TRACE ) { TRACE( "NpcManager#InitCustomer", this ); }
 
                 for (var i = 0; i < this.mCustomerPath.Count; i = (i + 1) | 0) {
-                    var _Customer = MonoSingleton$1(PoolManager).instance.GetCustomer();
+                    var _Customer = Bridge.as(MonoSingleton$1(PoolManager).instance.GetNpc(NpcType.Customer), Customer);
                     _Customer.transform.position = this.mCustomerPath.getItem(i).transform.position.$clone();
                     _Customer.transform.forward = this.mCustomerPath.getItem(i).transform.forward.$clone();
                     _Customer.gameObject.SetActive(true);
@@ -11029,7 +13425,7 @@ if ( TRACE ) { TRACE( "NpcManager#DequeueCustomer", this ); }
 
                 var $t;
                 this.StartCoroutine$1(this.CustomerExit(this.mCustomers.Dequeue()));
-                var _Customer = MonoSingleton$1(PoolManager).instance.GetCustomer();
+                var _Customer = Bridge.as(MonoSingleton$1(PoolManager).instance.GetNpc(NpcType.Customer), Customer);
                 _Customer.transform.position = this.mCustomerPath.getItem(((this.mCustomerPath.Count - 1) | 0)).transform.position.$clone();
                 _Customer.transform.forward = this.mCustomerPath.getItem(((this.mCustomerPath.Count - 1) | 0)).transform.forward.$clone();
                 _Customer.transform.position = _Customer.transform.position.$clone().sub( _Customer.transform.forward.$clone().clone().scale( 2.5 ) );
@@ -11052,8 +13448,6 @@ if ( TRACE ) { TRACE( "NpcManager#DequeueCustomer", this ); }
                         $t.System$IDisposable$Dispose();
                     }
                 }
-
-
             },
             /*NpcManager.DequeueCustomer end.*/
 
@@ -11137,13 +13531,55 @@ if ( TRACE ) { TRACE( "NpcManager#CustomerExit", this ); }
             },
             /*NpcManager.CustomerExit end.*/
 
+            /*NpcManager.RemovePatient start.*/
+            RemovePatient: function (item) {
+if ( TRACE ) { TRACE( "NpcManager#RemovePatient", this ); }
 
-        },
-        overloads: {
-            "Start()": "Start$1"
+
+            },
+            /*NpcManager.RemovePatient end.*/
+
+            /*NpcManager.GetPatients start.*/
+            GetPatients: function (itemType) {
+if ( TRACE ) { TRACE( "NpcManager#GetPatients", this ); }
+
+                return null;
+            },
+            /*NpcManager.GetPatients end.*/
+
+            /*NpcManager.UnlockLevel start.*/
+            UnlockLevel: function () {
+if ( TRACE ) { TRACE( "NpcManager#UnlockLevel", this ); }
+
+
+            },
+            /*NpcManager.UnlockLevel end.*/
+
+            /*NpcManager.GetEnemies2 start.*/
+            GetEnemies2: function () {
+if ( TRACE ) { TRACE( "NpcManager#GetEnemies2", this ); }
+
+                return null;
+            },
+            /*NpcManager.GetEnemies2 end.*/
+
+
         }
     });
     /*NpcManager end.*/
+
+    /*NurseNpc start.*/
+    /**
+     * 护士
+     *
+     * @public
+     * @class NurseNpc
+     * @augments Npc
+     */
+    Bridge.define("NurseNpc", {
+        inherits: [Npc]
+    });
+    /*NurseNpc end.*/
 
     /*Player start.*/
     /**
@@ -11158,6 +13594,7 @@ if ( TRACE ) { TRACE( "NpcManager#CustomerExit", this ); }
 if ( TRACE ) { TRACE( "Player#inherits", this ); }
  return [MonoSingleton$1(Player)]; },
         fields: {
+            isStop: false,
             mJoystick: null,
             mRigidbody: null,
             mTurnSmoothVelocity: 0,
@@ -11297,10 +13734,11 @@ if ( TRACE ) { TRACE( "Player#init", this ); }
             }
         },
         methods: {
-            /*Player.Start$1 start.*/
-            Start$1: function () {
-if ( TRACE ) { TRACE( "Player#Start$1", this ); }
+            /*Player.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "Player#Start", this ); }
 
+                MonoSingleton$1(Player).prototype.Start.call(this);
                 this.mHp = MonoSingleton$1(GameDataEditor).instance.playerMaxHp;
                 this.mHpMax = MonoSingleton$1(GameDataEditor).instance.playerMaxHp;
                 this.mAttackCollider.radius = MonoSingleton$1(GameDataEditor).instance.playerAttackRadius;
@@ -11314,10 +13752,10 @@ if ( TRACE ) { TRACE( "Player#Start$1", this ); }
                 // 初始化攻击范围指示器
                 if (UnityEngine.MonoBehaviour.op_Inequality(this.attackRangeIndicator, null)) {
                     this.attackRangeIndicator.UpdateRange(this.radius, this.startAngle, this.endAngle);
-                    this.attackRangeIndicator.Hide();
+                    this.attackRangeIndicator.Show(); // 初始显示攻击指示器
                 }
             },
-            /*Player.Start$1 end.*/
+            /*Player.Start end.*/
 
             /*Player.Update start.*/
             Update: function () {
@@ -11331,7 +13769,7 @@ if ( TRACE ) { TRACE( "Player#Update", this ); }
             FixedUpdate: function () {
 if ( TRACE ) { TRACE( "Player#FixedUpdate", this ); }
 
-                if (this.isDie || !MonoSingleton$1(CameraManager).instance.IsCanMove) {
+                if (this.isDie || !MonoSingleton$1(CameraManager).instance.IsCanMove || this.isStop) {
                     return;
                 }
                 if (this.isDroppingOffItem) {
@@ -11372,16 +13810,21 @@ if ( TRACE ) { TRACE( "Player#OnTriggerEnter", this ); }
                 }
                 if (System.String.equals(other.tag, "Home")) {
                     this.IsAtHome = true;
-                    this.attackRangeIndicator.Hide();
+                    var npcOv = Bridge.as(MonoSingleton$1(NpcManager).instance, NpcManagerOv);
+                    if (UnityEngine.MonoBehaviour.op_Equality(npcOv, null) || npcOv.IsPathEnemiesCleared) {
+                        UnityEngine.MonoBehaviour.op_Inequality(this.attackRangeIndicator, null) ? this.attackRangeIndicator.Hide() : null;
+                        this.mHpUi.Hide();
+                    }
                 }
                 if (System.String.equals(other.tag, "Enemy")) {
+                    var npcOv1 = Bridge.as(MonoSingleton$1(NpcManager).instance, NpcManagerOv);
+                    var canAttackAtHome = UnityEngine.MonoBehaviour.op_Inequality(npcOv1, null) && !npcOv1.IsPathEnemiesCleared;
 
-                    if (this.attackInterval <= 0 && !this.IsAttacking && !this.IsAtHome) {
+                    if (this.attackInterval <= 0 && !this.IsAttacking && (!this.IsAtHome || canAttackAtHome)) {
                         if (this.CheckIsAttack()) {
                             this.IsAttack = true;
                             this.attackInterval = MonoSingleton$1(GameDataEditor).instance.playerAttackInterval;
                         }
-
                     }
                 }
 
@@ -11421,14 +13864,19 @@ if ( TRACE ) { TRACE( "Player#OnTriggerStay", this ); }
                         this.mHp++;
                         this.mHpUi.SetHpFill((this.mHp / this.mHpMax));
                         if (this.mHp === this.mHpMax) {
-                            this.mHpUi.Hide();
+                            var npcOv2 = Bridge.as(MonoSingleton$1(NpcManager).instance, NpcManagerOv);
+                            if (UnityEngine.MonoBehaviour.op_Equality(npcOv2, null) || npcOv2.IsPathEnemiesCleared) {
+                                this.mHpUi.Hide();
+                            }
                         }
-
                         MonoSingleton$1(UIManager).instance.StopDanger();
                     }
                 }
                 if (System.String.equals(other.tag, "Enemy")) {
-                    if (this.attackInterval <= 0 && !this.IsAttacking && !this.IsAtHome) {
+                    var npcOv = Bridge.as(MonoSingleton$1(NpcManager).instance, NpcManagerOv);
+                    var canAttackAtHome = UnityEngine.MonoBehaviour.op_Inequality(npcOv, null) && !npcOv.IsPathEnemiesCleared;
+
+                    if (this.attackInterval <= 0 && !this.IsAttacking && (!this.IsAtHome || canAttackAtHome)) {
                         if (this.CheckIsAttack()) {
                             this.IsAttack = true;
                             this.attackInterval = MonoSingleton$1(GameDataEditor).instance.playerAttackInterval;
@@ -11439,6 +13887,13 @@ if ( TRACE ) { TRACE( "Player#OnTriggerStay", this ); }
                     }
 
                 }
+
+                // if (other.transform.CompareTag("Patient"))
+                // {
+                //     var index = itemStackManager.GetStackIndexByItemType(ItemType.Patient);
+                //     var stackLst = itemStackManager.stackList[index];
+                //     NpcManagerOv.instance.DequeueCustomer(stackLst,true);
+                // }
 
             },
             /*Player.OnTriggerStay end.*/
@@ -11462,7 +13917,7 @@ if ( TRACE ) { TRACE( "Player#OnTriggerExit", this ); }
                 }
                 if (System.String.equals(other.tag, "Home")) {
                     this.IsAtHome = false;
-                    this.attackRangeIndicator.Show();
+                    UnityEngine.MonoBehaviour.op_Inequality(this.attackRangeIndicator, null) ? this.attackRangeIndicator.Show() : null;
                     this.mHpUi.gameObject.SetActive(true);
                 }
             },
@@ -11473,7 +13928,6 @@ if ( TRACE ) { TRACE( "Player#OnTriggerExit", this ); }
 if ( TRACE ) { TRACE( "Player#Move", this ); }
 
                 if (LunaManager.instance.isGameOver) {
-                    this.IsMove = false;
                     this.OnStop();
                     return;
                 }
@@ -11483,7 +13937,8 @@ if ( TRACE ) { TRACE( "Player#Move", this ); }
                 if (this.mJoystick.dragging && UnityEngine.Input.GetMouseButton(0)) {
                     this.IsMove = true;
                     var targetAngle = Math.atan2(this.mJoystick.Horizontal, this.mJoystick.Vertical) * UnityEngine.Mathf.Rad2Deg;
-                    var angle = UnityEngine.Mathf.SmoothDampAngle(this.transform.eulerAngles.y, targetAngle - this.mAngleDis, Bridge.ref(this, "mTurnSmoothVelocity"), this.mTurnSmoothTime);
+                    var worldTargetAngle = targetAngle + UnityEngine.Camera.main.transform.eulerAngles.y - this.mAngleDis;
+                    var angle = UnityEngine.Mathf.SmoothDampAngle(this.transform.eulerAngles.y, worldTargetAngle, Bridge.ref(this, "mTurnSmoothVelocity"), this.mTurnSmoothTime);
                     this.mRigidbody.velocity = new pc.Vec3( (this.transform.forward.$clone().clone().scale( this.speed )).x, this.mRigidbody.velocity.y, (this.transform.forward.$clone().clone().scale( this.speed )).z );
                     this.transform.rotation = new pc.Quat().setFromEulerAngles_Unity( 0.0, angle, 0.0 );
                 } else {
@@ -11540,9 +13995,46 @@ if ( TRACE ) { TRACE( "Player#SetHp", this ); }
 if ( TRACE ) { TRACE( "Player#OnStop", this ); }
 
                 this.IsMove = false;
-                this.mRigidbody.velocity = new pc.Vec3( 0, 0, 0 );
+                this.mRigidbody.velocity = new pc.Vec3( 0, this.mRigidbody.velocity.y, 0 );
             },
             /*Player.OnStop end.*/
+
+            /*Player.EnterElevator start.*/
+            /**
+             * 进入电梯时调用，禁用物理并限制移动
+             *
+             * @instance
+             * @public
+             * @this Player
+             * @memberof Player
+             * @return  {void}
+             */
+            EnterElevator: function () {
+if ( TRACE ) { TRACE( "Player#EnterElevator", this ); }
+
+                this.isStop = true;
+                this.OnStop();
+                this.mRigidbody.isKinematic = true;
+            },
+            /*Player.EnterElevator end.*/
+
+            /*Player.ExitElevator start.*/
+            /**
+             * 离开电梯时调用，恢复物理和移动
+             *
+             * @instance
+             * @public
+             * @this Player
+             * @memberof Player
+             * @return  {void}
+             */
+            ExitElevator: function () {
+if ( TRACE ) { TRACE( "Player#ExitElevator", this ); }
+
+                this.mRigidbody.isKinematic = false;
+                this.isStop = false;
+            },
+            /*Player.ExitElevator end.*/
 
             /*Player.MoneyAmountChange start.*/
             /**
@@ -11558,11 +14050,13 @@ if ( TRACE ) { TRACE( "Player#OnStop", this ); }
             MoneyAmountChange: function (_value) {
 if ( TRACE ) { TRACE( "Player#MoneyAmountChange", this ); }
 
+                var $t;
                 this.moneyAmount = (this.moneyAmount + _value) | 0;
                 if (this.moneyAmount < 0) {
                     this.moneyAmount = 0;
                 }
                 MonoSingleton$1(UIManager).instance.SetGold(this.moneyAmount);
+                UnityEngine.MonoBehaviour.op_Inequality(($t = MonoSingleton$1(ClerkManager).instance), null) ? $t.AddTotalMoney(_value) : null;
             },
             /*Player.MoneyAmountChange end.*/
 
@@ -11609,7 +14103,8 @@ if ( TRACE ) { TRACE( "Player#CollectItemFromGroundStack", this ); }
 
                                         targetItem.gameObject.SetActive(true);
                                         targetItem.cd.enabled = false;
-                                        this.itemStackManager.stackList.getItem(targetItem.targetStackListIndex).StackItem(targetItem);
+                                        var targetStackListIndex = this.itemStackManager.GetStackIndexByItemType(targetItem.itemType);
+                                        this.itemStackManager.stackList.getItem(targetStackListIndex).StackItem(targetItem);
                                     }
                                 }
 
@@ -11690,6 +14185,9 @@ if ( TRACE ) { TRACE( "Player#Attack", this ); }
                 var center = this.transform.position.$clone().sub( this.transform.forward );
                 var hits = UnityEngine.Physics.OverlapSphere(center, this.radius, this.enemyLayerMask);
 
+                var npcOv = Bridge.as(MonoSingleton$1(NpcManager).instance, NpcManagerOv);
+                var onlyPathEnemies = UnityEngine.MonoBehaviour.op_Inequality(npcOv, null) && !npcOv.IsPathEnemiesCleared;
+
                 $t = Bridge.getEnumerator(hits);
                 try {
                     while ($t.moveNext()) {
@@ -11704,12 +14202,15 @@ if ( TRACE ) { TRACE( "Player#Attack", this ); }
                         var angle = Math.atan2(localDir.z, localDir.x) * UnityEngine.Mathf.Rad2Deg;
 
                         if (angle >= this.startAngle && angle <= this.endAngle) {
-                            //Debug.Log("攻击到敌人 " + hit.name);
                             var _enemy = hit.GetComponent(Enemy);
                             if (UnityEngine.MonoBehaviour.op_Inequality(_enemy, null)) {
+                                // 路径老鼠未清除时，只攻击路径老鼠
+                                if (onlyPathEnemies && !npcOv.GetPathEnemies.contains(_enemy)) {
+                                    continue;
+                                }
+
                                 _enemy.SetHp(MonoSingleton$1(GameDataEditor).instance.playerAamage);
                             }
-
                         }
                     }
                 } finally {
@@ -11736,6 +14237,10 @@ if ( TRACE ) { TRACE( "Player#CheckIsAttack", this ); }
                 var $t;
                 var center = this.transform.position.$clone().sub( this.transform.forward );
                 var hits = UnityEngine.Physics.OverlapSphere(center, this.radius, this.enemyLayerMask);
+
+                var npcOv = Bridge.as(MonoSingleton$1(NpcManager).instance, NpcManagerOv);
+                var onlyPathEnemies = UnityEngine.MonoBehaviour.op_Inequality(npcOv, null) && !npcOv.IsPathEnemiesCleared;
+
                 $t = Bridge.getEnumerator(hits);
                 try {
                     while ($t.moveNext()) {
@@ -11749,7 +14254,13 @@ if ( TRACE ) { TRACE( "Player#CheckIsAttack", this ); }
                         var angle = Math.atan2(localDir.z, localDir.x) * UnityEngine.Mathf.Rad2Deg;
 
                         if (angle >= this.startAngle && angle <= this.endAngle) {
-                            //  Debug.Log("前方有敌人，攻击");
+                            // 路径老鼠未清除时，只检测路径老鼠
+                            if (onlyPathEnemies) {
+                                var _enemy = hit.GetComponent(Enemy);
+                                if (UnityEngine.MonoBehaviour.op_Equality(_enemy, null) || !npcOv.GetPathEnemies.contains(_enemy)) {
+                                    continue;
+                                }
+                            }
                             return true;
                         }
                     }
@@ -11758,15 +14269,11 @@ if ( TRACE ) { TRACE( "Player#CheckIsAttack", this ); }
                         $t.System$IDisposable$Dispose();
                     }
                 }
-                // Debug.Log("前方没敌人");
                 return false;
             },
             /*Player.CheckIsAttack end.*/
 
 
-        },
-        overloads: {
-            "Start()": "Start$1"
         }
     });
     /*Player end.*/
@@ -11784,39 +14291,40 @@ if ( TRACE ) { TRACE( "Player#CheckIsAttack", this ); }
 if ( TRACE ) { TRACE( "PoolManager#inherits", this ); }
  return [MonoSingleton$1(PoolManager)]; },
         fields: {
-            mMoneys: null,
-            mRawMaterials: null,
-            mProducts: null,
-            mEnemys: null,
-            mCustomers: null,
             mEnemyhps: null,
-            mMoneyPrefab: null,
-            mRawMaterialPrefab: null,
-            mProductPrefab: null,
+            mFighterhps: null,
+            itemPrefabs: null,
+            npcPrefabs: null,
             mEnemyHpPrefab: null,
-            mEnemyPrefab: null,
-            mCustomerPrefab: null
+            mFighterHpPrefab: null,
+            items: null,
+            npcs: null
         },
         ctors: {
             init: function () {
 if ( TRACE ) { TRACE( "PoolManager#init", this ); }
 
-                this.mMoneys = new (System.Collections.Generic.Queue$1(Item)).ctor();
-                this.mRawMaterials = new (System.Collections.Generic.Queue$1(Item)).ctor();
-                this.mProducts = new (System.Collections.Generic.Queue$1(Item)).ctor();
-                this.mEnemys = new (System.Collections.Generic.Queue$1(Enemy)).ctor();
-                this.mCustomers = new (System.Collections.Generic.Queue$1(Customer)).ctor();
                 this.mEnemyhps = new (System.Collections.Generic.Queue$1(UIHealthBar)).ctor();
+                this.mFighterhps = new (System.Collections.Generic.Queue$1(UIHealthBar)).ctor();
+                this.items = new (System.Collections.Generic.Dictionary$2(ItemType,System.Collections.Generic.Queue$1(Item))).ctor();
+                this.npcs = new (System.Collections.Generic.Dictionary$2(NpcType,System.Collections.Generic.Queue$1(Npc))).ctor();
             }
         },
         methods: {
-            /*PoolManager.Start$1 start.*/
-            Start$1: function () {
-if ( TRACE ) { TRACE( "PoolManager#Start$1", this ); }
+            /*PoolManager.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "PoolManager#Awake", this ); }
 
-
+                MonoSingleton$1(PoolManager).prototype.Awake.call(this);
+                //初始化池子队列
+                for (var i = 0; i < this.itemPrefabs.Count; i = (i + 1) | 0) {
+                    this.items.add(this.itemPrefabs.getItem(i).itemType, new (System.Collections.Generic.Queue$1(Item)).ctor());
+                }
+                for (var i1 = 0; i1 < this.npcPrefabs.Count; i1 = (i1 + 1) | 0) {
+                    this.npcs.add(this.npcPrefabs.getItem(i1).npcType, new (System.Collections.Generic.Queue$1(Npc)).ctor());
+                }
             },
-            /*PoolManager.Start$1 end.*/
+            /*PoolManager.Awake end.*/
 
             /*PoolManager.GetEnemyHp start.*/
             GetEnemyHp: function () {
@@ -11833,69 +14341,61 @@ if ( TRACE ) { TRACE( "PoolManager#GetEnemyHp", this ); }
             },
             /*PoolManager.GetEnemyHp end.*/
 
-            /*PoolManager.GetEnemy start.*/
-            GetEnemy: function () {
-if ( TRACE ) { TRACE( "PoolManager#GetEnemy", this ); }
+            /*PoolManager.GetFighterHp start.*/
+            GetFighterHp: function () {
+if ( TRACE ) { TRACE( "PoolManager#GetFighterHp", this ); }
 
-                var _enemy = null;
-                if (this.mEnemys.Count > 0) {
-                    _enemy = this.mEnemys.Dequeue();
+                var hp = null;
+                if (this.mFighterhps.Count > 0) {
+                    hp = this.mFighterhps.Dequeue();
                 } else {
-                    _enemy = UnityEngine.Object.Instantiate(Enemy, this.mEnemyPrefab, this.transform);
+                    hp = UnityEngine.Object.Instantiate(UIHealthBar, this.mFighterHpPrefab, MonoSingleton$1(UIManager).instance.mEnemyHps);
                 }
 
-                return _enemy;
+                return hp;
             },
-            /*PoolManager.GetEnemy end.*/
+            /*PoolManager.GetFighterHp end.*/
 
-            /*PoolManager.GetCustomer start.*/
-            GetCustomer: function () {
-if ( TRACE ) { TRACE( "PoolManager#GetCustomer", this ); }
+            /*PoolManager.GetNpc start.*/
+            GetNpc: function (npcType) {
+if ( TRACE ) { TRACE( "PoolManager#GetNpc", this ); }
 
-                var _Customer = null;
-                if (this.mCustomers.Count > 0) {
-                    _Customer = this.mCustomers.Dequeue();
+                var _npc = null;
+                var queue = this.npcs.getItem(npcType);
+                if (queue.Count > 0) {
+                    _npc = queue.Dequeue();
                 } else {
-                    _Customer = UnityEngine.Object.Instantiate(Customer, this.mCustomerPrefab, this.transform);
+                    var prefab = this.npcPrefabs.Find(function (t) {
+                        return t.npcType === npcType;
+                    });
+                    _npc = UnityEngine.Object.Instantiate(Npc, prefab, this.transform);
                 }
 
-                return _Customer;
+                return _npc;
             },
-            /*PoolManager.GetCustomer end.*/
+            /*PoolManager.GetNpc end.*/
 
             /*PoolManager.GetItem start.*/
             GetItem: function (itemType) {
 if ( TRACE ) { TRACE( "PoolManager#GetItem", this ); }
 
                 var obj = null;
-                switch (itemType) {
-                    case ItemType.RawMaterial: 
-                        if (this.mRawMaterials.Count > 0) {
-                            obj = this.mRawMaterials.Dequeue();
-                        } else {
-                            obj = UnityEngine.Object.Instantiate(Item, this.mRawMaterialPrefab, this.transform);
-                        }
-                        break;
-                    case ItemType.Product: 
-                        if (this.mProducts.Count > 0) {
-                            obj = this.mProducts.Dequeue();
-                            obj.gameObject.SetActive(true);
-                            return obj;
-                        } else {
-                            obj = UnityEngine.Object.Instantiate(Item, this.mProductPrefab, this.transform);
-                        }
-                        break;
-                    case ItemType.Money: 
-                        if (this.mMoneys.Count > 0) {
-                            obj = this.mMoneys.Dequeue();
-                        } else {
-                            obj = UnityEngine.Object.Instantiate(Item, this.mMoneyPrefab, this.transform);
-                        }
-                        break;
-                    default: 
-                        break;
+                var queue = this.items.getItem(itemType);
+                if (queue.Count > 0) {
+                    obj = queue.Dequeue();
+                } else {
+                    var itemPrefab = this.itemPrefabs.Find(function (t) {
+                        return t.itemType === itemType;
+                    });
+                    obj = UnityEngine.Object.Instantiate(Item, itemPrefab, this.transform);
                 }
-                //   obj.gameObject.SetActive(true);
+                if (itemType === ItemType.Product) {
+                    obj.gameObject.SetActive(true);
+                } else {
+                    if (itemType === ItemType.Money) {
+                        obj.value = MonoSingleton$1(GameDataEditor).instance.gameConfig["\u5176\u4ed6\u914d\u7f6e"].moneyValue;
+                    }
+                }
                 return obj;
             },
             /*PoolManager.GetItem end.*/
@@ -11904,20 +14404,8 @@ if ( TRACE ) { TRACE( "PoolManager#GetItem", this ); }
             ReturnItem: function (item) {
 if ( TRACE ) { TRACE( "PoolManager#ReturnItem", this ); }
 
-                switch (item.itemType) {
-                    case ItemType.RawMaterial: 
-                        this.mRawMaterials.Enqueue(item);
-                        break;
-                    case ItemType.Product: 
-                        this.mProducts.Enqueue(item);
-                        break;
-                    case ItemType.Money: 
-                        this.mMoneys.Enqueue(item);
-                        break;
-                    default: 
-                        break;
-                }
-
+                var queue = this.items.getItem(item.itemType);
+                queue.Enqueue(item);
                 item.gameObject.SetActive(false);
             },
             /*PoolManager.ReturnItem end.*/
@@ -11930,9 +14418,19 @@ if ( TRACE ) { TRACE( "PoolManager#ReturnEnemyHp", this ); }
                     this.mEnemyhps.Enqueue(_enemyhp);
                     _enemyhp.gameObject.SetActive(false);
                 })));
-
             },
             /*PoolManager.ReturnEnemyHp end.*/
+
+            /*PoolManager.ReturnFighterHp start.*/
+            ReturnFighterHp: function (_fighterhp) {
+if ( TRACE ) { TRACE( "PoolManager#ReturnFighterHp", this ); }
+
+                this.StartCoroutine$1(this.WaitDoIE(0.5, Bridge.fn.bind(this, function () {
+                    this.mFighterhps.Enqueue(_fighterhp);
+                    _fighterhp.gameObject.SetActive(false);
+                })));
+            },
+            /*PoolManager.ReturnFighterHp end.*/
 
             /*PoolManager.ReturnEnemy start.*/
             ReturnEnemy: function (_enemy, waittimes) {
@@ -11941,7 +14439,8 @@ if ( TRACE ) { TRACE( "PoolManager#ReturnEnemy", this ); }
                 if (waittimes === void 0) { waittimes = 1.0; }
                 this.StartCoroutine$1(this.WaitDoIE(waittimes, Bridge.fn.bind(this, function () {
                     MonoSingleton$1(NpcManager).instance.mEnemies.remove(_enemy);
-                    this.mEnemys.Enqueue(_enemy);
+                    var queue = this.npcs.getItem(NpcType.Enemy);
+                    queue.Enqueue(_enemy);
                     _enemy.gameObject.SetActive(false);
                 })));
 
@@ -11952,7 +14451,8 @@ if ( TRACE ) { TRACE( "PoolManager#ReturnEnemy", this ); }
             ReturnCustomer: function (_Customer) {
 if ( TRACE ) { TRACE( "PoolManager#ReturnCustomer", this ); }
 
-                this.mCustomers.Enqueue(_Customer);
+                var queue = this.npcs.getItem(NpcType.Customer);
+                queue.Enqueue(_Customer);
                 _Customer.gameObject.SetActive(false);
 
             },
@@ -11995,12 +14495,822 @@ if ( TRACE ) { TRACE( "PoolManager#WaitDoIE", this ); }
             /*PoolManager.WaitDoIE end.*/
 
 
-        },
-        overloads: {
-            "Start()": "Start$1"
         }
     });
     /*PoolManager end.*/
+
+    /*PorterNpc start.*/
+    /**
+     * 搬运工人 - 从触发器区域拾取病人，搬运到空病床上
+     *
+     * @public
+     * @class PorterNpc
+     * @augments Npc
+     */
+    Bridge.define("PorterNpc", {
+        inherits: [Npc],
+        fields: {
+            loaderNpcPath: null,
+            bedProcessList: null,
+            itemStackManager: null,
+            loadUnloadDelay: 0,
+            maxBedIndex: 0,
+            bedDic: null,
+            targetGroundStackManager: null,
+            itemDropOffTimer: 0,
+            itemDropOffCooldown: 0,
+            isDroppingOffItem: false,
+            isCollectingItem: false,
+            npcStack: null,
+            farmerStack: null,
+            enemyBedNum: 0,
+            patients: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "PorterNpc#init", this ); }
+
+                this.loadUnloadDelay = 0.2;
+                this.bedDic = new (System.Collections.Generic.Dictionary$2(System.Int32,System.Boolean)).ctor();
+                this.itemDropOffTimer = -1;
+                this.itemDropOffCooldown = 0.1;
+                this.isDroppingOffItem = false;
+                this.isCollectingItem = false;
+                this.patients = new (System.Collections.Generic.List$1(PatientItem)).ctor();
+            }
+        },
+        methods: {
+            /*PorterNpc.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "PorterNpc#Start", this ); }
+
+                this.npcStack = this.itemStackManager.stackList.getItem(0);
+                this.farmerStack = this.itemStackManager.stackList.getItem(1);
+                this.StartCoroutine$1(this.WorkCycle());
+            },
+            /*PorterNpc.Start end.*/
+
+            /*PorterNpc.FixedUpdate start.*/
+            FixedUpdate: function () {
+if ( TRACE ) { TRACE( "PorterNpc#FixedUpdate", this ); }
+
+                if (this.isDroppingOffItem) {
+                    this.DropItemToGroundStack();
+                }
+            },
+            /*PorterNpc.FixedUpdate end.*/
+
+            /*PorterNpc.GetAvailableBedCount start.*/
+            /**
+             * 获取所有病床的剩余空位总数
+             *
+             * @instance
+             * @private
+             * @this PorterNpc
+             * @memberof PorterNpc
+             * @return  {number}
+             */
+            GetAvailableBedCount: function () {
+if ( TRACE ) { TRACE( "PorterNpc#GetAvailableBedCount", this ); }
+
+                var $t, $t1;
+                var available = 0;
+                $t = Bridge.getEnumerator(this.bedProcessList);
+                try {
+                    while ($t.moveNext()) {
+                        var bed = $t.Current;
+                        var groundManager = bed.GetComponentInChildren(GroundItemStackManager);
+                        if (UnityEngine.MonoBehaviour.op_Equality(groundManager, null)) {
+                            continue;
+                        }
+
+                        $t1 = Bridge.getEnumerator(groundManager.stackList);
+                        try {
+                            while ($t1.moveNext()) {
+                                var stack = $t1.Current;
+                                if (stack.stackAmount <= 0) {
+                                    available = (available + 1) | 0;
+                                }
+                            }
+                        } finally {
+                            if (Bridge.is($t1, System.IDisposable)) {
+                                $t1.System$IDisposable$Dispose();
+                            }
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+                return available;
+            },
+            /*PorterNpc.GetAvailableBedCount end.*/
+
+            /*PorterNpc.GetRemainFamerCount start.*/
+            /**
+             * 获取剩余泡汤池位置
+             *
+             * @instance
+             * @private
+             * @this PorterNpc
+             * @memberof PorterNpc
+             * @return  {number}
+             */
+            GetRemainFamerCount: function () {
+if ( TRACE ) { TRACE( "PorterNpc#GetRemainFamerCount", this ); }
+
+                if (!MonoSingleton$1(SoakManager).instance.gameObject.activeInHierarchy) {
+                    return 0;
+                }
+
+                return ((MonoSingleton$1(SoakManager).instance.poolStack.totalMaxAmount - MonoSingleton$1(SoakManager).instance.poolStack.totalStackedItemsAmount) | 0);
+            },
+            /*PorterNpc.GetRemainFamerCount end.*/
+
+            /*PorterNpc.GetEmptyBed start.*/
+            /**
+             * 获取空床位
+             *
+             * @instance
+             * @private
+             * @this PorterNpc
+             * @memberof PorterNpc
+             * @return  {void}
+             */
+            GetEmptyBed: function () {
+if ( TRACE ) { TRACE( "PorterNpc#GetEmptyBed", this ); }
+
+                var $t, $t1;
+                this.bedDic.clear();
+                var index = 0;
+                this.maxBedIndex = 0;
+                $t = Bridge.getEnumerator(this.bedProcessList);
+                try {
+                    while ($t.moveNext()) {
+                        var bed = $t.Current;
+                        var groundManager = bed.groundItemStack;
+                        if (UnityEngine.MonoBehaviour.op_Equality(groundManager, null)) {
+                            continue;
+                        }
+                        $t1 = Bridge.getEnumerator(groundManager.stackList);
+                        try {
+                            while ($t1.moveNext()) {
+                                var stack = $t1.Current;
+                                if (stack.stackAmount <= 0) {
+                                    this.maxBedIndex = (index + 1) | 0;
+                                    this.bedDic.add(index, true);
+                                    break;
+                                }
+                            }
+                        } finally {
+                            if (Bridge.is($t1, System.IDisposable)) {
+                                $t1.System$IDisposable$Dispose();
+                            }
+                        }
+                        if (!this.bedDic.containsKey(index)) {
+                            this.bedDic.add(index, false);
+                        }
+                        index = (index + 1) | 0;
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+            },
+            /*PorterNpc.GetEmptyBed end.*/
+
+            /*PorterNpc.GetPatient start.*/
+            GetPatient: function (itemType) {
+if ( TRACE ) { TRACE( "PorterNpc#GetPatient", this ); }
+
+                var $t;
+                var lst = MonoSingleton$1(NpcManager).instance.GetPatients(itemType);
+                var minSqr = 3.40282347E+38;
+                var target = null;
+                //从NpcManager获取所有战士病人
+                $t = Bridge.getEnumerator(lst);
+                try {
+                    while ($t.moveNext()) {
+                        var item = $t.Current;
+                        if (!this.patients.contains(item) && (this.transform.position.$clone().sub( item.transform.position )).lengthSq() < minSqr) {
+                            target = item;
+                            minSqr = (this.transform.position.$clone().sub( item.transform.position )).lengthSq();
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+                if (this.patients != null) {
+                    this.patients.add(target);
+                }
+                return target;
+            },
+            /*PorterNpc.GetPatient end.*/
+
+            /*PorterNpc.WorkCycle start.*/
+            /**
+             * 主工作循环
+             *
+             * @instance
+             * @private
+             * @this PorterNpc
+             * @memberof PorterNpc
+             * @return  {System.Collections.IEnumerator}
+             */
+            WorkCycle: function () {
+if ( TRACE ) { TRACE( "PorterNpc#WorkCycle", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    isfinsh,
+                    isWorking,
+                    pos,
+                    target,
+                    target1,
+                    soakPos,
+                    i,
+                    bedIndex,
+                    pos1,
+                    bedPos,
+                    i1,
+                    pos2,
+                    i2,
+                    pos3,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    isfinsh = false;
+                                        isWorking = true;
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 1: {
+                                    if ( true ) {
+                                            $step = 2;
+                                            continue;
+                                        } 
+                                        $step = 65;
+                                        continue;
+                                }
+                                case 2: {
+                                    $enumerator.current = null;
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    this.GetEmptyBed(); //获取空床位
+                                        if (this.maxBedIndex === 0) {
+                                            $step = 4;
+                                            continue;
+                                        } 
+                                        $step = 11;
+                                        continue;
+                                }
+                                case 4: {
+                                    if (isWorking) {
+                                            $step = 5;
+                                            continue;
+                                        } 
+                                        $step = 10;
+                                        continue;
+                                }
+                                case 5: {
+                                    pos = this.loaderNpcPath.GetChild(0); //休息点
+                                        isfinsh = false;
+                                        this.MoveToTarget(pos, function () {
+                                            isfinsh = true;
+                                            isWorking = false;
+                                        });
+                                    $step = 6;
+                                    continue;
+                                }
+                                case 6: {
+                                    if ( !isfinsh ) {
+                                            $step = 7;
+                                            continue;
+                                        } 
+                                        $step = 9;
+                                        continue;
+                                }
+                                case 7: {
+                                    $enumerator.current = null;
+                                        $step = 8;
+                                        return true;
+                                }
+                                case 8: {
+                                    
+                                        $step = 6;
+                                        continue;
+                                }
+                                case 9: {
+                                    $step = 10;
+                                    continue;
+                                }
+                                case 10: {
+                                    $step = 1;
+                                        continue;
+                                }
+                                case 11: {
+                                    //前往排队点
+                                        isWorking = true;
+                                        isfinsh = false;
+                                        this.MoveToTarget(this.loaderNpcPath.GetChild(1), function () {
+                                            isfinsh = true;
+                                        });
+                                    $step = 12;
+                                    continue;
+                                }
+                                case 12: {
+                                    if ( !isfinsh ) {
+                                            $step = 13;
+                                            continue;
+                                        } 
+                                        $step = 15;
+                                        continue;
+                                }
+                                case 13: {
+                                    $enumerator.current = null;
+                                        $step = 14;
+                                        return true;
+                                }
+                                case 14: {
+                                    
+                                        $step = 12;
+                                        continue;
+                                }
+                                case 15: {
+                                    this.enemyBedNum = this.GetAvailableBedCount();
+                                    $step = 16;
+                                    continue;
+                                }
+                                case 16: {
+                                    if ( this.npcStack.stackAmount < this.enemyBedNum ) {
+                                            $step = 17;
+                                            continue;
+                                        } 
+                                        $step = 22;
+                                        continue;
+                                }
+                                case 17: {
+                                    target = this.GetPatient(ItemType.FigherPatient); //获取最近的病人
+                                        if (UnityEngine.MonoBehaviour.op_Equality(target, null)) {
+                                            // 没有可用的病人时，退出循环等待
+                                            $step = 22;
+                                            continue;
+                                        }
+                                        isfinsh = false;
+                                        this.MoveToTarget$2(target.transform.position, function () {
+                                            isfinsh = true;
+                                        });
+                                    $step = 18;
+                                    continue;
+                                }
+                                case 18: {
+                                    if ( !isfinsh ) {
+                                            $step = 19;
+                                            continue;
+                                        } 
+                                        $step = 21;
+                                        continue;
+                                }
+                                case 19: {
+                                    $enumerator.current = null;
+                                        $step = 20;
+                                        return true;
+                                }
+                                case 20: {
+                                    
+                                        $step = 18;
+                                        continue;
+                                }
+                                case 21: {
+                                    
+                                        $step = 16;
+                                        continue;
+                                }
+                                case 22: {
+                                    // while (npcStack.stackAmount < GetAvailableBedCount())//等待获取病人
+                                        //     yield return null;
+                                    $step = 23;
+                                    continue;
+                                }
+                                case 23: {
+                                    if ( this.farmerStack.stackAmount < this.GetRemainFamerCount() ) {
+                                            $step = 24;
+                                            continue;
+                                        } 
+                                        $step = 29;
+                                        continue;
+                                }
+                                case 24: {
+                                    target1 = this.GetPatient(ItemType.FarmerPatient); //获取最近的病人
+                                        if (UnityEngine.MonoBehaviour.op_Equality(target1, null)) {
+                                            // 没有可用的病人时，退出循环等待
+                                            $step = 29;
+                                            continue;
+                                        }
+                                        isfinsh = false;
+                                        this.MoveToTarget$2(target1.transform.position, function () {
+                                            isfinsh = true;
+                                        });
+                                    $step = 25;
+                                    continue;
+                                }
+                                case 25: {
+                                    if ( !isfinsh ) {
+                                            $step = 26;
+                                            continue;
+                                        } 
+                                        $step = 28;
+                                        continue;
+                                }
+                                case 26: {
+                                    $enumerator.current = null;
+                                        $step = 27;
+                                        return true;
+                                }
+                                case 27: {
+                                    
+                                        $step = 25;
+                                        continue;
+                                }
+                                case 28: {
+                                    
+                                        $step = 23;
+                                        continue;
+                                }
+                                case 29: {
+                                    //前往排队点
+                                        isWorking = true;
+                                        isfinsh = false;
+                                        this.MoveToTarget(this.loaderNpcPath.GetChild(1), function () {
+                                            isfinsh = true;
+                                        });
+                                    $step = 30;
+                                    continue;
+                                }
+                                case 30: {
+                                    if ( !isfinsh ) {
+                                            $step = 31;
+                                            continue;
+                                        } 
+                                        $step = 33;
+                                        continue;
+                                }
+                                case 31: {
+                                    $enumerator.current = null;
+                                        $step = 32;
+                                        return true;
+                                }
+                                case 32: {
+                                    
+                                        $step = 30;
+                                        continue;
+                                }
+                                case 33: {
+                                    //前往泡汤池
+                                        soakPos = MonoSingleton$1(SoakManager).instance.poolStack.transform.position.$clone();
+                                        this.MoveToTarget$2(new pc.Vec3( soakPos.x, this.transform.position.y, soakPos.z ));
+                                    $step = 34;
+                                    continue;
+                                }
+                                case 34: {
+                                    if ( this.GetRemainFamerCount() > 0 && this.farmerStack.stackAmount !== 0 ) {
+                                            $step = 35;
+                                            continue;
+                                        } 
+                                        $step = 37;
+                                        continue;
+                                }
+                                case 35: {
+                                    $enumerator.current = null;
+                                        $step = 36;
+                                        return true;
+                                }
+                                case 36: {
+                                    
+                                        $step = 34;
+                                        continue;
+                                }
+                                case 37: {
+                                    //前往空床位
+                                        i = 0;
+                                        $step = 38;
+                                        continue;
+                                }
+                                case 38: {
+                                    if ( i < this.maxBedIndex ) {
+                                            $step = 39;
+                                            continue;
+                                        }
+                                    $step = 45;
+                                    continue;
+                                }
+                                case 39: {
+                                    bedIndex = i;
+                                        isfinsh = false;
+                                        pos1 = { v : this.loaderNpcPath.GetChild(((i + 2) | 0)) }; //床位置点
+                                        if (this.bedDic.getItem(i)) {
+                                            bedPos = this.bedProcessList.getItem(bedIndex).groundItemStack.transform.position.$clone();
+                                            this.MoveToTarget$2(new pc.Vec3( bedPos.x, this.transform.position.y, bedPos.z ), (function ($me, pos1) {
+                                                return Bridge.fn.bind($me, function () {
+                                                    this.MoveToTarget(pos1.v, function () {
+                                                        isfinsh = true;
+                                                    });
+                                                });
+                                            })(this, pos1));
+                                        } else {
+                                            this.MoveToTarget(pos1.v, function () {
+                                                isfinsh = true;
+                                            });
+                                        }
+                                    $step = 40;
+                                    continue;
+                                }
+                                case 40: {
+                                    if ( !isfinsh ) {
+                                            $step = 41;
+                                            continue;
+                                        } 
+                                        $step = 43;
+                                        continue;
+                                }
+                                case 41: {
+                                    $enumerator.current = null;
+                                        $step = 42;
+                                        return true;
+                                }
+                                case 42: {
+                                    
+                                        $step = 40;
+                                        continue;
+                                }
+                                case 43: {
+                                    $step = 44;
+                                    continue;
+                                }
+                                case 44: {
+                                    i = (i + 1) | 0;
+                                    $step = 38;
+                                    continue;
+                                }
+                                case 45: {
+                                    //回到距离排队点最近的床位
+                                        if (this.maxBedIndex <= 3) {
+                                            $step = 46;
+                                            continue;
+                                        } else  {
+                                            $step = 55;
+                                            continue;
+                                        }
+                                }
+                                case 46: {
+                                    i1 = this.maxBedIndex;
+                                        $step = 47;
+                                        continue;
+                                }
+                                case 47: {
+                                    if ( i1 >= 0 ) {
+                                            $step = 48;
+                                            continue;
+                                        }
+                                    $step = 54;
+                                    continue;
+                                }
+                                case 48: {
+                                    pos2 = this.loaderNpcPath.GetChild(((i1 + 2) | 0)); //床位置点
+                                        isfinsh = false;
+                                        this.MoveToTarget(pos2, function () {
+                                            isfinsh = true;
+                                        });
+                                    $step = 49;
+                                    continue;
+                                }
+                                case 49: {
+                                    if ( !isfinsh ) {
+                                            $step = 50;
+                                            continue;
+                                        } 
+                                        $step = 52;
+                                        continue;
+                                }
+                                case 50: {
+                                    $enumerator.current = null;
+                                        $step = 51;
+                                        return true;
+                                }
+                                case 51: {
+                                    
+                                        $step = 49;
+                                        continue;
+                                }
+                                case 52: {
+                                    $step = 53;
+                                    continue;
+                                }
+                                case 53: {
+                                    i1 = (i1 - 1) | 0;
+                                    $step = 47;
+                                    continue;
+                                }
+                                case 54: {
+                                    $step = 64;
+                                    continue;
+                                }
+                                case 55: {
+                                    i2 = this.maxBedIndex;
+                                        $step = 56;
+                                        continue;
+                                }
+                                case 56: {
+                                    if ( i2 < 6 ) {
+                                            $step = 57;
+                                            continue;
+                                        }
+                                    $step = 63;
+                                    continue;
+                                }
+                                case 57: {
+                                    pos3 = this.loaderNpcPath.GetChild(((i2 + 2) | 0)); //床位置点
+                                        isfinsh = false;
+                                        this.MoveToTarget(pos3, function () {
+                                            isfinsh = true;
+                                        });
+                                    $step = 58;
+                                    continue;
+                                }
+                                case 58: {
+                                    if ( !isfinsh ) {
+                                            $step = 59;
+                                            continue;
+                                        } 
+                                        $step = 61;
+                                        continue;
+                                }
+                                case 59: {
+                                    $enumerator.current = null;
+                                        $step = 60;
+                                        return true;
+                                }
+                                case 60: {
+                                    
+                                        $step = 58;
+                                        continue;
+                                }
+                                case 61: {
+                                    $step = 62;
+                                    continue;
+                                }
+                                case 62: {
+                                    i2 = (i2 + 1) | 0;
+                                    $step = 56;
+                                    continue;
+                                }
+                                case 63: {
+                                    $step = 64;
+                                    continue;
+                                }
+                                case 64: {
+                                    
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 65: {
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*PorterNpc.WorkCycle end.*/
+
+            /*PorterNpc.OnTriggerStay start.*/
+            /**
+             * 触发器拾取病人（参考Item.PickUpToPlayer）
+             *
+             * @instance
+             * @private
+             * @this PorterNpc
+             * @memberof PorterNpc
+             * @param   {UnityEngine.Collider}    other
+             * @return  {void}
+             */
+            OnTriggerStay: function (other) {
+if ( TRACE ) { TRACE( "PorterNpc#OnTriggerStay", this ); }
+
+                if (other.transform.CompareTag("GroundStack_DropItem")) {
+                    if (UnityEngine.MonoBehaviour.op_Equality(this.targetGroundStackManager, null) || UnityEngine.GameObject.op_Inequality(this.targetGroundStackManager.gameObject, other.gameObject)) {
+                        var stackManager = other.GetComponent(GroundItemStackManager);
+                        if (UnityEngine.MonoBehaviour.op_Inequality(stackManager, null)) {
+                            this.targetGroundStackManager = stackManager;
+                            this.isDroppingOffItem = true;
+                            this.isCollectingItem = false;
+                        }
+                    }
+
+                }
+
+                if (other.transform.CompareTag("GroundStack_CollectItem")) {
+                    if (UnityEngine.MonoBehaviour.op_Equality(this.targetGroundStackManager, null) || UnityEngine.GameObject.op_Inequality(this.targetGroundStackManager.gameObject, other.gameObject)) {
+                        var stackManager1 = other.GetComponent(GroundItemStackManager);
+                        if (UnityEngine.MonoBehaviour.op_Inequality(stackManager1, null)) {
+                            this.targetGroundStackManager = stackManager1;
+                            this.isCollectingItem = true;
+                            this.isDroppingOffItem = false;
+                        }
+                    }
+
+                }
+            },
+            /*PorterNpc.OnTriggerStay end.*/
+
+            /*PorterNpc.OnTriggerExit start.*/
+            OnTriggerExit: function (other) {
+if ( TRACE ) { TRACE( "PorterNpc#OnTriggerExit", this ); }
+
+                if (System.String.equals(other.tag, "GroundStack_DropItem")) {
+                    this.itemDropOffTimer = -1;
+                    this.isDroppingOffItem = false;
+                    this.isCollectingItem = false;
+                    this.targetGroundStackManager = null;
+                }
+
+                if (System.String.equals(other.tag, "GroundStack_CollectItem")) {
+                    this.itemDropOffTimer = -1;
+                    this.isCollectingItem = false;
+                    this.isDroppingOffItem = false;
+                    this.targetGroundStackManager = null;
+                }
+            },
+            /*PorterNpc.OnTriggerExit end.*/
+
+            /*PorterNpc.DropItemToGroundStack start.*/
+            /**
+             * 丢物品到资源框
+             *
+             * @instance
+             * @private
+             * @this PorterNpc
+             * @memberof PorterNpc
+             * @return  {void}
+             */
+            DropItemToGroundStack: function () {
+if ( TRACE ) { TRACE( "PorterNpc#DropItemToGroundStack", this ); }
+
+                if (this.itemStackManager.amountOfStackInUse <= 0) {
+                    return;
+                }
+                if (this.itemDropOffTimer >= 0) {
+                    this.itemDropOffTimer -= UnityEngine.Time.deltaTime;
+                } else {
+
+                    if (this.targetGroundStackManager.totalMaxAmount > 0 && this.targetGroundStackManager.totalStackedItemsAmount >= this.targetGroundStackManager.totalMaxAmount) {
+                        return; //资源框有上限并达到上限时不能丢
+                    }
+                    var stackIndex = this.itemStackManager.GetStackIndexByItemType(this.targetGroundStackManager.stackedItemType);
+                    var _count = 1; //简单的动态调整丢物品物品速度
+                    if (this.itemStackManager.stackList.getItem(stackIndex).stackAmount > 30) {
+                        _count = 2;
+                    }
+                    if (this.itemStackManager.stackList.getItem(stackIndex).stackAmount > 50) {
+                        _count = 3;
+                    }
+                    for (var i = 0; i < _count; i = (i + 1) | 0) {
+                        if (this.targetGroundStackManager.totalMaxAmount > 0 && this.targetGroundStackManager.totalStackedItemsAmount >= this.targetGroundStackManager.totalMaxAmount) {
+                            break; //资源框有上限并达到上限时不能丢
+                        }
+                        var targetItem = this.itemStackManager.stackList.getItem(stackIndex).RemoveTopItem();
+                        if (UnityEngine.MonoBehaviour.op_Inequality(targetItem, null)) {
+                            this.targetGroundStackManager.StackItem(targetItem);
+                        }
+                    }
+
+                    //   itemDropOffTimer = itemDropOffCooldown;
+                }
+            },
+            /*PorterNpc.DropItemToGroundStack end.*/
+
+
+        }
+    });
+    /*PorterNpc end.*/
 
     /*PurchaseZone_Clerk start.*/
     Bridge.define("PurchaseZone_Clerk", {
@@ -12013,10 +15323,12 @@ if ( TRACE ) { TRACE( "PoolManager#WaitDoIE", this ); }
             OnPurchaseComplete: function () {
 if ( TRACE ) { TRACE( "PurchaseZone_Clerk#OnPurchaseComplete", this ); }
 
+                var $t;
                 PurchaseZone.prototype.OnPurchaseComplete.call(this);
                 this.completeAction != null ? this.completeAction.Invoke() : null;
                 this.cd.enabled = false;
                 this.DisableGameObject(3);
+                UnityEngine.MonoBehaviour.op_Inequality(($t = MonoSingleton$1(ClerkManager).instance), null) ? $t.Check() : null;
             },
             /*PurchaseZone_Clerk.OnPurchaseComplete end.*/
 
@@ -12024,6 +15336,493 @@ if ( TRACE ) { TRACE( "PurchaseZone_Clerk#OnPurchaseComplete", this ); }
         }
     });
     /*PurchaseZone_Clerk end.*/
+
+    /*SoakManager start.*/
+    /**
+     * 泡汤池管理器
+     持续检测wheatDeliveryStack中已堆叠完成的小麦数量和poolStack中的病人，
+     当小麦足够时，等待小麦堆叠动画结束后取出飞向病人，飞行结束即治愈完成，
+     一个病人治愈结束后才治愈下一个病人
+     *
+     * @public
+     * @class SoakManager
+     * @augments MonoSingleton$1
+     */
+    Bridge.define("SoakManager", {
+        inherits: function () {
+if ( TRACE ) { TRACE( "SoakManager#inherits", this ); }
+ return [MonoSingleton$1(SoakManager)]; },
+        fields: {
+            poolStack: null,
+            wheatPerPatient: 0,
+            wheatFlyDelay: 0,
+            moneyDropPoint: null,
+            wheatDeliveryStack: null,
+            isHealing: false,
+            elevator: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "SoakManager#init", this ); }
+
+                this.wheatPerPatient = 2;
+                this.wheatFlyDelay = 1.0;
+                this.isHealing = false;
+            }
+        },
+        methods: {
+            /*SoakManager.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "SoakManager#Start", this ); }
+
+                MonoSingleton$1(SoakManager).prototype.Start.call(this);
+                this.wheatPerPatient = MonoSingleton$1(GameDataEditor).instance.GetOtherData.wheatPerPatient;
+                this.elevator = UnityEngine.Object.FindObjectOfType(Elevator);
+            },
+            /*SoakManager.Start end.*/
+
+            /*SoakManager.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "SoakManager#Update", this ); }
+
+                if (UnityEngine.MonoBehaviour.op_Equality(this.poolStack, null)) {
+                    return;
+                }
+                if (UnityEngine.MonoBehaviour.op_Equality(this.wheatDeliveryStack, null)) {
+                    return;
+                }
+                if (this.isHealing) {
+                    return;
+                }
+
+                // 检查小麦堆叠器中是否有足够的小麦来治愈病人
+                if (this.wheatDeliveryStack.totalStackedItemsAmount < this.wheatPerPatient) {
+                    return;
+                }
+
+                // 查找可治愈的病人
+                var targetPatient = this.FindHealablePatient();
+                if (UnityEngine.MonoBehaviour.op_Equality(targetPatient, null)) {
+                    return;
+                }
+
+                // 开始治愈流程（串行，一个结束才治愈下一个）
+                this.StartCoroutine$1(this.HealPatientIE(targetPatient));
+            },
+            /*SoakManager.Update end.*/
+
+            /*SoakManager.FindHealablePatient start.*/
+            /**
+             * 在病人堆叠器中查找一个可治愈的FarmerPatientItem
+             遍历所有stackList中的所有病人，而不只是每个stack的第一个
+             *
+             * @instance
+             * @private
+             * @this SoakManager
+             * @memberof SoakManager
+             * @return  {FarmerPatientItem}
+             */
+            FindHealablePatient: function () {
+if ( TRACE ) { TRACE( "SoakManager#FindHealablePatient", this ); }
+
+                var elevatorQueueFull = UnityEngine.MonoBehaviour.op_Inequality(this.elevator, null) && this.elevator.IsQueueFull;
+
+                for (var i = 0; i < this.poolStack.stackList.Count; i = (i + 1) | 0) {
+                    var stack = this.poolStack.stackList.getItem(i);
+                    for (var j = 0; j < stack.stackedItemList.Count; j = (j + 1) | 0) {
+                        var item = stack.stackedItemList.getItem(j);
+                        if (item.itemType !== ItemType.FigherPatient && item.itemType !== ItemType.FarmerPatient) {
+                            continue;
+                        }
+
+                        var farmer = Bridge.as(item, FarmerPatientItem);
+                        if (UnityEngine.MonoBehaviour.op_Equality(farmer, null)) {
+                            continue;
+                        }
+                        if (farmer.currentState !== PatienState.Wait) {
+                            continue;
+                        }
+
+                        // 电梯排队已满时，不治愈农夫类病人，等待空位
+                        if (elevatorQueueFull && item.itemType === ItemType.FarmerPatient) {
+                            continue;
+                        }
+
+                        return farmer;
+                    }
+                }
+                return null;
+            },
+            /*SoakManager.FindHealablePatient end.*/
+
+            /*SoakManager.HealPatientIE start.*/
+            /**
+             * 完整的治愈流程：逐个等待小麦堆叠完成 → 逐个取出飞向病人 → 全部到达后治愈 → 移出 → 掉金币 → 切换农夫
+             参考Processor的消耗逻辑，使用标准RemoveItem逐个取出，保持targetStackListIndex正确
+             *
+             * @instance
+             * @private
+             * @this SoakManager
+             * @memberof SoakManager
+             * @param   {FarmerPatientItem}                 patient
+             * @return  {System.Collections.IEnumerator}
+             */
+            HealPatientIE: function (patient) {
+if ( TRACE ) { TRACE( "SoakManager#HealPatientIE", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    remaining,
+                    k,
+                    wheatItem,
+                    targetPos,
+                    arrived,
+                    pos,
+                    moneyDone,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    this.isHealing = true;
+
+                                        remaining = 0;
+
+                                        k = 0;
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 1: {
+                                    if ( k < this.wheatPerPatient ) {
+                                            $step = 2;
+                                            continue;
+                                        }
+                                    $step = 9;
+                                    continue;
+                                }
+                                case 2: {
+                                    // 等待堆叠器中有小麦且栈顶小麦堆叠动画完成
+                                    $step = 3;
+                                    continue;
+                                }
+                                case 3: {
+                                    if ( this.wheatDeliveryStack.totalStackedItemsAmount <= 0 ) {
+                                            $step = 4;
+                                            continue;
+                                        } 
+                                        $step = 6;
+                                        continue;
+                                }
+                                case 4: {
+                                    $enumerator.current = null;
+                                        $step = 5;
+                                        return true;
+                                }
+                                case 5: {
+                                    
+                                        $step = 3;
+                                        continue;
+                                }
+                                case 6: {
+                                    // 等待即将被取出的小麦完成堆叠动画（栈顶的canDoFurtherMove==true）
+                                        $enumerator.current = this.StartCoroutine$1(this.WaitForTopWheatReady());
+                                        $step = 7;
+                                        return true;
+                                }
+                                case 7: {
+                                    // 使用标准RemoveItem逐个取出，保持targetStackListIndex正确
+                                        wheatItem = { v : this.wheatDeliveryStack.RemoveItem() };
+                                        if (UnityEngine.MonoBehaviour.op_Equality(wheatItem.v, null)) {
+                                            $step = 8;
+                                            continue;
+                                        }
+
+                                        remaining = (remaining + 1) | 0;
+
+                                        // 参考Processor：设parent后用localPosition飞向目标
+                                        wheatItem.v.gameObject.SetActive(true);
+                                        wheatItem.v.transform.parent = this.transform;
+                                        targetPos = this.transform.InverseTransformPoint(patient.transform.position);
+                                        wheatItem.v.MoveAlongCurve(wheatItem.v.transform.localPosition, targetPos, (function ($me, wheatItem) {
+                                            return function () {
+                                                wheatItem.v.gameObject.SetActive(false);
+                                                MonoSingleton$1(PoolManager).instance.ReturnItem(wheatItem.v);
+                                                remaining = (remaining - 1) | 0;
+                                            };
+                                        })(this, wheatItem));
+                                    $step = 8;
+                                    continue;
+                                }
+                                case 8: {
+                                    k = (k + 1) | 0;
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 9: {
+                                    // 等待所有小麦飞行完毕 = 治愈完成
+                                    $step = 10;
+                                    continue;
+                                }
+                                case 10: {
+                                    if ( remaining > 0 ) {
+                                            $step = 11;
+                                            continue;
+                                        } 
+                                        $step = 13;
+                                        continue;
+                                }
+                                case 11: {
+                                    $enumerator.current = null;
+                                        $step = 12;
+                                        return true;
+                                }
+                                case 12: {
+                                    
+                                        $step = 10;
+                                        continue;
+                                }
+                                case 13: {
+                                    // 4. 治愈完成 - 从堆叠器中移出该病人（直接从stackedItemList中移除指定病人）
+                                        this.RemovePatientFromPool(patient);
+                                        patient.mRigidbody.isKinematic = false;
+
+                                        // 5. 移动到金币掉落点
+                                        if (UnityEngine.Component.op_Inequality(this.moneyDropPoint, null)) {
+                                            $step = 14;
+                                            continue;
+                                        } 
+                                        $step = 19;
+                                        continue;
+                                }
+                                case 14: {
+                                    arrived = false;
+                                        pos = new pc.Vec3( this.moneyDropPoint.position.x, patient.transform.position.y, this.moneyDropPoint.position.z );
+                                        patient.MoveToTarget$2(pos, function () {
+                                            arrived = true;
+                                        });
+                                    $step = 15;
+                                    continue;
+                                }
+                                case 15: {
+                                    if ( !arrived ) {
+                                            $step = 16;
+                                            continue;
+                                        } 
+                                        $step = 18;
+                                        continue;
+                                }
+                                case 16: {
+                                    $enumerator.current = null;
+                                        $step = 17;
+                                        return true;
+                                }
+                                case 17: {
+                                    
+                                        $step = 15;
+                                        continue;
+                                }
+                                case 18: {
+                                    $step = 19;
+                                    continue;
+                                }
+                                case 19: {
+                                    // 6. 掉落金币
+                                        moneyDone = false;
+                                        this.DropMoneyToManager(patient, function () {
+                                            moneyDone = true;
+                                        });
+                                    $step = 20;
+                                    continue;
+                                }
+                                case 20: {
+                                    if ( !moneyDone ) {
+                                            $step = 21;
+                                            continue;
+                                        } 
+                                        $step = 23;
+                                        continue;
+                                }
+                                case 21: {
+                                    $enumerator.current = null;
+                                        $step = 22;
+                                        return true;
+                                }
+                                case 22: {
+                                    
+                                        $step = 20;
+                                        continue;
+                                }
+                                case 23: {
+                                    // 7. 切换为农夫状态
+                                        patient.StateSwitch(PatienState.Farmer);
+
+                                        // 治愈流程结束，允许治愈下一个病人
+                                        this.isHealing = false;
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*SoakManager.HealPatientIE end.*/
+
+            /*SoakManager.WaitForTopWheatReady start.*/
+            /**
+             * 等待wheatDeliveryStack中即将被RemoveItem取出的栈顶小麦完成堆叠动画
+             遍历所有stack找到有物品的栈，检查栈顶的canDoFurtherMove
+             *
+             * @instance
+             * @private
+             * @this SoakManager
+             * @memberof SoakManager
+             * @return  {System.Collections.IEnumerator}
+             */
+            WaitForTopWheatReady: function () {
+if ( TRACE ) { TRACE( "SoakManager#WaitForTopWheatReady", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    found,
+                    stack,
+                    topItem,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    if ( true ) {
+                                            $step = 1;
+                                            continue;
+                                        } 
+                                        $step = 3;
+                                        continue;
+                                }
+                                case 1: {
+                                    found = false;
+                                        for (var i = 0; i < this.wheatDeliveryStack.stackList.Count; i = (i + 1) | 0) {
+                                            stack = this.wheatDeliveryStack.stackList.getItem(i);
+                                            if (stack.stackAmount <= 0) {
+                                                continue;
+                                            }
+                                            topItem = stack.stackedItemList.getItem(((stack.stackedItemList.Count - 1) | 0));
+                                            if (topItem.canDoFurtherMove) {
+                                                found = true;
+                                                break;
+                                            }
+                                        }
+                                        if (found) {
+                                            $step = 3;
+                                            continue;
+                                        }
+                                        $enumerator.current = null;
+                                        $step = 2;
+                                        return true;
+                                }
+                                case 2: {
+                                    
+                                        $step = 0;
+                                        continue;
+                                }
+                                case 3: {
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*SoakManager.WaitForTopWheatReady end.*/
+
+            /*SoakManager.RemovePatientFromPool start.*/
+            /**
+             * 从poolStack中精确移除指定病人，而不是依赖targetStackListIndex
+             *
+             * @instance
+             * @private
+             * @this SoakManager
+             * @memberof SoakManager
+             * @param   {FarmerPatientItem}    patient
+             * @return  {void}
+             */
+            RemovePatientFromPool: function (patient) {
+if ( TRACE ) { TRACE( "SoakManager#RemovePatientFromPool", this ); }
+
+                var $t;
+                for (var i = 0; i < this.poolStack.stackList.Count; i = (i + 1) | 0) {
+                    var stack = this.poolStack.stackList.getItem(i);
+                    if (stack.stackedItemList.contains(patient)) {
+                        stack.stackedItemList.remove(patient);
+                        stack.stackAmount = (stack.stackAmount - 1) | 0;
+                        // 重新计算nextStackPosition
+                        if (stack.stackAmount >= stack.maxHeight) {
+                            stack.nextStackPosition = new pc.Vec3( 0, patient.stackHeight * stack.maxHeight, 0 );
+                        } else {
+                            stack.nextStackPosition = new pc.Vec3( 0, patient.stackHeight * stack.stackAmount, 0 );
+                        }
+                        ($t = this.poolStack).totalStackedItemsAmount = ($t.totalStackedItemsAmount - 1) | 0;
+                        patient.transform.parent = null;
+                        patient.gameObject.SetActive(true);
+                        break;
+                    }
+                }
+            },
+            /*SoakManager.RemovePatientFromPool end.*/
+
+            /*SoakManager.DropMoneyToManager start.*/
+            /**
+             * 掉落金币到MoneyManager位置
+             *
+             * @instance
+             * @private
+             * @this SoakManager
+             * @memberof SoakManager
+             * @param   {PatientItem}      patient       
+             * @param   {System.Action}    onComplete
+             * @return  {void}
+             */
+            DropMoneyToManager: function (patient, onComplete) {
+if ( TRACE ) { TRACE( "SoakManager#DropMoneyToManager", this ); }
+
+                var num = (Bridge.Int.div(MonoSingleton$1(GameDataEditor).instance.GetOtherData.farmerPatienMoney, MonoSingleton$1(GameDataEditor).instance.GetOtherData.moneyValue)) | 0;
+                var groundStack = this.moneyDropPoint.GetComponent(GroundItemStackManager);
+                for (var i = 0; i < num; i = (i + 1) | 0) {
+                    var money = MonoSingleton$1(PoolManager).instance.GetItem(ItemType.Money);
+                    money.transform.position = patient.transform.position.$clone().add( pc.Vec3.UP.clone().clone().scale( 0.5 ) );
+                    money.cd.enabled = false;
+                    money.canDoFurtherMove = true;
+                    money.gameObject.SetActive(true);
+                    groundStack.StackItem(money);
+                }
+
+                !Bridge.staticEquals(onComplete, null) ? onComplete() : null;
+            },
+            /*SoakManager.DropMoneyToManager end.*/
+
+
+        }
+    });
+    /*SoakManager end.*/
 
     /*UIBubbleExpression start.*/
     /**
@@ -12313,6 +16112,14 @@ if ( TRACE ) { TRACE( "UIHealthBar#OnInit", this ); }
             },
             /*UIHealthBar.OnInit end.*/
 
+            /*UIHealthBar.LateUpdate start.*/
+            LateUpdate: function () {
+if ( TRACE ) { TRACE( "UIHealthBar#LateUpdate", this ); }
+
+                this.FollowObjectWithUI();
+            },
+            /*UIHealthBar.LateUpdate end.*/
+
             /*UIHealthBar.OnDisable start.*/
             OnDisable: function () {
 if ( TRACE ) { TRACE( "UIHealthBar#OnDisable", this ); }
@@ -12457,16 +16264,21 @@ if ( TRACE ) { TRACE( "UIManager#inherits", this ); }
             mDangerImage: null,
             mIsDanger: false,
             mEnemyHps: null,
-            mDangerFlash: null
+            mCoinUI: null,
+            coinNum: 0,
+            mDangerFlash: null,
+            lastNum: 0,
+            numberTween: null
         },
         methods: {
-            /*UIManager.Start$1 start.*/
-            Start$1: function () {
-if ( TRACE ) { TRACE( "UIManager#Start$1", this ); }
+            /*UIManager.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "UIManager#Start", this ); }
 
                 // SetGold(0);
+                this.SetCoin(0, false);
             },
-            /*UIManager.Start$1 end.*/
+            /*UIManager.Start end.*/
 
             /*UIManager.Update start.*/
             Update: function () {
@@ -12528,6 +16340,7 @@ if ( TRACE ) { TRACE( "UIManager#Update", this ); }
 if ( TRACE ) { TRACE( "UIManager#SetGold", this ); }
 
                 //   SetNum(gold, num);
+                this.SetCoin(num, true);
             },
             /*UIManager.SetGold end.*/
 
@@ -12686,10 +16499,40 @@ if ( TRACE ) { TRACE( "UIManager#DangerFlash", this ); }
             },
             /*UIManager.DangerFlash end.*/
 
+            /*UIManager.SetCoin start.*/
+            /**
+             * 金币数量更改
+             *
+             * @instance
+             * @public
+             * @this UIManager
+             * @memberof UIManager
+             * @param   {number}     num          
+             * @param   {boolean}    isPlayAni
+             * @return  {void}
+             */
+            SetCoin: function (num, isPlayAni) {
+if ( TRACE ) { TRACE( "UIManager#SetCoin", this ); }
 
-        },
-        overloads: {
-            "Start()": "Start$1"
+                if (UnityEngine.MonoBehaviour.op_Equality(this.mCoinUI, null)) {
+                    return;
+                }
+                this.lastNum = this.coinNum;
+                this.coinNum = num;
+                if (isPlayAni) {
+                    this.numberTween != null ? DG.Tweening.TweenExtensions.Kill(this.numberTween) : null;
+                    this.numberTween = DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(System.Int32,System.Int32,DG.Tweening.Plugins.Options.NoOptions), DG.Tweening.DOTween.To$2(Bridge.fn.bind(this, function () {
+                        return this.lastNum;
+                    }), Bridge.fn.bind(this, function (x) {
+                        this.mCoinUI.text = Bridge.toString(x);
+                    }), this.coinNum, 0.5), DG.Tweening.Ease.OutQuad);
+                } else {
+                    this.mCoinUI.text = Bridge.toString(this.coinNum);
+                }
+            },
+            /*UIManager.SetCoin end.*/
+
+
         }
     });
     /*UIManager end.*/
@@ -12802,12 +16645,2080 @@ if ( TRACE ) { TRACE( "UIProgress#UpdateNumberDisplay", this ); }
     });
     /*UIProgress end.*/
 
+    /*Wheat start.*/
+    /**
+     * 小麦，存在正常状态和已收割状态
+     玩家进入触发器时切换为已收割状态，生成WheatItem飞向玩家
+     收割后等待一段时间恢复正常状态
+     *
+     * @public
+     * @class Wheat
+     * @augments Item
+     */
+    Bridge.define("Wheat", {
+        inherits: [Item],
+        fields: {
+            normalState: null,
+            harvestedState: null,
+            regrowTime: 0,
+            isHarvested: false,
+            /**
+             * 当前锁定该小麦的农夫（防止多个农夫同时前往同一小麦）
+             *
+             * @instance
+             * @private
+             * @memberof Wheat
+             * @type FarmerPatientItem
+             */
+            reservedByFarmer: null
+        },
+        props: {
+            IsHarvested: {
+                get: function () {
+if ( TRACE ) { TRACE( "Wheat#IsHarvested#get", this ); }
+
+                    return this.isHarvested;
+                }
+            }
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "Wheat#init", this ); }
+
+                this.regrowTime = 10.0;
+                this.isHarvested = false;
+            }
+        },
+        methods: {
+            /*Wheat.IsAvailableForFarmer start.*/
+            /**
+             * 该小麦是否可被农夫选为目标（未收割且未被其他农夫锁定）
+             *
+             * @instance
+             * @public
+             * @this Wheat
+             * @memberof Wheat
+             * @param   {FarmerPatientItem}    farmer
+             * @return  {boolean}
+             */
+            IsAvailableForFarmer: function (farmer) {
+if ( TRACE ) { TRACE( "Wheat#IsAvailableForFarmer", this ); }
+
+                if (this.isHarvested) {
+                    return false;
+                }
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.reservedByFarmer, null) && UnityEngine.MonoBehaviour.op_Inequality(this.reservedByFarmer, farmer)) {
+                    return false;
+                }
+                return true;
+            },
+            /*Wheat.IsAvailableForFarmer end.*/
+
+            /*Wheat.ReserveForFarmer start.*/
+            /**
+             * 农夫锁定该小麦为目标
+             *
+             * @instance
+             * @public
+             * @this Wheat
+             * @memberof Wheat
+             * @param   {FarmerPatientItem}    farmer
+             * @return  {void}
+             */
+            ReserveForFarmer: function (farmer) {
+if ( TRACE ) { TRACE( "Wheat#ReserveForFarmer", this ); }
+
+                this.reservedByFarmer = farmer;
+            },
+            /*Wheat.ReserveForFarmer end.*/
+
+            /*Wheat.ReleaseReservation start.*/
+            /**
+             * 释放农夫锁定
+             *
+             * @instance
+             * @public
+             * @this Wheat
+             * @memberof Wheat
+             * @return  {void}
+             */
+            ReleaseReservation: function () {
+if ( TRACE ) { TRACE( "Wheat#ReleaseReservation", this ); }
+
+                this.reservedByFarmer = null;
+            },
+            /*Wheat.ReleaseReservation end.*/
+
+            /*Wheat.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "Wheat#Awake", this ); }
+
+                Item.prototype.Awake.call(this);
+                this.regrowTime = MonoSingleton$1(GameDataEditor).instance.gameConfig["\u5176\u4ed6\u914d\u7f6e"].wheatTime;
+            },
+            /*Wheat.Awake end.*/
+
+            /*Wheat.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "Wheat#Start", this ); }
+
+                Item.prototype.Start.call(this);
+                // 防止基类OnTriggerEnter将小麦本身捡起
+                this.hasBeenAddedToPlayer = true;
+                this.SetState(false);
+            },
+            /*Wheat.Start end.*/
+
+            /*Wheat.OnEnable$1 start.*/
+            OnEnable$1: function () {
+if ( TRACE ) { TRACE( "Wheat#OnEnable$1", this ); }
+
+                this.isHarvested = false;
+                // 防止基类OnTriggerEnter将小麦本身捡起
+                this.hasBeenAddedToPlayer = true;
+                this.SetState(false);
+            },
+            /*Wheat.OnEnable$1 end.*/
+
+            /*Wheat.SetState start.*/
+            /**
+             * 设置小麦状态
+             *
+             * @instance
+             * @private
+             * @this Wheat
+             * @memberof Wheat
+             * @param   {boolean}    harvested    是否已收割
+             * @return  {void}
+             */
+            SetState: function (harvested) {
+if ( TRACE ) { TRACE( "Wheat#SetState", this ); }
+
+                this.isHarvested = harvested;
+                if (UnityEngine.GameObject.op_Inequality(this.normalState, null)) {
+                    this.normalState.SetActive(!harvested);
+                }
+                if (UnityEngine.GameObject.op_Inequality(this.harvestedState, null)) {
+                    this.harvestedState.SetActive(harvested);
+                }
+            },
+            /*Wheat.SetState end.*/
+
+            /*Wheat.OnTriggerEnter$1 start.*/
+            OnTriggerEnter$1: function (other) {
+if ( TRACE ) { TRACE( "Wheat#OnTriggerEnter$1", this ); }
+
+                if (!other.CompareTag("Player")) {
+                    return;
+                }
+                if (this.isHarvested) {
+                    return;
+                }
+
+                this.Harvest();
+            },
+            /*Wheat.OnTriggerEnter$1 end.*/
+
+            /*Wheat.Harvest start.*/
+            Harvest: function () {
+if ( TRACE ) { TRACE( "Wheat#Harvest", this ); }
+
+                this.ReleaseReservation(); // 玩家收割时释放农夫锁定
+                this.SetState(true);
+                this.SpawnWheatItem();
+                this.StartCoroutine$1(this.RegrowCoroutine());
+            },
+            /*Wheat.Harvest end.*/
+
+            /*Wheat.SpawnWheatItem start.*/
+            SpawnWheatItem: function () {
+if ( TRACE ) { TRACE( "Wheat#SpawnWheatItem", this ); }
+
+                var wheatItem = MonoSingleton$1(PoolManager).instance.GetItem(ItemType.WheatItem);
+                wheatItem.gameObject.SetActive(true);
+                wheatItem.transform.position = this.transform.position.$clone();
+                wheatItem.transform.parent = MonoSingleton$1(PoolManager).instance.transform;
+                wheatItem.cd.enabled = false;
+                wheatItem.PickUpToPlayer();
+            },
+            /*Wheat.SpawnWheatItem end.*/
+
+            /*Wheat.RegrowCoroutine start.*/
+            RegrowCoroutine: function () {
+if ( TRACE ) { TRACE( "Wheat#RegrowCoroutine", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    $enumerator.current = new UnityEngine.WaitForSeconds(this.regrowTime);
+                                        $step = 1;
+                                        return true;
+                                }
+                                case 1: {
+                                    this.reservedByFarmer = null;
+                                        this.SetState(false);
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*Wheat.RegrowCoroutine end.*/
+
+            /*Wheat.FarmerHarvest start.*/
+            /**
+             * 农夫收割小麦 - 收割后小麦直接飞向泡汤池的wheatDeliveryStack
+             *
+             * @instance
+             * @public
+             * @this Wheat
+             * @memberof Wheat
+             * @param   {FarmerPatientItem}    farmer
+             * @return  {boolean}
+             */
+            FarmerHarvest: function (farmer) {
+if ( TRACE ) { TRACE( "Wheat#FarmerHarvest", this ); }
+
+                if (this.isHarvested) {
+                    return false;
+                }
+                this.SetState(true);
+                this.ReleaseReservation();
+                this.SpawnWheatItemToDelivery();
+                this.StartCoroutine$1(this.RegrowCoroutine());
+                return true;
+            },
+            /*Wheat.FarmerHarvest end.*/
+
+            /*Wheat.SpawnWheatItemToDelivery start.*/
+            /**
+             * 生成WheatItem并直接堆叠到泡汤池的wheatDeliveryStack
+             *
+             * @instance
+             * @private
+             * @this Wheat
+             * @memberof Wheat
+             * @return  {void}
+             */
+            SpawnWheatItemToDelivery: function () {
+if ( TRACE ) { TRACE( "Wheat#SpawnWheatItemToDelivery", this ); }
+
+                var deliveryStack = MonoSingleton$1(SoakManager).instance.wheatDeliveryStack;
+                if (UnityEngine.MonoBehaviour.op_Equality(deliveryStack, null)) {
+                    return;
+                }
+
+                var wheatItem = MonoSingleton$1(PoolManager).instance.GetItem(ItemType.WheatItem);
+                wheatItem.gameObject.SetActive(true);
+                wheatItem.transform.position = this.transform.position.$clone();
+                wheatItem.transform.parent = MonoSingleton$1(PoolManager).instance.transform;
+                wheatItem.cd.enabled = false;
+                deliveryStack.StackItem(wheatItem);
+            },
+            /*Wheat.SpawnWheatItemToDelivery end.*/
+
+
+        },
+        overloads: {
+            "OnEnable()": "OnEnable$1",
+            "OnTriggerEnter(Collider)": "OnTriggerEnter$1"
+        }
+    });
+    /*Wheat end.*/
+
+    /*WheatManager start.*/
+    /**
+     * 麦田管理器
+     挂载左上和右下区域点位，在范围内按间隔生成小麦
+     *
+     * @public
+     * @class WheatManager
+     * @augments MonoSingleton$1
+     */
+    Bridge.define("WheatManager", {
+        inherits: function () {
+if ( TRACE ) { TRACE( "WheatManager#inherits", this ); }
+ return [MonoSingleton$1(WheatManager)]; },
+        fields: {
+            topLeftPoint: null,
+            bottomRightPoint: null,
+            xSpacing: 0,
+            zSpacing: 0
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "WheatManager#init", this ); }
+
+                this.xSpacing = 1.0;
+                this.zSpacing = 1.0;
+            }
+        },
+        methods: {
+            /*WheatManager.Start$1 start.*/
+            Start$1: function () {
+if ( TRACE ) { TRACE( "WheatManager#Start$1", this ); }
+
+                this.SpawnWheatField();
+            },
+            /*WheatManager.Start$1 end.*/
+
+            /*WheatManager.SpawnWheatField start.*/
+            SpawnWheatField: function () {
+if ( TRACE ) { TRACE( "WheatManager#SpawnWheatField", this ); }
+
+                var minX = UnityEngine.Mathf.Min(this.topLeftPoint.position.x, this.bottomRightPoint.position.x);
+                var maxX = UnityEngine.Mathf.Max(this.topLeftPoint.position.x, this.bottomRightPoint.position.x);
+                var minZ = UnityEngine.Mathf.Min(this.topLeftPoint.position.z, this.bottomRightPoint.position.z);
+                var maxZ = UnityEngine.Mathf.Max(this.topLeftPoint.position.z, this.bottomRightPoint.position.z);
+                var y = this.topLeftPoint.position.y;
+
+                for (var x = minX; x <= maxX; x += this.xSpacing) {
+                    for (var z = minZ; z <= maxZ; z += this.zSpacing) {
+                        var wheat = MonoSingleton$1(PoolManager).instance.GetItem(ItemType.Wheat);
+                        wheat.gameObject.SetActive(true);
+                        wheat.transform.position = new pc.Vec3( x, y, z );
+                        wheat.transform.parent = this.transform;
+                    }
+                }
+            },
+            /*WheatManager.SpawnWheatField end.*/
+
+            /*WheatManager.GetRandomAvailableWheat start.*/
+            /**
+             * 随机获取一个未收割的小麦
+             *
+             * @instance
+             * @public
+             * @this WheatManager
+             * @memberof WheatManager
+             * @return  {Wheat}
+             */
+            GetRandomAvailableWheat: function () {
+if ( TRACE ) { TRACE( "WheatManager#GetRandomAvailableWheat", this ); }
+
+                var $t;
+                var available = new (System.Collections.Generic.List$1(Wheat)).ctor();
+                $t = Bridge.getEnumerator(this.transform);
+                try {
+                    while ($t.moveNext()) {
+                        var child = Bridge.cast($t.Current, UnityEngine.Transform);
+                        var wheat = child.GetComponent(Wheat);
+                        if (UnityEngine.MonoBehaviour.op_Inequality(wheat, null) && !wheat.IsHarvested) {
+                            available.add(wheat);
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+                if (available.Count === 0) {
+                    return null;
+                }
+                return available.getItem(UnityEngine.Random.Range(0, available.Count));
+            },
+            /*WheatManager.GetRandomAvailableWheat end.*/
+
+            /*WheatManager.GetNearestAvailableWheat start.*/
+            /**
+             * 获取距离农夫最近的可用小麦（未收割且未被其他农夫锁定）
+             *
+             * @instance
+             * @public
+             * @this WheatManager
+             * @memberof WheatManager
+             * @param   {FarmerPatientItem}    farmer
+             * @return  {Wheat}
+             */
+            GetNearestAvailableWheat: function (farmer) {
+if ( TRACE ) { TRACE( "WheatManager#GetNearestAvailableWheat", this ); }
+
+                var $t;
+                var nearest = null;
+                var minDist = 3.40282347E+38;
+                $t = Bridge.getEnumerator(this.transform);
+                try {
+                    while ($t.moveNext()) {
+                        var child = Bridge.cast($t.Current, UnityEngine.Transform);
+                        var wheat = child.GetComponent(Wheat);
+                        if (UnityEngine.MonoBehaviour.op_Equality(wheat, null)) {
+                            continue;
+                        }
+                        if (!wheat.IsAvailableForFarmer(farmer)) {
+                            continue;
+                        }
+
+                        var dist = pc.Vec3.distance( farmer.transform.position, wheat.transform.position );
+                        if (dist < minDist) {
+                            minDist = dist;
+                            nearest = wheat;
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+                return nearest;
+            },
+            /*WheatManager.GetNearestAvailableWheat end.*/
+
+
+        },
+        overloads: {
+            "Start()": "Start$1"
+        }
+    });
+    /*WheatManager end.*/
+
+    /*FarmerPatientItem start.*/
+    /**
+     * 农夫病人 - 继承PatientItem
+     泡汤池治愈后切换为农夫状态，排队等电梯跟随玩家下去，
+     到达后永远在下面循环收割小麦，小麦直接飞向wheatDeliveryStack
+     *
+     * @public
+     * @class FarmerPatientItem
+     * @augments PatientItem
+     */
+    Bridge.define("FarmerPatientItem", {
+        inherits: [PatientItem],
+        fields: {
+            harvestInterval: 0,
+            farmerItemStackManager: null,
+            farmerState: 0,
+            farmerWorkflowCoroutine: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "FarmerPatientItem#init", this ); }
+
+                this.harvestInterval = 2.0;
+                this.farmerState = FarmerState.Idle;
+            }
+        },
+        methods: {
+            /*FarmerPatientItem.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "FarmerPatientItem#Start", this ); }
+
+                PatientItem.prototype.Start.call(this);
+                this.harvestInterval = MonoSingleton$1(GameDataEditor).instance.GetOtherData.collectTime;
+            },
+            /*FarmerPatientItem.Start end.*/
+
+            /*FarmerPatientItem.Farmer start.*/
+            Farmer: function () {
+if ( TRACE ) { TRACE( "FarmerPatientItem#Farmer", this ); }
+
+                this.farmerState = FarmerState.Idle;
+                this.farmerWorkflowCoroutine = this.StartCoroutine$1(this.FarmerWorkflowIE());
+            },
+            /*FarmerPatientItem.Farmer end.*/
+
+            /*FarmerPatientItem.FarmerWorkflowIE start.*/
+            /**
+             * 农夫工作流协程
+             1. 排队等电梯（上方），跟玩家一起下去
+             2. 到达下方后循环收割最近小麦，每次收割间隔harvestInterval秒
+             3. 小麦直接飞向wheatDeliveryStack，农夫不再上电梯
+             *
+             * @instance
+             * @private
+             * @this FarmerPatientItem
+             * @memberof FarmerPatientItem
+             * @return  {System.Collections.IEnumerator}
+             */
+            FarmerWorkflowIE: function () {
+if ( TRACE ) { TRACE( "FarmerPatientItem#FarmerWorkflowIE", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    elevator,
+                    targetWheat,
+                    arrivedWheat,
+                    wheatPos,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    // 1. 注册等待电梯（上方）
+                                        this.farmerState = FarmerState.WaitingForElevatorTop;
+                                        elevator = UnityEngine.Object.FindObjectOfType(Elevator);
+                                        if (UnityEngine.MonoBehaviour.op_Inequality(elevator, null)) {
+                                            elevator.RegisterWaitingFarmer(this, true);
+                                        }
+
+                                        // 等待被电梯接走
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 1: {
+                                    if ( this.farmerState === FarmerState.WaitingForElevatorTop ) {
+                                            $step = 2;
+                                            continue;
+                                        } 
+                                        $step = 4;
+                                        continue;
+                                }
+                                case 2: {
+                                    $enumerator.current = null;
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 4: {
+                                    // 等待电梯运行结束
+                                    $step = 5;
+                                    continue;
+                                }
+                                case 5: {
+                                    if ( this.farmerState === FarmerState.RidingElevator ) {
+                                            $step = 6;
+                                            continue;
+                                        } 
+                                        $step = 8;
+                                        continue;
+                                }
+                                case 6: {
+                                    $enumerator.current = null;
+                                        $step = 7;
+                                        return true;
+                                }
+                                case 7: {
+                                    
+                                        $step = 5;
+                                        continue;
+                                }
+                                case 8: {
+                                    // 2. 到达下方后，无限循环收割小麦
+                                    $step = 9;
+                                    continue;
+                                }
+                                case 9: {
+                                    if ( this.currentState === PatienState.Farmer ) {
+                                            $step = 10;
+                                            continue;
+                                        } 
+                                        $step = 19;
+                                        continue;
+                                }
+                                case 10: {
+                                    // 获取最近的可用小麦（未收割且未被其他农夫锁定）
+                                        targetWheat = MonoSingleton$1(WheatManager).instance.GetNearestAvailableWheat(this);
+
+                                        if (UnityEngine.MonoBehaviour.op_Equality(targetWheat, null)) {
+                                            $step = 11;
+                                            continue;
+                                        } 
+                                        $step = 13;
+                                        continue;
+                                }
+                                case 11: {
+                                    // 没有可用小麦，等待后重试
+                                        $enumerator.current = new UnityEngine.WaitForSeconds(0.5);
+                                        $step = 12;
+                                        return true;
+                                }
+                                case 12: {
+                                    $step = 9;
+                                        continue;
+                                }
+                                case 13: {
+                                    // 锁定该小麦，防止其他农夫选中
+                                        targetWheat.ReserveForFarmer(this);
+
+                                        // 移动到小麦位置
+                                        this.farmerState = FarmerState.MovingToWheat;
+                                        arrivedWheat = { v : false };
+                                        wheatPos = new pc.Vec3( targetWheat.transform.position.x, this.transform.position.y, targetWheat.transform.position.z );
+                                        this.MoveToTarget$2(wheatPos, (function ($me, arrivedWheat) {
+                                            return function () {
+                                                arrivedWheat.v = true;
+                                            };
+                                        })(this, arrivedWheat));
+                                    $step = 14;
+                                    continue;
+                                }
+                                case 14: {
+                                    if ( !arrivedWheat.v ) {
+                                            $step = 15;
+                                            continue;
+                                        } 
+                                        $step = 17;
+                                        continue;
+                                }
+                                case 15: {
+                                    $enumerator.current = null;
+                                        $step = 16;
+                                        return true;
+                                }
+                                case 16: {
+                                    
+                                        $step = 14;
+                                        continue;
+                                }
+                                case 17: {
+                                    // 到达后等待收割间隔
+                                        this.farmerState = FarmerState.Harvesting;
+                                        $enumerator.current = new UnityEngine.WaitForSeconds(this.harvestInterval);
+                                        $step = 18;
+                                        return true;
+                                }
+                                case 18: {
+                                    // 收割（小麦内部会直接将WheatItem飞向wheatDeliveryStack）
+                                        if (!targetWheat.IsHarvested) {
+                                            targetWheat.FarmerHarvest(this);
+                                        } else {
+                                            // 小麦已被其他方式收割（如玩家触发器），释放锁定
+                                            targetWheat.ReleaseReservation();
+                                        }
+
+                                        $step = 9;
+                                        continue;
+                                }
+                                case 19: {
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*FarmerPatientItem.FarmerWorkflowIE end.*/
+
+            /*FarmerPatientItem.EnterElevatorAsFarmer start.*/
+            /**
+             * 农夫进入电梯
+             *
+             * @instance
+             * @public
+             * @this FarmerPatientItem
+             * @memberof FarmerPatientItem
+             * @return  {void}
+             */
+            EnterElevatorAsFarmer: function () {
+if ( TRACE ) { TRACE( "FarmerPatientItem#EnterElevatorAsFarmer", this ); }
+
+                this.StopMovement();
+                this.mRigidbody.isKinematic = true;
+                this.farmerState = FarmerState.RidingElevator;
+            },
+            /*FarmerPatientItem.EnterElevatorAsFarmer end.*/
+
+            /*FarmerPatientItem.ExitElevatorAsFarmer start.*/
+            /**
+             * 农夫离开电梯（下去后开始收割）
+             *
+             * @instance
+             * @public
+             * @this FarmerPatientItem
+             * @memberof FarmerPatientItem
+             * @param   {boolean}    wasGoingDown
+             * @return  {void}
+             */
+            ExitElevatorAsFarmer: function (wasGoingDown) {
+if ( TRACE ) { TRACE( "FarmerPatientItem#ExitElevatorAsFarmer", this ); }
+
+                this.mRigidbody.isKinematic = false;
+                this.farmerState = FarmerState.MovingToWheat;
+            },
+            /*FarmerPatientItem.ExitElevatorAsFarmer end.*/
+
+
+        }
+    });
+    /*FarmerPatientItem end.*/
+
+    /*FighterPatientItem start.*/
+    Bridge.define("FighterPatientItem", {
+        inherits: [PatientItem],
+        fields: {
+            mAttackCollider: null,
+            attackRangeIndicator: null,
+            enemyLayerMask: 0,
+            attackInterval: 0,
+            _isAttacking: false,
+            attackRadius: 0,
+            attackStartAngle: 0,
+            attackEndAngle: 0,
+            _isAttack: false,
+            standMinRadius: 0,
+            standMaxRadius: 0,
+            standAngleRange: 0,
+            coinInterval: 0,
+            coinsPerDrop: 0,
+            fighterMaxHp: 0,
+            hpLossInterval: 0,
+            hpLossPercent: 0,
+            turnDuration: 0,
+            fighterHealthBar: null,
+            fighterHp: 0,
+            fighterIsDead: false,
+            coinCoroutine: null,
+            hpLossCoroutine: null,
+            combatCoroutine: null,
+            defaultLookDir: null,
+            occupiedStation: null
+        },
+        props: {
+            IsAttack: {
+                get: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#IsAttack#get", this ); }
+
+                    return this._isAttack;
+                },
+                set: function (value) {
+if ( TRACE ) { TRACE( "FighterPatientItem#IsAttack#set", this ); }
+
+                    if (this._isAttack !== value) {
+                        this._isAttack = value;
+                        this.mAnimator.SetBool$1("isAttack", this._isAttack);
+                    }
+                }
+            },
+            IsAttacking: {
+                get: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#IsAttacking#get", this ); }
+
+                    return this._isAttacking;
+                },
+                set: function (value) {
+if ( TRACE ) { TRACE( "FighterPatientItem#IsAttacking#set", this ); }
+
+                    if (this._isAttacking !== value) {
+                        this._isAttacking = value;
+                        UnityEngine.Component.op_Inequality(this.mAnimator, null) ? this.mAnimator.SetBool$1("isAttacking", this._isAttacking) : null;
+                    }
+                }
+            },
+            radius: {
+                get: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#radius#get", this ); }
+
+                    return MonoSingleton$1(GameDataEditor).instance.playerAttackRadius;
+                }
+            },
+            startAngle: {
+                get: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#startAngle#get", this ); }
+
+                    return MonoSingleton$1(GameDataEditor).instance.startAngle;
+                }
+            },
+            endAngle: {
+                get: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#endAngle#get", this ); }
+
+                    return MonoSingleton$1(GameDataEditor).instance.endAngle;
+                }
+            }
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#init", this ); }
+
+                this.defaultLookDir = new UnityEngine.Vector3();
+                this.attackInterval = 0;
+                this.standMinRadius = 2.0;
+                this.standMaxRadius = 5.0;
+                this.standAngleRange = 60.0;
+                this.coinInterval = 3.0;
+                this.coinsPerDrop = 2;
+                this.fighterMaxHp = 100.0;
+                this.hpLossInterval = 2.0;
+                this.hpLossPercent = 0.05;
+                this.turnDuration = 0.5;
+                this.fighterIsDead = false;
+            }
+        },
+        methods: {
+            /*FighterPatientItem.Fighter start.*/
+            Fighter: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#Fighter", this ); }
+
+                //初始化战斗相关
+                if (UnityEngine.Component.op_Equality(this.mAttackCollider, null)) {
+                    this.mAttackCollider = this.gameObject.AddComponent(UnityEngine.SphereCollider);
+                    this.mAttackCollider.isTrigger = true;
+                    this.mAttackCollider.radius = MonoSingleton$1(GameDataEditor).instance.playerAttackRadius;
+                }
+                this.enemyLayerMask = 1 << UnityEngine.LayerMask.NameToLayer("Enemy");
+
+                //初始化扇形攻击参数
+                this.attackRadius = MonoSingleton$1(GameDataEditor).instance.playerAttackRadius;
+                this.attackStartAngle = MonoSingleton$1(GameDataEditor).instance.startAngle;
+                this.attackEndAngle = MonoSingleton$1(GameDataEditor).instance.endAngle;
+
+                //初始化攻击范围指示器
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.attackRangeIndicator, null)) {
+                    this.attackRangeIndicator.UpdateRange(this.attackRadius, this.attackStartAngle, this.attackEndAngle);
+                }
+
+                //初始化血量
+                this.fighterHp = this.fighterMaxHp;
+                this.fighterIsDead = false;
+            },
+            /*FighterPatientItem.Fighter end.*/
+
+            /*FighterPatientItem.StartFighting start.*/
+            /**
+             * 开始战斗（到达门口后调用）
+             在门口扇形区域随机站位，朝向扇形外侧
+             *
+             * @instance
+             * @public
+             * @this FighterPatientItem
+             * @memberof FighterPatientItem
+             * @return  {void}
+             */
+            StartFighting: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#StartFighting", this ); }
+
+                this.StartCoroutine$1(this.FighterStationIE());
+            },
+            /*FighterPatientItem.StartFighting end.*/
+
+            /*FighterPatientItem.FighterStationIE start.*/
+            /**
+             * 战士站位协程 - 优先使用NpcManagerOv中的站位点，超出时在门口半圆区域随机站位
+             *
+             * @instance
+             * @private
+             * @this FighterPatientItem
+             * @memberof FighterPatientItem
+             * @return  {System.Collections.IEnumerator}
+             */
+            FighterStationIE: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#FighterStationIE", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    doorPos,
+                    $t,
+                    npcMgr,
+                    standPos,
+                    randomAngle,
+                    randomRadius,
+                    dir,
+                    arrived,
+                    lookDir,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    // 获取门口位置
+                                        doorPos = UnityEngine.GameObject.op_Inequality(($t = UnityEngine.GameObject.Find("DoorPos")), null) ? $t.transform : null;
+                                        if (UnityEngine.Component.op_Equality(doorPos, null)) {
+                                            $step = 1;
+                                            continue;
+                                        } 
+                                        $step = 2;
+                                        continue;
+                                }
+                                case 1: {
+                                    return false;
+                                }
+                                case 2: {
+                                    npcMgr = Bridge.as(MonoSingleton$1(NpcManager).instance, NpcManagerOv);
+                                        standPos = new UnityEngine.Vector3();
+
+                                        // 优先从NpcManagerOv获取站位点
+                                        if (UnityEngine.MonoBehaviour.op_Inequality(npcMgr, null)) {
+                                            this.occupiedStation = npcMgr.OccupyFighterStation();
+                                        }
+
+                                        if (UnityEngine.Component.op_Inequality(this.occupiedStation, null)) {
+                                            // 使用固定站位点
+                                            standPos = this.occupiedStation.position.$clone();
+                                            standPos.y = this.transform.position.y;
+                                        } else {
+                                            // 站位点已满，在门口外半圆区域随机站位
+                                            randomAngle = UnityEngine.Random.Range$1(-this.standAngleRange, this.standAngleRange);
+                                            randomRadius = UnityEngine.Random.Range$1(this.standMinRadius, this.standMaxRadius);
+                                            dir = new pc.Quat().setFromEulerAngles_Unity( 0, randomAngle, 0 ).transformVector( doorPos.forward );
+                                            standPos = doorPos.position.$clone().add( dir.$clone().clone().scale( randomRadius ) );
+                                            standPos.y = this.transform.position.y;
+                                        }
+
+                                        // 移动到站位点
+                                        arrived = false;
+                                        this.MoveToTarget$2(standPos, function () {
+                                            arrived = true;
+                                        });
+                                    $step = 3;
+                                    continue;
+                                }
+                                case 3: {
+                                    if ( !arrived ) {
+                                            $step = 4;
+                                            continue;
+                                        } 
+                                        $step = 6;
+                                        continue;
+                                }
+                                case 4: {
+                                    $enumerator.current = null;
+                                        $step = 5;
+                                        return true;
+                                }
+                                case 5: {
+                                    
+                                        $step = 3;
+                                        continue;
+                                }
+                                case 6: {
+                                    // 朝向扇形外侧（从门口向外看）
+                                        lookDir = (standPos.$clone().sub( doorPos.position )).clone().normalize().$clone();
+                                        lookDir.y = 0;
+                                        if (lookDir.lengthSq() > 0.01) {
+                                            this.transform.rotation = new pc.Quat().lookRotation( lookDir, pc.Vec3.UP );
+                                        }
+                                        this.defaultLookDir = lookDir.$clone(); // 保存默认朝向
+
+                                        this.StopMovement();
+
+                                        // 显示攻击范围
+                                        if (UnityEngine.MonoBehaviour.op_Inequality(this.attackRangeIndicator, null)) {
+                                            this.attackRangeIndicator.Show();
+                                        }
+
+                                        // 通过PoolManager获取战士血条
+                                        this.fighterHealthBar = MonoSingleton$1(PoolManager).instance.GetFighterHp();
+                                        if (UnityEngine.MonoBehaviour.op_Inequality(this.fighterHealthBar, null)) {
+                                            this.fighterHealthBar.Init(this.transform);
+                                            this.fighterHealthBar.SetHpFill(1.0, false, false);
+                                        }
+
+                                        // 开始产金协程
+                                        this.coinCoroutine = this.StartCoroutine$1(this.CoinGenerateIE());
+
+                                        // 开始持续掉血协程
+                                        this.hpLossCoroutine = this.StartCoroutine$1(this.HpLossIE());
+
+                                        // 开始战斗循环（视角跟随敌人 + 攻击检测）
+                                        this.combatCoroutine = this.StartCoroutine$1(this.CombatLoopIE());
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*FighterPatientItem.FighterStationIE end.*/
+
+            /*FighterPatientItem.CombatLoopIE start.*/
+            /**
+             * 战斗循环协程 - 锁定最近敌人，DOTween转向，等待目标被击杀后再寻找下一个
+             转向过程中不重新检测敌人
+             *
+             * @instance
+             * @private
+             * @this FighterPatientItem
+             * @memberof FighterPatientItem
+             * @return  {System.Collections.IEnumerator}
+             */
+            CombatLoopIE: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#CombatLoopIE", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    targetEnemy,
+                    dirToEnemy,
+                    targetRot,
+                    turnDone,
+                    dir,
+                    defaultRot,
+                    turnDone1,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    if ( !this.fighterIsDead && this.currentState === PatienState.Fighter ) {
+                                            $step = 1;
+                                            continue;
+                                        } 
+                                        $step = 24;
+                                        continue;
+                                }
+                                case 1: {
+                                    if (this.attackInterval > 0) {
+                                            this.attackInterval -= UnityEngine.Time.deltaTime;
+                                        }
+
+                                        // 检测攻击范围内最近的敌人
+                                        targetEnemy = this.FindNearestEnemyInRange();
+
+                                        if (UnityEngine.MonoBehaviour.op_Inequality(targetEnemy, null)) {
+                                            $step = 2;
+                                            continue;
+                                        } else  {
+                                            $step = 13;
+                                            continue;
+                                        }
+                                }
+                                case 2: {
+                                    // DOTween转向敌人
+                                        dirToEnemy = targetEnemy.transform.position.$clone().sub( this.transform.position );
+                                        dirToEnemy.y = 0;
+                                        if (dirToEnemy.lengthSq() > 0.01) {
+                                            $step = 3;
+                                            continue;
+                                        } 
+                                        $step = 8;
+                                        continue;
+                                }
+                                case 3: {
+                                    targetRot = new pc.Quat().lookRotation( dirToEnemy, pc.Vec3.UP );
+                                        turnDone = { v : false };
+                                        DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Core.TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Quaternion,DG.Tweening.Plugins.Options.NoOptions), DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Quaternion,DG.Tweening.Plugins.Options.NoOptions), DG.Tweening.ShortcutExtensions.DORotateQuaternion(this.transform, targetRot.$clone(), this.turnDuration), DG.Tweening.Ease.OutQuad), (function ($me, turnDone) {
+                                            return function () {
+                                                turnDone.v = true;
+                                            };
+                                        })(this, turnDone));
+
+                                        // 等待转向完成（期间不重新检测敌人）
+                                    $step = 4;
+                                    continue;
+                                }
+                                case 4: {
+                                    if ( !turnDone.v ) {
+                                            $step = 5;
+                                            continue;
+                                        } 
+                                        $step = 7;
+                                        continue;
+                                }
+                                case 5: {
+                                    $enumerator.current = null;
+                                        $step = 6;
+                                        return true;
+                                }
+                                case 6: {
+                                    
+                                        $step = 4;
+                                        continue;
+                                }
+                                case 7: {
+                                    $step = 8;
+                                    continue;
+                                }
+                                case 8: {
+                                    // 转向结束后，等待该敌人被击杀或离开范围
+                                    $step = 9;
+                                    continue;
+                                }
+                                case 9: {
+                                    if ( !this.fighterIsDead && this.currentState === PatienState.Fighter && UnityEngine.MonoBehaviour.op_Inequality(targetEnemy, null) && !targetEnemy.isDie ) {
+                                            $step = 10;
+                                            continue;
+                                        } 
+                                        $step = 12;
+                                        continue;
+                                }
+                                case 10: {
+                                    if (this.attackInterval > 0) {
+                                            this.attackInterval -= UnityEngine.Time.deltaTime;
+                                        }
+
+                                        // 持续面向该敌人（实时微调朝向）
+                                        dir = targetEnemy.transform.position.$clone().sub( this.transform.position );
+                                        dir.y = 0;
+                                        if (dir.lengthSq() > 0.01) {
+                                            this.transform.rotation = new pc.Quat().lookRotation( dir, pc.Vec3.UP );
+                                        }
+
+                                        $enumerator.current = null;
+                                        $step = 11;
+                                        return true;
+                                }
+                                case 11: {
+                                    
+                                        $step = 9;
+                                        continue;
+                                }
+                                case 12: {
+                                    // 目标被击杀，下一帧重新检测
+                                    $step = 22;
+                                    continue;
+                                }
+                                case 13: {
+                                    // 无敌人时DOTween恢复默认朝向
+                                        if (this.defaultLookDir.lengthSq() > 0.01) {
+                                            $step = 14;
+                                            continue;
+                                        } 
+                                        $step = 21;
+                                        continue;
+                                }
+                                case 14: {
+                                    defaultRot = new pc.Quat().lookRotation( this.defaultLookDir, pc.Vec3.UP );
+                                        // 只在朝向差异较大时才做转向动画
+                                        if (pc.Quat.angle( this.transform.rotation.$clone(), defaultRot.$clone() ) > 5.0) {
+                                            $step = 15;
+                                            continue;
+                                        } 
+                                        $step = 20;
+                                        continue;
+                                }
+                                case 15: {
+                                    turnDone1 = { v : false };
+                                        DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Core.TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Quaternion,DG.Tweening.Plugins.Options.NoOptions), DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Quaternion,DG.Tweening.Plugins.Options.NoOptions), DG.Tweening.ShortcutExtensions.DORotateQuaternion(this.transform, defaultRot.$clone(), this.turnDuration), DG.Tweening.Ease.OutQuad), (function ($me, turnDone1) {
+                                            return function () {
+                                                turnDone1.v = true;
+                                            };
+                                        })(this, turnDone1));
+                                    $step = 16;
+                                    continue;
+                                }
+                                case 16: {
+                                    if ( !turnDone1.v ) {
+                                            $step = 17;
+                                            continue;
+                                        } 
+                                        $step = 19;
+                                        continue;
+                                }
+                                case 17: {
+                                    $enumerator.current = null;
+                                        $step = 18;
+                                        return true;
+                                }
+                                case 18: {
+                                    
+                                        $step = 16;
+                                        continue;
+                                }
+                                case 19: {
+                                    $step = 20;
+                                    continue;
+                                }
+                                case 20: {
+                                    $step = 21;
+                                    continue;
+                                }
+                                case 21: {
+                                    $step = 22;
+                                    continue;
+                                }
+                                case 22: {
+                                    $enumerator.current = null;
+                                        $step = 23;
+                                        return true;
+                                }
+                                case 23: {
+                                    
+                                        $step = 0;
+                                        continue;
+                                }
+                                case 24: {
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*FighterPatientItem.CombatLoopIE end.*/
+
+            /*FighterPatientItem.FindNearestEnemyInRange start.*/
+            /**
+             * 查找攻击范围内最近的存活敌人
+             *
+             * @instance
+             * @private
+             * @this FighterPatientItem
+             * @memberof FighterPatientItem
+             * @return  {Enemy}
+             */
+            FindNearestEnemyInRange: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#FindNearestEnemyInRange", this ); }
+
+                var $t;
+                var hits = UnityEngine.Physics.OverlapSphere(this.transform.position, this.radius, this.enemyLayerMask);
+                var nearest = null;
+                var minSqr = 3.40282347E+38;
+                $t = Bridge.getEnumerator(hits);
+                try {
+                    while ($t.moveNext()) {
+                        var hit = $t.Current;
+                        var enemy = hit.GetComponent(Enemy);
+                        if (UnityEngine.MonoBehaviour.op_Equality(enemy, null) || enemy.isDie) {
+                            continue;
+                        }
+
+                        var sqrDist = (enemy.transform.position.$clone().sub( this.transform.position )).lengthSq();
+                        if (sqrDist < minSqr) {
+                            minSqr = sqrDist;
+                            nearest = enemy;
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+                return nearest;
+            },
+            /*FighterPatientItem.FindNearestEnemyInRange end.*/
+
+            /*FighterPatientItem.CoinGenerateIE start.*/
+            /**
+             * 持续产金协程
+             *
+             * @instance
+             * @private
+             * @this FighterPatientItem
+             * @memberof FighterPatientItem
+             * @return  {System.Collections.IEnumerator}
+             */
+            CoinGenerateIE: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#CoinGenerateIE", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    npcMgr,
+                    money,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    if ( !this.fighterIsDead && this.currentState === PatienState.Fighter ) {
+                                            $step = 1;
+                                            continue;
+                                        } 
+                                        $step = 3;
+                                        continue;
+                                }
+                                case 1: {
+                                    $enumerator.current = new UnityEngine.WaitForSeconds(this.coinInterval);
+                                        $step = 2;
+                                        return true;
+                                }
+                                case 2: {
+                                    if (this.fighterIsDead) {
+                                            $step = 3;
+                                            continue;
+                                        }
+
+                                        // 获取NpcManagerOv上挂载的金币堆叠器
+                                        npcMgr = Bridge.as(MonoSingleton$1(NpcManager).instance, NpcManagerOv);
+                                        if (UnityEngine.MonoBehaviour.op_Equality(npcMgr, null) || UnityEngine.MonoBehaviour.op_Equality(npcMgr.fighterCoinStack, null)) {
+                                            $step = 0;
+                                            continue;
+                                        }
+
+                                        for (var i = 0; i < this.coinsPerDrop; i = (i + 1) | 0) {
+                                            money = MonoSingleton$1(PoolManager).instance.GetItem(ItemType.Money);
+                                            money.transform.position = this.transform.position.$clone().add( pc.Vec3.UP.clone().clone().scale( 0.5 ) );
+                                            money.cd.enabled = false;
+                                            money.canDoFurtherMove = true;
+                                            money.gameObject.SetActive(true);
+                                            npcMgr.fighterCoinStack.StackItem(money);
+                                        }
+
+                                        $step = 0;
+                                        continue;
+                                }
+                                case 3: {
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*FighterPatientItem.CoinGenerateIE end.*/
+
+            /*FighterPatientItem.HpLossIE start.*/
+            /**
+             * 持续掉血协程
+             *
+             * @instance
+             * @private
+             * @this FighterPatientItem
+             * @memberof FighterPatientItem
+             * @return  {System.Collections.IEnumerator}
+             */
+            HpLossIE: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#HpLossIE", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    damage,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    if ( !this.fighterIsDead && this.currentState === PatienState.Fighter ) {
+                                            $step = 1;
+                                            continue;
+                                        } 
+                                        $step = 3;
+                                        continue;
+                                }
+                                case 1: {
+                                    $enumerator.current = new UnityEngine.WaitForSeconds(this.hpLossInterval);
+                                        $step = 2;
+                                        return true;
+                                }
+                                case 2: {
+                                    if (this.fighterIsDead) {
+                                            $step = 3;
+                                            continue;
+                                        }
+
+                                        damage = this.fighterMaxHp * this.hpLossPercent;
+                                        this.fighterHp -= damage;
+
+                                        if (UnityEngine.MonoBehaviour.op_Inequality(this.fighterHealthBar, null)) {
+                                            this.fighterHealthBar.SetHpFill(this.fighterHp / this.fighterMaxHp);
+                                        }
+
+                                        if (this.fighterHp <= 0) {
+                                            this.fighterHp = 0;
+                                            this.FighterDie();
+                                        }
+
+                                        $step = 0;
+                                        continue;
+                                }
+                                case 3: {
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*FighterPatientItem.HpLossIE end.*/
+
+            /*FighterPatientItem.FighterDie start.*/
+            /**
+             * 战士死亡
+             *
+             * @instance
+             * @private
+             * @this FighterPatientItem
+             * @memberof FighterPatientItem
+             * @return  {void}
+             */
+            FighterDie: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#FighterDie", this ); }
+
+                this.fighterIsDead = true;
+
+                // 释放站位点
+                if (UnityEngine.Component.op_Inequality(this.occupiedStation, null)) {
+                    var npcMgr = Bridge.as(MonoSingleton$1(NpcManager).instance, NpcManagerOv);
+                    if (UnityEngine.MonoBehaviour.op_Inequality(npcMgr, null)) {
+                        npcMgr.ReleaseFighterStation(this.occupiedStation);
+                    }
+                    this.occupiedStation = null;
+                }
+
+                // 停止产金、掉血和战斗协程
+                if (this.coinCoroutine != null) {
+                    this.StopCoroutine$2(this.coinCoroutine);
+                }
+                if (this.hpLossCoroutine != null) {
+                    this.StopCoroutine$2(this.hpLossCoroutine);
+                }
+                if (this.combatCoroutine != null) {
+                    this.StopCoroutine$2(this.combatCoroutine);
+                }
+
+                // 回收血条到PoolManager
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.fighterHealthBar, null)) {
+                    this.fighterHealthBar.Hide();
+                    MonoSingleton$1(PoolManager).instance.ReturnFighterHp(this.fighterHealthBar);
+                    this.fighterHealthBar = null;
+                }
+
+                // 隐藏攻击范围
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.attackRangeIndicator, null)) {
+                    this.attackRangeIndicator.Hide();
+                }
+
+                // 播放死亡动画（如果有）
+                if (UnityEngine.Component.op_Inequality(this.mAnimator, null)) {
+                    this.mAnimator.Play$2("Die");
+                }
+
+                // 从NpcManager中移除并延迟回收
+                MonoSingleton$1(NpcManager).instance.RemovePatient(this);
+                this.StartCoroutine$1(this.DelayReturnItem(1.0));
+            },
+            /*FighterPatientItem.FighterDie end.*/
+
+            /*FighterPatientItem.DelayReturnItem start.*/
+            DelayReturnItem: function (delay) {
+if ( TRACE ) { TRACE( "FighterPatientItem#DelayReturnItem", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    $enumerator.current = new UnityEngine.WaitForSeconds(delay);
+                                        $step = 1;
+                                        return true;
+                                }
+                                case 1: {
+                                    MonoSingleton$1(PoolManager).instance.ReturnItem(this);
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*FighterPatientItem.DelayReturnItem end.*/
+
+            /*FighterPatientItem.Attack start.*/
+            /**
+             * 攻击 - 被战士击杀的敌人不掉落金币
+             *
+             * @instance
+             * @public
+             * @this FighterPatientItem
+             * @memberof FighterPatientItem
+             * @return  {void}
+             */
+            Attack: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#Attack", this ); }
+
+                var $t;
+                var center = this.transform.position.$clone().sub( this.transform.forward );
+                var hits = UnityEngine.Physics.OverlapSphere(center, this.radius, this.enemyLayerMask);
+
+                $t = Bridge.getEnumerator(hits);
+                try {
+                    while ($t.moveNext()) {
+                        var hit = $t.Current;
+                        var dir = hit.transform.position.$clone().sub( center );
+                        dir.y = 0; // 忽略高度差
+
+                        // 转换到玩家的本地坐标系
+                        var localDir = this.transform.InverseTransformDirection(dir);
+
+                        // 计算角度（相对于玩家前方）
+                        var angle = Math.atan2(localDir.z, localDir.x) * UnityEngine.Mathf.Rad2Deg;
+
+                        if (angle >= this.startAngle && angle <= this.endAngle) {
+                            var _enemy = hit.GetComponent(Enemy);
+                            if (UnityEngine.MonoBehaviour.op_Inequality(_enemy, null)) {
+                                _enemy.SetHp$1(MonoSingleton$1(GameDataEditor).instance.playerAamage, false);
+                            }
+
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+            },
+            /*FighterPatientItem.Attack end.*/
+
+            /*FighterPatientItem.CheckIsAttack start.*/
+            /**
+             * 碰撞体碰到敌人时，检测前方是否有敌人，只攻击前方，不自动转身时使用
+             *
+             * @instance
+             * @public
+             * @this FighterPatientItem
+             * @memberof FighterPatientItem
+             * @return  {boolean}
+             */
+            CheckIsAttack: function () {
+if ( TRACE ) { TRACE( "FighterPatientItem#CheckIsAttack", this ); }
+
+                var $t;
+                var center = this.transform.position.$clone().sub( this.transform.forward );
+                var hits = UnityEngine.Physics.OverlapSphere(center, this.radius, this.enemyLayerMask);
+                $t = Bridge.getEnumerator(hits);
+                try {
+                    while ($t.moveNext()) {
+                        var hit = $t.Current;
+                        var dir = hit.transform.position.$clone().sub( center );
+                        dir.y = 0; // 忽略高度差
+
+                        // 转换到玩家的本地坐标系
+                        var localDir = this.transform.InverseTransformDirection(dir);
+                        // 计算角度（相对于玩家前方）
+                        var angle = Math.atan2(localDir.z, localDir.x) * UnityEngine.Mathf.Rad2Deg;
+
+                        if (angle >= this.startAngle && angle <= this.endAngle) {
+                            return true;
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+                return false;
+            },
+            /*FighterPatientItem.CheckIsAttack end.*/
+
+            /*FighterPatientItem.OnTriggerEnter start.*/
+            OnTriggerEnter: function (other) {
+if ( TRACE ) { TRACE( "FighterPatientItem#OnTriggerEnter", this ); }
+
+                PatientItem.prototype.OnTriggerEnter.call(this, other);
+
+                if (this.currentState === PatienState.Fighter) {
+                    if (other.transform.CompareTag("Enemy")) {
+                        if (this.attackInterval <= 0 && !this.IsAttacking) {
+                            if (this.CheckIsAttack()) {
+                                this.IsAttack = true;
+                                this.attackInterval = MonoSingleton$1(GameDataEditor).instance.playerAttackInterval;
+                            }
+                        }
+                    }
+                }
+            },
+            /*FighterPatientItem.OnTriggerEnter end.*/
+
+            /*FighterPatientItem.OnTriggerStay start.*/
+            OnTriggerStay: function (other) {
+if ( TRACE ) { TRACE( "FighterPatientItem#OnTriggerStay", this ); }
+
+                if (this.currentState === PatienState.Fighter) {
+                    if (System.String.equals(other.tag, "Enemy")) {
+                        if (this.attackInterval <= 0 && !this.IsAttacking) {
+                            if (this.CheckIsAttack()) {
+                                this.IsAttack = true;
+                                this.attackInterval = MonoSingleton$1(GameDataEditor).instance.playerAttackInterval;
+                            } else {
+                                this.IsAttack = false;
+                                this.attackInterval = MonoSingleton$1(GameDataEditor).instance.playerAttackInterval;
+                            }
+                        }
+
+                    }
+                }
+            },
+            /*FighterPatientItem.OnTriggerStay end.*/
+
+
+        }
+    });
+    /*FighterPatientItem end.*/
+
+    /*NpcManagerOv start.*/
+    /**
+     * npc管理
+     *
+     * @public
+     * @class NpcManagerOv
+     * @augments NpcManager
+     */
+    Bridge.define("NpcManagerOv", {
+        inherits: [NpcManager],
+        fields: {
+            maxPatienNum: 0,
+            maxFarmerPatienNum: 0,
+            areaLst: null,
+            isUnlockFarmer: false,
+            fighterCoinStack: null,
+            fighterStationRoot: null,
+            enemyPathRoot: null,
+            fighterStationPoints: null,
+            occupiedStations: null,
+            mPatients: null,
+            mFarmerPatients: null,
+            enemyLst2: null
+        },
+        props: {
+            /**
+             * 路径老鼠是否全部清除
+             *
+             * @instance
+             * @public
+             * @readonly
+             * @memberof NpcManagerOv
+             * @function IsPathEnemiesCleared
+             * @type boolean
+             */
+            IsPathEnemiesCleared: {
+                get: function () {
+if ( TRACE ) { TRACE( "NpcManagerOv#IsPathEnemiesCleared#get", this ); }
+
+                    return this.enemyLst2.Count === 0;
+                }
+            },
+            /**
+             * 获取路径老鼠列表
+             *
+             * @instance
+             * @public
+             * @readonly
+             * @memberof NpcManagerOv
+             * @function GetPathEnemies
+             * @type System.Collections.Generic.List$1
+             */
+            GetPathEnemies: {
+                get: function () {
+if ( TRACE ) { TRACE( "NpcManagerOv#GetPathEnemies#get", this ); }
+
+                    return this.enemyLst2;
+                }
+            }
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "NpcManagerOv#init", this ); }
+
+                this.maxPatienNum = 6;
+                this.maxFarmerPatienNum = 3;
+                this.fighterStationPoints = new (System.Collections.Generic.List$1(UnityEngine.Transform)).ctor();
+                this.occupiedStations = new (System.Collections.Generic.HashSet$1(UnityEngine.Transform)).ctor();
+                this.mPatients = new (System.Collections.Generic.List$1(PatientItem)).ctor();
+                this.mFarmerPatients = new (System.Collections.Generic.List$1(PatientItem)).ctor();
+                this.enemyLst2 = new (System.Collections.Generic.List$1(Enemy)).ctor();
+            }
+        },
+        methods: {
+            /*NpcManagerOv.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "NpcManagerOv#Start", this ); }
+
+                var $t;
+                NpcManager.prototype.Start.call(this);
+                this.maxPatienNum = MonoSingleton$1(GameDataEditor).instance.GetOtherData.patientNum;
+                this.maxFarmerPatienNum = MonoSingleton$1(GameDataEditor).instance.GetOtherData.farmerPatientNum;
+
+                // 初始化战士站位点
+                if (UnityEngine.Component.op_Inequality(this.fighterStationRoot, null)) {
+                    $t = Bridge.getEnumerator(this.fighterStationRoot);
+                    try {
+                        while ($t.moveNext()) {
+                            var child = Bridge.cast($t.Current, UnityEngine.Transform);
+                            this.fighterStationPoints.add(child);
+                        }
+                    } finally {
+                        if (Bridge.is($t, System.IDisposable)) {
+                            $t.System$IDisposable$Dispose();
+                        }
+                    }
+                }
+
+                // 初始化路径老鼠
+                this.InitPathEnemies();
+            },
+            /*NpcManagerOv.Start end.*/
+
+            /*NpcManagerOv.Update$1 start.*/
+            Update$1: function () {
+if ( TRACE ) { TRACE( "NpcManagerOv#Update$1", this ); }
+
+                this.EnemyCreate();
+                this.PatientCreate();
+                this.FammerPatientCreate();
+            },
+            /*NpcManagerOv.Update$1 end.*/
+
+            /*NpcManagerOv.UnlockFarmerPatien start.*/
+            UnlockFarmerPatien: function () {
+if ( TRACE ) { TRACE( "NpcManagerOv#UnlockFarmerPatien", this ); }
+
+                this.isUnlockFarmer = true;
+            },
+            /*NpcManagerOv.UnlockFarmerPatien end.*/
+
+            /*NpcManagerOv.InitPathEnemies start.*/
+            /**
+             * 初始化路径老鼠：在路径点上生成与子物体数量相同的老鼠，不掉落金币，死亡时从enemyLst2移除
+             *
+             * @instance
+             * @private
+             * @this NpcManagerOv
+             * @memberof NpcManagerOv
+             * @return  {void}
+             */
+            InitPathEnemies: function () {
+if ( TRACE ) { TRACE( "NpcManagerOv#InitPathEnemies", this ); }
+
+                var $t;
+                if (UnityEngine.Component.op_Equality(this.enemyPathRoot, null)) {
+                    return;
+                }
+
+                $t = Bridge.getEnumerator(this.enemyPathRoot);
+                try {
+                    while ($t.moveNext()) {
+                        var point = Bridge.cast($t.Current, UnityEngine.Transform);
+                        var enemy = Bridge.as(MonoSingleton$1(PoolManager).instance.GetNpc(NpcType.Enemy), Enemy);
+                        enemy.transform.position = point.position.$clone();
+                        this.enemyLst2.add(enemy);
+                        this.mEnemies.add(enemy);
+                        enemy.gameObject.SetActive(true);
+                        // SetActive后设置，因为OnEnable->Init会重置这些字段
+                        enemy.isStationary = true;
+                        enemy.shouldDropLoot = false;
+                        enemy.onDeathCallback = Bridge.fn.cacheBind(this, this.RemovePathEnemy);
+                        enemy.StateSwitch(EnemyState.Idle);
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+            },
+            /*NpcManagerOv.InitPathEnemies end.*/
+
+            /*NpcManagerOv.GetEnemies2 start.*/
+            GetEnemies2: function () {
+if ( TRACE ) { TRACE( "NpcManagerOv#GetEnemies2", this ); }
+
+                return this.enemyLst2;
+            },
+            /*NpcManagerOv.GetEnemies2 end.*/
+
+            /*NpcManagerOv.RemovePathEnemy start.*/
+            /**
+             * 路径老鼠死亡时从enemyLst2中移除
+             *
+             * @instance
+             * @public
+             * @this NpcManagerOv
+             * @memberof NpcManagerOv
+             * @param   {Enemy}    enemy
+             * @return  {void}
+             */
+            RemovePathEnemy: function (enemy) {
+if ( TRACE ) { TRACE( "NpcManagerOv#RemovePathEnemy", this ); }
+
+                this.enemyLst2.remove(enemy);
+                // 路径老鼠全部清除后，隐藏攻击指示器
+                if (this.enemyLst2.Count === 0) {
+                    // if (Player.instance.attackRangeIndicator != null)
+                    //     Player.instance.attackRangeIndicator.Hide();
+                    MonoSingleton$1(GuildManager).instance.CheckGuild$1(GuildTriggerType.Mouse, 1);
+                }
+            },
+            /*NpcManagerOv.RemovePathEnemy end.*/
+
+            /*NpcManagerOv.PatientCreate start.*/
+            PatientCreate: function () {
+if ( TRACE ) { TRACE( "NpcManagerOv#PatientCreate", this ); }
+
+                if (this.mPatients.Count < this.maxPatienNum) {
+                    var e = Bridge.as(MonoSingleton$1(PoolManager).instance.GetItem(ItemType.FigherPatient), PatientItem);
+                    e.mRigidbody.isKinematic = false;
+                    e.transform.position = new pc.Vec3( UnityEngine.Random.Range$1(this.areaLst.getItem(0).position.x, this.areaLst.getItem(1).position.x), e.transform.position.y, UnityEngine.Random.Range$1(this.areaLst.getItem(0).position.z, this.areaLst.getItem(1).position.z) );
+                    this.mPatients.add(e);
+                    e.gameObject.SetActive(true);
+                }
+            },
+            /*NpcManagerOv.PatientCreate end.*/
+
+            /*NpcManagerOv.FammerPatientCreate start.*/
+            FammerPatientCreate: function () {
+if ( TRACE ) { TRACE( "NpcManagerOv#FammerPatientCreate", this ); }
+
+                if (!this.isUnlockFarmer) {
+                    return;
+                }
+
+                if (this.mFarmerPatients.Count < this.maxFarmerPatienNum) {
+                    var e = Bridge.as(MonoSingleton$1(PoolManager).instance.GetItem(ItemType.FarmerPatient), PatientItem);
+                    e.mRigidbody.isKinematic = false;
+                    e.transform.position = new pc.Vec3( UnityEngine.Random.Range$1(this.areaLst.getItem(0).position.x, this.areaLst.getItem(1).position.x), e.transform.position.y, UnityEngine.Random.Range$1(this.areaLst.getItem(0).position.z, this.areaLst.getItem(1).position.z) );
+                    this.mFarmerPatients.add(e);
+                    e.gameObject.SetActive(true);
+                }
+            },
+            /*NpcManagerOv.FammerPatientCreate end.*/
+
+            /*NpcManagerOv.InitCustomer start.*/
+            InitCustomer: function () {
+if ( TRACE ) { TRACE( "NpcManagerOv#InitCustomer", this ); }
+
+
+            },
+            /*NpcManagerOv.InitCustomer end.*/
+
+            /*NpcManagerOv.RemovePatient start.*/
+            RemovePatient: function (item) {
+if ( TRACE ) { TRACE( "NpcManagerOv#RemovePatient", this ); }
+
+                var farmerPatient;
+                if (UnityEngine.MonoBehaviour.op_Inequality(((farmerPatient = Bridge.as(item, FarmerPatientItem))), null)) {
+                    this.mFarmerPatients.remove(farmerPatient);
+                } else {
+                    this.mPatients.remove(item);
+                }
+            },
+            /*NpcManagerOv.RemovePatient end.*/
+
+            /*NpcManagerOv.OccupyFighterStation start.*/
+            /**
+             * 尝试占用一个空闲的战士站位点，返回站位Transform；无空闲则返回null
+             *
+             * @instance
+             * @public
+             * @this NpcManagerOv
+             * @memberof NpcManagerOv
+             * @return  {UnityEngine.Transform}
+             */
+            OccupyFighterStation: function () {
+if ( TRACE ) { TRACE( "NpcManagerOv#OccupyFighterStation", this ); }
+
+                var $t;
+                $t = Bridge.getEnumerator(this.fighterStationPoints);
+                try {
+                    while ($t.moveNext()) {
+                        var point = $t.Current;
+                        if (!this.occupiedStations.contains(point)) {
+                            this.occupiedStations.add(point);
+                            return point;
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+                return null;
+            },
+            /*NpcManagerOv.OccupyFighterStation end.*/
+
+            /*NpcManagerOv.ReleaseFighterStation start.*/
+            /**
+             * 释放一个战士站位点
+             *
+             * @instance
+             * @public
+             * @this NpcManagerOv
+             * @memberof NpcManagerOv
+             * @param   {UnityEngine.Transform}    point
+             * @return  {void}
+             */
+            ReleaseFighterStation: function (point) {
+if ( TRACE ) { TRACE( "NpcManagerOv#ReleaseFighterStation", this ); }
+
+                if (UnityEngine.Component.op_Inequality(point, null)) {
+                    this.occupiedStations.remove(point);
+                }
+            },
+            /*NpcManagerOv.ReleaseFighterStation end.*/
+
+            /*NpcManagerOv.GetPatients start.*/
+            GetPatients: function (itemType) {
+if ( TRACE ) { TRACE( "NpcManagerOv#GetPatients", this ); }
+
+                if (itemType === ItemType.FigherPatient) {
+                    return this.mPatients;
+                } else {
+                    return this.mFarmerPatients;
+                }
+            },
+            /*NpcManagerOv.GetPatients end.*/
+
+            /*NpcManagerOv.DequeueCustomer start.*/
+            DequeueCustomer: function () {
+if ( TRACE ) { TRACE( "NpcManagerOv#DequeueCustomer", this ); }
+
+
+            },
+            /*NpcManagerOv.DequeueCustomer end.*/
+
+            /*NpcManagerOv.CustomerExit$1 start.*/
+            CustomerExit$1: function (_customer, stack, isPlayer) {
+if ( TRACE ) { TRACE( "NpcManagerOv#CustomerExit$1", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    $enumerator.current = null;
+                                        $step = 1;
+                                        return true;
+                                }
+                                case 1: {
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*NpcManagerOv.CustomerExit$1 end.*/
+
+            /*NpcManagerOv.UnlockLevel start.*/
+            /**
+             * 解锁最终区域
+             *
+             * @instance
+             * @public
+             * @override
+             * @this NpcManagerOv
+             * @memberof NpcManagerOv
+             * @return  {void}
+             */
+            UnlockLevel: function () {
+if ( TRACE ) { TRACE( "NpcManagerOv#UnlockLevel", this ); }
+
+                this.StartCoroutine$1(this.Delay(2, function () {
+                    var ui = UnityEngine.GameObject.Find("UIManager");
+                    ui.transform.Find("Win").gameObject.SetActive(true); //显示胜利界面
+                }));
+            },
+            /*NpcManagerOv.UnlockLevel end.*/
+
+            /*NpcManagerOv.Delay start.*/
+            Delay: function (time, action) {
+if ( TRACE ) { TRACE( "NpcManagerOv#Delay", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    $enumerator.current = new UnityEngine.WaitForSeconds(time);
+                                        $step = 1;
+                                        return true;
+                                }
+                                case 1: {
+                                    !Bridge.staticEquals(action, null) ? action() : null;
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*NpcManagerOv.Delay end.*/
+
+
+        },
+        overloads: {
+            "Update()": "Update$1",
+            "CustomerExit(PatientItem, ItemStack, bool)": "CustomerExit$1"
+        }
+    });
+    /*NpcManagerOv end.*/
+
     if ( MODULE_reflection ) {
     var $m = Bridge.setMetadata,
-        $n = ["System","UnityEngine","System.Collections.Generic","System.Collections","UnityEngine.Events","UnityEngine.UI","DG.Tweening","UnityEngine.EventSystems","UnityEngine.Audio","DG.Tweening.Core","DG.Tweening.Plugins.Core.PathCore","System.Globalization","DG.Tweening.Plugins.Options"];
+        $n = ["System","UnityEngine","System.Collections.Generic","System.Collections","ExcelTool","UnityEngine.Events","UnityEngine.UI","TMPro","DG.Tweening","UnityEngine.EventSystems","UnityEngine.Audio","DG.Tweening.Core","DG.Tweening.Plugins.Core.PathCore","System.Globalization","DG.Tweening.Plugins.Options"];
 
     /*ArrowsManager start.*/
-    $m("ArrowsManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"CloseArrows","t":8,"sn":"CloseArrows","rt":$n[0].Void},{"a":1,"n":"CreateArrow","t":8,"pi":[{"n":"targetPos","pt":$n[1].Vector3,"ps":0}],"sn":"CreateArrow","rt":$n[0].Void,"p":[$n[1].Vector3]},{"a":1,"n":"CreateGuideLine","t":8,"pi":[{"n":"startPos","pt":$n[1].Vector3,"ps":0},{"n":"endPos","pt":$n[1].Vector3,"ps":1}],"sn":"CreateGuideLine","rt":$n[0].Void,"p":[$n[1].Vector3,$n[1].Vector3]},{"a":1,"n":"InitGuideLine","t":8,"sn":"InitGuideLine","rt":$n[0].Void},{"a":2,"n":"SetArrows","t":8,"pi":[{"n":"index","pt":$n[0].Int32,"ps":0}],"sn":"SetArrows","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"SetArrows","t":8,"pi":[{"n":"targetPos","pt":$n[1].Transform,"ps":0}],"sn":"SetArrows$1","rt":$n[0].Void,"p":[$n[1].Transform]},{"a":1,"n":"Start","t":8,"sn":"Start$1","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"cachedMaterial","t":4,"rt":$n[1].Material,"sn":"cachedMaterial"},{"at":[new UnityEngine.HeaderAttribute("\u6027\u80fd\u4f18\u5316")],"a":2,"n":"closeDistanceThreshold","t":4,"rt":$n[0].Single,"sn":"closeDistanceThreshold","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"currentTarget","t":4,"rt":$n[1].Transform,"sn":"currentTarget"},{"at":[new UnityEngine.HeaderAttribute("\u5f15\u5bfc\u7ebf\u8bbe\u7f6e")],"a":2,"n":"lineMaterial","t":4,"rt":$n[1].Material,"sn":"lineMaterial"},{"a":1,"n":"lineMesh","t":4,"rt":$n[1].Mesh,"sn":"lineMesh"},{"a":1,"n":"lineRenderer","t":4,"rt":$n[1].MeshRenderer,"sn":"lineRenderer"},{"a":2,"n":"lineWidth","t":4,"rt":$n[0].Single,"sn":"lineWidth","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u7bad\u5934\u8bbe\u7f6e")],"a":2,"n":"mArrowsParent","t":4,"rt":$n[1].Transform,"sn":"mArrowsParent"},{"a":1,"n":"normals","t":4,"rt":System.Array.type(UnityEngine.Vector3),"sn":"normals"},{"a":2,"n":"playerTransform","t":4,"rt":$n[1].Transform,"sn":"playerTransform"},{"at":[new UnityEngine.HeaderAttribute("\u76ee\u6807\u70b9\u5217\u8868")],"a":2,"n":"targets","t":4,"rt":$n[2].List$1(UnityEngine.Transform),"sn":"targets"},{"a":1,"n":"vertices","t":4,"rt":System.Array.type(UnityEngine.Vector3),"sn":"vertices"},{"a":2,"n":"yOffset","t":4,"rt":$n[0].Single,"sn":"yOffset","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("ArrowsManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"CloseArrows","t":8,"sn":"CloseArrows","rt":$n[0].Void},{"a":1,"n":"CreateArrow","t":8,"pi":[{"n":"targetPos","pt":$n[1].Vector3,"ps":0}],"sn":"CreateArrow","rt":$n[0].Void,"p":[$n[1].Vector3]},{"a":1,"n":"CreateGuideLine","t":8,"pi":[{"n":"startPos","pt":$n[1].Vector3,"ps":0},{"n":"endPos","pt":$n[1].Vector3,"ps":1}],"sn":"CreateGuideLine","rt":$n[0].Void,"p":[$n[1].Vector3,$n[1].Vector3]},{"a":1,"n":"InitGuideLine","t":8,"sn":"InitGuideLine","rt":$n[0].Void},{"a":2,"n":"SetArrows","t":8,"pi":[{"n":"index","pt":$n[0].Int32,"ps":0}],"sn":"SetArrows","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"SetArrows","t":8,"pi":[{"n":"targetPos","pt":$n[1].Transform,"ps":0}],"sn":"SetArrows$1","rt":$n[0].Void,"p":[$n[1].Transform]},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"UpdateOffsetPos","t":8,"pi":[{"n":"offsetPos","pt":$n[1].Vector3,"ps":0}],"sn":"UpdateOffsetPos","rt":$n[0].Void,"p":[$n[1].Vector3]},{"a":1,"n":"cachedMaterial","t":4,"rt":$n[1].Material,"sn":"cachedMaterial"},{"at":[new UnityEngine.HeaderAttribute("\u6027\u80fd\u4f18\u5316")],"a":2,"n":"closeDistanceThreshold","t":4,"rt":$n[0].Single,"sn":"closeDistanceThreshold","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"currentTarget","t":4,"rt":$n[1].Transform,"sn":"currentTarget"},{"a":2,"n":"isCan","t":4,"rt":$n[0].Boolean,"sn":"isCan","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HeaderAttribute("\u5f15\u5bfc\u7ebf\u8bbe\u7f6e")],"a":2,"n":"lineMaterial","t":4,"rt":$n[1].Material,"sn":"lineMaterial"},{"a":1,"n":"lineMesh","t":4,"rt":$n[1].Mesh,"sn":"lineMesh"},{"a":1,"n":"lineRenderer","t":4,"rt":$n[1].MeshRenderer,"sn":"lineRenderer"},{"a":2,"n":"lineWidth","t":4,"rt":$n[0].Single,"sn":"lineWidth","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u7bad\u5934\u8bbe\u7f6e")],"a":2,"n":"mArrowsParent","t":4,"rt":$n[1].Transform,"sn":"mArrowsParent"},{"a":1,"n":"normals","t":4,"rt":System.Array.type(UnityEngine.Vector3),"sn":"normals"},{"a":1,"n":"offsetPos","t":4,"rt":$n[1].Vector3,"sn":"offsetPos"},{"a":2,"n":"playerTransform","t":4,"rt":$n[1].Transform,"sn":"playerTransform"},{"a":1,"n":"targetPos","t":4,"rt":$n[1].Vector3,"sn":"targetPos"},{"at":[new UnityEngine.HeaderAttribute("\u76ee\u6807\u70b9\u5217\u8868")],"a":2,"n":"targets","t":4,"rt":$n[2].List$1(UnityEngine.Transform),"sn":"targets"},{"a":1,"n":"vertices","t":4,"rt":System.Array.type(UnityEngine.Vector3),"sn":"vertices"},{"a":2,"n":"yOffset","t":4,"rt":$n[0].Single,"sn":"yOffset","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*ArrowsManager end.*/
 
     /*AudioManager start.*/
@@ -12819,47 +18730,91 @@ if ( TRACE ) { TRACE( "UIProgress#UpdateNumberDisplay", this ); }
     /*CamreaModel end.*/
 
     /*CameraManager start.*/
-    $m("CameraManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"CamerZoom","t":8,"pi":[{"n":"isfar","pt":$n[0].Boolean,"ps":0},{"n":"zoomtimes","dv":1.0,"o":true,"pt":$n[0].Single,"ps":1},{"n":"isback","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"staytimes","dv":0.0,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"CamerZoom","rt":$n[0].Void,"p":[$n[0].Boolean,$n[0].Single,$n[0].Boolean,$n[0].Single]},{"a":1,"n":"CamerZoomIE","t":8,"pi":[{"n":"isfar","pt":$n[0].Boolean,"ps":0},{"n":"zoomtimes","pt":$n[0].Single,"ps":1},{"n":"isback","pt":$n[0].Boolean,"ps":2},{"n":"staytimes","pt":$n[0].Single,"ps":3}],"sn":"CamerZoomIE","rt":$n[3].IEnumerator,"p":[$n[0].Boolean,$n[0].Single,$n[0].Boolean,$n[0].Single]},{"a":2,"n":"ForceLookByIndex","t":8,"pi":[{"n":"index","pt":$n[0].Int32,"ps":0}],"sn":"ForceLookByIndex","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"ForceLookIE","t":8,"pi":[{"n":"targetPos","pt":$n[1].Transform,"ps":0}],"sn":"ForceLookIE","rt":$n[3].IEnumerator,"p":[$n[1].Transform]},{"a":1,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start$1","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"IsCanMove","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsCanMove","t":8,"rt":$n[0].Boolean,"fg":"IsCanMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsCanMove"},{"a":1,"n":"camreaModel","t":4,"rt":CamreaModel,"sn":"camreaModel","box":function ($v) { return Bridge.box($v, CamreaModel, System.Enum.toStringFn(CamreaModel));}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"forceCameras","t":4,"rt":$n[2].List$1(UnityEngine.Transform),"sn":"forceCameras"},{"a":2,"n":"isCress","t":4,"rt":$n[0].Boolean,"sn":"isCress","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isForcedLook","t":4,"rt":$n[0].Boolean,"sn":"isForcedLook","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"iszoom","t":4,"rt":$n[0].Boolean,"sn":"iszoom","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"mCamera","t":4,"rt":$n[1].Camera,"sn":"mCamera"},{"at":[new UnityEngine.HeaderAttribute("\u89c6\u91ce\u8303\u56f4\u63a7\u5236"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"mCameraCressNum","t":4,"rt":$n[0].Single,"sn":"mCameraCressNum","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"mCameraCressNumFar","t":4,"rt":$n[0].Single,"sn":"mCameraCressNumFar","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"mCameraVerNum","t":4,"rt":$n[0].Single,"sn":"mCameraVerNum","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"mCameraVerNumFar","t":4,"rt":$n[0].Single,"sn":"mCameraVerNumFar","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"mCurrentCameraNum","t":4,"rt":$n[0].Single,"sn":"mCurrentCameraNum","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"mOffset","t":4,"rt":$n[1].Vector3,"sn":"mOffset"},{"a":1,"n":"oripos","t":4,"rt":$n[1].Vector3,"sn":"oripos"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"stayTimer","t":4,"rt":$n[0].Single,"sn":"stayTimer","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u76f8\u673a\u5f15\u5bfc"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"switchTimer","t":4,"rt":$n[0].Single,"sn":"switchTimer","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"CameraMoveAction","t":2,"ad":{"a":2,"n":"add_CameraMoveAction","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addCameraMoveAction","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_CameraMoveAction","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeCameraMoveAction","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"CameraZoomAction","t":2,"ad":{"a":2,"n":"add_CameraZoomAction","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addCameraZoomAction","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_CameraZoomAction","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeCameraZoomAction","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
+    $m("CameraManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"CamerZoom","t":8,"pi":[{"n":"isfar","pt":$n[0].Boolean,"ps":0},{"n":"zoomtimes","dv":1.0,"o":true,"pt":$n[0].Single,"ps":1},{"n":"isback","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"staytimes","dv":0.0,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"CamerZoom","rt":$n[0].Void,"p":[$n[0].Boolean,$n[0].Single,$n[0].Boolean,$n[0].Single]},{"a":1,"n":"CamerZoomIE","t":8,"pi":[{"n":"isfar","pt":$n[0].Boolean,"ps":0},{"n":"zoomtimes","pt":$n[0].Single,"ps":1},{"n":"isback","pt":$n[0].Boolean,"ps":2},{"n":"staytimes","pt":$n[0].Single,"ps":3}],"sn":"CamerZoomIE","rt":$n[3].IEnumerator,"p":[$n[0].Boolean,$n[0].Single,$n[0].Boolean,$n[0].Single]},{"a":2,"n":"ForceLookByIndex","t":8,"pi":[{"n":"index","pt":$n[0].Int32,"ps":0}],"sn":"ForceLookByIndex","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"ForceLookIE","t":8,"pi":[{"n":"targetPos","pt":$n[1].Transform,"ps":0}],"sn":"ForceLookIE","rt":$n[3].IEnumerator,"p":[$n[1].Transform]},{"a":1,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"IsCanMove","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsCanMove","t":8,"rt":$n[0].Boolean,"fg":"IsCanMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsCanMove"},{"a":1,"n":"camreaModel","t":4,"rt":CamreaModel,"sn":"camreaModel","box":function ($v) { return Bridge.box($v, CamreaModel, System.Enum.toStringFn(CamreaModel));}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"forceCameras","t":4,"rt":$n[2].List$1(UnityEngine.Transform),"sn":"forceCameras"},{"a":2,"n":"isCress","t":4,"rt":$n[0].Boolean,"sn":"isCress","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isForcedLook","t":4,"rt":$n[0].Boolean,"sn":"isForcedLook","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"iszoom","t":4,"rt":$n[0].Boolean,"sn":"iszoom","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"mCamera","t":4,"rt":$n[1].Camera,"sn":"mCamera"},{"at":[new UnityEngine.HeaderAttribute("\u89c6\u91ce\u8303\u56f4\u63a7\u5236"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"mCameraCressNum","t":4,"rt":$n[0].Single,"sn":"mCameraCressNum","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"mCameraCressNumFar","t":4,"rt":$n[0].Single,"sn":"mCameraCressNumFar","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"mCameraVerNum","t":4,"rt":$n[0].Single,"sn":"mCameraVerNum","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"mCameraVerNumFar","t":4,"rt":$n[0].Single,"sn":"mCameraVerNumFar","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"mCurrentCameraNum","t":4,"rt":$n[0].Single,"sn":"mCurrentCameraNum","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"mOffset","t":4,"rt":$n[1].Vector3,"sn":"mOffset"},{"a":1,"n":"oripos","t":4,"rt":$n[1].Vector3,"sn":"oripos"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"stayTimer","t":4,"rt":$n[0].Single,"sn":"stayTimer","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u76f8\u673a\u5f15\u5bfc"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"switchTimer","t":4,"rt":$n[0].Single,"sn":"switchTimer","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"CameraMoveAction","t":2,"ad":{"a":2,"n":"add_CameraMoveAction","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addCameraMoveAction","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_CameraMoveAction","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeCameraMoveAction","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"CameraZoomAction","t":2,"ad":{"a":2,"n":"add_CameraZoomAction","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addCameraZoomAction","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_CameraZoomAction","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeCameraZoomAction","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
     /*CameraManager end.*/
 
+    /*ClerkManager start.*/
+    $m("ClerkManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddTotalMoney","t":8,"pi":[{"n":"num","pt":$n[0].Int32,"ps":0}],"sn":"AddTotalMoney","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"Check","t":8,"sn":"Check","rt":$n[0].Void},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"clerks","t":4,"rt":$n[2].List$1(PurchaseZone_Clerk),"sn":"clerks"},{"a":1,"n":"displayIds","t":4,"rt":$n[2].List$1(System.Int32),"sn":"displayIds"},{"a":2,"n":"hideObjs","t":4,"rt":$n[2].List$1(UnityEngine.GameObject),"sn":"hideObjs"},{"a":1,"n":"infos","t":4,"rt":$n[2].List$1(ExcelTool.GameConfig.ClerkInfoItem),"sn":"infos"},{"a":1,"n":"totalMoney","t":4,"rt":$n[0].Int32,"sn":"totalMoney","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    /*ClerkManager end.*/
+
     /*GameDataEditor start.*/
-    $m("GameDataEditor", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"at":[new UnityEngine.TooltipAttribute("\u6bcf\u4e2a\u987e\u5ba2\u7ed9\u7684\u91d1\u5e01")],"a":2,"n":"customerGiveGoin","t":4,"rt":$n[0].Int32,"sn":"customerGiveGoin","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.HeaderAttribute("\u4ea4\u6613\u76f8\u5173"),new UnityEngine.TooltipAttribute("\u6bcf\u4e2a\u987e\u5ba2\u9700\u8981\u7269\u54c1\u6570\u91cf")],"a":2,"n":"customerNeedCount","t":4,"rt":$n[0].Int32,"sn":"customerNeedCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.RangeAttribute(90.0, 270.0),new UnityEngine.TooltipAttribute("\u653b\u51fb\u8303\u56f4\u7ed3\u675f\u89d2\u5ea6")],"a":2,"n":"endAngle","t":4,"rt":$n[0].Single,"sn":"endAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u8b66\u6212\u534a\u5f84")],"a":2,"n":"enemyAlertRadius","t":4,"rt":$n[0].Single,"sn":"enemyAlertRadius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u653b\u51fb\u95f4\u9694")],"a":2,"n":"enemyAttackInterval","t":4,"rt":$n[0].Single,"sn":"enemyAttackInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u653b\u51fb\u534a\u5f84")],"a":2,"n":"enemyAttackRadius","t":4,"rt":$n[0].Single,"sn":"enemyAttackRadius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u654c\u4eba\u76f8\u5173"),new UnityEngine.TooltipAttribute("\u654c\u4eba\u6570\u91cf")],"a":2,"n":"enemyCount","t":4,"rt":$n[0].Int32,"sn":"enemyCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u53d7\u4f24\u95ea\u767d\u6750\u8d28")],"a":2,"n":"enemyHurtMat","t":4,"rt":$n[1].Material,"sn":"enemyHurtMat"},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u51fb\u9000\u529b\u5ea6")],"a":2,"n":"enemyKnockbackForc","t":4,"rt":$n[0].Single,"sn":"enemyKnockbackForc","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u6700\u5927\u8840\u91cf")],"a":2,"n":"enemyMaxHp","t":4,"rt":$n[0].Single,"sn":"enemyMaxHp","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u79fb\u52a8\u901f\u5ea6")],"a":2,"n":"enemySpeed","t":4,"rt":$n[0].Single,"sn":"enemySpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u7269\u54c1\u629b\u7269\u7ebf\u6700\u9ad8\u70b9")],"a":2,"n":"itemHeightY","t":4,"rt":$n[0].Single,"sn":"itemHeightY","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u7269\u54c1\u4ea4\u6613\u95f4\u9694")],"a":2,"n":"itemSpawnInterval","t":4,"rt":$n[0].Single,"sn":"itemSpawnInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u9650\u5b9a\u8303\u56f4\u7ec8\u70b9(\u53f3\u4e0a)")],"a":2,"n":"patrolAreaMax","t":4,"rt":$n[1].Transform,"sn":"patrolAreaMax"},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u9650\u5b9a\u8303\u56f4\u8d77\u70b9(\u5de6\u4e0b)")],"a":2,"n":"patrolAreaMin","t":4,"rt":$n[1].Transform,"sn":"patrolAreaMin"},{"at":[new UnityEngine.TooltipAttribute("\u73a9\u5bb6\u653b\u51fb\u4f24\u5bb3")],"a":2,"n":"playerAamage","t":4,"rt":$n[0].Int32,"sn":"playerAamage","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.TooltipAttribute("\u73a9\u5bb6\u653b\u51fb\u95f4\u9694")],"a":2,"n":"playerAttackInterval","t":4,"rt":$n[0].Single,"sn":"playerAttackInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u73a9\u5bb6\u653b\u51fb\u534a\u5f84")],"a":2,"n":"playerAttackRadius","t":4,"rt":$n[0].Single,"sn":"playerAttackRadius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u73a9\u5bb6\u6700\u5927\u8840\u91cf")],"a":2,"n":"playerMaxHp","t":4,"rt":$n[0].Single,"sn":"playerMaxHp","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u73a9\u5bb6\u76f8\u5173"),new UnityEngine.TooltipAttribute("\u73a9\u5bb6\u79fb\u52a8\u901f\u5ea6")],"a":2,"n":"playerSpeed","t":4,"rt":$n[0].Single,"sn":"playerSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u73a9\u5bb6\u65cb\u8f6c\u5e73\u6ed1\u7cfb\u6570")],"a":2,"n":"playerTurnSmoothTime","t":4,"rt":$n[0].Single,"sn":"playerTurnSmoothTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.RangeAttribute(-90.0, 90.0),new UnityEngine.TooltipAttribute("\u653b\u51fb\u8303\u56f4\u8d77\u59cb\u89d2\u5ea6")],"a":2,"n":"startAngle","t":4,"rt":$n[0].Single,"sn":"startAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("GameDataEditor", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":2,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"GetMouseData","t":16,"rt":$n[4].GameConfig.老鼠数据Data,"g":{"a":2,"n":"get_GetMouseData","t":8,"rt":$n[4].GameConfig.老鼠数据Data,"fg":"GetMouseData"},"fn":"GetMouseData"},{"a":2,"n":"GetOtherData","t":16,"rt":$n[4].GameConfig.其他配置Data,"g":{"a":2,"n":"get_GetOtherData","t":8,"rt":$n[4].GameConfig.其他配置Data,"fg":"GetOtherData"},"fn":"GetOtherData"},{"a":2,"n":"GetPlayerData","t":16,"rt":$n[4].GameConfig.玩家数据Data,"g":{"a":2,"n":"get_GetPlayerData","t":8,"rt":$n[4].GameConfig.玩家数据Data,"fg":"GetPlayerData"},"fn":"GetPlayerData"},{"at":[new UnityEngine.TooltipAttribute("\u6bcf\u4e2a\u987e\u5ba2\u7ed9\u7684\u91d1\u5e01")],"a":2,"n":"customerGiveGoin","t":4,"rt":$n[0].Int32,"sn":"customerGiveGoin","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.HeaderAttribute("\u4ea4\u6613\u76f8\u5173"),new UnityEngine.TooltipAttribute("\u6bcf\u4e2a\u987e\u5ba2\u9700\u8981\u7269\u54c1\u6570\u91cf")],"a":2,"n":"customerNeedCount","t":4,"rt":$n[0].Int32,"sn":"customerNeedCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.RangeAttribute(90.0, 270.0),new UnityEngine.TooltipAttribute("\u653b\u51fb\u8303\u56f4\u7ed3\u675f\u89d2\u5ea6")],"a":2,"n":"endAngle","t":4,"rt":$n[0].Single,"sn":"endAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u8b66\u6212\u534a\u5f84")],"a":2,"n":"enemyAlertRadius","t":4,"rt":$n[0].Single,"sn":"enemyAlertRadius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u653b\u51fb\u95f4\u9694")],"a":2,"n":"enemyAttackInterval","t":4,"rt":$n[0].Single,"sn":"enemyAttackInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u653b\u51fb\u534a\u5f84")],"a":2,"n":"enemyAttackRadius","t":4,"rt":$n[0].Single,"sn":"enemyAttackRadius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u654c\u4eba\u76f8\u5173"),new UnityEngine.TooltipAttribute("\u654c\u4eba\u6570\u91cf")],"a":2,"n":"enemyCount","t":4,"rt":$n[0].Int32,"sn":"enemyCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"enemyDropNum","t":4,"rt":$n[0].Int32,"sn":"enemyDropNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u53d7\u4f24\u95ea\u767d\u6750\u8d28")],"a":2,"n":"enemyHurtMat","t":4,"rt":$n[1].Material,"sn":"enemyHurtMat"},{"a":2,"n":"enemyInitNum","t":4,"rt":$n[0].Int32,"sn":"enemyInitNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u51fb\u9000\u529b\u5ea6")],"a":2,"n":"enemyKnockbackForc","t":4,"rt":$n[0].Single,"sn":"enemyKnockbackForc","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u6700\u5927\u8840\u91cf")],"a":2,"n":"enemyMaxHp","t":4,"rt":$n[0].Single,"sn":"enemyMaxHp","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u79fb\u52a8\u901f\u5ea6")],"a":2,"n":"enemySpeed","t":4,"rt":$n[0].Single,"sn":"enemySpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"gameConfig","t":4,"rt":$n[4].GameConfig,"sn":"gameConfig"},{"at":[new UnityEngine.HeaderAttribute("\u7269\u54c1\u629b\u7269\u7ebf\u6700\u9ad8\u70b9")],"a":2,"n":"itemHeightY","t":4,"rt":$n[0].Single,"sn":"itemHeightY","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u7269\u54c1\u4ea4\u6613\u95f4\u9694")],"a":2,"n":"itemSpawnInterval","t":4,"rt":$n[0].Single,"sn":"itemSpawnInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u9650\u5b9a\u8303\u56f4\u7ec8\u70b9(\u53f3\u4e0a)")],"a":2,"n":"patrolAreaMax","t":4,"rt":$n[1].Transform,"sn":"patrolAreaMax"},{"at":[new UnityEngine.TooltipAttribute("\u654c\u4eba\u9650\u5b9a\u8303\u56f4\u8d77\u70b9(\u5de6\u4e0b)")],"a":2,"n":"patrolAreaMin","t":4,"rt":$n[1].Transform,"sn":"patrolAreaMin"},{"at":[new UnityEngine.TooltipAttribute("\u73a9\u5bb6\u653b\u51fb\u4f24\u5bb3")],"a":2,"n":"playerAamage","t":4,"rt":$n[0].Int32,"sn":"playerAamage","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.TooltipAttribute("\u73a9\u5bb6\u653b\u51fb\u95f4\u9694")],"a":2,"n":"playerAttackInterval","t":4,"rt":$n[0].Single,"sn":"playerAttackInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u73a9\u5bb6\u653b\u51fb\u534a\u5f84")],"a":2,"n":"playerAttackRadius","t":4,"rt":$n[0].Single,"sn":"playerAttackRadius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u73a9\u5bb6\u6700\u5927\u8840\u91cf")],"a":2,"n":"playerMaxHp","t":4,"rt":$n[0].Single,"sn":"playerMaxHp","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u73a9\u5bb6\u76f8\u5173"),new UnityEngine.TooltipAttribute("\u73a9\u5bb6\u79fb\u52a8\u901f\u5ea6")],"a":2,"n":"playerSpeed","t":4,"rt":$n[0].Single,"sn":"playerSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u73a9\u5bb6\u65cb\u8f6c\u5e73\u6ed1\u7cfb\u6570")],"a":2,"n":"playerTurnSmoothTime","t":4,"rt":$n[0].Single,"sn":"playerTurnSmoothTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.RangeAttribute(-90.0, 90.0),new UnityEngine.TooltipAttribute("\u653b\u51fb\u8303\u56f4\u8d77\u59cb\u89d2\u5ea6")],"a":2,"n":"startAngle","t":4,"rt":$n[0].Single,"sn":"startAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*GameDataEditor end.*/
 
+    /*GuildTriggerType start.*/
+    $m("GuildTriggerType", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"First","is":true,"t":4,"rt":GuildTriggerType,"sn":"First","box":function ($v) { return Bridge.box($v, GuildTriggerType, System.Enum.toStringFn(GuildTriggerType));}},{"a":2,"n":"Mouse","is":true,"t":4,"rt":GuildTriggerType,"sn":"Mouse","box":function ($v) { return Bridge.box($v, GuildTriggerType, System.Enum.toStringFn(GuildTriggerType));}},{"a":2,"n":"None","is":true,"t":4,"rt":GuildTriggerType,"sn":"None","box":function ($v) { return Bridge.box($v, GuildTriggerType, System.Enum.toStringFn(GuildTriggerType));}},{"a":2,"n":"PatienMoney","is":true,"t":4,"rt":GuildTriggerType,"sn":"PatienMoney","box":function ($v) { return Bridge.box($v, GuildTriggerType, System.Enum.toStringFn(GuildTriggerType));}},{"a":2,"n":"Transport","is":true,"t":4,"rt":GuildTriggerType,"sn":"Transport","box":function ($v) { return Bridge.box($v, GuildTriggerType, System.Enum.toStringFn(GuildTriggerType));}},{"a":2,"n":"Treatment","is":true,"t":4,"rt":GuildTriggerType,"sn":"Treatment","box":function ($v) { return Bridge.box($v, GuildTriggerType, System.Enum.toStringFn(GuildTriggerType));}},{"a":2,"n":"UnlockFinish","is":true,"t":4,"rt":GuildTriggerType,"sn":"UnlockFinish","box":function ($v) { return Bridge.box($v, GuildTriggerType, System.Enum.toStringFn(GuildTriggerType));}},{"a":2,"n":"UnlockIcon","is":true,"t":4,"rt":GuildTriggerType,"sn":"UnlockIcon","box":function ($v) { return Bridge.box($v, GuildTriggerType, System.Enum.toStringFn(GuildTriggerType));}}]}; }, $n);
+    /*GuildTriggerType end.*/
+
+    /*GuildManager start.*/
+    $m("GuildManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":2,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"CheckGuild","t":8,"pi":[{"n":"triggerType","pt":GuildTriggerType,"ps":0},{"n":"num","pt":$n[0].Int32,"ps":1},{"n":"itemType","pt":ItemType,"ps":2}],"sn":"CheckGuild","rt":$n[0].Void,"p":[GuildTriggerType,$n[0].Int32,ItemType]},{"a":2,"n":"CheckGuild","t":8,"pi":[{"n":"triggerType","pt":GuildTriggerType,"ps":0},{"n":"num","pt":$n[0].Int32,"ps":1},{"n":"objName","dv":"","o":true,"pt":$n[0].String,"ps":2}],"sn":"CheckGuild$1","rt":$n[0].Void,"p":[GuildTriggerType,$n[0].Int32,$n[0].String]},{"a":2,"n":"SetGuildLine","t":8,"pi":[{"n":"isEnd","pt":$n[0].Boolean,"ps":0},{"n":"info","dv":null,"o":true,"pt":$n[4].GameConfig.GuildInfoItem,"ps":1}],"sn":"SetGuildLine","rt":$n[0].Void,"p":[$n[0].Boolean,$n[4].GameConfig.GuildInfoItem]},{"a":2,"n":"UpdateArrowHeight","t":8,"pi":[{"n":"itemType","pt":ItemType,"ps":0},{"n":"isProduce","pt":$n[0].Boolean,"ps":1},{"n":"offsetY","pt":$n[0].Single,"ps":2}],"sn":"UpdateArrowHeight","rt":$n[0].Void,"p":[ItemType,$n[0].Boolean,$n[0].Single]},{"a":1,"n":"guild","t":4,"rt":$n[4].GameConfig.GuildInfoItem,"sn":"guild"},{"a":1,"n":"guildLst","t":4,"rt":$n[2].List$1(System.Int32),"sn":"guildLst"},{"a":1,"n":"infos","t":4,"rt":$n[2].List$1(ExcelTool.GameConfig.GuildInfoItem),"sn":"infos"},{"a":2,"n":"itemDic","is":true,"t":4,"rt":$n[2].Dictionary$2(ItemType,System.String),"sn":"itemDic"}]}; }, $n);
+    /*GuildManager end.*/
+
+    /*FarmerState start.*/
+    $m("FarmerState", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Harvesting","is":true,"t":4,"rt":FarmerState,"sn":"Harvesting","box":function ($v) { return Bridge.box($v, FarmerState, System.Enum.toStringFn(FarmerState));}},{"a":2,"n":"Idle","is":true,"t":4,"rt":FarmerState,"sn":"Idle","box":function ($v) { return Bridge.box($v, FarmerState, System.Enum.toStringFn(FarmerState));}},{"a":2,"n":"MovingToWheat","is":true,"t":4,"rt":FarmerState,"sn":"MovingToWheat","box":function ($v) { return Bridge.box($v, FarmerState, System.Enum.toStringFn(FarmerState));}},{"a":2,"n":"RidingElevator","is":true,"t":4,"rt":FarmerState,"sn":"RidingElevator","box":function ($v) { return Bridge.box($v, FarmerState, System.Enum.toStringFn(FarmerState));}},{"a":2,"n":"WaitingForElevatorTop","is":true,"t":4,"rt":FarmerState,"sn":"WaitingForElevatorTop","box":function ($v) { return Bridge.box($v, FarmerState, System.Enum.toStringFn(FarmerState));}}]}; }, $n);
+    /*FarmerState end.*/
+
+    /*FarmerPatientItem start.*/
+    $m("FarmerPatientItem", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"EnterElevatorAsFarmer","t":8,"sn":"EnterElevatorAsFarmer","rt":$n[0].Void},{"a":2,"n":"ExitElevatorAsFarmer","t":8,"pi":[{"n":"wasGoingDown","pt":$n[0].Boolean,"ps":0}],"sn":"ExitElevatorAsFarmer","rt":$n[0].Void,"p":[$n[0].Boolean]},{"ov":true,"a":3,"n":"Farmer","t":8,"sn":"Farmer","rt":$n[0].Void},{"a":1,"n":"FarmerWorkflowIE","t":8,"sn":"FarmerWorkflowIE","rt":$n[3].IEnumerator},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"farmerItemStackManager","t":4,"rt":ItemStackManager,"sn":"farmerItemStackManager"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"farmerState","t":4,"rt":FarmerState,"sn":"farmerState","box":function ($v) { return Bridge.box($v, FarmerState, System.Enum.toStringFn(FarmerState));}},{"a":1,"n":"farmerWorkflowCoroutine","t":4,"rt":$n[1].Coroutine,"sn":"farmerWorkflowCoroutine"},{"at":[new UnityEngine.HeaderAttribute("\u519c\u592b\u76f8\u5173"),new UnityEngine.TooltipAttribute("\u6bcf\u6b21\u6536\u5272\u95f4\u9694\uff08\u79d2\uff09"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"harvestInterval","t":4,"rt":$n[0].Single,"sn":"harvestInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*FarmerPatientItem end.*/
+
+    /*FighterPatientItem start.*/
+    $m("FighterPatientItem", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Attack","t":8,"sn":"Attack","rt":$n[0].Void},{"a":2,"n":"CheckIsAttack","t":8,"sn":"CheckIsAttack","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"CoinGenerateIE","t":8,"sn":"CoinGenerateIE","rt":$n[3].IEnumerator},{"a":1,"n":"CombatLoopIE","t":8,"sn":"CombatLoopIE","rt":$n[3].IEnumerator},{"a":1,"n":"DelayReturnItem","t":8,"pi":[{"n":"delay","pt":$n[0].Single,"ps":0}],"sn":"DelayReturnItem","rt":$n[3].IEnumerator,"p":[$n[0].Single]},{"ov":true,"a":3,"n":"Fighter","t":8,"sn":"Fighter","rt":$n[0].Void},{"a":1,"n":"FighterDie","t":8,"sn":"FighterDie","rt":$n[0].Void},{"a":1,"n":"FighterStationIE","t":8,"sn":"FighterStationIE","rt":$n[3].IEnumerator},{"a":1,"n":"FindNearestEnemyInRange","t":8,"sn":"FindNearestEnemyInRange","rt":Enemy},{"a":1,"n":"HpLossIE","t":8,"sn":"HpLossIE","rt":$n[3].IEnumerator},{"ov":true,"a":3,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"ov":true,"a":3,"n":"OnTriggerStay","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerStay","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":2,"n":"StartFighting","t":8,"sn":"StartFighting","rt":$n[0].Void},{"a":2,"n":"IsAttack","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsAttack","t":8,"rt":$n[0].Boolean,"fg":"IsAttack","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_IsAttack","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"IsAttack"},"fn":"IsAttack"},{"a":2,"n":"IsAttacking","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsAttacking","t":8,"rt":$n[0].Boolean,"fg":"IsAttacking","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_IsAttacking","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"IsAttacking"},"fn":"IsAttacking"},{"a":1,"n":"endAngle","t":16,"rt":$n[0].Single,"g":{"a":1,"n":"get_endAngle","t":8,"rt":$n[0].Single,"fg":"endAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"endAngle"},{"a":1,"n":"radius","t":16,"rt":$n[0].Single,"g":{"a":1,"n":"get_radius","t":8,"rt":$n[0].Single,"fg":"radius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"radius"},{"a":1,"n":"startAngle","t":16,"rt":$n[0].Single,"g":{"a":1,"n":"get_startAngle","t":8,"rt":$n[0].Single,"fg":"startAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"startAngle"},{"a":1,"n":"_isAttack","t":4,"rt":$n[0].Boolean,"sn":"_isAttack","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_isAttacking","t":4,"rt":$n[0].Boolean,"sn":"_isAttacking","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"attackEndAngle","t":4,"rt":$n[0].Single,"sn":"attackEndAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"attackInterval","t":4,"rt":$n[0].Single,"sn":"attackInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"attackRadius","t":4,"rt":$n[0].Single,"sn":"attackRadius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"attackRangeIndicator","t":4,"rt":AttackRangeIndicator,"sn":"attackRangeIndicator"},{"a":1,"n":"attackStartAngle","t":4,"rt":$n[0].Single,"sn":"attackStartAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"coinCoroutine","t":4,"rt":$n[1].Coroutine,"sn":"coinCoroutine"},{"at":[new UnityEngine.HeaderAttribute("\u6218\u58eb\u4ea7\u91d1"),new UnityEngine.TooltipAttribute("\u4ea7\u91d1\u95f4\u9694\uff08\u79d2\uff09"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"coinInterval","t":4,"rt":$n[0].Single,"sn":"coinInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u6bcf\u6b21\u4ea7\u91d1\u6570\u91cf"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"coinsPerDrop","t":4,"rt":$n[0].Int32,"sn":"coinsPerDrop","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"combatCoroutine","t":4,"rt":$n[1].Coroutine,"sn":"combatCoroutine"},{"a":1,"n":"defaultLookDir","t":4,"rt":$n[1].Vector3,"sn":"defaultLookDir"},{"a":1,"n":"enemyLayerMask","t":4,"rt":$n[0].Int32,"sn":"enemyLayerMask","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"fighterHealthBar","t":4,"rt":UIHealthBar,"sn":"fighterHealthBar"},{"a":1,"n":"fighterHp","t":4,"rt":$n[0].Single,"sn":"fighterHp","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"fighterIsDead","t":4,"rt":$n[0].Boolean,"sn":"fighterIsDead","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HeaderAttribute("\u6218\u58eb\u8840\u91cf"),new UnityEngine.TooltipAttribute("\u6700\u5927\u8840\u91cf"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"fighterMaxHp","t":4,"rt":$n[0].Single,"sn":"fighterMaxHp","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"hpLossCoroutine","t":4,"rt":$n[1].Coroutine,"sn":"hpLossCoroutine"},{"at":[new UnityEngine.TooltipAttribute("\u6389\u8840\u95f4\u9694\uff08\u79d2\uff09"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"hpLossInterval","t":4,"rt":$n[0].Single,"sn":"hpLossInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u6bcf\u6b21\u6389\u8840\u6bd4\u4f8b\uff08\u5360\u6700\u5927\u8840\u91cf\uff09"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"hpLossPercent","t":4,"rt":$n[0].Single,"sn":"hpLossPercent","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u6218\u6597\u76f8\u5173")],"a":2,"n":"mAttackCollider","t":4,"rt":$n[1].SphereCollider,"sn":"mAttackCollider"},{"a":1,"n":"occupiedStation","t":4,"rt":$n[1].Transform,"sn":"occupiedStation"},{"at":[new UnityEngine.TooltipAttribute("\u7ad9\u4f4d\u6247\u5f62\u89d2\u5ea6\u8303\u56f4\uff08\u76f8\u5bf9\u4e8e\u95e8\u53e3\u671d\u5916\u65b9\u5411\uff0c\u5de6\u53f3\u5404\u591a\u5c11\u5ea6\uff09"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"standAngleRange","t":4,"rt":$n[0].Single,"sn":"standAngleRange","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"standMaxRadius","t":4,"rt":$n[0].Single,"sn":"standMaxRadius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u6218\u58eb\u7ad9\u4f4d"),new UnityEngine.TooltipAttribute("\u7ad9\u4f4d\u6247\u5f62\u534a\u5f84\u8303\u56f4\uff08\u6700\u5c0f\uff0c\u6700\u5927\uff09"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"standMinRadius","t":4,"rt":$n[0].Single,"sn":"standMinRadius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u6218\u58eb\u8f6c\u5411"),new UnityEngine.TooltipAttribute("\u8f6c\u5411\u654c\u4eba\u7684\u65f6\u95f4\uff08\u79d2\uff09"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"turnDuration","t":4,"rt":$n[0].Single,"sn":"turnDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*FighterPatientItem end.*/
+
     /*GroundItemStack start.*/
-    $m("GroundItemStack", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":2,"n":"RemoveTopItem","t":8,"sn":"RemoveTopItem","rt":Item},{"ov":true,"a":2,"n":"StackItem","t":8,"pi":[{"n":"_item","pt":Item,"ps":0}],"sn":"StackItem","rt":$n[0].Void,"p":[Item]},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"ov":true,"a":3,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void}]}; }, $n);
+    $m("GroundItemStack", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"GetPatient","t":8,"sn":"GetPatient","rt":PatientItem},{"ov":true,"a":2,"n":"RemoveTopItem","t":8,"sn":"RemoveTopItem","rt":Item},{"ov":true,"a":2,"n":"StackItem","t":8,"pi":[{"n":"_item","pt":Item,"ps":0}],"sn":"StackItem","rt":$n[0].Void,"p":[Item]},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"ov":true,"a":3,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void}]}; }, $n);
     /*GroundItemStack end.*/
 
     /*GroundItemStackManager start.*/
-    $m("GroundItemStackManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"v":true,"a":3,"n":"ModifyTargetStackListIndex","t":8,"pi":[{"n":"_value","pt":$n[0].Int32,"ps":0}],"sn":"ModifyTargetStackListIndex","rt":$n[0].Void,"p":[$n[0].Int32]},{"v":true,"a":3,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"v":true,"a":3,"n":"OnTriggerExit","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerExit","rt":$n[0].Void,"p":[$n[1].Collider]},{"v":true,"a":3,"n":"OnTriggerStay","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerStay","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":2,"n":"RemoveItem","t":8,"sn":"RemoveItem","rt":Item},{"a":2,"n":"ShowBlueSprite","t":8,"sn":"ShowBlueSprite","rt":$n[0].Void},{"a":2,"n":"ShowWhiteSprite","t":8,"sn":"ShowWhiteSprite","rt":$n[0].Void},{"v":true,"a":2,"n":"StackItem","t":8,"pi":[{"n":"_item","pt":Item,"ps":0}],"sn":"StackItem","rt":$n[0].Void,"p":[Item]},{"v":true,"a":3,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"targetStackListIndex","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_targetStackListIndex","t":8,"rt":$n[0].Int32,"fg":"targetStackListIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},"s":{"a":3,"n":"set_targetStackListIndex","t":8,"p":[$n[0].Int32],"rt":$n[0].Void,"fs":"targetStackListIndex"},"fn":"targetStackListIndex"},{"a":2,"n":"Test","t":4,"rt":$n[0].Boolean,"sn":"Test","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"__Property__Initializer__targetStackListIndex","t":4,"rt":$n[0].Int32,"sn":"__Property__Initializer__targetStackListIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"heighLightSR","t":4,"rt":$n[1].SpriteRenderer,"sn":"heighLightSR"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"nomalSR","t":4,"rt":$n[1].SpriteRenderer,"sn":"nomalSR"},{"a":2,"n":"stackItemAcion","t":4,"rt":$n[4].UnityEvent,"sn":"stackItemAcion"},{"a":2,"n":"stackList","t":4,"rt":$n[2].List$1(GroundItemStack),"sn":"stackList"},{"a":2,"n":"stackedItemType","t":4,"rt":ItemType,"sn":"stackedItemType","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"a":2,"n":"totalMaxAmount","t":4,"rt":$n[0].Int32,"sn":"totalMaxAmount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"totalStackedItemsAmount","t":4,"rt":$n[0].Int32,"sn":"totalStackedItemsAmount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"backing":true,"n":"<targetStackListIndex>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"targetStackListIndex","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    $m("GroundItemStackManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"v":true,"a":3,"n":"ModifyTargetStackListIndex","t":8,"pi":[{"n":"_value","pt":$n[0].Int32,"ps":0}],"sn":"ModifyTargetStackListIndex","rt":$n[0].Void,"p":[$n[0].Int32]},{"v":true,"a":3,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"v":true,"a":3,"n":"OnTriggerExit","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerExit","rt":$n[0].Void,"p":[$n[1].Collider]},{"v":true,"a":3,"n":"OnTriggerStay","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerStay","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":2,"n":"RemoveItem","t":8,"sn":"RemoveItem","rt":Item},{"a":2,"n":"ShowBlueSprite","t":8,"sn":"ShowBlueSprite","rt":$n[0].Void},{"a":2,"n":"ShowWhiteSprite","t":8,"sn":"ShowWhiteSprite","rt":$n[0].Void},{"v":true,"a":2,"n":"StackItem","t":8,"pi":[{"n":"_item","pt":Item,"ps":0}],"sn":"StackItem","rt":$n[0].Void,"p":[Item]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"v":true,"a":3,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"targetStackListIndex","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_targetStackListIndex","t":8,"rt":$n[0].Int32,"fg":"targetStackListIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},"s":{"a":3,"n":"set_targetStackListIndex","t":8,"p":[$n[0].Int32],"rt":$n[0].Void,"fs":"targetStackListIndex"},"fn":"targetStackListIndex"},{"a":2,"n":"Test","t":4,"rt":$n[0].Boolean,"sn":"Test","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"__Property__Initializer__targetStackListIndex","t":4,"rt":$n[0].Int32,"sn":"__Property__Initializer__targetStackListIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"heighLightSR","t":4,"rt":$n[1].GameObject,"sn":"heighLightSR"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"nomalSR","t":4,"rt":$n[1].GameObject,"sn":"nomalSR"},{"a":2,"n":"stackItemAcion","t":4,"rt":$n[5].UnityEvent,"sn":"stackItemAcion"},{"a":2,"n":"stackList","t":4,"rt":$n[2].List$1(GroundItemStack),"sn":"stackList"},{"a":2,"n":"stackedItemType","t":4,"rt":ItemType,"sn":"stackedItemType","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"a":2,"n":"totalMaxAmount","t":4,"rt":$n[0].Int32,"sn":"totalMaxAmount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"totalStackedItemsAmount","t":4,"rt":$n[0].Int32,"sn":"totalStackedItemsAmount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"backing":true,"n":"<targetStackListIndex>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"targetStackListIndex","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
     /*GroundItemStackManager end.*/
 
     /*ItemType start.*/
-    $m("ItemType", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Money","is":true,"t":4,"rt":ItemType,"sn":"Money","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"a":2,"n":"Product","is":true,"t":4,"rt":ItemType,"sn":"Product","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"a":2,"n":"RawMaterial","is":true,"t":4,"rt":ItemType,"sn":"RawMaterial","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}}]}; }, $n);
+    $m("ItemType", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"FarmerPatient","is":true,"t":4,"rt":ItemType,"sn":"FarmerPatient","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"a":2,"n":"FigherPatient","is":true,"t":4,"rt":ItemType,"sn":"FigherPatient","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"a":2,"n":"Money","is":true,"t":4,"rt":ItemType,"sn":"Money","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"a":2,"n":"Product","is":true,"t":4,"rt":ItemType,"sn":"Product","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"a":2,"n":"RawMaterial","is":true,"t":4,"rt":ItemType,"sn":"RawMaterial","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"a":2,"n":"Wheat","is":true,"t":4,"rt":ItemType,"sn":"Wheat","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"a":2,"n":"WheatItem","is":true,"t":4,"rt":ItemType,"sn":"WheatItem","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}}]}; }, $n);
     /*ItemType end.*/
 
     /*Item start.*/
-    $m("Item", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"CalculateBezierPoint","t":8,"pi":[{"n":"t","pt":$n[0].Single,"ps":0},{"n":"p0","pt":$n[1].Vector3,"ps":1},{"n":"p1","pt":$n[1].Vector3,"ps":2},{"n":"p2","pt":$n[1].Vector3,"ps":3}],"sn":"CalculateBezierPoint","rt":$n[1].Vector3,"p":[$n[0].Single,$n[1].Vector3,$n[1].Vector3,$n[1].Vector3]},{"a":2,"n":"MoveAlongCurve","t":8,"pi":[{"n":"_startPosition","pt":$n[1].Vector3,"ps":0},{"n":"_endPosition","pt":$n[1].Vector3,"ps":1}],"sn":"MoveAlongCurve","rt":$n[0].Void,"p":[$n[1].Vector3,$n[1].Vector3]},{"a":2,"n":"MoveAlongCurve","t":8,"pi":[{"n":"_startPosition","pt":$n[1].Vector3,"ps":0},{"n":"_endPosition","pt":$n[1].Vector3,"ps":1},{"n":"action","pt":Function,"ps":2}],"sn":"MoveAlongCurve$1","rt":$n[0].Void,"p":[$n[1].Vector3,$n[1].Vector3,Function]},{"a":1,"n":"MoveAlongCurve_Coroutine","t":8,"pi":[{"n":"_startPosition","pt":$n[1].Vector3,"ps":0},{"n":"_endPosition","pt":$n[1].Vector3,"ps":1}],"sn":"MoveAlongCurve_Coroutine","rt":$n[3].IEnumerator,"p":[$n[1].Vector3,$n[1].Vector3]},{"a":1,"n":"MoveAlongCurve_Coroutine","t":8,"pi":[{"n":"_startPosition","pt":$n[1].Vector3,"ps":0},{"n":"_endPosition","pt":$n[1].Vector3,"ps":1},{"n":"action","pt":Function,"ps":2}],"sn":"MoveAlongCurve_Coroutine$1","rt":$n[3].IEnumerator,"p":[$n[1].Vector3,$n[1].Vector3,Function]},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":2,"n":"PickUpToPlayer","t":8,"sn":"PickUpToPlayer","rt":$n[0].Void},{"a":2,"n":"ReturnSelf","t":8,"sn":"ReturnSelf","rt":$n[0].Void},{"a":1,"n":"ReturnSelfIE","t":8,"sn":"ReturnSelfIE","rt":$n[3].IEnumerator},{"a":1,"n":"ScaleFX","t":8,"sn":"ScaleFX","rt":$n[0].Void},{"a":1,"n":"ScaleFX_Coroutine","t":8,"sn":"ScaleFX_Coroutine","rt":$n[3].IEnumerator},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"canDoFurtherMove","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_canDoFurtherMove","t":8,"rt":$n[0].Boolean,"fg":"canDoFurtherMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_canDoFurtherMove","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"canDoFurtherMove"},"fn":"canDoFurtherMove"},{"a":2,"n":"cd","t":16,"rt":$n[1].Collider,"g":{"a":2,"n":"get_cd","t":8,"rt":$n[1].Collider,"fg":"cd"},"s":{"a":1,"n":"set_cd","t":8,"p":[$n[1].Collider],"rt":$n[0].Void,"fs":"cd"},"fn":"cd"},{"a":2,"n":"hasBeenAddedToPlayer","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_hasBeenAddedToPlayer","t":8,"rt":$n[0].Boolean,"fg":"hasBeenAddedToPlayer","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_hasBeenAddedToPlayer","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"hasBeenAddedToPlayer"},"fn":"hasBeenAddedToPlayer"},{"a":2,"n":"targetStackListIndex","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_targetStackListIndex","t":8,"rt":$n[0].Int32,"fg":"targetStackListIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},"s":{"a":1,"n":"set_targetStackListIndex","t":8,"p":[$n[0].Int32],"rt":$n[0].Void,"fs":"targetStackListIndex"},"fn":"targetStackListIndex"},{"a":1,"n":"__Property__Initializer__canDoFurtherMove","t":4,"rt":$n[0].Boolean,"sn":"__Property__Initializer__canDoFurtherMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"__Property__Initializer__hasBeenAddedToPlayer","t":4,"rt":$n[0].Boolean,"sn":"__Property__Initializer__hasBeenAddedToPlayer","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"__Property__Initializer__targetStackListIndex","t":4,"rt":$n[0].Int32,"sn":"__Property__Initializer__targetStackListIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.HeaderAttribute("\u57fa\u7840\u4fe1\u606f")],"a":2,"n":"itemType","t":4,"rt":ItemType,"sn":"itemType","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"at":[new UnityEngine.TooltipAttribute("\u7269\u54c1\u7684\u5bbd\u5ea6\uff0c\u7528\u4e8e\u8c03\u6574\u5806\u6808\u95f4\u8ddd")],"a":2,"n":"itemWidth","t":4,"rt":$n[0].Single,"sn":"itemWidth","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u8d1d\u585e\u5c14\u66f2\u7ebf\u4fe1\u606f")],"a":2,"n":"movementEase","t":4,"rt":pc.AnimationCurve,"sn":"movementEase"},{"a":1,"n":"playerStackManager","t":4,"rt":ItemStackManager,"sn":"playerStackManager"},{"a":1,"n":"returnSelfIE","t":4,"rt":$n[3].IEnumerator,"sn":"returnSelfIE"},{"at":[new UnityEngine.HeaderAttribute("\u7269\u54c1\u5806\u53e0\u4fe1\u606f"),new UnityEngine.TooltipAttribute("\u7269\u54c1\u5728\u7269\u54c1\u5806\u91cc\u9762\u7684\u5806\u53e0\u9ad8\u5ea6")],"a":2,"n":"stackHeight","t":4,"rt":$n[0].Single,"sn":"stackHeight","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u4ea4\u6613\u4fe1\u606f"),new UnityEngine.TooltipAttribute("\u7269\u54c1\u4ef7\u503c")],"a":2,"n":"value","t":4,"rt":$n[0].Int32,"sn":"value","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"backing":true,"n":"<canDoFurtherMove>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"canDoFurtherMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"backing":true,"n":"<cd>k__BackingField","t":4,"rt":$n[1].Collider,"sn":"cd"},{"a":1,"backing":true,"n":"<hasBeenAddedToPlayer>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"hasBeenAddedToPlayer","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"backing":true,"n":"<targetStackListIndex>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"targetStackListIndex","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    $m("Item", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"v":true,"a":3,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"CalculateBezierPoint","t":8,"pi":[{"n":"t","pt":$n[0].Single,"ps":0},{"n":"p0","pt":$n[1].Vector3,"ps":1},{"n":"p1","pt":$n[1].Vector3,"ps":2},{"n":"p2","pt":$n[1].Vector3,"ps":3}],"sn":"CalculateBezierPoint","rt":$n[1].Vector3,"p":[$n[0].Single,$n[1].Vector3,$n[1].Vector3,$n[1].Vector3]},{"a":2,"n":"MoveAlongCurve","t":8,"pi":[{"n":"_startPosition","pt":$n[1].Vector3,"ps":0},{"n":"_endPosition","pt":$n[1].Vector3,"ps":1},{"n":"action","dv":null,"o":true,"pt":Function,"ps":2},{"n":"offsetRotation","dv":null,"o":true,"pt":$n[1].Vector3,"ps":3}],"sn":"MoveAlongCurve","rt":$n[0].Void,"p":[$n[1].Vector3,$n[1].Vector3,Function,$n[1].Vector3]},{"a":1,"n":"MoveAlongCurve_Coroutine","t":8,"pi":[{"n":"_startPosition","pt":$n[1].Vector3,"ps":0},{"n":"_endPosition","pt":$n[1].Vector3,"ps":1},{"n":"action","dv":null,"o":true,"pt":Function,"ps":2},{"n":"offsetRotate","dv":null,"o":true,"pt":$n[1].Vector3,"ps":3}],"sn":"MoveAlongCurve_Coroutine","rt":$n[3].IEnumerator,"p":[$n[1].Vector3,$n[1].Vector3,Function,$n[1].Vector3]},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"v":true,"a":3,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":2,"n":"PickUpToPlayer","t":8,"sn":"PickUpToPlayer","rt":$n[0].Void},{"a":2,"n":"PickUpToPlayer","t":8,"pi":[{"n":"item","pt":ItemStack,"ps":0},{"n":"isPlayer","pt":$n[0].Boolean,"ps":1}],"sn":"PickUpToPlayer$1","rt":$n[0].Void,"p":[ItemStack,$n[0].Boolean]},{"a":2,"n":"ReturnSelf","t":8,"sn":"ReturnSelf","rt":$n[0].Void},{"a":1,"n":"ReturnSelfIE","t":8,"sn":"ReturnSelfIE","rt":$n[3].IEnumerator},{"a":1,"n":"ScaleFX","t":8,"sn":"ScaleFX","rt":$n[0].Void},{"a":1,"n":"ScaleFX_Coroutine","t":8,"sn":"ScaleFX_Coroutine","rt":$n[3].IEnumerator},{"v":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"canDoFurtherMove","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_canDoFurtherMove","t":8,"rt":$n[0].Boolean,"fg":"canDoFurtherMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_canDoFurtherMove","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"canDoFurtherMove"},"fn":"canDoFurtherMove"},{"a":2,"n":"cd","t":16,"rt":$n[1].Collider,"g":{"a":2,"n":"get_cd","t":8,"rt":$n[1].Collider,"fg":"cd"},"s":{"a":1,"n":"set_cd","t":8,"p":[$n[1].Collider],"rt":$n[0].Void,"fs":"cd"},"fn":"cd"},{"a":2,"n":"hasBeenAddedToPlayer","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_hasBeenAddedToPlayer","t":8,"rt":$n[0].Boolean,"fg":"hasBeenAddedToPlayer","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_hasBeenAddedToPlayer","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"hasBeenAddedToPlayer"},"fn":"hasBeenAddedToPlayer"},{"a":1,"n":"__Property__Initializer__canDoFurtherMove","t":4,"rt":$n[0].Boolean,"sn":"__Property__Initializer__canDoFurtherMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"__Property__Initializer__hasBeenAddedToPlayer","t":4,"rt":$n[0].Boolean,"sn":"__Property__Initializer__hasBeenAddedToPlayer","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HeaderAttribute("\u57fa\u7840\u4fe1\u606f")],"a":2,"n":"itemType","t":4,"rt":ItemType,"sn":"itemType","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"at":[new UnityEngine.TooltipAttribute("\u7269\u54c1\u7684\u5bbd\u5ea6\uff0c\u7528\u4e8e\u8c03\u6574\u5806\u6808\u95f4\u8ddd")],"a":2,"n":"itemWidth","t":4,"rt":$n[0].Single,"sn":"itemWidth","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u8d1d\u585e\u5c14\u66f2\u7ebf\u4fe1\u606f")],"a":2,"n":"movementEase","t":4,"rt":pc.AnimationCurve,"sn":"movementEase"},{"a":1,"n":"returnSelfIE","t":4,"rt":$n[3].IEnumerator,"sn":"returnSelfIE"},{"at":[new UnityEngine.HeaderAttribute("\u7269\u54c1\u5806\u53e0\u4fe1\u606f"),new UnityEngine.TooltipAttribute("\u7269\u54c1\u5728\u7269\u54c1\u5806\u91cc\u9762\u7684\u5806\u53e0\u9ad8\u5ea6")],"a":2,"n":"stackHeight","t":4,"rt":$n[0].Single,"sn":"stackHeight","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u4ea4\u6613\u4fe1\u606f"),new UnityEngine.TooltipAttribute("\u7269\u54c1\u4ef7\u503c")],"a":2,"n":"value","t":4,"rt":$n[0].Int32,"sn":"value","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"backing":true,"n":"<canDoFurtherMove>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"canDoFurtherMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"backing":true,"n":"<cd>k__BackingField","t":4,"rt":$n[1].Collider,"sn":"cd"},{"a":1,"backing":true,"n":"<hasBeenAddedToPlayer>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"hasBeenAddedToPlayer","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Item end.*/
 
+    /*PatienState start.*/
+    $m("PatienState", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Attack","is":true,"t":4,"rt":PatienState,"sn":"Attack","box":function ($v) { return Bridge.box($v, PatienState, System.Enum.toStringFn(PatienState));}},{"a":2,"n":"Farmer","is":true,"t":4,"rt":PatienState,"sn":"Farmer","box":function ($v) { return Bridge.box($v, PatienState, System.Enum.toStringFn(PatienState));}},{"a":2,"n":"Fighter","is":true,"t":4,"rt":PatienState,"sn":"Fighter","box":function ($v) { return Bridge.box($v, PatienState, System.Enum.toStringFn(PatienState));}},{"a":2,"n":"Injection","is":true,"t":4,"rt":PatienState,"sn":"Injection","box":function ($v) { return Bridge.box($v, PatienState, System.Enum.toStringFn(PatienState));}},{"a":2,"n":"Wait","is":true,"t":4,"rt":PatienState,"sn":"Wait","box":function ($v) { return Bridge.box($v, PatienState, System.Enum.toStringFn(PatienState));}}]}; }, $n);
+    /*PatienState end.*/
+
+    /*PatientItem start.*/
+    $m("PatientItem", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"v":true,"a":3,"n":"Farmer","t":8,"sn":"Farmer","rt":$n[0].Void},{"v":true,"a":3,"n":"Fighter","t":8,"sn":"Fighter","rt":$n[0].Void},{"a":2,"n":"MoveToTarget","t":8,"pi":[{"n":"target","pt":$n[1].Transform,"ps":0},{"n":"targetAcion","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"MoveToTarget","rt":$n[0].Void,"p":[$n[1].Transform,Function]},{"a":2,"n":"MoveToTarget","t":8,"pi":[{"n":"target","pt":$n[1].Vector3,"ps":0},{"n":"targetAcion","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"MoveToTarget$2","rt":$n[0].Void,"p":[$n[1].Vector3,Function]},{"a":2,"n":"MoveToTarget","t":8,"pi":[{"n":"target","pt":$n[1].Transform,"ps":0},{"n":"isplayer","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1},{"n":"breakAcion","dv":null,"o":true,"pt":Function,"ps":2}],"sn":"MoveToTarget$1","rt":$n[0].Void,"p":[$n[1].Transform,$n[0].Boolean,Function]},{"a":1,"n":"MoveToTargetIE","t":8,"pi":[{"n":"target","pt":$n[1].Transform,"ps":0},{"n":"targetAciton","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"MoveToTargetIE","rt":$n[3].IEnumerator,"p":[$n[1].Transform,Function]},{"a":1,"n":"MoveToTargetIE","t":8,"pi":[{"n":"target","pt":$n[1].Transform,"ps":0},{"n":"isplayer","pt":$n[0].Boolean,"ps":1},{"n":"breakAcion","pt":Function,"ps":2}],"sn":"MoveToTargetIE$1","rt":$n[3].IEnumerator,"p":[$n[1].Transform,$n[0].Boolean,Function]},{"a":1,"n":"MoveToTargetIE","t":8,"pi":[{"n":"target","pt":$n[1].Vector3,"ps":0},{"n":"targetAciton","dv":null,"o":true,"pt":Function,"ps":1},{"n":"range","dv":1.0,"o":true,"pt":$n[0].Single,"ps":2}],"sn":"MoveToTargetIE$2","rt":$n[3].IEnumerator,"p":[$n[1].Vector3,Function,$n[0].Single]},{"ov":true,"a":3,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"v":true,"a":3,"n":"OnTriggerStay","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerStay","rt":$n[0].Void,"p":[$n[1].Collider]},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"StateSwitch","t":8,"pi":[{"n":"state","pt":PatienState,"ps":0}],"sn":"StateSwitch","rt":$n[0].Void,"p":[PatienState]},{"v":true,"a":2,"n":"StopMovement","t":8,"sn":"StopMovement","rt":$n[0].Void},{"a":2,"n":"currentState","t":4,"rt":PatienState,"sn":"currentState","box":function ($v) { return Bridge.box($v, PatienState, System.Enum.toStringFn(PatienState));}},{"at":[new UnityEngine.HeaderAttribute("\u7ec4\u4ef6\u5f15\u7528")],"a":2,"n":"mAnimator","t":4,"rt":$n[1].Animator,"sn":"mAnimator"},{"a":2,"n":"mCollider","t":4,"rt":$n[1].Collider,"sn":"mCollider"},{"a":2,"n":"mMoveSpeed","t":4,"rt":$n[0].Single,"sn":"mMoveSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"mRigidbody","t":4,"rt":$n[1].Rigidbody,"sn":"mRigidbody"},{"a":2,"n":"mStateInfo","t":4,"rt":$n[1].AnimatorStateInfo,"sn":"mStateInfo"},{"a":2,"n":"mTurnSmoothTime","t":4,"rt":$n[0].Single,"sn":"mTurnSmoothTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"mTurnSmoothVelocity","t":4,"rt":$n[0].Single,"sn":"mTurnSmoothVelocity","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"moveToTargerIE","t":4,"rt":$n[3].IEnumerator,"sn":"moveToTargerIE"},{"a":2,"n":"npcType","t":4,"rt":NpcType,"sn":"npcType","box":function ($v) { return Bridge.box($v, NpcType, System.Enum.toStringFn(NpcType));}}]}; }, $n);
+    /*PatientItem end.*/
+
     /*ItemStack start.*/
-    $m("ItemStack", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AdjustPosition","t":8,"sn":"AdjustPosition","rt":$n[0].Void},{"a":2,"n":"BendItems","t":8,"sn":"BendItems","rt":$n[0].Void},{"a":1,"n":"BendItemsCoroutine","t":8,"sn":"BendItemsCoroutine","rt":$n[3].IEnumerator},{"a":2,"n":"GetItemWidth","t":8,"sn":"GetItemWidth","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"GetRankInActiveStacks","t":8,"sn":"GetRankInActiveStacks","rt":$n[0].Int32,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"GetStackedItemType","t":8,"sn":"GetStackedItemType","rt":ItemType,"box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"v":true,"a":2,"n":"RemoveTopItem","t":8,"sn":"RemoveTopItem","rt":Item},{"a":2,"n":"RestoreItems","t":8,"sn":"RestoreItems","rt":$n[0].Void},{"a":1,"n":"RestoreItemsCoroutine","t":8,"sn":"RestoreItemsCoroutine","rt":$n[3].IEnumerator},{"v":true,"a":2,"n":"StackItem","t":8,"pi":[{"n":"_item","pt":Item,"ps":0}],"sn":"StackItem","rt":$n[0].Void,"p":[Item]},{"v":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"v":true,"a":3,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"nextStackPosition","t":16,"rt":$n[1].Vector3,"g":{"a":2,"n":"get_nextStackPosition","t":8,"rt":$n[1].Vector3,"fg":"nextStackPosition"},"s":{"a":2,"n":"set_nextStackPosition","t":8,"p":[$n[1].Vector3],"rt":$n[0].Void,"fs":"nextStackPosition"},"fn":"nextStackPosition"},{"a":2,"n":"stackAmount","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_stackAmount","t":8,"rt":$n[0].Int32,"fg":"stackAmount","box":function ($v) { return Bridge.box($v, System.Int32);}},"s":{"a":2,"n":"set_stackAmount","t":8,"p":[$n[0].Int32],"rt":$n[0].Void,"fs":"stackAmount"},"fn":"stackAmount"},{"a":1,"n":"__Property__Initializer__stackAmount","t":4,"rt":$n[0].Int32,"sn":"__Property__Initializer__stackAmount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"bendDistance","t":4,"rt":$n[0].Single,"sn":"bendDistance","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"bendDuration","t":4,"rt":$n[0].Single,"sn":"bendDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u5f2f\u66f2\u6548\u679c\u8bbe\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"isOpenBend","t":4,"rt":$n[0].Boolean,"sn":"isOpenBend","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"iscomplet_bend","t":4,"rt":$n[0].Boolean,"sn":"iscomplet_bend","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"iscomplet_origina","t":4,"rt":$n[0].Boolean,"sn":"iscomplet_origina","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"maxHeight","t":4,"rt":$n[0].Int32,"sn":"maxHeight","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"maxStackAmount","t":4,"rt":$n[0].Int32,"sn":"maxStackAmount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"originalLocalPositions","t":4,"rt":$n[2].List$1(UnityEngine.Vector3),"sn":"originalLocalPositions"},{"a":1,"n":"stackManager","t":4,"rt":ItemStackManager,"sn":"stackManager"},{"a":3,"n":"stackedItemList","t":4,"rt":$n[2].List$1(Item),"sn":"stackedItemList"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"stackedItemType","t":4,"rt":ItemType,"sn":"stackedItemType","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"a":1,"backing":true,"n":"<nextStackPosition>k__BackingField","t":4,"rt":$n[1].Vector3,"sn":"nextStackPosition"},{"a":1,"backing":true,"n":"<stackAmount>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"stackAmount","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    $m("ItemStack", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":3,"n":"AdjustPosition","t":8,"sn":"AdjustPosition","rt":$n[0].Void},{"a":2,"n":"BendItems","t":8,"sn":"BendItems","rt":$n[0].Void},{"a":3,"n":"BendItemsCoroutine","t":8,"sn":"BendItemsCoroutine","rt":$n[3].IEnumerator},{"a":2,"n":"GetItemWidth","t":8,"sn":"GetItemWidth","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"GetRankInActiveStacks","t":8,"sn":"GetRankInActiveStacks","rt":$n[0].Int32,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"GetStackedItemType","t":8,"sn":"GetStackedItemType","rt":ItemType,"box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"v":true,"a":2,"n":"RemoveTopItem","t":8,"sn":"RemoveTopItem","rt":Item},{"a":2,"n":"RestoreItems","t":8,"sn":"RestoreItems","rt":$n[0].Void},{"a":3,"n":"RestoreItemsCoroutine","t":8,"sn":"RestoreItemsCoroutine","rt":$n[3].IEnumerator},{"v":true,"a":2,"n":"StackItem","t":8,"pi":[{"n":"_item","pt":Item,"ps":0}],"sn":"StackItem","rt":$n[0].Void,"p":[Item]},{"v":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"v":true,"a":3,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"nextStackPosition","t":16,"rt":$n[1].Vector3,"g":{"a":2,"n":"get_nextStackPosition","t":8,"rt":$n[1].Vector3,"fg":"nextStackPosition"},"s":{"a":2,"n":"set_nextStackPosition","t":8,"p":[$n[1].Vector3],"rt":$n[0].Void,"fs":"nextStackPosition"},"fn":"nextStackPosition"},{"a":2,"n":"stackAmount","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_stackAmount","t":8,"rt":$n[0].Int32,"fg":"stackAmount","box":function ($v) { return Bridge.box($v, System.Int32);}},"s":{"a":2,"n":"set_stackAmount","t":8,"p":[$n[0].Int32],"rt":$n[0].Void,"fs":"stackAmount"},"fn":"stackAmount"},{"a":1,"n":"__Property__Initializer__stackAmount","t":4,"rt":$n[0].Int32,"sn":"__Property__Initializer__stackAmount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"bendDistance","t":4,"rt":$n[0].Single,"sn":"bendDistance","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"bendDuration","t":4,"rt":$n[0].Single,"sn":"bendDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u5f2f\u66f2\u6548\u679c\u8bbe\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"isOpenBend","t":4,"rt":$n[0].Boolean,"sn":"isOpenBend","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isPlayer","t":4,"rt":$n[0].Boolean,"sn":"isPlayer","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"iscomplet_bend","t":4,"rt":$n[0].Boolean,"sn":"iscomplet_bend","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"iscomplet_origina","t":4,"rt":$n[0].Boolean,"sn":"iscomplet_origina","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"maxHeight","t":4,"rt":$n[0].Int32,"sn":"maxHeight","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"maxStackAmount","t":4,"rt":$n[0].Int32,"sn":"maxStackAmount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"offsetRotation","t":4,"rt":$n[1].Vector3,"sn":"offsetRotation"},{"a":3,"n":"originalLocalPositions","t":4,"rt":$n[2].List$1(UnityEngine.Vector3),"sn":"originalLocalPositions"},{"a":3,"n":"stackManager","t":4,"rt":ItemStackManager,"sn":"stackManager"},{"a":2,"n":"stackedItemList","t":4,"rt":$n[2].List$1(Item),"sn":"stackedItemList"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"stackedItemType","t":4,"rt":ItemType,"sn":"stackedItemType","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"a":1,"backing":true,"n":"<nextStackPosition>k__BackingField","t":4,"rt":$n[1].Vector3,"sn":"nextStackPosition"},{"a":1,"backing":true,"n":"<stackAmount>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"stackAmount","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
     /*ItemStack end.*/
 
     /*ItemStackManager start.*/
-    $m("ItemStackManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"GetStackByItemType","t":8,"pi":[{"n":"type","pt":ItemType,"ps":0}],"sn":"GetStackByItemType","rt":ItemStack,"p":[ItemType]},{"a":2,"n":"GetStackIndexByItemType","t":8,"pi":[{"n":"type","pt":ItemType,"ps":0}],"sn":"GetStackIndexByItemType","rt":$n[0].Int32,"p":[ItemType],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"GetStackPositionByRank","t":8,"pi":[{"n":"rank","pt":$n[0].Int32,"ps":0}],"sn":"GetStackPositionByRank","rt":$n[1].Vector3,"p":[$n[0].Int32]},{"a":2,"n":"ModifyAmountOfStackInUse","t":8,"pi":[{"n":"_value","pt":$n[0].Int32,"ps":0}],"sn":"ModifyAmountOfStackInUse","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"amountOfStackInUse","t":4,"rt":$n[0].Int32,"sn":"amountOfStackInUse","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"player","t":4,"rt":Player,"sn":"player"},{"at":[new UnityEngine.TooltipAttribute("\u95f4\u8ddd\u65b9\u5411\uff08\u9ed8\u8ba4\u5411\u540e\uff0c\u5373\u8d1fZ\u65b9\u5411\uff09")],"a":2,"n":"spacingDirection","t":4,"rt":$n[1].Vector3,"sn":"spacingDirection"},{"at":[new UnityEngine.HeaderAttribute("\u5806\u6808\u7ba1\u7406"),new UnityEngine.TooltipAttribute("\u9700\u8981\u7ba1\u7406\u7684\u7269\u54c1\u5806\u5217\u8868")],"a":2,"n":"stackList","t":4,"rt":$n[2].List$1(ItemStack),"sn":"stackList"},{"at":[new UnityEngine.HeaderAttribute("\u81ea\u52a8\u4f4d\u7f6e\u914d\u7f6e"),new UnityEngine.TooltipAttribute("\u7b2c\u4e00\u4e2a\u5806\u6808\u7684\u8d77\u59cb\u4f4d\u7f6e\uff08\u672c\u5730\u7a7a\u95f4\uff09")],"a":2,"n":"startPosition","t":4,"rt":$n[1].Vector3,"sn":"startPosition"}]}; }, $n);
+    $m("ItemStackManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"GetStackByItemType","t":8,"pi":[{"n":"type","pt":ItemType,"ps":0}],"sn":"GetStackByItemType","rt":ItemStack,"p":[ItemType]},{"a":2,"n":"GetStackIndexByItemType","t":8,"pi":[{"n":"type","pt":ItemType,"ps":0}],"sn":"GetStackIndexByItemType","rt":$n[0].Int32,"p":[ItemType],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"GetStackPositionByRank","t":8,"pi":[{"n":"rank","pt":$n[0].Int32,"ps":0}],"sn":"GetStackPositionByRank","rt":$n[1].Vector3,"p":[$n[0].Int32]},{"a":2,"n":"ModifyAmountOfStackInUse","t":8,"pi":[{"n":"_value","pt":$n[0].Int32,"ps":0}],"sn":"ModifyAmountOfStackInUse","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"amountOfStackInUse","t":4,"rt":$n[0].Int32,"sn":"amountOfStackInUse","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.TooltipAttribute("\u95f4\u8ddd\u65b9\u5411\uff08\u9ed8\u8ba4\u5411\u540e\uff0c\u5373\u8d1fZ\u65b9\u5411\uff09")],"a":2,"n":"spacingDirection","t":4,"rt":$n[1].Vector3,"sn":"spacingDirection"},{"at":[new UnityEngine.HeaderAttribute("\u5806\u6808\u7ba1\u7406"),new UnityEngine.TooltipAttribute("\u9700\u8981\u7ba1\u7406\u7684\u7269\u54c1\u5806\u5217\u8868")],"a":2,"n":"stackList","t":4,"rt":$n[2].List$1(ItemStack),"sn":"stackList"},{"at":[new UnityEngine.HeaderAttribute("\u81ea\u52a8\u4f4d\u7f6e\u914d\u7f6e"),new UnityEngine.TooltipAttribute("\u7b2c\u4e00\u4e2a\u5806\u6808\u7684\u8d77\u59cb\u4f4d\u7f6e\uff08\u672c\u5730\u7a7a\u95f4\uff09")],"a":2,"n":"startPosition","t":4,"rt":$n[1].Vector3,"sn":"startPosition"}]}; }, $n);
     /*ItemStackManager end.*/
+
+    /*BedProcess start.*/
+    $m("BedProcess", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"doorPos","t":4,"rt":$n[1].Transform,"sn":"doorPos"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"groundItemStack","t":4,"rt":GroundItemStackManager,"sn":"groundItemStack"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"moneyPos","t":4,"rt":$n[1].Transform,"sn":"moneyPos"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"path","t":4,"rt":$n[1].Transform,"sn":"path"}]}; }, $n);
+    /*BedProcess end.*/
 
     /*Processor start.*/
     $m("Processor", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"DestroyRawMaterial","t":8,"pi":[{"n":"_rawMaterial","pt":Item,"ps":0}],"sn":"DestroyRawMaterial","rt":$n[3].IEnumerator,"p":[Item]},{"v":true,"a":3,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"v":true,"a":3,"n":"OnTriggerExit","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerExit","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"OnTriggerStay","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerStay","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":2,"n":"ProcessMaterial","t":8,"sn":"ProcessMaterial","rt":$n[0].Void},{"a":1,"n":"ProcessingCoroutine","t":8,"sn":"ProcessingCoroutine","rt":$n[3].IEnumerator},{"a":1,"n":"SpawnProducts","t":8,"sn":"SpawnProducts","rt":$n[3].IEnumerator},{"a":2,"n":"StackitemProgress","t":8,"sn":"StackitemProgress","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"itemSpawnInterval","t":16,"rt":$n[0].Single,"g":{"a":1,"n":"get_itemSpawnInterval","t":8,"rt":$n[0].Single,"fg":"itemSpawnInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"itemSpawnInterval"},{"a":1,"n":"itemsPerCustomer","t":16,"rt":$n[0].Int32,"g":{"a":1,"n":"get_itemsPerCustomer","t":8,"rt":$n[0].Int32,"fg":"itemsPerCustomer","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"itemsPerCustomer"},{"a":1,"n":"productsPerTransaction","t":16,"rt":$n[0].Int32,"g":{"a":1,"n":"get_productsPerTransaction","t":8,"rt":$n[0].Int32,"fg":"productsPerTransaction","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"productsPerTransaction"},{"a":1,"n":"customerWaitTime","t":4,"rt":$n[1].WaitForSeconds,"sn":"customerWaitTime","ro":true},{"a":1,"n":"isProcessing","t":4,"rt":$n[0].Boolean,"sn":"isProcessing","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"ispprocess","t":4,"rt":$n[0].Boolean,"sn":"ispprocess","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HeaderAttribute("\u4ea7\u54c1\u4fe1\u606f"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"itemType","t":4,"rt":ItemType,"sn":"itemType","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"a":1,"n":"itemWaitTime","t":4,"rt":$n[1].WaitForSeconds,"sn":"itemWaitTime"},{"a":1,"n":"materialDestroyWaitTime","t":4,"rt":$n[1].WaitForSeconds,"sn":"materialDestroyWaitTime","ro":true},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"processPosition","t":4,"rt":$n[1].Transform,"sn":"processPosition"},{"a":1,"n":"productSpawnWaitTime","t":4,"rt":$n[1].WaitForSeconds,"sn":"productSpawnWaitTime","ro":true},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"productStackManager","t":4,"rt":GroundItemStackManager,"sn":"productStackManager"},{"a":1,"n":"productWaitTime","t":4,"rt":$n[1].WaitForSeconds,"sn":"productWaitTime","ro":true},{"at":[new UnityEngine.HeaderAttribute("\u52a0\u5de5\u4fe1\u606f"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"progressBar","t":4,"rt":UIProgress,"sn":"progressBar"},{"at":[new UnityEngine.HeaderAttribute("\u539f\u6750\u6599\u4fe1\u606f"),new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"rawMaterialStackManager","t":4,"rt":GroundItemStackManager,"sn":"rawMaterialStackManager"}]}; }, $n);
     /*Processor end.*/
 
+    /*Wheat start.*/
+    $m("Wheat", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"FarmerHarvest","t":8,"pi":[{"n":"farmer","pt":FarmerPatientItem,"ps":0}],"sn":"FarmerHarvest","rt":$n[0].Boolean,"p":[FarmerPatientItem],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"Harvest","t":8,"sn":"Harvest","rt":$n[0].Void},{"a":2,"n":"IsAvailableForFarmer","t":8,"pi":[{"n":"farmer","pt":FarmerPatientItem,"ps":0}],"sn":"IsAvailableForFarmer","rt":$n[0].Boolean,"p":[FarmerPatientItem],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable$1","rt":$n[0].Void},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter$1","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"RegrowCoroutine","t":8,"sn":"RegrowCoroutine","rt":$n[3].IEnumerator},{"a":2,"n":"ReleaseReservation","t":8,"sn":"ReleaseReservation","rt":$n[0].Void},{"a":2,"n":"ReserveForFarmer","t":8,"pi":[{"n":"farmer","pt":FarmerPatientItem,"ps":0}],"sn":"ReserveForFarmer","rt":$n[0].Void,"p":[FarmerPatientItem]},{"a":1,"n":"SetState","t":8,"pi":[{"n":"harvested","pt":$n[0].Boolean,"ps":0}],"sn":"SetState","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":1,"n":"SpawnWheatItem","t":8,"sn":"SpawnWheatItem","rt":$n[0].Void},{"a":1,"n":"SpawnWheatItemToDelivery","t":8,"sn":"SpawnWheatItemToDelivery","rt":$n[0].Void},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"IsHarvested","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsHarvested","t":8,"rt":$n[0].Boolean,"fg":"IsHarvested","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsHarvested"},{"at":[new UnityEngine.TooltipAttribute("\u5df2\u6536\u5272\u72b6\u6001\u663e\u793a\u7684\u5b50\u7269\u4f53")],"a":2,"n":"harvestedState","t":4,"rt":$n[1].GameObject,"sn":"harvestedState"},{"a":1,"n":"isHarvested","t":4,"rt":$n[0].Boolean,"sn":"isHarvested","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HeaderAttribute("\u5c0f\u9ea6\u8bbe\u7f6e"),new UnityEngine.TooltipAttribute("\u6b63\u5e38\u72b6\u6001\u663e\u793a\u7684\u5b50\u7269\u4f53")],"a":2,"n":"normalState","t":4,"rt":$n[1].GameObject,"sn":"normalState"},{"at":[new UnityEngine.TooltipAttribute("\u6536\u5272\u540e\u6062\u590d\u65f6\u95f4\uff08\u79d2\uff09")],"a":2,"n":"regrowTime","t":4,"rt":$n[0].Single,"sn":"regrowTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"reservedByFarmer","t":4,"rt":FarmerPatientItem,"sn":"reservedByFarmer"}]}; }, $n);
+    /*Wheat end.*/
+
+    /*WheatManager start.*/
+    $m("WheatManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"GetNearestAvailableWheat","t":8,"pi":[{"n":"farmer","pt":FarmerPatientItem,"ps":0}],"sn":"GetNearestAvailableWheat","rt":Wheat,"p":[FarmerPatientItem]},{"a":2,"n":"GetRandomAvailableWheat","t":8,"sn":"GetRandomAvailableWheat","rt":Wheat},{"a":1,"n":"SpawnWheatField","t":8,"sn":"SpawnWheatField","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start$1","rt":$n[0].Void},{"at":[new UnityEngine.TooltipAttribute("\u53f3\u4e0b\u89d2\u70b9\u4f4d")],"a":2,"n":"bottomRightPoint","t":4,"rt":$n[1].Transform,"sn":"bottomRightPoint"},{"at":[new UnityEngine.HeaderAttribute("\u533a\u57df\u8bbe\u7f6e"),new UnityEngine.TooltipAttribute("\u5de6\u4e0a\u89d2\u70b9\u4f4d")],"a":2,"n":"topLeftPoint","t":4,"rt":$n[1].Transform,"sn":"topLeftPoint"},{"at":[new UnityEngine.HeaderAttribute("\u95f4\u9694\u8bbe\u7f6e"),new UnityEngine.TooltipAttribute("\u6a2a\u5750\u6807\u95f4\u9694")],"a":2,"n":"xSpacing","t":4,"rt":$n[0].Single,"sn":"xSpacing","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u7eb5\u5750\u6807\u95f4\u9694")],"a":2,"n":"zSpacing","t":4,"rt":$n[0].Single,"sn":"zSpacing","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*WheatManager end.*/
+
     /*PurchaseZone_Clerk start.*/
-    $m("PurchaseZone_Clerk", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"OnPurchaseComplete","t":8,"sn":"OnPurchaseComplete","rt":$n[0].Void},{"at":[new UnityEngine.HeaderAttribute("Clerk info")],"a":2,"n":"completeAction","t":4,"rt":$n[4].UnityEvent,"sn":"completeAction"}]}; }, $n);
+    $m("PurchaseZone_Clerk", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"OnPurchaseComplete","t":8,"sn":"OnPurchaseComplete","rt":$n[0].Void},{"at":[new UnityEngine.HeaderAttribute("Clerk info")],"a":2,"n":"completeAction","t":4,"rt":$n[5].UnityEvent,"sn":"completeAction"}]}; }, $n);
     /*PurchaseZone_Clerk end.*/
 
     /*PurchaseZone start.*/
-    $m("PurchaseZone", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"BreathIE","t":8,"sn":"BreathIE","rt":$n[3].IEnumerator},{"v":true,"a":3,"n":"DisableGameObject","t":8,"pi":[{"n":"_delay","pt":$n[0].Single,"ps":0}],"sn":"DisableGameObject","rt":$n[0].Void,"p":[$n[0].Single]},{"a":3,"n":"DisableGameObject_Coroutine","t":8,"pi":[{"n":"_delay","pt":$n[0].Single,"ps":0}],"sn":"DisableGameObject_Coroutine","rt":$n[3].IEnumerator,"p":[$n[0].Single]},{"a":2,"n":"NoMoneyShake","t":8,"sn":"NoMoneyShake","rt":$n[0].Void},{"v":true,"a":3,"n":"OnPurchaseComplete","t":8,"sn":"OnPurchaseComplete","rt":$n[0].Void},{"v":true,"a":3,"n":"OnPurchaseProgress","t":8,"sn":"OnPurchaseProgress","rt":$n[0].Void},{"v":true,"a":3,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"v":true,"a":3,"n":"OnTriggerExit","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerExit","rt":$n[0].Void,"p":[$n[1].Collider]},{"v":true,"a":3,"n":"ProgressPurchase","t":8,"pi":[{"n":"_item","pt":Item,"ps":0}],"sn":"ProgressPurchase","rt":$n[0].Void,"p":[Item]},{"v":true,"a":3,"n":"Purchase","t":8,"sn":"Purchase","rt":$n[0].Void},{"a":1,"n":"ShowBlueSprite","t":8,"sn":"ShowBlueSprite","rt":$n[0].Void},{"a":1,"n":"ShowWhiteSprite","t":8,"sn":"ShowWhiteSprite","rt":$n[0].Void},{"v":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"StartBreath","t":8,"sn":"StartBreath","rt":$n[0].Void},{"a":2,"n":"StopBreath","t":8,"sn":"StopBreath","rt":$n[0].Void},{"v":true,"a":3,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":3,"n":"canvas","t":16,"rt":$n[1].Canvas,"g":{"a":3,"n":"get_canvas","t":8,"rt":$n[1].Canvas,"fg":"canvas"},"fn":"canvas"},{"a":3,"n":"cd","t":16,"rt":$n[1].Collider,"g":{"a":3,"n":"get_cd","t":8,"rt":$n[1].Collider,"fg":"cd"},"fn":"cd"},{"a":2,"n":"hasCompletedPurchase","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_hasCompletedPurchase","t":8,"rt":$n[0].Boolean,"fg":"hasCompletedPurchase","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":3,"n":"set_hasCompletedPurchase","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"hasCompletedPurchase"},"fn":"hasCompletedPurchase"},{"a":2,"n":"isPurchasing","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_isPurchasing","t":8,"rt":$n[0].Boolean,"fg":"isPurchasing","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":3,"n":"set_isPurchasing","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"isPurchasing"},"fn":"isPurchasing"},{"a":2,"n":"remainingPrice","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_remainingPrice","t":8,"rt":$n[0].Int32,"fg":"remainingPrice","box":function ($v) { return Bridge.box($v, System.Int32);}},"s":{"a":3,"n":"set_remainingPrice","t":8,"p":[$n[0].Int32],"rt":$n[0].Void,"fs":"remainingPrice"},"fn":"remainingPrice"},{"a":1,"n":"__Property__Initializer__hasCompletedPurchase","t":4,"rt":$n[0].Boolean,"sn":"__Property__Initializer__hasCompletedPurchase","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"__Property__Initializer__isPurchasing","t":4,"rt":$n[0].Boolean,"sn":"__Property__Initializer__isPurchasing","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HeaderAttribute("Sprite info / \u5730\u9762ui\u6846\u4fe1\u606f"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"borderNomal","t":4,"rt":$n[5].Image,"sn":"borderNomal"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"borderNomoney","t":4,"rt":$n[5].Image,"sn":"borderNomoney"},{"a":1,"n":"breathIE","t":4,"rt":$n[3].IEnumerator,"sn":"breathIE"},{"a":3,"n":"cachedTargetStack","t":4,"rt":ItemStack,"sn":"cachedTargetStack"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"contentHeighLight","t":4,"rt":$n[5].Image,"sn":"contentHeighLight"},{"at":[new UnityEngine.SpaceAttribute.ctor(),new UnityEngine.HeaderAttribute("Purchase progress info / \u8d2d\u4e70\u8fdb\u5ea6\u4fe1\u606f"),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"fillImage","t":4,"rt":$n[5].Image,"sn":"fillImage"},{"a":2,"n":"isCanBreath","t":4,"rt":$n[0].Boolean,"sn":"isCanBreath","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isbreath","t":4,"rt":$n[0].Boolean,"sn":"isbreath","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"iscomplete","t":4,"rt":$n[0].Boolean,"sn":"iscomplete","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isfinshPurchase","t":4,"rt":$n[0].Boolean,"sn":"isfinshPurchase","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"itemDropOffCooldown","t":4,"rt":$n[0].Single,"sn":"itemDropOffCooldown","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"itemDropOffTimer","t":4,"rt":$n[0].Single,"sn":"itemDropOffTimer","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"itemMoveTargetPosition","t":4,"rt":$n[1].Vector3,"sn":"itemMoveTargetPosition"},{"a":2,"n":"mPurchase","t":4,"rt":$n[4].UnityEvent,"sn":"mPurchase"},{"a":1,"n":"mlocalescale","t":4,"rt":$n[1].Vector3,"sn":"mlocalescale"},{"a":3,"n":"playerStackManager","t":4,"rt":ItemStackManager,"sn":"playerStackManager"},{"at":[new UnityEngine.HeaderAttribute("Purchase info / \u8d2d\u4e70\u4fe1\u606f")],"a":2,"n":"price","t":4,"rt":$n[0].Int32,"sn":"price","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":3,"n":"purchaseProgress","t":4,"rt":$n[0].Single,"sn":"purchaseProgress","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"remainingPrice_Img","t":4,"rt":$n[2].List$1(UnityEngine.UI.Image),"sn":"remainingPrice_Img"},{"a":2,"n":"requiredItemType","t":4,"rt":ItemType,"sn":"requiredItemType","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"a":1,"backing":true,"n":"<hasCompletedPurchase>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"hasCompletedPurchase","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"backing":true,"n":"<isPurchasing>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"isPurchasing","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"backing":true,"n":"<remainingPrice>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"remainingPrice","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    $m("PurchaseZone", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"BreathIE","t":8,"sn":"BreathIE","rt":$n[3].IEnumerator},{"v":true,"a":3,"n":"DisableGameObject","t":8,"pi":[{"n":"_delay","pt":$n[0].Single,"ps":0}],"sn":"DisableGameObject","rt":$n[0].Void,"p":[$n[0].Single]},{"a":3,"n":"DisableGameObject_Coroutine","t":8,"pi":[{"n":"_delay","pt":$n[0].Single,"ps":0}],"sn":"DisableGameObject_Coroutine","rt":$n[3].IEnumerator,"p":[$n[0].Single]},{"a":2,"n":"InitPrice","t":8,"pi":[{"n":"price","pt":$n[0].Int32,"ps":0}],"sn":"InitPrice","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"NoMoneyShake","t":8,"sn":"NoMoneyShake","rt":$n[0].Void},{"v":true,"a":3,"n":"OnPurchaseComplete","t":8,"sn":"OnPurchaseComplete","rt":$n[0].Void},{"v":true,"a":3,"n":"OnPurchaseProgress","t":8,"sn":"OnPurchaseProgress","rt":$n[0].Void},{"v":true,"a":3,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"v":true,"a":3,"n":"OnTriggerExit","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerExit","rt":$n[0].Void,"p":[$n[1].Collider]},{"v":true,"a":3,"n":"ProgressPurchase","t":8,"pi":[{"n":"_item","pt":Item,"ps":0}],"sn":"ProgressPurchase","rt":$n[0].Void,"p":[Item]},{"v":true,"a":3,"n":"Purchase","t":8,"sn":"Purchase","rt":$n[0].Void},{"a":1,"n":"ShowBlueSprite","t":8,"sn":"ShowBlueSprite","rt":$n[0].Void},{"a":1,"n":"ShowWhiteSprite","t":8,"sn":"ShowWhiteSprite","rt":$n[0].Void},{"v":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"StartBreath","t":8,"sn":"StartBreath","rt":$n[0].Void},{"a":2,"n":"StopBreath","t":8,"sn":"StopBreath","rt":$n[0].Void},{"v":true,"a":3,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":3,"n":"canvas","t":16,"rt":$n[1].Canvas,"g":{"a":3,"n":"get_canvas","t":8,"rt":$n[1].Canvas,"fg":"canvas"},"fn":"canvas"},{"a":3,"n":"cd","t":16,"rt":$n[1].Collider,"g":{"a":3,"n":"get_cd","t":8,"rt":$n[1].Collider,"fg":"cd"},"fn":"cd"},{"a":2,"n":"hasCompletedPurchase","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_hasCompletedPurchase","t":8,"rt":$n[0].Boolean,"fg":"hasCompletedPurchase","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":3,"n":"set_hasCompletedPurchase","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"hasCompletedPurchase"},"fn":"hasCompletedPurchase"},{"a":2,"n":"isPurchasing","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_isPurchasing","t":8,"rt":$n[0].Boolean,"fg":"isPurchasing","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":3,"n":"set_isPurchasing","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"isPurchasing"},"fn":"isPurchasing"},{"a":2,"n":"remainingPrice","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_remainingPrice","t":8,"rt":$n[0].Int32,"fg":"remainingPrice","box":function ($v) { return Bridge.box($v, System.Int32);}},"s":{"a":3,"n":"set_remainingPrice","t":8,"p":[$n[0].Int32],"rt":$n[0].Void,"fs":"remainingPrice"},"fn":"remainingPrice"},{"a":1,"n":"__Property__Initializer__hasCompletedPurchase","t":4,"rt":$n[0].Boolean,"sn":"__Property__Initializer__hasCompletedPurchase","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"__Property__Initializer__isPurchasing","t":4,"rt":$n[0].Boolean,"sn":"__Property__Initializer__isPurchasing","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HeaderAttribute("Sprite info / \u5730\u9762ui\u6846\u4fe1\u606f"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"borderNomal","t":4,"rt":$n[6].Image,"sn":"borderNomal"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"borderNomoney","t":4,"rt":$n[6].Image,"sn":"borderNomoney"},{"a":1,"n":"breathIE","t":4,"rt":$n[3].IEnumerator,"sn":"breathIE"},{"a":3,"n":"cachedTargetStack","t":4,"rt":ItemStack,"sn":"cachedTargetStack"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"contentHeighLight","t":4,"rt":$n[6].Image,"sn":"contentHeighLight"},{"at":[new UnityEngine.SpaceAttribute.ctor(),new UnityEngine.HeaderAttribute("Purchase progress info / \u8d2d\u4e70\u8fdb\u5ea6\u4fe1\u606f"),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"fillImage","t":4,"rt":$n[6].Image,"sn":"fillImage"},{"at":[new UnityEngine.HeaderAttribute("Purchase info / \u8d2d\u4e70\u4fe1\u606f")],"a":2,"n":"id","t":4,"rt":$n[0].Int32,"sn":"id","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"isCanBreath","t":4,"rt":$n[0].Boolean,"sn":"isCanBreath","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isbreath","t":4,"rt":$n[0].Boolean,"sn":"isbreath","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"iscomplete","t":4,"rt":$n[0].Boolean,"sn":"iscomplete","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isfinshPurchase","t":4,"rt":$n[0].Boolean,"sn":"isfinshPurchase","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"itemDropOffCooldown","t":4,"rt":$n[0].Single,"sn":"itemDropOffCooldown","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"itemDropOffTimer","t":4,"rt":$n[0].Single,"sn":"itemDropOffTimer","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"itemMoveTargetPosition","t":4,"rt":$n[1].Vector3,"sn":"itemMoveTargetPosition"},{"a":2,"n":"mPurchase","t":4,"rt":$n[5].UnityEvent,"sn":"mPurchase"},{"a":1,"n":"mlocalescale","t":4,"rt":$n[1].Vector3,"sn":"mlocalescale"},{"a":3,"n":"playerStackManager","t":4,"rt":ItemStackManager,"sn":"playerStackManager"},{"a":2,"n":"price","t":4,"rt":$n[0].Int32,"sn":"price","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":3,"n":"purchaseProgress","t":4,"rt":$n[0].Single,"sn":"purchaseProgress","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"remainTxt","t":4,"rt":$n[7].TextMeshProUGUI,"sn":"remainTxt"},{"a":2,"n":"requiredItemType","t":4,"rt":ItemType,"sn":"requiredItemType","box":function ($v) { return Bridge.box($v, ItemType, System.Enum.toStringFn(ItemType));}},{"a":1,"backing":true,"n":"<hasCompletedPurchase>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"hasCompletedPurchase","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"backing":true,"n":"<isPurchasing>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"isPurchasing","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"backing":true,"n":"<remainingPrice>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"remainingPrice","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
     /*PurchaseZone end.*/
 
     /*LunaManager start.*/
@@ -12867,7 +18822,7 @@ if ( TRACE ) { TRACE( "UIProgress#UpdateNumberDisplay", this ); }
     /*LunaManager end.*/
 
     /*MonoSingleton$1 start.*/
-    $m("MonoSingleton$1", function (T) { return {"att":1048705,"a":2,"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"v":true,"a":2,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"OnSceneReset","t":8,"sn":"OnSceneReset","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"instance","is":true,"t":16,"rt":T,"g":{"a":2,"n":"get_instance","t":8,"rt":T,"fg":"instance","is":true},"fn":"instance"},{"a":1,"n":"s_Instance","is":true,"t":4,"rt":T,"sn":"s_Instance"}]}; }, $n);
+    $m("MonoSingleton$1", function (T) { return {"att":1048705,"a":2,"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"v":true,"a":2,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"OnSceneReset","t":8,"sn":"OnSceneReset","rt":$n[0].Void},{"v":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"instance","is":true,"t":16,"rt":T,"g":{"a":2,"n":"get_instance","t":8,"rt":T,"fg":"instance","is":true},"fn":"instance"},{"a":1,"n":"s_Instance","is":true,"t":4,"rt":T,"sn":"s_Instance"}]}; }, $n);
     /*MonoSingleton$1 end.*/
 
     /*Customer start.*/
@@ -12875,11 +18830,11 @@ if ( TRACE ) { TRACE( "UIProgress#UpdateNumberDisplay", this ); }
     /*Customer end.*/
 
     /*Enemy start.*/
-    $m("Enemy", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AttackPlayer","t":8,"sn":"AttackPlayer","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":2,"n":"GetDropRawMaterial","t":8,"pi":[{"n":"count","dv":1,"o":true,"pt":$n[0].Int32,"ps":0}],"sn":"GetDropRawMaterial","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"GetRamdomPos","t":8,"sn":"GetRamdomPos","rt":$n[1].Vector3},{"a":2,"n":"Init","t":8,"sn":"Init","rt":$n[0].Void},{"a":2,"n":"Knockback","t":8,"pi":[{"n":"playerPosition","pt":$n[1].Vector3,"ps":0}],"sn":"Knockback","rt":$n[0].Void,"p":[$n[1].Vector3]},{"a":1,"n":"KnockbackIE","t":8,"pi":[{"n":"playerPosition","pt":$n[1].Vector3,"ps":0}],"sn":"KnockbackIE","rt":$n[3].IEnumerator,"p":[$n[1].Vector3]},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"OnTriggerExit","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerExit","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"OnTriggerStay","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerStay","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"ParabolicDrop","t":8,"pi":[{"n":"meet","pt":Item,"ps":0},{"n":"delay","dv":0.0,"o":true,"pt":$n[0].Single,"ps":1}],"sn":"ParabolicDrop","rt":$n[3].IEnumerator,"p":[Item,$n[0].Single]},{"a":1,"n":"PatrolIE","t":8,"sn":"PatrolIE","rt":$n[3].IEnumerator},{"a":2,"n":"SetHp","t":8,"pi":[{"n":"damage","dv":1,"o":true,"pt":$n[0].Int32,"ps":0}],"sn":"SetHp","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"StateSwitch","t":8,"pi":[{"n":"state","pt":EnemyState,"ps":0}],"sn":"StateSwitch","rt":$n[0].Void,"p":[EnemyState]},{"ov":true,"a":2,"n":"StopMovement","t":8,"sn":"StopMovement","rt":$n[0].Void},{"a":2,"n":"alertCollider","t":4,"rt":$n[1].SphereCollider,"sn":"alertCollider"},{"a":2,"n":"attackCollider","t":4,"rt":$n[1].SphereCollider,"sn":"attackCollider"},{"a":1,"n":"attackInterval","t":4,"rt":$n[0].Single,"sn":"attackInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"currentState","t":4,"rt":EnemyState,"sn":"currentState","box":function ($v) { return Bridge.box($v, EnemyState, System.Enum.toStringFn(EnemyState));}},{"a":2,"n":"isDie","t":4,"rt":$n[0].Boolean,"sn":"isDie","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"knockbackIE","t":4,"rt":$n[3].IEnumerator,"sn":"knockbackIE"},{"a":2,"n":"mHp","t":4,"rt":$n[0].Single,"sn":"mHp","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"mHpMax","t":4,"rt":$n[0].Single,"sn":"mHpMax","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"patrolIE","t":4,"rt":$n[3].IEnumerator,"sn":"patrolIE"},{"a":1,"n":"playerLayerMask","t":4,"rt":$n[0].Int32,"sn":"playerLayerMask","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"uIHealthBar","t":4,"rt":UIHealthBar,"sn":"uIHealthBar"}]}; }, $n);
+    $m("Enemy", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AttackPlayer","t":8,"sn":"AttackPlayer","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":2,"n":"GetDropRawMaterial","t":8,"pi":[{"n":"count","dv":1,"o":true,"pt":$n[0].Int32,"ps":0}],"sn":"GetDropRawMaterial","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"GetRamdomPos","t":8,"sn":"GetRamdomPos","rt":$n[1].Vector3},{"a":2,"n":"Init","t":8,"sn":"Init","rt":$n[0].Void},{"a":2,"n":"Knockback","t":8,"pi":[{"n":"playerPosition","pt":$n[1].Vector3,"ps":0}],"sn":"Knockback","rt":$n[0].Void,"p":[$n[1].Vector3]},{"a":1,"n":"KnockbackIE","t":8,"pi":[{"n":"playerPosition","pt":$n[1].Vector3,"ps":0}],"sn":"KnockbackIE","rt":$n[3].IEnumerator,"p":[$n[1].Vector3]},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"OnTriggerExit","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerExit","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"OnTriggerStay","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerStay","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"ParabolicDrop","t":8,"pi":[{"n":"meet","pt":Item,"ps":0},{"n":"delay","dv":0.0,"o":true,"pt":$n[0].Single,"ps":1}],"sn":"ParabolicDrop","rt":$n[3].IEnumerator,"p":[Item,$n[0].Single]},{"a":1,"n":"PatrolIE","t":8,"sn":"PatrolIE","rt":$n[3].IEnumerator},{"a":2,"n":"SetHp","t":8,"pi":[{"n":"damage","dv":1,"o":true,"pt":$n[0].Int32,"ps":0}],"sn":"SetHp","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"SetHp","t":8,"pi":[{"n":"damage","pt":$n[0].Int32,"ps":0},{"n":"dropLoot","pt":$n[0].Boolean,"ps":1}],"sn":"SetHp$1","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Boolean]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"StateSwitch","t":8,"pi":[{"n":"state","pt":EnemyState,"ps":0}],"sn":"StateSwitch","rt":$n[0].Void,"p":[EnemyState]},{"ov":true,"a":2,"n":"StopMovement","t":8,"sn":"StopMovement","rt":$n[0].Void},{"a":2,"n":"alertCollider","t":4,"rt":$n[1].SphereCollider,"sn":"alertCollider"},{"a":2,"n":"attackCollider","t":4,"rt":$n[1].SphereCollider,"sn":"attackCollider"},{"a":1,"n":"attackInterval","t":4,"rt":$n[0].Single,"sn":"attackInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"currentState","t":4,"rt":EnemyState,"sn":"currentState","box":function ($v) { return Bridge.box($v, EnemyState, System.Enum.toStringFn(EnemyState));}},{"a":2,"n":"isDie","t":4,"rt":$n[0].Boolean,"sn":"isDie","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"isSelect","t":4,"rt":$n[0].Boolean,"sn":"isSelect","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"isStationary","t":4,"rt":$n[0].Boolean,"sn":"isStationary","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"knockbackIE","t":4,"rt":$n[3].IEnumerator,"sn":"knockbackIE"},{"a":2,"n":"mHp","t":4,"rt":$n[0].Single,"sn":"mHp","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"mHpMax","t":4,"rt":$n[0].Single,"sn":"mHpMax","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"onDeathCallback","t":4,"rt":Function,"sn":"onDeathCallback"},{"a":1,"n":"patrolIE","t":4,"rt":$n[3].IEnumerator,"sn":"patrolIE"},{"a":1,"n":"playerLayerMask","t":4,"rt":$n[0].Int32,"sn":"playerLayerMask","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"shouldDropLoot","t":4,"rt":$n[0].Boolean,"sn":"shouldDropLoot","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"uIHealthBar","t":4,"rt":UIHealthBar,"sn":"uIHealthBar"}]}; }, $n);
     /*Enemy end.*/
 
     /*IdleNpc start.*/
-    $m("IdleNpc", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"target","t":4,"rt":$n[1].Transform,"sn":"target"},{"a":2,"n":"targetAction","t":4,"rt":$n[4].UnityEvent,"sn":"targetAction"}]}; }, $n);
+    $m("IdleNpc", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"target","t":4,"rt":$n[1].Transform,"sn":"target"},{"a":2,"n":"targetAction","t":4,"rt":$n[5].UnityEvent,"sn":"targetAction"}]}; }, $n);
     /*IdleNpc end.*/
 
     /*LoaderNpc start.*/
@@ -12894,20 +18849,36 @@ if ( TRACE ) { TRACE( "UIProgress#UpdateNumberDisplay", this ); }
     $m("MercenaryNpc.MercenaryState", function () { return {"td":MercenaryNpc,"att":259,"a":1,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"DroppingLoot","is":true,"t":4,"rt":MercenaryNpc.MercenaryState,"sn":"DroppingLoot","box":function ($v) { return Bridge.box($v, MercenaryNpc.MercenaryState, System.Enum.toStringFn(MercenaryNpc.MercenaryState));}},{"a":2,"n":"Fighting","is":true,"t":4,"rt":MercenaryNpc.MercenaryState,"sn":"Fighting","box":function ($v) { return Bridge.box($v, MercenaryNpc.MercenaryState, System.Enum.toStringFn(MercenaryNpc.MercenaryState));}},{"a":2,"n":"GoingOut","is":true,"t":4,"rt":MercenaryNpc.MercenaryState,"sn":"GoingOut","box":function ($v) { return Bridge.box($v, MercenaryNpc.MercenaryState, System.Enum.toStringFn(MercenaryNpc.MercenaryState));}},{"a":2,"n":"ReturningHome","is":true,"t":4,"rt":MercenaryNpc.MercenaryState,"sn":"ReturningHome","box":function ($v) { return Bridge.box($v, MercenaryNpc.MercenaryState, System.Enum.toStringFn(MercenaryNpc.MercenaryState));}}]}; }, $n);
     /*MercenaryNpc+MercenaryState end.*/
 
+    /*NpcType start.*/
+    $m("NpcType", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"BigEnemy","is":true,"t":4,"rt":NpcType,"sn":"BigEnemy","box":function ($v) { return Bridge.box($v, NpcType, System.Enum.toStringFn(NpcType));}},{"a":2,"n":"Customer","is":true,"t":4,"rt":NpcType,"sn":"Customer","box":function ($v) { return Bridge.box($v, NpcType, System.Enum.toStringFn(NpcType));}},{"a":2,"n":"Enemy","is":true,"t":4,"rt":NpcType,"sn":"Enemy","box":function ($v) { return Bridge.box($v, NpcType, System.Enum.toStringFn(NpcType));}},{"a":2,"n":"Porter","is":true,"t":4,"rt":NpcType,"sn":"Porter","box":function ($v) { return Bridge.box($v, NpcType, System.Enum.toStringFn(NpcType));}}]}; }, $n);
+    /*NpcType end.*/
+
     /*Npc start.*/
-    $m("Npc", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"MoveToTarget","t":8,"pi":[{"n":"target","pt":$n[1].Transform,"ps":0},{"n":"targetAcion","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"MoveToTarget","rt":$n[0].Void,"p":[$n[1].Transform,Function]},{"a":2,"n":"MoveToTarget","t":8,"pi":[{"n":"target","pt":$n[1].Vector3,"ps":0},{"n":"targetAcion","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"MoveToTarget$2","rt":$n[0].Void,"p":[$n[1].Vector3,Function]},{"a":2,"n":"MoveToTarget","t":8,"pi":[{"n":"target","pt":$n[1].Transform,"ps":0},{"n":"isplayer","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1},{"n":"breakAcion","dv":null,"o":true,"pt":Function,"ps":2}],"sn":"MoveToTarget$1","rt":$n[0].Void,"p":[$n[1].Transform,$n[0].Boolean,Function]},{"a":1,"n":"MoveToTargetIE","t":8,"pi":[{"n":"target","pt":$n[1].Transform,"ps":0},{"n":"targetAciton","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"MoveToTargetIE","rt":$n[3].IEnumerator,"p":[$n[1].Transform,Function]},{"a":1,"n":"MoveToTargetIE","t":8,"pi":[{"n":"target","pt":$n[1].Vector3,"ps":0},{"n":"targetAciton","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"MoveToTargetIE$2","rt":$n[3].IEnumerator,"p":[$n[1].Vector3,Function]},{"a":1,"n":"MoveToTargetIE","t":8,"pi":[{"n":"target","pt":$n[1].Transform,"ps":0},{"n":"isplayer","pt":$n[0].Boolean,"ps":1},{"n":"breakAcion","pt":Function,"ps":2}],"sn":"MoveToTargetIE$1","rt":$n[3].IEnumerator,"p":[$n[1].Transform,$n[0].Boolean,Function]},{"v":true,"a":2,"n":"StopMovement","t":8,"sn":"StopMovement","rt":$n[0].Void},{"at":[new UnityEngine.HeaderAttribute("\u7ec4\u4ef6\u5f15\u7528")],"a":2,"n":"mAnimator","t":4,"rt":$n[1].Animator,"sn":"mAnimator"},{"a":2,"n":"mCollider","t":4,"rt":$n[1].Collider,"sn":"mCollider"},{"a":2,"n":"mMoveSpeed","t":4,"rt":$n[0].Single,"sn":"mMoveSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"mRigidbody","t":4,"rt":$n[1].Rigidbody,"sn":"mRigidbody"},{"a":2,"n":"mStateInfo","t":4,"rt":$n[1].AnimatorStateInfo,"sn":"mStateInfo"},{"a":2,"n":"mTurnSmoothTime","t":4,"rt":$n[0].Single,"sn":"mTurnSmoothTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"mTurnSmoothVelocity","t":4,"rt":$n[0].Single,"sn":"mTurnSmoothVelocity","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"moveToTargerIE","t":4,"rt":$n[3].IEnumerator,"sn":"moveToTargerIE"}]}; }, $n);
+    $m("Npc", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"MoveToTarget","t":8,"pi":[{"n":"target","pt":$n[1].Transform,"ps":0},{"n":"targetAcion","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"MoveToTarget","rt":$n[0].Void,"p":[$n[1].Transform,Function]},{"a":2,"n":"MoveToTarget","t":8,"pi":[{"n":"target","pt":$n[1].Vector3,"ps":0},{"n":"targetAcion","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"MoveToTarget$2","rt":$n[0].Void,"p":[$n[1].Vector3,Function]},{"a":2,"n":"MoveToTarget","t":8,"pi":[{"n":"target","pt":$n[1].Transform,"ps":0},{"n":"isplayer","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1},{"n":"breakAcion","dv":null,"o":true,"pt":Function,"ps":2}],"sn":"MoveToTarget$1","rt":$n[0].Void,"p":[$n[1].Transform,$n[0].Boolean,Function]},{"a":1,"n":"MoveToTargetIE","t":8,"pi":[{"n":"target","pt":$n[1].Transform,"ps":0},{"n":"targetAciton","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"MoveToTargetIE","rt":$n[3].IEnumerator,"p":[$n[1].Transform,Function]},{"a":1,"n":"MoveToTargetIE","t":8,"pi":[{"n":"target","pt":$n[1].Vector3,"ps":0},{"n":"targetAciton","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"MoveToTargetIE$2","rt":$n[3].IEnumerator,"p":[$n[1].Vector3,Function]},{"a":1,"n":"MoveToTargetIE","t":8,"pi":[{"n":"target","pt":$n[1].Transform,"ps":0},{"n":"isplayer","pt":$n[0].Boolean,"ps":1},{"n":"breakAcion","pt":Function,"ps":2}],"sn":"MoveToTargetIE$1","rt":$n[3].IEnumerator,"p":[$n[1].Transform,$n[0].Boolean,Function]},{"v":true,"a":2,"n":"StopMovement","t":8,"sn":"StopMovement","rt":$n[0].Void},{"at":[new UnityEngine.HeaderAttribute("\u7ec4\u4ef6\u5f15\u7528")],"a":2,"n":"mAnimator","t":4,"rt":$n[1].Animator,"sn":"mAnimator"},{"a":2,"n":"mCollider","t":4,"rt":$n[1].Collider,"sn":"mCollider"},{"a":2,"n":"mMoveSpeed","t":4,"rt":$n[0].Single,"sn":"mMoveSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"mRigidbody","t":4,"rt":$n[1].Rigidbody,"sn":"mRigidbody"},{"a":2,"n":"mStateInfo","t":4,"rt":$n[1].AnimatorStateInfo,"sn":"mStateInfo"},{"a":2,"n":"mTurnSmoothTime","t":4,"rt":$n[0].Single,"sn":"mTurnSmoothTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"mTurnSmoothVelocity","t":4,"rt":$n[0].Single,"sn":"mTurnSmoothVelocity","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"moveToTargerIE","t":4,"rt":$n[3].IEnumerator,"sn":"moveToTargerIE"},{"a":2,"n":"npcType","t":4,"rt":NpcType,"sn":"npcType","box":function ($v) { return Bridge.box($v, NpcType, System.Enum.toStringFn(NpcType));}}]}; }, $n);
     /*Npc end.*/
 
+    /*NurseNpc start.*/
+    $m("NurseNpc", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"}]}; }, $n);
+    /*NurseNpc end.*/
+
+    /*PorterNpc start.*/
+    $m("PorterNpc", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"DropItemToGroundStack","t":8,"sn":"DropItemToGroundStack","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"GetAvailableBedCount","t":8,"sn":"GetAvailableBedCount","rt":$n[0].Int32,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"GetEmptyBed","t":8,"sn":"GetEmptyBed","rt":$n[0].Void},{"a":1,"n":"GetPatient","t":8,"pi":[{"n":"itemType","pt":ItemType,"ps":0}],"sn":"GetPatient","rt":PatientItem,"p":[ItemType]},{"a":1,"n":"GetRemainFamerCount","t":8,"sn":"GetRemainFamerCount","rt":$n[0].Int32,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"OnTriggerExit","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerExit","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"OnTriggerStay","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerStay","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"WorkCycle","t":8,"sn":"WorkCycle","rt":$n[3].IEnumerator},{"a":1,"n":"bedDic","t":4,"rt":$n[2].Dictionary$2(System.Int32,System.Boolean),"sn":"bedDic"},{"at":[new UnityEngine.HeaderAttribute("\u75c5\u5e8a\u7ba1\u7406"),new UnityEngine.TooltipAttribute("\u75c5\u5e8a\u4e0a\u7684BedProcess\u5217\u8868")],"a":2,"n":"bedProcessList","t":4,"rt":$n[2].List$1(BedProcess),"sn":"bedProcessList"},{"a":1,"n":"enemyBedNum","t":4,"rt":$n[0].Int32,"sn":"enemyBedNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"farmerStack","t":4,"rt":ItemStack,"sn":"farmerStack"},{"a":1,"n":"isCollectingItem","t":4,"rt":$n[0].Boolean,"sn":"isCollectingItem","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isDroppingOffItem","t":4,"rt":$n[0].Boolean,"sn":"isDroppingOffItem","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"itemDropOffCooldown","t":4,"rt":$n[0].Single,"sn":"itemDropOffCooldown","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"itemDropOffTimer","t":4,"rt":$n[0].Single,"sn":"itemDropOffTimer","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u642c\u8fd0\u8bbe\u7f6e")],"a":2,"n":"itemStackManager","t":4,"rt":ItemStackManager,"sn":"itemStackManager"},{"a":2,"n":"loadUnloadDelay","t":4,"rt":$n[0].Single,"sn":"loadUnloadDelay","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u8def\u5f84\u8bbe\u7f6e"),new UnityEngine.TooltipAttribute("\u573a\u666f\u4e2dLoaderNpcPath\u7684\u5f15\u7528\uff0c\u5b50\u7269\u4f530=\u4f11\u606f\u70b9\uff0c\u5b50\u7269\u4f531=\u75c5\u4eba\u4f4d\u7f6e")],"a":2,"n":"loaderNpcPath","t":4,"rt":$n[1].Transform,"sn":"loaderNpcPath"},{"a":1,"n":"maxBedIndex","t":4,"rt":$n[0].Int32,"sn":"maxBedIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"npcStack","t":4,"rt":ItemStack,"sn":"npcStack"},{"a":1,"n":"patients","t":4,"rt":$n[2].List$1(PatientItem),"sn":"patients"},{"a":1,"n":"targetGroundStackManager","t":4,"rt":GroundItemStackManager,"sn":"targetGroundStackManager"}]}; }, $n);
+    /*PorterNpc end.*/
+
     /*NpcManager start.*/
-    $m("NpcManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"CustomerExit","t":8,"pi":[{"n":"_customer","pt":Customer,"ps":0}],"sn":"CustomerExit","rt":$n[3].IEnumerator,"p":[Customer]},{"a":2,"n":"DequeueCustomer","t":8,"sn":"DequeueCustomer","rt":$n[0].Void},{"a":2,"n":"InitCustomer","t":8,"sn":"InitCustomer","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start$1","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"mCustomerExitPath","t":4,"rt":$n[2].List$1(UnityEngine.Transform),"sn":"mCustomerExitPath"},{"a":2,"n":"mCustomerPath","t":4,"rt":$n[2].List$1(UnityEngine.Transform),"sn":"mCustomerPath"},{"a":2,"n":"mCustomers","t":4,"rt":$n[2].Queue$1(Customer),"sn":"mCustomers"},{"a":2,"n":"mEnemies","t":4,"rt":$n[2].List$1(Enemy),"sn":"mEnemies"}]}; }, $n);
+    $m("NpcManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":3,"n":"CustomerExit","t":8,"pi":[{"n":"_customer","pt":Customer,"ps":0}],"sn":"CustomerExit","rt":$n[3].IEnumerator,"p":[Customer]},{"v":true,"a":2,"n":"DequeueCustomer","t":8,"sn":"DequeueCustomer","rt":$n[0].Void},{"v":true,"a":2,"n":"EnemyCreate","t":8,"sn":"EnemyCreate","rt":$n[0].Void},{"v":true,"a":2,"n":"GetEnemies2","t":8,"sn":"GetEnemies2","rt":$n[2].List$1(Enemy)},{"v":true,"a":2,"n":"GetPatients","t":8,"pi":[{"n":"itemType","pt":ItemType,"ps":0}],"sn":"GetPatients","rt":$n[2].List$1(PatientItem),"p":[ItemType]},{"v":true,"a":2,"n":"InitCustomer","t":8,"sn":"InitCustomer","rt":$n[0].Void},{"v":true,"a":2,"n":"RemovePatient","t":8,"pi":[{"n":"item","pt":PatientItem,"ps":0}],"sn":"RemovePatient","rt":$n[0].Void,"p":[PatientItem]},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"v":true,"a":2,"n":"UnlockLevel","t":8,"sn":"UnlockLevel","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"mCustomerExitPath","t":4,"rt":$n[2].List$1(UnityEngine.Transform),"sn":"mCustomerExitPath"},{"a":2,"n":"mCustomerPath","t":4,"rt":$n[2].List$1(UnityEngine.Transform),"sn":"mCustomerPath"},{"a":2,"n":"mCustomers","t":4,"rt":$n[2].Queue$1(Customer),"sn":"mCustomers"},{"a":2,"n":"mEnemies","t":4,"rt":$n[2].List$1(Enemy),"sn":"mEnemies"}]}; }, $n);
     /*NpcManager end.*/
+
+    /*NpcManagerOv start.*/
+    $m("NpcManagerOv", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":3,"n":"CustomerExit","t":8,"pi":[{"n":"_customer","pt":PatientItem,"ps":0},{"n":"stack","pt":ItemStack,"ps":1},{"n":"isPlayer","pt":$n[0].Boolean,"ps":2}],"sn":"CustomerExit$1","rt":$n[3].IEnumerator,"p":[PatientItem,ItemStack,$n[0].Boolean]},{"a":1,"n":"Delay","t":8,"pi":[{"n":"time","pt":$n[0].Single,"ps":0},{"n":"action","pt":Function,"ps":1}],"sn":"Delay","rt":$n[3].IEnumerator,"p":[$n[0].Single,Function]},{"ov":true,"a":2,"n":"DequeueCustomer","t":8,"sn":"DequeueCustomer","rt":$n[0].Void},{"a":1,"n":"FammerPatientCreate","t":8,"sn":"FammerPatientCreate","rt":$n[0].Void},{"ov":true,"a":2,"n":"GetEnemies2","t":8,"sn":"GetEnemies2","rt":$n[2].List$1(Enemy)},{"ov":true,"a":2,"n":"GetPatients","t":8,"pi":[{"n":"itemType","pt":ItemType,"ps":0}],"sn":"GetPatients","rt":$n[2].List$1(PatientItem),"p":[ItemType]},{"ov":true,"a":2,"n":"InitCustomer","t":8,"sn":"InitCustomer","rt":$n[0].Void},{"a":1,"n":"InitPathEnemies","t":8,"sn":"InitPathEnemies","rt":$n[0].Void},{"a":2,"n":"OccupyFighterStation","t":8,"sn":"OccupyFighterStation","rt":$n[1].Transform},{"a":1,"n":"PatientCreate","t":8,"sn":"PatientCreate","rt":$n[0].Void},{"a":2,"n":"ReleaseFighterStation","t":8,"pi":[{"n":"point","pt":$n[1].Transform,"ps":0}],"sn":"ReleaseFighterStation","rt":$n[0].Void,"p":[$n[1].Transform]},{"a":2,"n":"RemovePathEnemy","t":8,"pi":[{"n":"enemy","pt":Enemy,"ps":0}],"sn":"RemovePathEnemy","rt":$n[0].Void,"p":[Enemy]},{"ov":true,"a":2,"n":"RemovePatient","t":8,"pi":[{"n":"item","pt":PatientItem,"ps":0}],"sn":"RemovePatient","rt":$n[0].Void,"p":[PatientItem]},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"UnlockFarmerPatien","t":8,"sn":"UnlockFarmerPatien","rt":$n[0].Void},{"ov":true,"a":2,"n":"UnlockLevel","t":8,"sn":"UnlockLevel","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update$1","rt":$n[0].Void},{"a":2,"n":"GetPathEnemies","t":16,"rt":$n[2].List$1(Enemy),"g":{"a":2,"n":"get_GetPathEnemies","t":8,"rt":$n[2].List$1(Enemy),"fg":"GetPathEnemies"},"fn":"GetPathEnemies"},{"a":2,"n":"IsPathEnemiesCleared","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsPathEnemiesCleared","t":8,"rt":$n[0].Boolean,"fg":"IsPathEnemiesCleared","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsPathEnemiesCleared"},{"a":2,"n":"areaLst","t":4,"rt":$n[2].List$1(UnityEngine.Transform),"sn":"areaLst"},{"a":1,"n":"enemyLst2","t":4,"rt":$n[2].List$1(Enemy),"sn":"enemyLst2"},{"at":[new UnityEngine.HeaderAttribute("\u8def\u5f84\u8001\u9f20"),new UnityEngine.TooltipAttribute("\u8def\u5f84\u7269\u4f53\uff0c\u5176\u5b50\u7269\u4f53\u6570\u91cf\u51b3\u5b9a\u751f\u6210\u8001\u9f20\u6570\u91cf\uff0c\u8001\u9f20\u751f\u6210\u5728\u5404\u5b50\u7269\u4f53\u4f4d\u7f6e\u4e0a")],"a":2,"n":"enemyPathRoot","t":4,"rt":$n[1].Transform,"sn":"enemyPathRoot"},{"at":[new UnityEngine.HeaderAttribute("\u6218\u58eb\u4ea7\u91d1\u5806\u53e0\u5668")],"a":2,"n":"fighterCoinStack","t":4,"rt":GroundItemStackManager,"sn":"fighterCoinStack"},{"a":1,"n":"fighterStationPoints","t":4,"rt":$n[2].List$1(UnityEngine.Transform),"sn":"fighterStationPoints"},{"at":[new UnityEngine.HeaderAttribute("\u6218\u58eb\u7ad9\u4f4d\u70b9"),new UnityEngine.TooltipAttribute("\u7ad9\u4f4d\u8def\u5f84\u7269\u4f53\uff0c\u5176\u5b50\u7269\u4f53\u5373\u4e3a\u5404\u4e2a\u7ad9\u4f4d\u70b9")],"a":2,"n":"fighterStationRoot","t":4,"rt":$n[1].Transform,"sn":"fighterStationRoot"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"isUnlockFarmer","t":4,"rt":$n[0].Boolean,"sn":"isUnlockFarmer","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"mFarmerPatients","t":4,"rt":$n[2].List$1(PatientItem),"sn":"mFarmerPatients"},{"a":1,"n":"mPatients","t":4,"rt":$n[2].List$1(PatientItem),"sn":"mPatients"},{"a":2,"n":"maxFarmerPatienNum","t":4,"rt":$n[0].Int32,"sn":"maxFarmerPatienNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"maxPatienNum","t":4,"rt":$n[0].Int32,"sn":"maxPatienNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"occupiedStations","t":4,"rt":$n[2].HashSet$1(UnityEngine.Transform),"sn":"occupiedStations"}]}; }, $n);
+    /*NpcManagerOv end.*/
 
     /*AnimationInvoke start.*/
     $m("AnimationInvoke", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"EnemyAttack","t":8,"sn":"EnemyAttack","rt":$n[0].Void},{"a":2,"n":"PlayerAttack","t":8,"sn":"PlayerAttack","rt":$n[0].Void},{"a":2,"n":"PlayerAttackFinsh","t":8,"sn":"PlayerAttackFinsh","rt":$n[0].Void},{"a":2,"n":"enemy","t":4,"rt":Enemy,"sn":"enemy"}]}; }, $n);
     /*AnimationInvoke end.*/
 
     /*AttackRangeIndicator start.*/
-    $m("AttackRangeIndicator", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.RequireComponent.$ctor1(UnityEngine.MeshFilter, UnityEngine.MeshRenderer)],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"GenerateMesh","t":8,"sn":"GenerateMesh","rt":$n[0].Void},{"a":1,"n":"GetCurrentAlpha","t":8,"sn":"GetCurrentAlpha","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"Hide","t":8,"sn":"Hide","rt":$n[0].Void},{"a":1,"n":"SetAlpha","t":8,"pi":[{"n":"alpha","pt":$n[0].Single,"ps":0}],"sn":"SetAlpha","rt":$n[0].Void,"p":[$n[0].Single]},{"a":2,"n":"SetColor","t":8,"pi":[{"n":"color","pt":$n[1].Color,"ps":0}],"sn":"SetColor","rt":$n[0].Void,"p":[$n[1].Color]},{"a":2,"n":"Show","t":8,"sn":"Show","rt":$n[0].Void},{"a":2,"n":"UpdateRange","t":8,"pi":[{"n":"newRadius","pt":$n[0].Single,"ps":0},{"n":"newStartAngle","pt":$n[0].Single,"ps":1},{"n":"newEndAngle","pt":$n[0].Single,"ps":2}],"sn":"UpdateRange","rt":$n[0].Void,"p":[$n[0].Single,$n[0].Single,$n[0].Single]},{"a":1,"n":"currentTween","t":4,"rt":$n[6].Tweener,"sn":"currentTween"},{"a":2,"n":"endAngle","t":4,"rt":$n[0].Single,"sn":"endAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"fadeDuration","t":4,"rt":$n[0].Single,"sn":"fadeDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"heightOffset","t":4,"rt":$n[0].Single,"sn":"heightOffset","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u663e\u793a\u8bbe\u7f6e")],"a":2,"n":"indicatorColor","t":4,"rt":$n[1].Color,"sn":"indicatorColor"},{"at":[new UnityEngine.HeaderAttribute("\u6750\u8d28\u8bbe\u7f6e")],"a":2,"n":"indicatorMaterial","t":4,"rt":$n[1].Material,"sn":"indicatorMaterial"},{"a":1,"n":"meshFilter","t":4,"rt":$n[1].MeshFilter,"sn":"meshFilter"},{"a":1,"n":"meshRenderer","t":4,"rt":$n[1].MeshRenderer,"sn":"meshRenderer"},{"at":[new UnityEngine.HeaderAttribute("\u6247\u5f62\u53c2\u6570")],"a":2,"n":"radius","t":4,"rt":$n[0].Single,"sn":"radius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"segments","t":4,"rt":$n[0].Int32,"sn":"segments","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"startAngle","t":4,"rt":$n[0].Single,"sn":"startAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"targetAlpha","t":4,"rt":$n[0].Single,"sn":"targetAlpha","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("AttackRangeIndicator", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.RequireComponent.$ctor1(UnityEngine.MeshFilter, UnityEngine.MeshRenderer)],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"GenerateMesh","t":8,"sn":"GenerateMesh","rt":$n[0].Void},{"a":1,"n":"GetCurrentAlpha","t":8,"sn":"GetCurrentAlpha","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"Hide","t":8,"sn":"Hide","rt":$n[0].Void},{"a":1,"n":"SetAlpha","t":8,"pi":[{"n":"alpha","pt":$n[0].Single,"ps":0}],"sn":"SetAlpha","rt":$n[0].Void,"p":[$n[0].Single]},{"a":2,"n":"SetColor","t":8,"pi":[{"n":"color","pt":$n[1].Color,"ps":0}],"sn":"SetColor","rt":$n[0].Void,"p":[$n[1].Color]},{"a":2,"n":"Show","t":8,"sn":"Show","rt":$n[0].Void},{"a":2,"n":"UpdateRange","t":8,"pi":[{"n":"newRadius","pt":$n[0].Single,"ps":0},{"n":"newStartAngle","pt":$n[0].Single,"ps":1},{"n":"newEndAngle","pt":$n[0].Single,"ps":2}],"sn":"UpdateRange","rt":$n[0].Void,"p":[$n[0].Single,$n[0].Single,$n[0].Single]},{"a":1,"n":"currentTween","t":4,"rt":$n[8].Tweener,"sn":"currentTween"},{"a":2,"n":"endAngle","t":4,"rt":$n[0].Single,"sn":"endAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"fadeDuration","t":4,"rt":$n[0].Single,"sn":"fadeDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"heightOffset","t":4,"rt":$n[0].Single,"sn":"heightOffset","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u663e\u793a\u8bbe\u7f6e")],"a":2,"n":"indicatorColor","t":4,"rt":$n[1].Color,"sn":"indicatorColor"},{"at":[new UnityEngine.HeaderAttribute("\u6750\u8d28\u8bbe\u7f6e")],"a":2,"n":"indicatorMaterial","t":4,"rt":$n[1].Material,"sn":"indicatorMaterial"},{"a":1,"n":"meshFilter","t":4,"rt":$n[1].MeshFilter,"sn":"meshFilter"},{"a":1,"n":"meshRenderer","t":4,"rt":$n[1].MeshRenderer,"sn":"meshRenderer"},{"at":[new UnityEngine.HeaderAttribute("\u6247\u5f62\u53c2\u6570")],"a":2,"n":"radius","t":4,"rt":$n[0].Single,"sn":"radius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"segments","t":4,"rt":$n[0].Int32,"sn":"segments","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"startAngle","t":4,"rt":$n[0].Single,"sn":"startAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"targetAlpha","t":4,"rt":$n[0].Single,"sn":"targetAlpha","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*AttackRangeIndicator end.*/
 
     /*GameObjectEvent start.*/
@@ -12918,6 +18889,10 @@ if ( TRACE ) { TRACE( "UIProgress#UpdateNumberDisplay", this ); }
     $m("ConveyorController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"GetFromPool","t":8,"sn":"GetFromPool","rt":$n[1].GameObject},{"a":1,"n":"InitializePool","t":8,"sn":"InitializePool","rt":$n[0].Void},{"a":1,"n":"OnItemReachedDestination","t":8,"pi":[{"n":"item","pt":$n[1].GameObject,"ps":0}],"sn":"OnItemReachedDestination","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":2,"n":"PauseConveyor","t":8,"sn":"PauseConveyor","rt":$n[0].Void},{"a":2,"n":"ResumeConveyor","t":8,"sn":"ResumeConveyor","rt":$n[0].Void},{"a":1,"n":"ReturnToPool","t":8,"pi":[{"n":"item","pt":$n[1].GameObject,"ps":0}],"sn":"ReturnToPool","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":2,"n":"SpawnItem","t":8,"sn":"SpawnItem","rt":$n[1].GameObject},{"a":1,"n":"SpawnItemRoutine","t":8,"sn":"SpawnItemRoutine","rt":$n[3].IEnumerator},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"StartConveyor","t":8,"sn":"StartConveyor","rt":$n[0].Void},{"a":2,"n":"OnItemReached","t":4,"rt":GameObjectEvent,"sn":"OnItemReached"},{"at":[new UnityEngine.HeaderAttribute("\u56de\u8c03\u4e8b\u4ef6")],"a":2,"n":"OnItemSpawned","t":4,"rt":GameObjectEvent,"sn":"OnItemSpawned"},{"a":1,"n":"activeItems","t":4,"rt":$n[2].List$1(UnityEngine.GameObject),"sn":"activeItems","ro":true},{"at":[new UnityEngine.HeaderAttribute("\u8fd0\u884c\u72b6\u6001"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"autoStart","t":4,"rt":$n[0].Boolean,"sn":"autoStart","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"despawnPosition","t":4,"rt":$n[1].Transform,"sn":"despawnPosition"},{"a":2,"n":"end_groundItemStackManager","t":4,"rt":GroundItemStackManager,"sn":"end_groundItemStackManager"},{"a":1,"n":"isPaused","t":4,"rt":$n[0].Boolean,"sn":"isPaused","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isRunning","t":4,"rt":$n[0].Boolean,"sn":"isRunning","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"itemPool","t":4,"rt":$n[2].Queue$1(UnityEngine.GameObject),"sn":"itemPool","ro":true},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"itemPrefab","t":4,"rt":$n[1].GameObject,"sn":"itemPrefab"},{"a":1,"n":"itemTweens","t":4,"rt":$n[2].Dictionary$2(UnityEngine.GameObject,DG.Tweening.Tweener),"sn":"itemTweens","ro":true},{"a":2,"n":"items","t":4,"rt":$n[2].Queue$1(Item),"sn":"items"},{"at":[new UnityEngine.HeaderAttribute("\u4f20\u9001\u5e26\u53c2\u6570"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"moveSpeed","t":4,"rt":$n[0].Single,"sn":"moveSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"poolContainer","t":4,"rt":$n[1].Transform,"sn":"poolContainer"},{"at":[new UnityEngine.HeaderAttribute("\u5bf9\u8c61\u6c60\u8bbe\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"poolSize","t":4,"rt":$n[0].Int32,"sn":"poolSize","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"spawnCoroutine","t":4,"rt":$n[1].Coroutine,"sn":"spawnCoroutine"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"spawnInterval","t":4,"rt":$n[0].Single,"sn":"spawnInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u4f20\u9001\u5e26\u4f4d\u7f6e\u8bbe\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"spawnPosition","t":4,"rt":$n[1].Transform,"sn":"spawnPosition"},{"a":1,"n":"spawnTimer","t":4,"rt":$n[0].Single,"sn":"spawnTimer","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"start_groundItemStackManager","t":4,"rt":GroundItemStackManager,"sn":"start_groundItemStackManager"}]}; }, $n);
     /*ConveyorController end.*/
 
+    /*Elevator start.*/
+    $m("Elevator", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"BoardFarmersAndMove","t":8,"pi":[{"n":"player","pt":Player,"ps":0},{"n":"goingDown","pt":$n[0].Boolean,"ps":1}],"sn":"BoardFarmersAndMove","rt":$n[3].IEnumerator,"p":[Player,$n[0].Boolean]},{"a":1,"n":"MoveFarmerToQueuePosition","t":8,"pi":[{"n":"farmer","pt":FarmerPatientItem,"ps":0},{"n":"queueIndex","pt":$n[0].Int32,"ps":1}],"sn":"MoveFarmerToQueuePosition","rt":$n[0].Void,"p":[FarmerPatientItem,$n[0].Int32]},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":2,"n":"RegisterWaitingFarmer","t":8,"pi":[{"n":"farmer","pt":FarmerPatientItem,"ps":0},{"n":"atTop","pt":$n[0].Boolean,"ps":1}],"sn":"RegisterWaitingFarmer","rt":$n[0].Void,"p":[FarmerPatientItem,$n[0].Boolean]},{"a":1,"n":"SetCollider","t":8,"pi":[{"n":"enabled","pt":$n[0].Boolean,"ps":0}],"sn":"SetCollider","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":1,"n":"ShiftQueueForward","t":8,"sn":"ShiftQueueForward","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"StartElevator","t":8,"pi":[{"n":"player","pt":Player,"ps":0}],"sn":"StartElevator","rt":$n[0].Void,"p":[Player]},{"a":1,"n":"UnboardFarmers","t":8,"pi":[{"n":"wasGoingDown","pt":$n[0].Boolean,"ps":0}],"sn":"UnboardFarmers","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":2,"n":"IsAtTop","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsAtTop","t":8,"rt":$n[0].Boolean,"fg":"IsAtTop","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsAtTop"},{"a":2,"n":"IsQueueFull","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsQueueFull","t":8,"rt":$n[0].Boolean,"fg":"IsQueueFull","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsQueueFull"},{"a":2,"n":"MaxFarmerCapacity","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_MaxFarmerCapacity","t":8,"rt":$n[0].Int32,"fg":"MaxFarmerCapacity","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"MaxFarmerCapacity"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"colliders","t":4,"rt":$n[2].List$1(UnityEngine.Collider),"sn":"colliders"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"duration","t":4,"rt":$n[0].Single,"sn":"duration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"easeType","t":4,"rt":$n[8].Ease,"sn":"easeType","box":function ($v) { return Bridge.box($v, DG.Tweening.Ease, System.Enum.toStringFn(DG.Tweening.Ease));}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"elevatorCenter","t":4,"rt":$n[1].Transform,"sn":"elevatorCenter"},{"at":[new UnityEngine.HeaderAttribute("\u7535\u68af\u8bbe\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"elevatorPlatform","t":4,"rt":$n[1].Transform,"sn":"elevatorPlatform"},{"at":[new UnityEngine.TooltipAttribute("\u519c\u592b\u8fdb\u5165\u7535\u68af\u7ad9\u4f4d\u7684\u79fb\u52a8\u901f\u5ea6"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"farmerBoardSpeed","t":4,"rt":$n[0].Single,"sn":"farmerBoardSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u519c\u592b\u642d\u4e58\u8bbe\u7f6e"),new UnityEngine.TooltipAttribute("\u7535\u68af\u5185\u7ad9\u4f4d\u70b9\uff08\u6570\u91cf\u51b3\u5b9a\u6700\u5927\u5bb9\u7eb3\u519c\u592b\u6570\uff09"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"farmerStandingPositions","t":4,"rt":$n[2].List$1(UnityEngine.Transform),"sn":"farmerStandingPositions"},{"a":1,"n":"farmersOnElevator","t":4,"rt":$n[2].List$1(FarmerPatientItem),"sn":"farmersOnElevator"},{"a":1,"n":"isAtTop","t":4,"rt":$n[0].Boolean,"sn":"isAtTop","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isRunning","t":4,"rt":$n[0].Boolean,"sn":"isRunning","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"moveDistance","t":4,"rt":$n[0].Single,"sn":"moveDistance","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"moveToCenterDuration","t":4,"rt":$n[0].Single,"sn":"moveToCenterDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"topHeight","t":4,"rt":$n[0].Single,"sn":"topHeight","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u4e0a\u65b9\u6392\u961f\u8def\u5f84\uff08\u5b50\u7269\u4f53\u4e3a\u6392\u961f\u7ad9\u4f4d\u70b9\uff0c\u7b2c0\u4e2a\u6700\u9760\u8fd1\u7535\u68af\uff09"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"topQueuePath","t":4,"rt":$n[1].Transform,"sn":"topQueuePath"},{"a":1,"n":"waitingFarmersTop","t":4,"rt":$n[2].List$1(FarmerPatientItem),"sn":"waitingFarmersTop"}]}; }, $n);
+    /*Elevator end.*/
+
     /*ShowEffectType start.*/
     $m("ShowEffectType", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Bounce","is":true,"t":4,"rt":ShowEffectType,"sn":"Bounce","box":function ($v) { return Bridge.box($v, ShowEffectType, System.Enum.toStringFn(ShowEffectType));}},{"a":2,"n":"DropDown","is":true,"t":4,"rt":ShowEffectType,"sn":"DropDown","box":function ($v) { return Bridge.box($v, ShowEffectType, System.Enum.toStringFn(ShowEffectType));}},{"a":2,"n":"Fade","is":true,"t":4,"rt":ShowEffectType,"sn":"Fade","box":function ($v) { return Bridge.box($v, ShowEffectType, System.Enum.toStringFn(ShowEffectType));}},{"a":2,"n":"FadeScale","is":true,"t":4,"rt":ShowEffectType,"sn":"FadeScale","box":function ($v) { return Bridge.box($v, ShowEffectType, System.Enum.toStringFn(ShowEffectType));}},{"a":2,"n":"RiseUp","is":true,"t":4,"rt":ShowEffectType,"sn":"RiseUp","box":function ($v) { return Bridge.box($v, ShowEffectType, System.Enum.toStringFn(ShowEffectType));}},{"a":2,"n":"Rotate","is":true,"t":4,"rt":ShowEffectType,"sn":"Rotate","box":function ($v) { return Bridge.box($v, ShowEffectType, System.Enum.toStringFn(ShowEffectType));}},{"a":2,"n":"Scale","is":true,"t":4,"rt":ShowEffectType,"sn":"Scale","box":function ($v) { return Bridge.box($v, ShowEffectType, System.Enum.toStringFn(ShowEffectType));}}]}; }, $n);
     /*ShowEffectType end.*/
@@ -12927,20 +18902,28 @@ if ( TRACE ) { TRACE( "UIProgress#UpdateNumberDisplay", this ); }
     /*HideEffectType end.*/
 
     /*ObjectFX start.*/
-    $m("ObjectFX", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"Hide","t":8,"sn":"Hide","rt":$n[0].Void},{"a":2,"n":"Hide","t":8,"pi":[{"n":"onComplete","pt":Function,"ps":0}],"sn":"Hide$1","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"HideByExplode","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"HideByExplode","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"HideByFade","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"HideByFade","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"HideByFadeScale","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"HideByFadeScale","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"HideByFlyUp","t":8,"pi":[{"n":"flyHeight","dv":5.0,"o":true,"pt":$n[0].Single,"ps":0},{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"HideByFlyUp","rt":$n[0].Void,"p":[$n[0].Single,Function]},{"a":2,"n":"HideByScale","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"HideByScale","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"HideByShrink","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"HideByShrink","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"HideBySinkDown","t":8,"pi":[{"n":"sinkHeight","dv":5.0,"o":true,"pt":$n[0].Single,"ps":0},{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"HideBySinkDown","rt":$n[0].Void,"p":[$n[0].Single,Function]},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":2,"n":"ResetObject","t":8,"sn":"ResetObject","rt":$n[0].Void},{"a":1,"n":"SetAlpha","t":8,"pi":[{"n":"alpha","pt":$n[0].Single,"ps":0}],"sn":"SetAlpha","rt":$n[0].Void,"p":[$n[0].Single]},{"a":2,"n":"Show","t":8,"sn":"Show","rt":$n[0].Void},{"a":2,"n":"Show","t":8,"pi":[{"n":"onComplete","pt":Function,"ps":0}],"sn":"Show$1","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"ShowByBounce","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"ShowByBounce","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"ShowByDropDown","t":8,"pi":[{"n":"dropHeight","dv":5.0,"o":true,"pt":$n[0].Single,"ps":0},{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"ShowByDropDown","rt":$n[0].Void,"p":[$n[0].Single,Function]},{"a":2,"n":"ShowByFade","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"ShowByFade","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"ShowByFadeScale","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"ShowByFadeScale","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"ShowByRiseUp","t":8,"pi":[{"n":"riseHeight","dv":5.0,"o":true,"pt":$n[0].Single,"ps":0},{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"ShowByRiseUp","rt":$n[0].Void,"p":[$n[0].Single,Function]},{"a":2,"n":"ShowByRotate","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"ShowByRotate","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"ShowByScale","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"ShowByScale","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"StopAllAnimations","t":8,"sn":"StopAllAnimations","rt":$n[0].Void},{"at":[new UnityEngine.HeaderAttribute("\u81ea\u52a8\u64ad\u653e"),new UnityEngine.TooltipAttribute("\u542f\u7528\u540e\u4f1a\u5728OnEnable\u65f6\u81ea\u52a8\u64ad\u653e\u51fa\u73b0\u52a8\u6548")],"a":2,"n":"autoPlayOnEnable","t":4,"rt":$n[0].Boolean,"sn":"autoPlayOnEnable","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HeaderAttribute("\u52a8\u6548\u8bbe\u7f6e")],"a":2,"n":"duration","t":4,"rt":$n[0].Single,"sn":"duration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"easeType","t":4,"rt":$n[6].Ease,"sn":"easeType","box":function ($v) { return Bridge.box($v, DG.Tweening.Ease, System.Enum.toStringFn(DG.Tweening.Ease));}},{"at":[new UnityEngine.TooltipAttribute("\u9009\u62e9\u7269\u4f53\u6d88\u5931\u65f6\u4f7f\u7528\u7684\u52a8\u6548")],"a":2,"n":"hideEffectType","t":4,"rt":HideEffectType,"sn":"hideEffectType","box":function ($v) { return Bridge.box($v, HideEffectType, System.Enum.toStringFn(HideEffectType));}},{"at":[new UnityEngine.HeaderAttribute("\u79fb\u52a8\u8ddd\u79bb\u8bbe\u7f6e"),new UnityEngine.TooltipAttribute("\u7528\u4e8e\u4e0b\u843d\u3001\u5347\u8d77\u3001\u98de\u8d70\u7b49\u52a8\u6548\u7684\u79fb\u52a8\u8ddd\u79bb")],"a":2,"n":"moveDistance","t":4,"rt":$n[0].Single,"sn":"moveDistance","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u6d88\u5931\u52a8\u6548\u5b8c\u6210\u65f6\u89e6\u53d1")],"a":2,"n":"onHideComplete","t":4,"rt":$n[4].UnityEvent,"sn":"onHideComplete"},{"at":[new UnityEngine.HeaderAttribute("\u56de\u8c03\u4e8b\u4ef6"),new UnityEngine.TooltipAttribute("\u51fa\u73b0\u52a8\u6548\u5b8c\u6210\u65f6\u89e6\u53d1")],"a":2,"n":"onShowComplete","t":4,"rt":$n[4].UnityEvent,"sn":"onShowComplete"},{"a":1,"n":"originalColors","t":4,"rt":$n[2].Dictionary$2(UnityEngine.Renderer,UnityEngine.Color),"sn":"originalColors","ro":true},{"a":1,"n":"originalPosition","t":4,"rt":$n[1].Vector3,"sn":"originalPosition"},{"a":1,"n":"originalScale","t":4,"rt":$n[1].Vector3,"sn":"originalScale"},{"a":1,"n":"renderers","t":4,"rt":System.Array.type(UnityEngine.Renderer),"sn":"renderers"},{"at":[new UnityEngine.HeaderAttribute("\u52a8\u6548\u7c7b\u578b\u9009\u62e9"),new UnityEngine.TooltipAttribute("\u9009\u62e9\u7269\u4f53\u51fa\u73b0\u65f6\u4f7f\u7528\u7684\u52a8\u6548")],"a":2,"n":"showEffectType","t":4,"rt":ShowEffectType,"sn":"showEffectType","box":function ($v) { return Bridge.box($v, ShowEffectType, System.Enum.toStringFn(ShowEffectType));}}]}; }, $n);
+    $m("ObjectFX", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"Hide","t":8,"sn":"Hide","rt":$n[0].Void},{"a":2,"n":"Hide","t":8,"pi":[{"n":"onComplete","pt":Function,"ps":0}],"sn":"Hide$1","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"HideByExplode","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"HideByExplode","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"HideByFade","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"HideByFade","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"HideByFadeScale","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"HideByFadeScale","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"HideByFlyUp","t":8,"pi":[{"n":"flyHeight","dv":5.0,"o":true,"pt":$n[0].Single,"ps":0},{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"HideByFlyUp","rt":$n[0].Void,"p":[$n[0].Single,Function]},{"a":2,"n":"HideByScale","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"HideByScale","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"HideByShrink","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"HideByShrink","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"HideBySinkDown","t":8,"pi":[{"n":"sinkHeight","dv":5.0,"o":true,"pt":$n[0].Single,"ps":0},{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"HideBySinkDown","rt":$n[0].Void,"p":[$n[0].Single,Function]},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":2,"n":"ResetObject","t":8,"sn":"ResetObject","rt":$n[0].Void},{"a":1,"n":"SetAlpha","t":8,"pi":[{"n":"alpha","pt":$n[0].Single,"ps":0}],"sn":"SetAlpha","rt":$n[0].Void,"p":[$n[0].Single]},{"a":2,"n":"Show","t":8,"sn":"Show","rt":$n[0].Void},{"a":2,"n":"Show","t":8,"pi":[{"n":"onComplete","pt":Function,"ps":0}],"sn":"Show$1","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"ShowByBounce","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"ShowByBounce","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"ShowByDropDown","t":8,"pi":[{"n":"dropHeight","dv":5.0,"o":true,"pt":$n[0].Single,"ps":0},{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"ShowByDropDown","rt":$n[0].Void,"p":[$n[0].Single,Function]},{"a":2,"n":"ShowByFade","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"ShowByFade","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"ShowByFadeScale","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"ShowByFadeScale","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"ShowByRiseUp","t":8,"pi":[{"n":"riseHeight","dv":5.0,"o":true,"pt":$n[0].Single,"ps":0},{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":1}],"sn":"ShowByRiseUp","rt":$n[0].Void,"p":[$n[0].Single,Function]},{"a":2,"n":"ShowByRotate","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"ShowByRotate","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"ShowByScale","t":8,"pi":[{"n":"onComplete","dv":null,"o":true,"pt":Function,"ps":0}],"sn":"ShowByScale","rt":$n[0].Void,"p":[Function]},{"a":2,"n":"StopAllAnimations","t":8,"sn":"StopAllAnimations","rt":$n[0].Void},{"at":[new UnityEngine.HeaderAttribute("\u81ea\u52a8\u64ad\u653e"),new UnityEngine.TooltipAttribute("\u542f\u7528\u540e\u4f1a\u5728OnEnable\u65f6\u81ea\u52a8\u64ad\u653e\u51fa\u73b0\u52a8\u6548")],"a":2,"n":"autoPlayOnEnable","t":4,"rt":$n[0].Boolean,"sn":"autoPlayOnEnable","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HeaderAttribute("\u52a8\u6548\u8bbe\u7f6e")],"a":2,"n":"duration","t":4,"rt":$n[0].Single,"sn":"duration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"easeType","t":4,"rt":$n[8].Ease,"sn":"easeType","box":function ($v) { return Bridge.box($v, DG.Tweening.Ease, System.Enum.toStringFn(DG.Tweening.Ease));}},{"at":[new UnityEngine.TooltipAttribute("\u9009\u62e9\u7269\u4f53\u6d88\u5931\u65f6\u4f7f\u7528\u7684\u52a8\u6548")],"a":2,"n":"hideEffectType","t":4,"rt":HideEffectType,"sn":"hideEffectType","box":function ($v) { return Bridge.box($v, HideEffectType, System.Enum.toStringFn(HideEffectType));}},{"at":[new UnityEngine.HeaderAttribute("\u79fb\u52a8\u8ddd\u79bb\u8bbe\u7f6e"),new UnityEngine.TooltipAttribute("\u7528\u4e8e\u4e0b\u843d\u3001\u5347\u8d77\u3001\u98de\u8d70\u7b49\u52a8\u6548\u7684\u79fb\u52a8\u8ddd\u79bb")],"a":2,"n":"moveDistance","t":4,"rt":$n[0].Single,"sn":"moveDistance","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u6d88\u5931\u52a8\u6548\u5b8c\u6210\u65f6\u89e6\u53d1")],"a":2,"n":"onHideComplete","t":4,"rt":$n[5].UnityEvent,"sn":"onHideComplete"},{"at":[new UnityEngine.HeaderAttribute("\u56de\u8c03\u4e8b\u4ef6"),new UnityEngine.TooltipAttribute("\u51fa\u73b0\u52a8\u6548\u5b8c\u6210\u65f6\u89e6\u53d1")],"a":2,"n":"onShowComplete","t":4,"rt":$n[5].UnityEvent,"sn":"onShowComplete"},{"a":1,"n":"originalColors","t":4,"rt":$n[2].Dictionary$2(UnityEngine.Renderer,UnityEngine.Color),"sn":"originalColors","ro":true},{"a":1,"n":"originalPosition","t":4,"rt":$n[1].Vector3,"sn":"originalPosition"},{"a":1,"n":"originalScale","t":4,"rt":$n[1].Vector3,"sn":"originalScale"},{"a":1,"n":"renderers","t":4,"rt":System.Array.type(UnityEngine.Renderer),"sn":"renderers"},{"at":[new UnityEngine.HeaderAttribute("\u52a8\u6548\u7c7b\u578b\u9009\u62e9"),new UnityEngine.TooltipAttribute("\u9009\u62e9\u7269\u4f53\u51fa\u73b0\u65f6\u4f7f\u7528\u7684\u52a8\u6548")],"a":2,"n":"showEffectType","t":4,"rt":ShowEffectType,"sn":"showEffectType","box":function ($v) { return Bridge.box($v, ShowEffectType, System.Enum.toStringFn(ShowEffectType));}}]}; }, $n);
     /*ObjectFX end.*/
 
     /*ObjStartButton start.*/
     $m("ObjStartButton", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"v":true,"a":3,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"v":true,"a":3,"n":"OnTriggerExit","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerExit","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"OnTriggerStay","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerStay","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":2,"n":"SetAlwayEnter","t":8,"sn":"SetAlwayEnter","rt":$n[0].Void},{"a":2,"n":"box","t":4,"rt":$n[1].Transform,"sn":"box"},{"a":2,"n":"isAlwayEnter","t":4,"rt":$n[0].Boolean,"sn":"isAlwayEnter","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"isenter","t":4,"rt":$n[0].Boolean,"sn":"isenter","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"processingMachine","t":4,"rt":Processor,"sn":"processingMachine"}]}; }, $n);
     /*ObjStartButton end.*/
 
+    /*PatientInjection start.*/
+    $m("PatientInjection", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"DropMoneyToManager","t":8,"pi":[{"n":"patien","pt":PatientItem,"ps":0},{"n":"onComplete","pt":Function,"ps":1}],"sn":"DropMoneyToManager","rt":$n[0].Void,"p":[PatientItem,Function]},{"a":2,"n":"Injection","t":8,"pi":[{"n":"tf","pt":$n[1].Transform,"ps":0}],"sn":"Injection","rt":$n[0].Void,"p":[$n[1].Transform]},{"a":1,"n":"InjectionEnd","t":8,"pi":[{"n":"pathTF","pt":$n[1].Transform,"ps":0},{"n":"patien","pt":FighterPatientItem,"ps":1}],"sn":"InjectionEnd","rt":$n[3].IEnumerator,"p":[$n[1].Transform,FighterPatientItem]},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"v":true,"a":3,"n":"OnTriggerExit","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerExit","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":2,"n":"ShowBlueSprite","t":8,"sn":"ShowBlueSprite","rt":$n[0].Void},{"a":2,"n":"ShowWhiteSprite","t":8,"sn":"ShowWhiteSprite","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"bedProcess","t":4,"rt":BedProcess,"sn":"bedProcess"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"heighLightSR","t":4,"rt":$n[1].GameObject,"sn":"heighLightSR"},{"a":1,"n":"isInjection","t":4,"rt":$n[0].Boolean,"sn":"isInjection","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"itemGround","t":4,"rt":GroundItemStackManager,"sn":"itemGround"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"nomalSR","t":4,"rt":$n[1].GameObject,"sn":"nomalSR"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"nurseNpc","t":4,"rt":NurseNpc,"sn":"nurseNpc"}]}; }, $n);
+    /*PatientInjection end.*/
+
     /*Player start.*/
-    $m("Player", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Attack","t":8,"sn":"Attack","rt":$n[0].Void},{"a":2,"n":"CheckIsAttack","t":8,"sn":"CheckIsAttack","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"CollectItemFromGroundStack","t":8,"sn":"CollectItemFromGroundStack","rt":$n[0].Void},{"a":1,"n":"DropItemToGroundStack","t":8,"sn":"DropItemToGroundStack","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":2,"n":"MoneyAmountChange","t":8,"pi":[{"n":"_value","pt":$n[0].Int32,"ps":0}],"sn":"MoneyAmountChange","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"Move","t":8,"sn":"Move","rt":$n[0].Void},{"a":2,"n":"OnStop","t":8,"sn":"OnStop","rt":$n[0].Void},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"OnTriggerExit","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerExit","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"OnTriggerStay","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerStay","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":2,"n":"SetHp","t":8,"sn":"SetHp","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start$1","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"IsAttack","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsAttack","t":8,"rt":$n[0].Boolean,"fg":"IsAttack","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_IsAttack","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"IsAttack"},"fn":"IsAttack"},{"a":2,"n":"IsAttacking","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsAttacking","t":8,"rt":$n[0].Boolean,"fg":"IsAttacking","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_IsAttacking","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"IsAttacking"},"fn":"IsAttacking"},{"a":2,"n":"IsMove","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsMove","t":8,"rt":$n[0].Boolean,"fg":"IsMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_IsMove","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"IsMove"},"fn":"IsMove"},{"a":2,"n":"endAngle","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_endAngle","t":8,"rt":$n[0].Single,"fg":"endAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"endAngle"},{"a":2,"n":"isDie","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_isDie","t":8,"rt":$n[0].Boolean,"fg":"isDie","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_isDie","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"isDie"},"fn":"isDie"},{"a":2,"n":"mTurnSmoothTime","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_mTurnSmoothTime","t":8,"rt":$n[0].Single,"fg":"mTurnSmoothTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"mTurnSmoothTime"},{"a":2,"n":"moneyAmount","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_moneyAmount","t":8,"rt":$n[0].Int32,"fg":"moneyAmount","box":function ($v) { return Bridge.box($v, System.Int32);}},"s":{"a":1,"n":"set_moneyAmount","t":8,"p":[$n[0].Int32],"rt":$n[0].Void,"fs":"moneyAmount"},"fn":"moneyAmount"},{"a":1,"n":"radius","t":16,"rt":$n[0].Single,"g":{"a":1,"n":"get_radius","t":8,"rt":$n[0].Single,"fg":"radius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"radius"},{"a":2,"n":"speed","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_speed","t":8,"rt":$n[0].Single,"fg":"speed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"speed"},{"a":1,"n":"startAngle","t":16,"rt":$n[0].Single,"g":{"a":1,"n":"get_startAngle","t":8,"rt":$n[0].Single,"fg":"startAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"startAngle"},{"a":2,"n":"IsAtHome","t":4,"rt":$n[0].Boolean,"sn":"IsAtHome","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_isAttack","t":4,"rt":$n[0].Boolean,"sn":"_isAttack","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_isAttacking","t":4,"rt":$n[0].Boolean,"sn":"_isAttacking","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_isIsDie","t":4,"rt":$n[0].Boolean,"sn":"_isIsDie","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_isMove","t":4,"rt":$n[0].Boolean,"sn":"_isMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"attackInterval","t":4,"rt":$n[0].Single,"sn":"attackInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"attackRangeIndicator","t":4,"rt":AttackRangeIndicator,"sn":"attackRangeIndicator"},{"a":1,"n":"enemyLayerMask","t":4,"rt":$n[0].Int32,"sn":"enemyLayerMask","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"isCollectingItem","t":4,"rt":$n[0].Boolean,"sn":"isCollectingItem","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"isDroppingOffItem","t":4,"rt":$n[0].Boolean,"sn":"isDroppingOffItem","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isrun","t":4,"rt":$n[0].Boolean,"sn":"isrun","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"itemDropOffCooldown","t":4,"rt":$n[0].Single,"sn":"itemDropOffCooldown","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"itemDropOffTimer","t":4,"rt":$n[0].Single,"sn":"itemDropOffTimer","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u7269\u54c1\u5806\u53e0\u4fe1\u606f")],"a":2,"n":"itemStackManager","t":4,"rt":ItemStackManager,"sn":"itemStackManager"},{"a":2,"n":"mAngleDis","t":4,"rt":$n[0].Single,"sn":"mAngleDis","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u52a8\u753b")],"a":2,"n":"mAnimator","t":4,"rt":$n[1].Animator,"sn":"mAnimator"},{"at":[new UnityEngine.HeaderAttribute("\u653b\u51fb\u76f8\u5173")],"a":2,"n":"mAttackCollider","t":4,"rt":$n[1].SphereCollider,"sn":"mAttackCollider"},{"a":2,"n":"mCollider","t":4,"rt":$n[1].Collider,"sn":"mCollider"},{"at":[new UnityEngine.HeaderAttribute("\u8840\u6761")],"a":2,"n":"mHp","t":4,"rt":$n[0].Single,"sn":"mHp","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"mHpMax","t":4,"rt":$n[0].Single,"sn":"mHpMax","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"mHpUi","t":4,"rt":UIHealthBar,"sn":"mHpUi"},{"at":[new UnityEngine.HeaderAttribute("Move")],"a":2,"n":"mJoystick","t":4,"rt":YangJoystick,"sn":"mJoystick"},{"a":2,"n":"mRigidbody","t":4,"rt":$n[1].Rigidbody,"sn":"mRigidbody"},{"a":2,"n":"mStateInfo","t":4,"rt":$n[1].AnimatorStateInfo,"sn":"mStateInfo"},{"a":1,"n":"mTurnSmoothVelocity","t":4,"rt":$n[0].Single,"sn":"mTurnSmoothVelocity","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"maxImg","t":4,"rt":UIFollowerBase,"sn":"maxImg"},{"a":2,"n":"targetGroundStackManager","t":4,"rt":GroundItemStackManager,"sn":"targetGroundStackManager"},{"a":1,"backing":true,"n":"<moneyAmount>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"moneyAmount","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    $m("Player", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Attack","t":8,"sn":"Attack","rt":$n[0].Void},{"a":2,"n":"CheckIsAttack","t":8,"sn":"CheckIsAttack","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"CollectItemFromGroundStack","t":8,"sn":"CollectItemFromGroundStack","rt":$n[0].Void},{"a":1,"n":"DropItemToGroundStack","t":8,"sn":"DropItemToGroundStack","rt":$n[0].Void},{"a":2,"n":"EnterElevator","t":8,"sn":"EnterElevator","rt":$n[0].Void},{"a":2,"n":"ExitElevator","t":8,"sn":"ExitElevator","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":2,"n":"MoneyAmountChange","t":8,"pi":[{"n":"_value","pt":$n[0].Int32,"ps":0}],"sn":"MoneyAmountChange","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"Move","t":8,"sn":"Move","rt":$n[0].Void},{"a":2,"n":"OnStop","t":8,"sn":"OnStop","rt":$n[0].Void},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"OnTriggerExit","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerExit","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"OnTriggerStay","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerStay","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":2,"n":"SetHp","t":8,"sn":"SetHp","rt":$n[0].Void},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"IsAttack","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsAttack","t":8,"rt":$n[0].Boolean,"fg":"IsAttack","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_IsAttack","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"IsAttack"},"fn":"IsAttack"},{"a":2,"n":"IsAttacking","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsAttacking","t":8,"rt":$n[0].Boolean,"fg":"IsAttacking","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_IsAttacking","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"IsAttacking"},"fn":"IsAttacking"},{"a":2,"n":"IsMove","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsMove","t":8,"rt":$n[0].Boolean,"fg":"IsMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_IsMove","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"IsMove"},"fn":"IsMove"},{"a":2,"n":"endAngle","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_endAngle","t":8,"rt":$n[0].Single,"fg":"endAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"endAngle"},{"a":2,"n":"isDie","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_isDie","t":8,"rt":$n[0].Boolean,"fg":"isDie","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_isDie","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"isDie"},"fn":"isDie"},{"a":2,"n":"mTurnSmoothTime","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_mTurnSmoothTime","t":8,"rt":$n[0].Single,"fg":"mTurnSmoothTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"mTurnSmoothTime"},{"a":2,"n":"moneyAmount","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_moneyAmount","t":8,"rt":$n[0].Int32,"fg":"moneyAmount","box":function ($v) { return Bridge.box($v, System.Int32);}},"s":{"a":1,"n":"set_moneyAmount","t":8,"p":[$n[0].Int32],"rt":$n[0].Void,"fs":"moneyAmount"},"fn":"moneyAmount"},{"a":1,"n":"radius","t":16,"rt":$n[0].Single,"g":{"a":1,"n":"get_radius","t":8,"rt":$n[0].Single,"fg":"radius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"radius"},{"a":2,"n":"speed","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_speed","t":8,"rt":$n[0].Single,"fg":"speed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"speed"},{"a":1,"n":"startAngle","t":16,"rt":$n[0].Single,"g":{"a":1,"n":"get_startAngle","t":8,"rt":$n[0].Single,"fg":"startAngle","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"startAngle"},{"a":2,"n":"IsAtHome","t":4,"rt":$n[0].Boolean,"sn":"IsAtHome","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_isAttack","t":4,"rt":$n[0].Boolean,"sn":"_isAttack","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_isAttacking","t":4,"rt":$n[0].Boolean,"sn":"_isAttacking","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_isIsDie","t":4,"rt":$n[0].Boolean,"sn":"_isIsDie","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_isMove","t":4,"rt":$n[0].Boolean,"sn":"_isMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"attackInterval","t":4,"rt":$n[0].Single,"sn":"attackInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"attackRangeIndicator","t":4,"rt":AttackRangeIndicator,"sn":"attackRangeIndicator"},{"a":1,"n":"enemyLayerMask","t":4,"rt":$n[0].Int32,"sn":"enemyLayerMask","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"isCollectingItem","t":4,"rt":$n[0].Boolean,"sn":"isCollectingItem","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"isDroppingOffItem","t":4,"rt":$n[0].Boolean,"sn":"isDroppingOffItem","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HeaderAttribute("Move")],"a":2,"n":"isStop","t":4,"rt":$n[0].Boolean,"sn":"isStop","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isrun","t":4,"rt":$n[0].Boolean,"sn":"isrun","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"itemDropOffCooldown","t":4,"rt":$n[0].Single,"sn":"itemDropOffCooldown","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"itemDropOffTimer","t":4,"rt":$n[0].Single,"sn":"itemDropOffTimer","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u7269\u54c1\u5806\u53e0\u4fe1\u606f")],"a":2,"n":"itemStackManager","t":4,"rt":ItemStackManager,"sn":"itemStackManager"},{"a":2,"n":"mAngleDis","t":4,"rt":$n[0].Single,"sn":"mAngleDis","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u52a8\u753b")],"a":2,"n":"mAnimator","t":4,"rt":$n[1].Animator,"sn":"mAnimator"},{"at":[new UnityEngine.HeaderAttribute("\u653b\u51fb\u76f8\u5173")],"a":2,"n":"mAttackCollider","t":4,"rt":$n[1].SphereCollider,"sn":"mAttackCollider"},{"a":2,"n":"mCollider","t":4,"rt":$n[1].Collider,"sn":"mCollider"},{"at":[new UnityEngine.HeaderAttribute("\u8840\u6761")],"a":2,"n":"mHp","t":4,"rt":$n[0].Single,"sn":"mHp","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"mHpMax","t":4,"rt":$n[0].Single,"sn":"mHpMax","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"mHpUi","t":4,"rt":UIHealthBar,"sn":"mHpUi"},{"a":2,"n":"mJoystick","t":4,"rt":YangJoystick,"sn":"mJoystick"},{"a":2,"n":"mRigidbody","t":4,"rt":$n[1].Rigidbody,"sn":"mRigidbody"},{"a":2,"n":"mStateInfo","t":4,"rt":$n[1].AnimatorStateInfo,"sn":"mStateInfo"},{"a":1,"n":"mTurnSmoothVelocity","t":4,"rt":$n[0].Single,"sn":"mTurnSmoothVelocity","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"maxImg","t":4,"rt":UIFollowerBase,"sn":"maxImg"},{"a":2,"n":"targetGroundStackManager","t":4,"rt":GroundItemStackManager,"sn":"targetGroundStackManager"},{"a":1,"backing":true,"n":"<moneyAmount>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"moneyAmount","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
     /*Player end.*/
 
     /*PoolManager start.*/
-    $m("PoolManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"GetCustomer","t":8,"sn":"GetCustomer","rt":Customer},{"a":2,"n":"GetEnemy","t":8,"sn":"GetEnemy","rt":Enemy},{"a":2,"n":"GetEnemyHp","t":8,"sn":"GetEnemyHp","rt":UIHealthBar},{"a":2,"n":"GetItem","t":8,"pi":[{"n":"itemType","pt":ItemType,"ps":0}],"sn":"GetItem","rt":Item,"p":[ItemType]},{"a":2,"n":"ReturnCustomer","t":8,"pi":[{"n":"_Customer","pt":Customer,"ps":0}],"sn":"ReturnCustomer","rt":$n[0].Void,"p":[Customer]},{"a":2,"n":"ReturnEnemy","t":8,"pi":[{"n":"_enemy","pt":Enemy,"ps":0},{"n":"waittimes","dv":1.0,"o":true,"pt":$n[0].Single,"ps":1}],"sn":"ReturnEnemy","rt":$n[0].Void,"p":[Enemy,$n[0].Single]},{"a":2,"n":"ReturnEnemyHp","t":8,"pi":[{"n":"_enemyhp","pt":UIHealthBar,"ps":0}],"sn":"ReturnEnemyHp","rt":$n[0].Void,"p":[UIHealthBar]},{"a":2,"n":"ReturnItem","t":8,"pi":[{"n":"item","pt":Item,"ps":0}],"sn":"ReturnItem","rt":$n[0].Void,"p":[Item]},{"a":1,"n":"Start","t":8,"sn":"Start$1","rt":$n[0].Void},{"a":1,"n":"WaitDoIE","t":8,"pi":[{"n":"waittimes","pt":$n[0].Single,"ps":0},{"n":"action","pt":Function,"ps":1}],"sn":"WaitDoIE","rt":$n[3].IEnumerator,"p":[$n[0].Single,Function]},{"a":2,"n":"mCustomerPrefab","t":4,"rt":Customer,"sn":"mCustomerPrefab"},{"a":2,"n":"mCustomers","t":4,"rt":$n[2].Queue$1(Customer),"sn":"mCustomers"},{"a":2,"n":"mEnemyHpPrefab","t":4,"rt":UIHealthBar,"sn":"mEnemyHpPrefab"},{"a":2,"n":"mEnemyPrefab","t":4,"rt":Enemy,"sn":"mEnemyPrefab"},{"a":2,"n":"mEnemyhps","t":4,"rt":$n[2].Queue$1(UIHealthBar),"sn":"mEnemyhps"},{"a":2,"n":"mEnemys","t":4,"rt":$n[2].Queue$1(Enemy),"sn":"mEnemys"},{"a":2,"n":"mMoneyPrefab","t":4,"rt":Item,"sn":"mMoneyPrefab"},{"a":2,"n":"mMoneys","t":4,"rt":$n[2].Queue$1(Item),"sn":"mMoneys"},{"a":2,"n":"mProductPrefab","t":4,"rt":Item,"sn":"mProductPrefab"},{"a":2,"n":"mProducts","t":4,"rt":$n[2].Queue$1(Item),"sn":"mProducts"},{"a":2,"n":"mRawMaterialPrefab","t":4,"rt":Item,"sn":"mRawMaterialPrefab"},{"a":2,"n":"mRawMaterials","t":4,"rt":$n[2].Queue$1(Item),"sn":"mRawMaterials"}]}; }, $n);
+    $m("PoolManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":2,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"GetEnemyHp","t":8,"sn":"GetEnemyHp","rt":UIHealthBar},{"a":2,"n":"GetFighterHp","t":8,"sn":"GetFighterHp","rt":UIHealthBar},{"a":2,"n":"GetItem","t":8,"pi":[{"n":"itemType","pt":ItemType,"ps":0}],"sn":"GetItem","rt":Item,"p":[ItemType]},{"a":2,"n":"GetNpc","t":8,"pi":[{"n":"npcType","pt":NpcType,"ps":0}],"sn":"GetNpc","rt":Npc,"p":[NpcType]},{"a":2,"n":"ReturnCustomer","t":8,"pi":[{"n":"_Customer","pt":Customer,"ps":0}],"sn":"ReturnCustomer","rt":$n[0].Void,"p":[Customer]},{"a":2,"n":"ReturnEnemy","t":8,"pi":[{"n":"_enemy","pt":Enemy,"ps":0},{"n":"waittimes","dv":1.0,"o":true,"pt":$n[0].Single,"ps":1}],"sn":"ReturnEnemy","rt":$n[0].Void,"p":[Enemy,$n[0].Single]},{"a":2,"n":"ReturnEnemyHp","t":8,"pi":[{"n":"_enemyhp","pt":UIHealthBar,"ps":0}],"sn":"ReturnEnemyHp","rt":$n[0].Void,"p":[UIHealthBar]},{"a":2,"n":"ReturnFighterHp","t":8,"pi":[{"n":"_fighterhp","pt":UIHealthBar,"ps":0}],"sn":"ReturnFighterHp","rt":$n[0].Void,"p":[UIHealthBar]},{"a":2,"n":"ReturnItem","t":8,"pi":[{"n":"item","pt":Item,"ps":0}],"sn":"ReturnItem","rt":$n[0].Void,"p":[Item]},{"a":1,"n":"WaitDoIE","t":8,"pi":[{"n":"waittimes","pt":$n[0].Single,"ps":0},{"n":"action","pt":Function,"ps":1}],"sn":"WaitDoIE","rt":$n[3].IEnumerator,"p":[$n[0].Single,Function]},{"a":2,"n":"itemPrefabs","t":4,"rt":$n[2].List$1(Item),"sn":"itemPrefabs"},{"a":1,"n":"items","t":4,"rt":$n[2].Dictionary$2(ItemType,System.Collections.Generic.Queue$1(Item)),"sn":"items"},{"a":2,"n":"mEnemyHpPrefab","t":4,"rt":UIHealthBar,"sn":"mEnemyHpPrefab"},{"a":2,"n":"mEnemyhps","t":4,"rt":$n[2].Queue$1(UIHealthBar),"sn":"mEnemyhps"},{"a":2,"n":"mFighterHpPrefab","t":4,"rt":UIHealthBar,"sn":"mFighterHpPrefab"},{"a":2,"n":"mFighterhps","t":4,"rt":$n[2].Queue$1(UIHealthBar),"sn":"mFighterhps"},{"a":2,"n":"npcPrefabs","t":4,"rt":$n[2].List$1(Npc),"sn":"npcPrefabs"},{"a":1,"n":"npcs","t":4,"rt":$n[2].Dictionary$2(NpcType,System.Collections.Generic.Queue$1(Npc)),"sn":"npcs"}]}; }, $n);
     /*PoolManager end.*/
+
+    /*SoakManager start.*/
+    $m("SoakManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"DropMoneyToManager","t":8,"pi":[{"n":"patient","pt":PatientItem,"ps":0},{"n":"onComplete","pt":Function,"ps":1}],"sn":"DropMoneyToManager","rt":$n[0].Void,"p":[PatientItem,Function]},{"a":1,"n":"FindHealablePatient","t":8,"sn":"FindHealablePatient","rt":FarmerPatientItem},{"a":1,"n":"HealPatientIE","t":8,"pi":[{"n":"patient","pt":FarmerPatientItem,"ps":0}],"sn":"HealPatientIE","rt":$n[3].IEnumerator,"p":[FarmerPatientItem]},{"a":1,"n":"RemovePatientFromPool","t":8,"pi":[{"n":"patient","pt":FarmerPatientItem,"ps":0}],"sn":"RemovePatientFromPool","rt":$n[0].Void,"p":[FarmerPatientItem]},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"WaitForTopWheatReady","t":8,"sn":"WaitForTopWheatReady","rt":$n[3].IEnumerator},{"a":1,"n":"elevator","t":4,"rt":Elevator,"sn":"elevator"},{"a":1,"n":"isHealing","t":4,"rt":$n[0].Boolean,"sn":"isHealing","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HeaderAttribute("\u91d1\u5e01\u6389\u843d"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"moneyDropPoint","t":4,"rt":$n[1].Transform,"sn":"moneyDropPoint"},{"at":[new UnityEngine.HeaderAttribute("\u6ce1\u6c64\u6c60\u8bbe\u7f6e")],"a":2,"n":"poolStack","t":4,"rt":GroundItemStackManager,"sn":"poolStack"},{"at":[new UnityEngine.HeaderAttribute("\u519c\u592b\u4ea4\u4ed8"),new UnityEngine.TooltipAttribute("\u519c\u592b/\u73a9\u5bb6\u4ea4\u4ed8\u5c0f\u9ea6\u7684\u5806\u53e0\u70b9")],"a":2,"n":"wheatDeliveryStack","t":4,"rt":GroundItemStackManager,"sn":"wheatDeliveryStack"},{"at":[new UnityEngine.TooltipAttribute("\u5c0f\u9ea6\u4ece\u5806\u53e0\u5668\u53d6\u51fa\u540e\u7b49\u5f85\u591a\u4e45\u518d\u98de\u5411\u75c5\u4eba"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"wheatFlyDelay","t":4,"rt":$n[0].Single,"sn":"wheatFlyDelay","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\u6cbb\u61081\u4e2a\u75c5\u4eba\u6240\u9700\u7684\u5c0f\u9ea6\u6570\u91cf"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"wheatPerPatient","t":4,"rt":$n[0].Int32,"sn":"wheatPerPatient","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    /*SoakManager end.*/
 
     /*StateManager start.*/
     $m("StateManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"}]}; }, $n);
@@ -12955,11 +18938,11 @@ if ( TRACE ) { TRACE( "UIProgress#UpdateNumberDisplay", this ); }
     /*EnemyState end.*/
 
     /*MainPanel start.*/
-    $m("MainPanel", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"Tip","t":4,"rt":$n[1].CanvasGroup,"sn":"Tip"},{"a":1,"n":"isPress","t":4,"rt":$n[0].Boolean,"sn":"isPress","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HeaderAttribute("JoystickTip"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"joystickTip","t":4,"rt":$n[1].Animator,"sn":"joystickTip"},{"a":1,"n":"mCurrentTime","t":4,"rt":$n[0].Single,"sn":"mCurrentTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"mTime","t":4,"rt":$n[0].Single,"sn":"mTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("Progress"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"player","t":4,"rt":$n[1].Transform,"sn":"player"}]}; }, $n);
+    $m("MainPanel", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"Tip","t":4,"rt":$n[1].CanvasGroup,"sn":"Tip"},{"a":1,"n":"isFirstGuild","t":4,"rt":$n[0].Boolean,"sn":"isFirstGuild","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isPress","t":4,"rt":$n[0].Boolean,"sn":"isPress","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.HeaderAttribute("JoystickTip"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"joystickTip","t":4,"rt":$n[1].Animator,"sn":"joystickTip"},{"a":1,"n":"mCurrentTime","t":4,"rt":$n[0].Single,"sn":"mCurrentTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"mTime","t":4,"rt":$n[0].Single,"sn":"mTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("Progress"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"player","t":4,"rt":$n[1].Transform,"sn":"player"}]}; }, $n);
     /*MainPanel end.*/
 
     /*TouchArea start.*/
-    $m("TouchArea", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"OnBeginDrag","t":8,"pi":[{"n":"eventData","pt":$n[7].PointerEventData,"ps":0}],"sn":"OnBeginDrag","rt":$n[0].Void,"p":[$n[7].PointerEventData]},{"a":2,"n":"OnDrag","t":8,"pi":[{"n":"eventData","pt":$n[7].PointerEventData,"ps":0}],"sn":"OnDrag","rt":$n[0].Void,"p":[$n[7].PointerEventData]},{"a":2,"n":"OnEndDrag","t":8,"pi":[{"n":"eventData","pt":$n[7].PointerEventData,"ps":0}],"sn":"OnEndDrag","rt":$n[0].Void,"p":[$n[7].PointerEventData]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"IsTouching","t":4,"rt":$n[0].Boolean,"sn":"IsTouching","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"mCanvasGp","t":4,"rt":$n[1].CanvasGroup,"sn":"mCanvasGp"},{"a":2,"n":"mJoystickBG","t":4,"rt":$n[1].RectTransform,"sn":"mJoystickBG"},{"a":2,"n":"mJoystickHandle","t":4,"rt":YangJoystick,"sn":"mJoystickHandle"},{"a":2,"n":"mOutPos","t":4,"rt":$n[1].Vector2,"sn":"mOutPos"},{"a":2,"n":"mTime","t":4,"rt":$n[0].Single,"sn":"mTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("TouchArea", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"OnBeginDrag","t":8,"pi":[{"n":"eventData","pt":$n[9].PointerEventData,"ps":0}],"sn":"OnBeginDrag","rt":$n[0].Void,"p":[$n[9].PointerEventData]},{"a":2,"n":"OnDrag","t":8,"pi":[{"n":"eventData","pt":$n[9].PointerEventData,"ps":0}],"sn":"OnDrag","rt":$n[0].Void,"p":[$n[9].PointerEventData]},{"a":2,"n":"OnEndDrag","t":8,"pi":[{"n":"eventData","pt":$n[9].PointerEventData,"ps":0}],"sn":"OnEndDrag","rt":$n[0].Void,"p":[$n[9].PointerEventData]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"IsTouching","t":4,"rt":$n[0].Boolean,"sn":"IsTouching","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"mCanvasGp","t":4,"rt":$n[1].CanvasGroup,"sn":"mCanvasGp"},{"a":2,"n":"mJoystickBG","t":4,"rt":$n[1].RectTransform,"sn":"mJoystickBG"},{"a":2,"n":"mJoystickHandle","t":4,"rt":YangJoystick,"sn":"mJoystickHandle"},{"a":2,"n":"mOutPos","t":4,"rt":$n[1].Vector2,"sn":"mOutPos"},{"a":2,"n":"mTime","t":4,"rt":$n[0].Single,"sn":"mTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*TouchArea end.*/
 
     /*ExpressionType start.*/
@@ -12967,7 +18950,7 @@ if ( TRACE ) { TRACE( "UIProgress#UpdateNumberDisplay", this ); }
     /*ExpressionType end.*/
 
     /*UIBubbleExpression start.*/
-    $m("UIBubbleExpression", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AutoHideCoroutine","t":8,"sn":"AutoHideCoroutine","rt":$n[3].IEnumerator},{"a":2,"n":"GetCurrentExpression","t":8,"sn":"GetCurrentExpression","rt":ExpressionType,"box":function ($v) { return Bridge.box($v, ExpressionType, System.Enum.toStringFn(ExpressionType));}},{"a":1,"n":"GetExpressionSprite","t":8,"pi":[{"n":"expressionType","pt":ExpressionType,"ps":0}],"sn":"GetExpressionSprite","rt":$n[1].Sprite,"p":[ExpressionType]},{"ov":true,"a":3,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnInit","t":8,"sn":"OnInit","rt":$n[0].Void},{"a":2,"n":"ShowExpression","t":8,"pi":[{"n":"expressionType","pt":ExpressionType,"ps":0},{"n":"autoHide","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"ShowExpression","rt":$n[0].Void,"p":[ExpressionType,$n[0].Boolean]},{"a":2,"n":"ShowExpression","t":8,"pi":[{"n":"expressionSprite","pt":$n[1].Sprite,"ps":0},{"n":"autoHide","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"ShowExpression$1","rt":$n[0].Void,"p":[$n[1].Sprite,$n[0].Boolean]},{"a":1,"n":"StartAutoHide","t":8,"sn":"StartAutoHide","rt":$n[0].Void},{"a":1,"n":"StopAutoHide","t":8,"sn":"StopAutoHide","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"angryExpression","t":4,"rt":$n[1].Sprite,"sn":"angryExpression"},{"a":1,"n":"autoHideCoroutine","t":4,"rt":$n[1].Coroutine,"sn":"autoHideCoroutine"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"autoHideDelay","t":4,"rt":$n[0].Single,"sn":"autoHideDelay","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"currentExpressionType","t":4,"rt":ExpressionType,"sn":"currentExpressionType","box":function ($v) { return Bridge.box($v, ExpressionType, System.Enum.toStringFn(ExpressionType));}},{"at":[new UnityEngine.HeaderAttribute("\u8868\u60c5\u8d44\u6e90\u914d\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"defaultExpression","t":4,"rt":$n[1].Sprite,"sn":"defaultExpression"},{"at":[new UnityEngine.HeaderAttribute("\u6c14\u6ce1\u7ec4\u4ef6"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"expressionImage","t":4,"rt":$n[5].Image,"sn":"expressionImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"happyExpression","t":4,"rt":$n[1].Sprite,"sn":"happyExpression"},{"at":[new UnityEngine.HeaderAttribute("\u6c14\u6ce1\u8bbe\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"isAutoHide","t":4,"rt":$n[0].Boolean,"sn":"isAutoHide","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("UIBubbleExpression", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AutoHideCoroutine","t":8,"sn":"AutoHideCoroutine","rt":$n[3].IEnumerator},{"a":2,"n":"GetCurrentExpression","t":8,"sn":"GetCurrentExpression","rt":ExpressionType,"box":function ($v) { return Bridge.box($v, ExpressionType, System.Enum.toStringFn(ExpressionType));}},{"a":1,"n":"GetExpressionSprite","t":8,"pi":[{"n":"expressionType","pt":ExpressionType,"ps":0}],"sn":"GetExpressionSprite","rt":$n[1].Sprite,"p":[ExpressionType]},{"ov":true,"a":3,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnInit","t":8,"sn":"OnInit","rt":$n[0].Void},{"a":2,"n":"ShowExpression","t":8,"pi":[{"n":"expressionType","pt":ExpressionType,"ps":0},{"n":"autoHide","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"ShowExpression","rt":$n[0].Void,"p":[ExpressionType,$n[0].Boolean]},{"a":2,"n":"ShowExpression","t":8,"pi":[{"n":"expressionSprite","pt":$n[1].Sprite,"ps":0},{"n":"autoHide","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"ShowExpression$1","rt":$n[0].Void,"p":[$n[1].Sprite,$n[0].Boolean]},{"a":1,"n":"StartAutoHide","t":8,"sn":"StartAutoHide","rt":$n[0].Void},{"a":1,"n":"StopAutoHide","t":8,"sn":"StopAutoHide","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"angryExpression","t":4,"rt":$n[1].Sprite,"sn":"angryExpression"},{"a":1,"n":"autoHideCoroutine","t":4,"rt":$n[1].Coroutine,"sn":"autoHideCoroutine"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"autoHideDelay","t":4,"rt":$n[0].Single,"sn":"autoHideDelay","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"currentExpressionType","t":4,"rt":ExpressionType,"sn":"currentExpressionType","box":function ($v) { return Bridge.box($v, ExpressionType, System.Enum.toStringFn(ExpressionType));}},{"at":[new UnityEngine.HeaderAttribute("\u8868\u60c5\u8d44\u6e90\u914d\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"defaultExpression","t":4,"rt":$n[1].Sprite,"sn":"defaultExpression"},{"at":[new UnityEngine.HeaderAttribute("\u6c14\u6ce1\u7ec4\u4ef6"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"expressionImage","t":4,"rt":$n[6].Image,"sn":"expressionImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"happyExpression","t":4,"rt":$n[1].Sprite,"sn":"happyExpression"},{"at":[new UnityEngine.HeaderAttribute("\u6c14\u6ce1\u8bbe\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"isAutoHide","t":4,"rt":$n[0].Boolean,"sn":"isAutoHide","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*UIBubbleExpression end.*/
 
     /*ShowAnimSettings start.*/
@@ -12983,7 +18966,7 @@ if ( TRACE ) { TRACE( "UIProgress#UpdateNumberDisplay", this ); }
     /*LoopAnimSettings end.*/
 
     /*UIFollowerBase start.*/
-    $m("UIFollowerBase", function () { return {"nested":[UIFollowerBase.AnimMode,UIFollowerBase.LoopAnimMode],"att":1048705,"a":2,"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"v":true,"a":3,"n":"FollowObjectWithUI","t":8,"sn":"FollowObjectWithUI","rt":$n[0].Void},{"v":true,"a":2,"n":"Hide","t":8,"sn":"Hide","rt":$n[0].Void},{"v":true,"a":2,"n":"Init","t":8,"pi":[{"n":"target","pt":$n[1].Transform,"ps":0}],"sn":"Init","rt":$n[0].Void,"p":[$n[1].Transform]},{"v":true,"a":3,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"v":true,"a":3,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"v":true,"a":3,"n":"OnHideComplete","t":8,"sn":"OnHideComplete","rt":$n[0].Void},{"ab":true,"a":3,"n":"OnInit","t":8,"sn":"OnInit","rt":$n[0].Void},{"v":true,"a":3,"n":"PlayLoopAnimation","t":8,"sn":"PlayLoopAnimation","rt":$n[0].Void},{"a":1,"n":"PlayLoopFloat","t":8,"sn":"PlayLoopFloat","rt":$n[0].Void},{"a":1,"n":"PlayLoopScale","t":8,"sn":"PlayLoopScale","rt":$n[0].Void},{"v":true,"a":3,"n":"RegisterCameraEvents","t":8,"sn":"RegisterCameraEvents","rt":$n[0].Void},{"v":true,"a":3,"n":"Show","t":8,"sn":"Show","rt":$n[0].Void},{"v":true,"a":3,"n":"StopLoopAnimation","t":8,"sn":"StopLoopAnimation","rt":$n[0].Void},{"v":true,"a":3,"n":"UnregisterCameraEvents","t":8,"sn":"UnregisterCameraEvents","rt":$n[0].Void},{"v":true,"a":3,"n":"UpdateScaleByCameraZoom","t":8,"sn":"UpdateScaleByCameraZoom","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"animationRoot","t":4,"rt":$n[1].Transform,"sn":"animationRoot"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"cameraScaleFactor","t":4,"rt":$n[0].Single,"sn":"cameraScaleFactor","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("UI\u7ec4\u4ef6"),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"canvasGroup","t":4,"rt":$n[1].CanvasGroup,"sn":"canvasGroup"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"hideAnim","t":4,"rt":HideAnimSettings,"sn":"hideAnim"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"loopAnim","t":4,"rt":LoopAnimSettings,"sn":"loopAnim"},{"a":1,"n":"loopFloatTween","t":4,"rt":$n[6].Tween,"sn":"loopFloatTween"},{"a":1,"n":"loopScaleTween","t":4,"rt":$n[6].Tween,"sn":"loopScaleTween"},{"a":1,"n":"originalLocalPosition","t":4,"rt":$n[1].Vector3,"sn":"originalLocalPosition"},{"at":[new UnityEngine.HeaderAttribute("\u52a8\u753b\u8bbe\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"showAnim","t":4,"rt":ShowAnimSettings,"sn":"showAnim"},{"at":[new UnityEngine.HeaderAttribute("\u8ddf\u968f\u76ee\u6807"),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"targetObject","t":4,"rt":$n[1].Transform,"sn":"targetObject"},{"at":[new UnityEngine.HeaderAttribute("\u8ddf\u968f\u8bbe\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"worldOffset","t":4,"rt":$n[1].Vector3,"sn":"worldOffset"}]}; }, $n);
+    $m("UIFollowerBase", function () { return {"nested":[UIFollowerBase.AnimMode,UIFollowerBase.LoopAnimMode],"att":1048705,"a":2,"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"v":true,"a":3,"n":"FollowObjectWithUI","t":8,"sn":"FollowObjectWithUI","rt":$n[0].Void},{"v":true,"a":2,"n":"Hide","t":8,"sn":"Hide","rt":$n[0].Void},{"v":true,"a":2,"n":"Init","t":8,"pi":[{"n":"target","pt":$n[1].Transform,"ps":0}],"sn":"Init","rt":$n[0].Void,"p":[$n[1].Transform]},{"v":true,"a":3,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"v":true,"a":3,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"v":true,"a":3,"n":"OnHideComplete","t":8,"sn":"OnHideComplete","rt":$n[0].Void},{"ab":true,"a":3,"n":"OnInit","t":8,"sn":"OnInit","rt":$n[0].Void},{"v":true,"a":3,"n":"PlayLoopAnimation","t":8,"sn":"PlayLoopAnimation","rt":$n[0].Void},{"a":1,"n":"PlayLoopFloat","t":8,"sn":"PlayLoopFloat","rt":$n[0].Void},{"a":1,"n":"PlayLoopScale","t":8,"sn":"PlayLoopScale","rt":$n[0].Void},{"v":true,"a":3,"n":"RegisterCameraEvents","t":8,"sn":"RegisterCameraEvents","rt":$n[0].Void},{"v":true,"a":3,"n":"Show","t":8,"sn":"Show","rt":$n[0].Void},{"v":true,"a":3,"n":"StopLoopAnimation","t":8,"sn":"StopLoopAnimation","rt":$n[0].Void},{"v":true,"a":3,"n":"UnregisterCameraEvents","t":8,"sn":"UnregisterCameraEvents","rt":$n[0].Void},{"v":true,"a":3,"n":"UpdateScaleByCameraZoom","t":8,"sn":"UpdateScaleByCameraZoom","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"animationRoot","t":4,"rt":$n[1].Transform,"sn":"animationRoot"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"cameraScaleFactor","t":4,"rt":$n[0].Single,"sn":"cameraScaleFactor","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("UI\u7ec4\u4ef6"),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"canvasGroup","t":4,"rt":$n[1].CanvasGroup,"sn":"canvasGroup"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"hideAnim","t":4,"rt":HideAnimSettings,"sn":"hideAnim"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"loopAnim","t":4,"rt":LoopAnimSettings,"sn":"loopAnim"},{"a":1,"n":"loopFloatTween","t":4,"rt":$n[8].Tween,"sn":"loopFloatTween"},{"a":1,"n":"loopScaleTween","t":4,"rt":$n[8].Tween,"sn":"loopScaleTween"},{"a":1,"n":"originalLocalPosition","t":4,"rt":$n[1].Vector3,"sn":"originalLocalPosition"},{"at":[new UnityEngine.HeaderAttribute("\u52a8\u753b\u8bbe\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"showAnim","t":4,"rt":ShowAnimSettings,"sn":"showAnim"},{"at":[new UnityEngine.HeaderAttribute("\u8ddf\u968f\u76ee\u6807"),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"targetObject","t":4,"rt":$n[1].Transform,"sn":"targetObject"},{"at":[new UnityEngine.HeaderAttribute("\u8ddf\u968f\u8bbe\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"worldOffset","t":4,"rt":$n[1].Vector3,"sn":"worldOffset"}]}; }, $n);
     /*UIFollowerBase end.*/
 
     /*UIFollowerBase+AnimMode start.*/
@@ -12995,87 +18978,113 @@ if ( TRACE ) { TRACE( "UIProgress#UpdateNumberDisplay", this ); }
     /*UIFollowerBase+LoopAnimMode end.*/
 
     /*UIHealthBar start.*/
-    $m("UIHealthBar", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"GetHealthPercent","t":8,"sn":"GetHealthPercent","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"ov":true,"a":3,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnInit","t":8,"sn":"OnInit","rt":$n[0].Void},{"a":2,"n":"SetHpFill","t":8,"pi":[{"n":"percent","pt":$n[0].Single,"ps":0},{"n":"useBuffer","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1},{"n":"isdofill","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"SetHpFill","rt":$n[0].Void,"p":[$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":1,"n":"UpdateHealthBar","t":8,"pi":[{"n":"useBuffer","pt":$n[0].Boolean,"ps":0}],"sn":"UpdateHealthBar","rt":$n[0].Void,"p":[$n[0].Boolean]},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"bufferAnimDuration","t":4,"rt":$n[0].Single,"sn":"bufferAnimDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"bufferDelay","t":4,"rt":$n[0].Single,"sn":"bufferDelay","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"bufferFillImage","t":4,"rt":$n[5].Image,"sn":"bufferFillImage"},{"a":1,"n":"bufferTweener","t":4,"rt":$n[6].Tween,"sn":"bufferTweener"},{"a":1,"n":"currentHealthPercent","t":4,"rt":$n[0].Single,"sn":"currentHealthPercent","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u8840\u6761\u52a8\u753b\u8bbe\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"fillAnimDuration","t":4,"rt":$n[0].Single,"sn":"fillAnimDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u8840\u6761\u7ec4\u4ef6"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"fillImage","t":4,"rt":$n[5].Image,"sn":"fillImage"}]}; }, $n);
+    $m("UIHealthBar", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"GetHealthPercent","t":8,"sn":"GetHealthPercent","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnInit","t":8,"sn":"OnInit","rt":$n[0].Void},{"a":2,"n":"SetHpFill","t":8,"pi":[{"n":"percent","pt":$n[0].Single,"ps":0},{"n":"useBuffer","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1},{"n":"isdofill","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"SetHpFill","rt":$n[0].Void,"p":[$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":1,"n":"UpdateHealthBar","t":8,"pi":[{"n":"useBuffer","pt":$n[0].Boolean,"ps":0}],"sn":"UpdateHealthBar","rt":$n[0].Void,"p":[$n[0].Boolean]},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"bufferAnimDuration","t":4,"rt":$n[0].Single,"sn":"bufferAnimDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"bufferDelay","t":4,"rt":$n[0].Single,"sn":"bufferDelay","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"bufferFillImage","t":4,"rt":$n[6].Image,"sn":"bufferFillImage"},{"a":1,"n":"bufferTweener","t":4,"rt":$n[8].Tween,"sn":"bufferTweener"},{"a":1,"n":"currentHealthPercent","t":4,"rt":$n[0].Single,"sn":"currentHealthPercent","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u8840\u6761\u52a8\u753b\u8bbe\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"fillAnimDuration","t":4,"rt":$n[0].Single,"sn":"fillAnimDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u8840\u6761\u7ec4\u4ef6"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"fillImage","t":4,"rt":$n[6].Image,"sn":"fillImage"}]}; }, $n);
     /*UIHealthBar end.*/
 
     /*UIProgress start.*/
-    $m("UIProgress", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"OnInit","t":8,"sn":"OnInit","rt":$n[0].Void},{"a":2,"n":"SetFill","t":8,"pi":[{"n":"progress","pt":$n[0].Single,"ps":0},{"n":"isdofill","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"SetFill","rt":$n[0].Void,"p":[$n[0].Single,$n[0].Boolean]},{"a":1,"n":"UpdateNumberDisplay","t":8,"sn":"UpdateNumberDisplay","rt":$n[0].Void},{"a":1,"n":"UpdateProgressBar","t":8,"sn":"UpdateProgressBar","rt":$n[0].Void},{"a":1,"n":"currentProgress","t":4,"rt":$n[0].Single,"sn":"currentProgress","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u6570\u5b57\u663e\u793a"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"numberImages","t":4,"rt":$n[2].List$1(UnityEngine.UI.Image),"sn":"numberImages"},{"at":[new UnityEngine.HeaderAttribute("\u8fdb\u5ea6\u8bbe\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"progressAnimDuration","t":4,"rt":$n[0].Single,"sn":"progressAnimDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u8fdb\u5ea6\u6761\u7ec4\u4ef6"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"progressFillImage","t":4,"rt":$n[5].Image,"sn":"progressFillImage"}]}; }, $n);
+    $m("UIProgress", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"OnInit","t":8,"sn":"OnInit","rt":$n[0].Void},{"a":2,"n":"SetFill","t":8,"pi":[{"n":"progress","pt":$n[0].Single,"ps":0},{"n":"isdofill","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"SetFill","rt":$n[0].Void,"p":[$n[0].Single,$n[0].Boolean]},{"a":1,"n":"UpdateNumberDisplay","t":8,"sn":"UpdateNumberDisplay","rt":$n[0].Void},{"a":1,"n":"UpdateProgressBar","t":8,"sn":"UpdateProgressBar","rt":$n[0].Void},{"a":1,"n":"currentProgress","t":4,"rt":$n[0].Single,"sn":"currentProgress","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u6570\u5b57\u663e\u793a"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"numberImages","t":4,"rt":$n[2].List$1(UnityEngine.UI.Image),"sn":"numberImages"},{"at":[new UnityEngine.HeaderAttribute("\u8fdb\u5ea6\u8bbe\u7f6e"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"progressAnimDuration","t":4,"rt":$n[0].Single,"sn":"progressAnimDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\u8fdb\u5ea6\u6761\u7ec4\u4ef6"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"progressFillImage","t":4,"rt":$n[6].Image,"sn":"progressFillImage"}]}; }, $n);
     /*UIProgress end.*/
 
     /*UIManager start.*/
-    $m("UIManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"DangerFlash","t":8,"sn":"DangerFlash","rt":$n[3].IEnumerator},{"a":2,"n":"SetGold","t":8,"pi":[{"n":"num","pt":$n[0].Int32,"ps":0}],"sn":"SetGold","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"SetNum","t":8,"pi":[{"n":"NumSprite","pt":$n[2].List$1(UnityEngine.UI.Image),"ps":0},{"n":"Num","pt":$n[0].Int32,"ps":1}],"sn":"SetNum","rt":$n[0].Void,"p":[$n[2].List$1(UnityEngine.UI.Image),$n[0].Int32]},{"a":1,"n":"Start","t":8,"sn":"Start$1","rt":$n[0].Void},{"a":2,"n":"StartDanger","t":8,"sn":"StartDanger","rt":$n[0].Void},{"a":2,"n":"StopDanger","t":8,"sn":"StopDanger","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"gold","t":4,"rt":$n[2].List$1(UnityEngine.UI.Image),"sn":"gold"},{"a":2,"n":"mCanvas","t":4,"rt":$n[1].RectTransform,"sn":"mCanvas"},{"a":2,"n":"mCress","t":4,"rt":$n[2].List$1(UnityEngine.GameObject),"sn":"mCress"},{"a":1,"n":"mDangerFlash","t":4,"rt":$n[3].IEnumerator,"sn":"mDangerFlash"},{"a":2,"n":"mDangerImage","t":4,"rt":$n[5].Image,"sn":"mDangerImage"},{"a":2,"n":"mEnemyHps","t":4,"rt":$n[1].Transform,"sn":"mEnemyHps"},{"a":2,"n":"mGoinUI","t":4,"rt":$n[1].RectTransform,"sn":"mGoinUI"},{"a":2,"n":"mIsDanger","t":4,"rt":$n[0].Boolean,"sn":"mIsDanger","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"mNumSprites","t":4,"rt":$n[2].List$1(UnityEngine.Sprite),"sn":"mNumSprites"},{"a":2,"n":"mVer","t":4,"rt":$n[2].List$1(UnityEngine.GameObject),"sn":"mVer"}]}; }, $n);
+    $m("UIManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"DangerFlash","t":8,"sn":"DangerFlash","rt":$n[3].IEnumerator},{"a":2,"n":"SetCoin","t":8,"pi":[{"n":"num","pt":$n[0].Int32,"ps":0},{"n":"isPlayAni","pt":$n[0].Boolean,"ps":1}],"sn":"SetCoin","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Boolean]},{"a":2,"n":"SetGold","t":8,"pi":[{"n":"num","pt":$n[0].Int32,"ps":0}],"sn":"SetGold","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"SetNum","t":8,"pi":[{"n":"NumSprite","pt":$n[2].List$1(UnityEngine.UI.Image),"ps":0},{"n":"Num","pt":$n[0].Int32,"ps":1}],"sn":"SetNum","rt":$n[0].Void,"p":[$n[2].List$1(UnityEngine.UI.Image),$n[0].Int32]},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"StartDanger","t":8,"sn":"StartDanger","rt":$n[0].Void},{"a":2,"n":"StopDanger","t":8,"sn":"StopDanger","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"coinNum","t":4,"rt":$n[0].Int32,"sn":"coinNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"gold","t":4,"rt":$n[2].List$1(UnityEngine.UI.Image),"sn":"gold"},{"a":1,"n":"lastNum","t":4,"rt":$n[0].Int32,"sn":"lastNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"mCanvas","t":4,"rt":$n[1].RectTransform,"sn":"mCanvas"},{"a":2,"n":"mCoinUI","t":4,"rt":$n[7].TextMeshProUGUI,"sn":"mCoinUI"},{"a":2,"n":"mCress","t":4,"rt":$n[2].List$1(UnityEngine.GameObject),"sn":"mCress"},{"a":1,"n":"mDangerFlash","t":4,"rt":$n[3].IEnumerator,"sn":"mDangerFlash"},{"a":2,"n":"mDangerImage","t":4,"rt":$n[6].Image,"sn":"mDangerImage"},{"a":2,"n":"mEnemyHps","t":4,"rt":$n[1].Transform,"sn":"mEnemyHps"},{"a":2,"n":"mGoinUI","t":4,"rt":$n[1].RectTransform,"sn":"mGoinUI"},{"a":2,"n":"mIsDanger","t":4,"rt":$n[0].Boolean,"sn":"mIsDanger","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"mNumSprites","t":4,"rt":$n[2].List$1(UnityEngine.Sprite),"sn":"mNumSprites"},{"a":2,"n":"mVer","t":4,"rt":$n[2].List$1(UnityEngine.GameObject),"sn":"mVer"},{"a":1,"n":"numberTween","t":4,"rt":$n[8].Tween,"sn":"numberTween"}]}; }, $n);
     /*UIManager end.*/
 
     /*YangJoystick start.*/
-    $m("YangJoystick", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":2,"n":"SetPos","t":8,"pi":[{"n":"pos","pt":$n[1].Vector3,"ps":0}],"sn":"SetPos","rt":$n[0].Void,"p":[$n[1].Vector3]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"Delta","t":16,"rt":$n[1].Vector2,"g":{"a":2,"n":"get_Delta","t":8,"rt":$n[1].Vector2,"fg":"Delta"},"fn":"Delta"},{"a":2,"n":"Direction","t":16,"rt":$n[1].Vector2,"g":{"a":2,"n":"get_Direction","t":8,"rt":$n[1].Vector2,"fg":"Direction"},"fn":"Direction"},{"a":2,"n":"Horizontal","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_Horizontal","t":8,"rt":$n[0].Single,"fg":"Horizontal","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"Horizontal"},{"a":2,"n":"Vertical","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_Vertical","t":8,"rt":$n[0].Single,"fg":"Vertical","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"Vertical"},{"a":2,"n":"dragging","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_dragging","t":8,"rt":$n[0].Boolean,"fg":"dragging","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"dragging"},{"a":2,"n":"rectTransform","t":16,"rt":$n[1].RectTransform,"g":{"a":2,"n":"get_rectTransform","t":8,"rt":$n[1].RectTransform,"fg":"rectTransform"},"fn":"rectTransform"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"BG","t":4,"rt":$n[5].Image,"sn":"BG"},{"a":1,"n":"delta","t":4,"rt":$n[1].Vector2,"sn":"delta"},{"a":1,"n":"input","t":4,"rt":$n[1].Vector2,"sn":"input"},{"a":1,"n":"radius","t":4,"rt":$n[0].Single,"sn":"radius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("YangJoystick", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":2,"n":"SetPos","t":8,"pi":[{"n":"pos","pt":$n[1].Vector3,"ps":0}],"sn":"SetPos","rt":$n[0].Void,"p":[$n[1].Vector3]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"Delta","t":16,"rt":$n[1].Vector2,"g":{"a":2,"n":"get_Delta","t":8,"rt":$n[1].Vector2,"fg":"Delta"},"fn":"Delta"},{"a":2,"n":"Direction","t":16,"rt":$n[1].Vector2,"g":{"a":2,"n":"get_Direction","t":8,"rt":$n[1].Vector2,"fg":"Direction"},"fn":"Direction"},{"a":2,"n":"Horizontal","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_Horizontal","t":8,"rt":$n[0].Single,"fg":"Horizontal","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"Horizontal"},{"a":2,"n":"Vertical","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_Vertical","t":8,"rt":$n[0].Single,"fg":"Vertical","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"Vertical"},{"a":2,"n":"dragging","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_dragging","t":8,"rt":$n[0].Boolean,"fg":"dragging","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"dragging"},{"a":2,"n":"rectTransform","t":16,"rt":$n[1].RectTransform,"g":{"a":2,"n":"get_rectTransform","t":8,"rt":$n[1].RectTransform,"fg":"rectTransform"},"fn":"rectTransform"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"BG","t":4,"rt":$n[6].Image,"sn":"BG"},{"a":1,"n":"delta","t":4,"rt":$n[1].Vector2,"sn":"delta"},{"a":1,"n":"input","t":4,"rt":$n[1].Vector2,"sn":"input"},{"a":1,"n":"radius","t":4,"rt":$n[0].Single,"sn":"radius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*YangJoystick end.*/
 
     /*IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty start.*/
     $m("IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"}]}; }, $n);
     /*IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty end.*/
 
+    /*ExcelTool.GameConfig start.*/
+    $m("ExcelTool.GameConfig", function () { return {"nested":[$n[4].GameConfig.玩家数据Data,$n[4].GameConfig.老鼠数据Data,$n[4].GameConfig.其他配置Data,$n[4].GameConfig.ClerkInfoItem,$n[4].GameConfig.GuildInfoItem],"att":1048577,"a":2,"at":[Bridge.apply(new UnityEngine.CreateAssetMenuAttribute(), {
+        fileName: "GameConfig", menuName: "ExcelTool/GameConfig"
+    } )],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"at":[new UnityEngine.HeaderAttribute("=== \u5de5\u5177\u5143\u6570\u636e\uff08\u8bf7\u52ff\u624b\u52a8\u4fee\u6539\uff09 ==="),new UnityEngine.TooltipAttribute("\u6b64\u6587\u4ef6\u7531\u5de5\u5177\u81ea\u52a8\u7ba1\u7406\uff0c\u8bf7\u52ff\u624b\u52a8\u4fee\u6539")],"a":2,"n":"_excelFilePath","t":4,"rt":$n[0].String,"sn":"_excelFilePath"},{"at":[new UnityEngine.TooltipAttribute("\u6b64\u6587\u4ef6\u7531\u5de5\u5177\u81ea\u52a8\u7ba1\u7406\uff0c\u8bf7\u52ff\u624b\u52a8\u4fee\u6539")],"a":2,"n":"_sheetIndices","t":4,"rt":$n[0].String,"sn":"_sheetIndices"},{"a":2,"n":"clerkInfo","t":4,"rt":$n[2].List$1(ExcelTool.GameConfig.ClerkInfoItem),"sn":"clerkInfo"},{"a":2,"n":"guildInfo","t":4,"rt":$n[2].List$1(ExcelTool.GameConfig.GuildInfoItem),"sn":"guildInfo"},{"a":2,"n":"其他配置","t":4,"rt":$n[4].GameConfig.其他配置Data,"sn":"其他配置"},{"at":[new UnityEngine.SpaceAttribute.$ctor1(20.0)],"a":2,"n":"玩家数据","t":4,"rt":$n[4].GameConfig.玩家数据Data,"sn":"玩家数据"},{"a":2,"n":"老鼠数据","t":4,"rt":$n[4].GameConfig.老鼠数据Data,"sn":"老鼠数据"}]}; }, $n);
+    /*ExcelTool.GameConfig end.*/
+
+    /*ExcelTool.GameConfig+玩家数据Data start.*/
+    $m("ExcelTool.GameConfig.玩家数据Data", function () { return {"td":$n[4].GameConfig,"att":1056770,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"playerMaxHp","t":4,"rt":$n[0].Int32,"sn":"playerMaxHp","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"playerSpeed","t":4,"rt":$n[0].Single,"sn":"playerSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"playerTurnSmoothTime","t":4,"rt":$n[0].Single,"sn":"playerTurnSmoothTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*ExcelTool.GameConfig+玩家数据Data end.*/
+
+    /*ExcelTool.GameConfig+老鼠数据Data start.*/
+    $m("ExcelTool.GameConfig.老鼠数据Data", function () { return {"td":$n[4].GameConfig,"att":1056770,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"enemyCount","t":4,"rt":$n[0].Int32,"sn":"enemyCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"enemyDropMoney","t":4,"rt":$n[0].Int32,"sn":"enemyDropMoney","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"enemyInitNum","t":4,"rt":$n[0].Int32,"sn":"enemyInitNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"enemyKnockbackForc","t":4,"rt":$n[0].Single,"sn":"enemyKnockbackForc","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"enemySpeed","t":4,"rt":$n[0].Single,"sn":"enemySpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*ExcelTool.GameConfig+老鼠数据Data end.*/
+
+    /*ExcelTool.GameConfig+其他配置Data start.*/
+    $m("ExcelTool.GameConfig.其他配置Data", function () { return {"td":$n[4].GameConfig,"att":1056770,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"HpPecent","t":4,"rt":$n[0].Single,"sn":"HpPecent","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"HpTime","t":4,"rt":$n[0].Single,"sn":"HpTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"collectNum","t":4,"rt":$n[0].Int32,"sn":"collectNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"collectTime","t":4,"rt":$n[0].Single,"sn":"collectTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"elevatorTime","t":4,"rt":$n[0].Single,"sn":"elevatorTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"farmerPatienMoney","t":4,"rt":$n[0].Int32,"sn":"farmerPatienMoney","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"farmerPatientNum","t":4,"rt":$n[0].Int32,"sn":"farmerPatientNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"maxElevatorNum","t":4,"rt":$n[0].Int32,"sn":"maxElevatorNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"maxPatienNum","t":4,"rt":$n[0].Int32,"sn":"maxPatienNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"maxPatient1","t":4,"rt":$n[0].Int32,"sn":"maxPatient1","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"maxPatient2","t":4,"rt":$n[0].Int32,"sn":"maxPatient2","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"maxPatient3","t":4,"rt":$n[0].Int32,"sn":"maxPatient3","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"maxSoakNum","t":4,"rt":$n[0].Int32,"sn":"maxSoakNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"maxfarmerPatienNum","t":4,"rt":$n[0].Int32,"sn":"maxfarmerPatienNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"moneyValue","t":4,"rt":$n[0].Int32,"sn":"moneyValue","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"patienMoney","t":4,"rt":$n[0].Int32,"sn":"patienMoney","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"patientNum","t":4,"rt":$n[0].Int32,"sn":"patientNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"wheatPerPatient","t":4,"rt":$n[0].Int32,"sn":"wheatPerPatient","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"wheatTime","t":4,"rt":$n[0].Single,"sn":"wheatTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*ExcelTool.GameConfig+其他配置Data end.*/
+
+    /*ExcelTool.GameConfig+ClerkInfoItem start.*/
+    $m("ExcelTool.GameConfig.ClerkInfoItem", function () { return {"td":$n[4].GameConfig,"att":1056770,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"eventStr","t":4,"rt":$n[0].String,"sn":"eventStr"},{"a":2,"n":"getTotalCoin","t":4,"rt":$n[0].Int32,"sn":"getTotalCoin","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"id","t":4,"rt":$n[0].Int32,"sn":"id","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"price","t":4,"rt":$n[0].Int32,"sn":"price","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"unlockIds","t":4,"rt":$n[2].List$1(System.Int32),"sn":"unlockIds"}]}; }, $n);
+    /*ExcelTool.GameConfig+ClerkInfoItem end.*/
+
+    /*ExcelTool.GameConfig+GuildInfoItem start.*/
+    $m("ExcelTool.GameConfig.GuildInfoItem", function () { return {"td":$n[4].GameConfig,"att":1056770,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"hideName","t":4,"rt":$n[0].String,"sn":"hideName"},{"a":2,"n":"hideNum","t":4,"rt":$n[0].Int32,"sn":"hideNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"hideType","t":4,"rt":$n[0].Single,"sn":"hideType","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"id","t":4,"rt":$n[0].Int32,"sn":"id","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"priority","t":4,"rt":$n[0].Int32,"sn":"priority","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"triggerName","t":4,"rt":$n[0].String,"sn":"triggerName"},{"a":2,"n":"triggerNum","t":4,"rt":$n[0].Int32,"sn":"triggerNum","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"triggerType","t":4,"rt":$n[0].Int32,"sn":"triggerType","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    /*ExcelTool.GameConfig+GuildInfoItem end.*/
+
     /*DG.Tweening.DOTweenModuleAudio start.*/
-    $m("DG.Tweening.DOTweenModuleAudio", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOComplete","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].AudioMixer,"ps":0},{"n":"withCallbacks","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DOComplete","rt":$n[0].Int32,"p":[$n[8].AudioMixer,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].AudioSource,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[9].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].AudioSource,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlip","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].AudioMixer,"ps":0}],"sn":"DOFlip","rt":$n[0].Int32,"p":[$n[8].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOGoto","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].AudioMixer,"ps":0},{"n":"to","pt":$n[0].Single,"ps":1},{"n":"andPlay","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"DOGoto","rt":$n[0].Int32,"p":[$n[8].AudioMixer,$n[0].Single,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOKill","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].AudioMixer,"ps":0},{"n":"complete","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DOKill","rt":$n[0].Int32,"p":[$n[8].AudioMixer,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPause","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].AudioMixer,"ps":0}],"sn":"DOPause","rt":$n[0].Int32,"p":[$n[8].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPitch","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].AudioSource,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPitch","rt":$n[9].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].AudioSource,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPlay","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].AudioMixer,"ps":0}],"sn":"DOPlay","rt":$n[0].Int32,"p":[$n[8].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPlayBackwards","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].AudioMixer,"ps":0}],"sn":"DOPlayBackwards","rt":$n[0].Int32,"p":[$n[8].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPlayForward","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].AudioMixer,"ps":0}],"sn":"DOPlayForward","rt":$n[0].Int32,"p":[$n[8].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DORestart","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].AudioMixer,"ps":0}],"sn":"DORestart","rt":$n[0].Int32,"p":[$n[8].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DORewind","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].AudioMixer,"ps":0}],"sn":"DORewind","rt":$n[0].Int32,"p":[$n[8].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOSetFloat","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].AudioMixer,"ps":0},{"n":"floatName","pt":$n[0].String,"ps":1},{"n":"endValue","pt":$n[0].Single,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOSetFloat","rt":$n[9].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[8].AudioMixer,$n[0].String,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOSmoothRewind","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].AudioMixer,"ps":0}],"sn":"DOSmoothRewind","rt":$n[0].Int32,"p":[$n[8].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOTogglePause","is":true,"t":8,"pi":[{"n":"target","pt":$n[8].AudioMixer,"ps":0}],"sn":"DOTogglePause","rt":$n[0].Int32,"p":[$n[8].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleAudio", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOComplete","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0},{"n":"withCallbacks","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DOComplete","rt":$n[0].Int32,"p":[$n[10].AudioMixer,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].AudioSource,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[11].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].AudioSource,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlip","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DOFlip","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOGoto","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0},{"n":"to","pt":$n[0].Single,"ps":1},{"n":"andPlay","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"DOGoto","rt":$n[0].Int32,"p":[$n[10].AudioMixer,$n[0].Single,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOKill","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0},{"n":"complete","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DOKill","rt":$n[0].Int32,"p":[$n[10].AudioMixer,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPause","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DOPause","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPitch","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].AudioSource,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPitch","rt":$n[11].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].AudioSource,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPlay","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DOPlay","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPlayBackwards","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DOPlayBackwards","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPlayForward","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DOPlayForward","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DORestart","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DORestart","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DORewind","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DORewind","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOSetFloat","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0},{"n":"floatName","pt":$n[0].String,"ps":1},{"n":"endValue","pt":$n[0].Single,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOSetFloat","rt":$n[11].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[10].AudioMixer,$n[0].String,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOSmoothRewind","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DOSmoothRewind","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOTogglePause","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DOTogglePause","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
     /*DG.Tweening.DOTweenModuleAudio end.*/
 
     /*DG.Tweening.DOTweenModulePhysics start.*/
-    $m("DG.Tweening.DOTweenModulePhysics", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOJump","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJump","rt":$n[6].Sequence,"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":$n[10].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":3}],"sn":"DOLocalPath$1","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,$n[10].Path,$n[0].Single,$n[6].PathMode]},{"a":2,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector3),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[6].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOLocalPath","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,System.Array.type(UnityEngine.Vector3),$n[0].Single,$n[6].PathType,$n[6].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DOLookAt","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"towards","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"axisConstraint","dv":0,"o":true,"pt":$n[6].AxisConstraint,"ps":3},{"n":"up","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector3),"ps":4}],"sn":"DOLookAt","rt":$n[9].TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[6].AxisConstraint,$n[0].Nullable$1(UnityEngine.Vector3)]},{"a":2,"n":"DOMove","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMove","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveX","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveY","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveZ","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":$n[10].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":3}],"sn":"DOPath$1","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,$n[10].Path,$n[0].Single,$n[6].PathMode]},{"a":2,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector3),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[6].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOPath","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,System.Array.type(UnityEngine.Vector3),$n[0].Single,$n[6].PathType,$n[6].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DORotate","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"mode","dv":0,"o":true,"pt":$n[6].RotateMode,"ps":3}],"sn":"DORotate","rt":$n[9].TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[6].RotateMode]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModulePhysics", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOJump","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJump","rt":$n[8].Sequence,"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":$n[12].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[8].PathMode,"ps":3}],"sn":"DOLocalPath$1","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,$n[12].Path,$n[0].Single,$n[8].PathMode]},{"a":2,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector3),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[8].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[8].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOLocalPath","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,System.Array.type(UnityEngine.Vector3),$n[0].Single,$n[8].PathType,$n[8].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DOLookAt","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"towards","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"axisConstraint","dv":0,"o":true,"pt":$n[8].AxisConstraint,"ps":3},{"n":"up","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector3),"ps":4}],"sn":"DOLookAt","rt":$n[11].TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[8].AxisConstraint,$n[0].Nullable$1(UnityEngine.Vector3)]},{"a":2,"n":"DOMove","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMove","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveX","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveY","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveZ","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":$n[12].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[8].PathMode,"ps":3}],"sn":"DOPath$1","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,$n[12].Path,$n[0].Single,$n[8].PathMode]},{"a":2,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector3),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[8].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[8].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOPath","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody,System.Array.type(UnityEngine.Vector3),$n[0].Single,$n[8].PathType,$n[8].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DORotate","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"mode","dv":0,"o":true,"pt":$n[8].RotateMode,"ps":3}],"sn":"DORotate","rt":$n[11].TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions),"p":[$n[1].Rigidbody,$n[1].Vector3,$n[0].Single,$n[8].RotateMode]}]}; }, $n);
     /*DG.Tweening.DOTweenModulePhysics end.*/
 
     /*DG.Tweening.DOTweenModulePhysics2D start.*/
-    $m("DG.Tweening.DOTweenModulePhysics2D", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOJump","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJump","rt":$n[6].Sequence,"p":[$n[1].Rigidbody2D,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":$n[10].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":3}],"sn":"DOLocalPath$1","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,$n[10].Path,$n[0].Single,$n[6].PathMode]},{"a":2,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[6].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOLocalPath","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,System.Array.type(UnityEngine.Vector2),$n[0].Single,$n[6].PathType,$n[6].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DOMove","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMove","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveX","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveY","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":$n[10].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":3}],"sn":"DOPath$1","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,$n[10].Path,$n[0].Single,$n[6].PathMode]},{"a":2,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[6].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[6].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOPath","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,System.Array.type(UnityEngine.Vector2),$n[0].Single,$n[6].PathType,$n[6].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DORotate","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DORotate","rt":$n[9].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModulePhysics2D", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOJump","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJump","rt":$n[8].Sequence,"p":[$n[1].Rigidbody2D,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":$n[12].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[8].PathMode,"ps":3}],"sn":"DOLocalPath$1","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,$n[12].Path,$n[0].Single,$n[8].PathMode]},{"a":2,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[8].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[8].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOLocalPath","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,System.Array.type(UnityEngine.Vector2),$n[0].Single,$n[8].PathType,$n[8].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DOMove","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMove","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveX","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveY","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":$n[12].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[8].PathMode,"ps":3}],"sn":"DOPath$1","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,$n[12].Path,$n[0].Single,$n[8].PathMode]},{"a":2,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[8].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[8].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOPath","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].Rigidbody2D,System.Array.type(UnityEngine.Vector2),$n[0].Single,$n[8].PathType,$n[8].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DORotate","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DORotate","rt":$n[11].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].Rigidbody2D,$n[0].Single,$n[0].Single]}]}; }, $n);
     /*DG.Tweening.DOTweenModulePhysics2D end.*/
 
     /*DG.Tweening.DOTweenModuleSprite start.*/
-    $m("DG.Tweening.DOTweenModuleSprite", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[6].Tweener,"p":[$n[1].SpriteRenderer,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[9].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[1].SpriteRenderer,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[9].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[1].SpriteRenderer,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[6].Sequence,"p":[$n[1].SpriteRenderer,pc.ColorGradient,$n[0].Single]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleSprite", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[8].Tweener,"p":[$n[1].SpriteRenderer,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[1].SpriteRenderer,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[1].SpriteRenderer,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].SpriteRenderer,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[8].Sequence,"p":[$n[1].SpriteRenderer,pc.ColorGradient,$n[0].Single]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleSprite end.*/
 
     /*DG.Tweening.DOTweenModuleUI start.*/
-    $m("DG.Tweening.DOTweenModuleUI", function () { return {"nested":[$n[6].DOTweenModuleUI.Utils],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOAnchorMax","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMax","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorMin","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMin","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3D","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3D","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DX","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DY","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DZ","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosX","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosY","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[6].Tweener,"p":[$n[5].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$1","rt":$n[6].Tweener,"p":[$n[5].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$2","rt":$n[6].Tweener,"p":[$n[5].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[9].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$1","rt":$n[9].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Outline,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$2","rt":$n[9].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Outline,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$3","rt":$n[9].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOCounter","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Text,"ps":0},{"n":"fromValue","pt":$n[0].Int32,"ps":1},{"n":"endValue","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"addThousandsSeparator","dv":true,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"culture","dv":null,"o":true,"pt":$n[11].CultureInfo,"ps":5}],"sn":"DOCounter","rt":$n[9].TweenerCore$3(System.Int32,System.Int32,DG.Tweening.Plugins.Options.NoOptions),"p":[$n[5].Text,$n[0].Int32,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[11].CultureInfo]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].CanvasGroup,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[9].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].CanvasGroup,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Graphic,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$1","rt":$n[9].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Graphic,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$2","rt":$n[9].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Outline,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$3","rt":$n[9].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Outline,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Text,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$4","rt":$n[9].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[5].Text,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFillAmount","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFillAmount","rt":$n[9].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[5].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlexibleSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOFlexibleSize","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[5].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Image,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[6].Sequence,"p":[$n[5].Image,pc.ColorGradient,$n[0].Single]},{"a":2,"n":"DOHorizontalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOHorizontalNormalizedPos","rt":$n[6].Tweener,"p":[$n[5].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOJumpAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJumpAnchorPos","rt":$n[6].Sequence,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMinSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMinSize","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[5].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DONormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].ScrollRect,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DONormalizedPos","rt":$n[6].Tweener,"p":[$n[5].ScrollRect,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPivot","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivot","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOPivotX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotX","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPivotY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotY","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPreferredSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOPreferredSize","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[5].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPunchAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"punch","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"elasticity","dv":1.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOPunchAnchorPos","rt":$n[6].Tweener,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOScale","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Outline,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOScale","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[5].Outline,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","dv":100.0,"o":true,"pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6},{"n":"randomnessMode","dv":0,"o":true,"pt":$n[6].ShakeRandomnessMode,"ps":7}],"sn":"DOShakeAnchorPos","rt":$n[6].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean,$n[6].ShakeRandomnessMode]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","pt":$n[1].Vector2,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6},{"n":"randomnessMode","dv":0,"o":true,"pt":$n[6].ShakeRandomnessMode,"ps":7}],"sn":"DOShakeAnchorPos$1","rt":$n[6].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[1].Vector2,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean,$n[6].ShakeRandomnessMode]},{"a":2,"n":"DOShapeCircle","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"center","pt":$n[1].Vector2,"ps":1},{"n":"endValueDegrees","pt":$n[0].Single,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"relativeCenter","dv":false,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOShapeCircle","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.CircleOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"DOSizeDelta","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOSizeDelta","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOText","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Text,"ps":0},{"n":"endValue","pt":$n[0].String,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"richTextEnabled","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"scrambleMode","dv":0,"o":true,"pt":$n[6].ScrambleMode,"ps":4},{"n":"scrambleChars","dv":null,"o":true,"pt":$n[0].String,"ps":5}],"sn":"DOText","rt":$n[9].TweenerCore$3(System.String,System.String,DG.Tweening.Plugins.Options.StringOptions),"p":[$n[5].Text,$n[0].String,$n[0].Single,$n[0].Boolean,$n[6].ScrambleMode,$n[0].String]},{"a":2,"n":"DOValue","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].Slider,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOValue","rt":$n[9].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[5].Slider,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOVerticalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[5].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOVerticalNormalizedPos","rt":$n[6].Tweener,"p":[$n[5].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUI", function () { return {"nested":[$n[8].DOTweenModuleUI.Utils],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOAnchorMax","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMax","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorMin","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMin","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3D","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3D","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DX","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DY","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DZ","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosX","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosY","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[8].Tweener,"p":[$n[6].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$1","rt":$n[8].Tweener,"p":[$n[6].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$2","rt":$n[8].Tweener,"p":[$n[6].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[6].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$1","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[6].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Outline,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$2","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[6].Outline,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$3","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[6].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOCounter","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Text,"ps":0},{"n":"fromValue","pt":$n[0].Int32,"ps":1},{"n":"endValue","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"addThousandsSeparator","dv":true,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"culture","dv":null,"o":true,"pt":$n[13].CultureInfo,"ps":5}],"sn":"DOCounter","rt":$n[11].TweenerCore$3(System.Int32,System.Int32,DG.Tweening.Plugins.Options.NoOptions),"p":[$n[6].Text,$n[0].Int32,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[13].CultureInfo]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].CanvasGroup,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[11].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].CanvasGroup,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Graphic,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$1","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[6].Graphic,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$2","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[6].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Outline,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$3","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[6].Outline,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Text,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$4","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[6].Text,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFillAmount","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFillAmount","rt":$n[11].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[6].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlexibleSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOFlexibleSize","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[6].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Image,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[8].Sequence,"p":[$n[6].Image,pc.ColorGradient,$n[0].Single]},{"a":2,"n":"DOHorizontalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOHorizontalNormalizedPos","rt":$n[8].Tweener,"p":[$n[6].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOJumpAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJumpAnchorPos","rt":$n[8].Sequence,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMinSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMinSize","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[6].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DONormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].ScrollRect,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DONormalizedPos","rt":$n[8].Tweener,"p":[$n[6].ScrollRect,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPivot","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivot","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOPivotX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotX","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPivotY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotY","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPreferredSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOPreferredSize","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[6].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPunchAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"punch","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"elasticity","dv":1.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOPunchAnchorPos","rt":$n[8].Tweener,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOScale","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Outline,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOScale","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[6].Outline,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","dv":100.0,"o":true,"pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6},{"n":"randomnessMode","dv":0,"o":true,"pt":$n[8].ShakeRandomnessMode,"ps":7}],"sn":"DOShakeAnchorPos","rt":$n[8].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean,$n[8].ShakeRandomnessMode]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","pt":$n[1].Vector2,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6},{"n":"randomnessMode","dv":0,"o":true,"pt":$n[8].ShakeRandomnessMode,"ps":7}],"sn":"DOShakeAnchorPos$1","rt":$n[8].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[1].Vector2,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean,$n[8].ShakeRandomnessMode]},{"a":2,"n":"DOShapeCircle","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"center","pt":$n[1].Vector2,"ps":1},{"n":"endValueDegrees","pt":$n[0].Single,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"relativeCenter","dv":false,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOShapeCircle","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.CircleOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"DOSizeDelta","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOSizeDelta","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOText","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Text,"ps":0},{"n":"endValue","pt":$n[0].String,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"richTextEnabled","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"scrambleMode","dv":0,"o":true,"pt":$n[8].ScrambleMode,"ps":4},{"n":"scrambleChars","dv":null,"o":true,"pt":$n[0].String,"ps":5}],"sn":"DOText","rt":$n[11].TweenerCore$3(System.String,System.String,DG.Tweening.Plugins.Options.StringOptions),"p":[$n[6].Text,$n[0].String,$n[0].Single,$n[0].Boolean,$n[8].ScrambleMode,$n[0].String]},{"a":2,"n":"DOValue","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].Slider,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOValue","rt":$n[11].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[6].Slider,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOVerticalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[6].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOVerticalNormalizedPos","rt":$n[8].Tweener,"p":[$n[6].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUI end.*/
 
     /*DG.Tweening.DOTweenModuleUI+Utils start.*/
-    $m("DG.Tweening.DOTweenModuleUI.Utils", function () { return {"td":$n[6].DOTweenModuleUI,"att":1048962,"a":2,"s":true,"m":[{"a":2,"n":"SwitchToRectTransform","is":true,"t":8,"pi":[{"n":"from","pt":$n[1].RectTransform,"ps":0},{"n":"to","pt":$n[1].RectTransform,"ps":1}],"sn":"SwitchToRectTransform","rt":$n[1].Vector2,"p":[$n[1].RectTransform,$n[1].RectTransform]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUI.Utils", function () { return {"td":$n[8].DOTweenModuleUI,"att":1048962,"a":2,"s":true,"m":[{"a":2,"n":"SwitchToRectTransform","is":true,"t":8,"pi":[{"n":"from","pt":$n[1].RectTransform,"ps":0},{"n":"to","pt":$n[1].RectTransform,"ps":1}],"sn":"SwitchToRectTransform","rt":$n[1].Vector2,"p":[$n[1].RectTransform,$n[1].RectTransform]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUI+Utils end.*/
 
     /*DG.Tweening.DOTweenModuleUnityVersion start.*/
-    $m("DG.Tweening.DOTweenModuleUnityVersion", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[6].Sequence,"p":[$n[1].Material,pc.ColorGradient,$n[0].Single]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"property","pt":$n[0].String,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOGradientColor$1","rt":$n[6].Sequence,"p":[$n[1].Material,pc.ColorGradient,$n[0].String,$n[0].Single]},{"a":2,"n":"DOOffset","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"propertyID","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOOffset","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Material,$n[1].Vector2,$n[0].Int32,$n[0].Single]},{"a":2,"n":"DOTiling","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"propertyID","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOTiling","rt":$n[9].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Material,$n[1].Vector2,$n[0].Int32,$n[0].Single]},{"a":2,"n":"WaitForCompletion","is":true,"t":8,"pi":[{"n":"t","pt":$n[6].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForCompletion","rt":$n[1].CustomYieldInstruction,"p":[$n[6].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForElapsedLoops","is":true,"t":8,"pi":[{"n":"t","pt":$n[6].Tween,"ps":0},{"n":"elapsedLoops","pt":$n[0].Int32,"ps":1},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":2}],"sn":"WaitForElapsedLoops","rt":$n[1].CustomYieldInstruction,"p":[$n[6].Tween,$n[0].Int32,$n[0].Boolean]},{"a":2,"n":"WaitForKill","is":true,"t":8,"pi":[{"n":"t","pt":$n[6].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForKill","rt":$n[1].CustomYieldInstruction,"p":[$n[6].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForPosition","is":true,"t":8,"pi":[{"n":"t","pt":$n[6].Tween,"ps":0},{"n":"position","pt":$n[0].Single,"ps":1},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":2}],"sn":"WaitForPosition","rt":$n[1].CustomYieldInstruction,"p":[$n[6].Tween,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"WaitForRewind","is":true,"t":8,"pi":[{"n":"t","pt":$n[6].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForRewind","rt":$n[1].CustomYieldInstruction,"p":[$n[6].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForStart","is":true,"t":8,"pi":[{"n":"t","pt":$n[6].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForStart","rt":$n[1].CustomYieldInstruction,"p":[$n[6].Tween,$n[0].Boolean]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUnityVersion", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[8].Sequence,"p":[$n[1].Material,pc.ColorGradient,$n[0].Single]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"property","pt":$n[0].String,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOGradientColor$1","rt":$n[8].Sequence,"p":[$n[1].Material,pc.ColorGradient,$n[0].String,$n[0].Single]},{"a":2,"n":"DOOffset","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"propertyID","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOOffset","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Material,$n[1].Vector2,$n[0].Int32,$n[0].Single]},{"a":2,"n":"DOTiling","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Material,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"propertyID","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOTiling","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].Material,$n[1].Vector2,$n[0].Int32,$n[0].Single]},{"a":2,"n":"WaitForCompletion","is":true,"t":8,"pi":[{"n":"t","pt":$n[8].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForCompletion","rt":$n[1].CustomYieldInstruction,"p":[$n[8].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForElapsedLoops","is":true,"t":8,"pi":[{"n":"t","pt":$n[8].Tween,"ps":0},{"n":"elapsedLoops","pt":$n[0].Int32,"ps":1},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":2}],"sn":"WaitForElapsedLoops","rt":$n[1].CustomYieldInstruction,"p":[$n[8].Tween,$n[0].Int32,$n[0].Boolean]},{"a":2,"n":"WaitForKill","is":true,"t":8,"pi":[{"n":"t","pt":$n[8].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForKill","rt":$n[1].CustomYieldInstruction,"p":[$n[8].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForPosition","is":true,"t":8,"pi":[{"n":"t","pt":$n[8].Tween,"ps":0},{"n":"position","pt":$n[0].Single,"ps":1},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":2}],"sn":"WaitForPosition","rt":$n[1].CustomYieldInstruction,"p":[$n[8].Tween,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"WaitForRewind","is":true,"t":8,"pi":[{"n":"t","pt":$n[8].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForRewind","rt":$n[1].CustomYieldInstruction,"p":[$n[8].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForStart","is":true,"t":8,"pi":[{"n":"t","pt":$n[8].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForStart","rt":$n[1].CustomYieldInstruction,"p":[$n[8].Tween,$n[0].Boolean]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUnityVersion end.*/
 
     /*DG.Tweening.DOTweenCYInstruction start.*/
-    $m("DG.Tweening.DOTweenCYInstruction", function () { return {"nested":[$n[6].DOTweenCYInstruction.WaitForCompletion,$n[6].DOTweenCYInstruction.WaitForRewind,$n[6].DOTweenCYInstruction.WaitForKill,$n[6].DOTweenCYInstruction.WaitForElapsedLoops,$n[6].DOTweenCYInstruction.WaitForPosition,$n[6].DOTweenCYInstruction.WaitForStart],"att":1048961,"a":2,"s":true}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction", function () { return {"nested":[$n[8].DOTweenCYInstruction.WaitForCompletion,$n[8].DOTweenCYInstruction.WaitForRewind,$n[8].DOTweenCYInstruction.WaitForKill,$n[8].DOTweenCYInstruction.WaitForElapsedLoops,$n[8].DOTweenCYInstruction.WaitForPosition,$n[8].DOTweenCYInstruction.WaitForStart],"att":1048961,"a":2,"s":true}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForCompletion start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForCompletion", function () { return {"td":$n[6].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[6].Tween],"pi":[{"n":"tween","pt":$n[6].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[6].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForCompletion", function () { return {"td":$n[8].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[8].Tween],"pi":[{"n":"tween","pt":$n[8].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[8].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForCompletion end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForRewind start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForRewind", function () { return {"td":$n[6].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[6].Tween],"pi":[{"n":"tween","pt":$n[6].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[6].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForRewind", function () { return {"td":$n[8].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[8].Tween],"pi":[{"n":"tween","pt":$n[8].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[8].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForRewind end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForKill start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForKill", function () { return {"td":$n[6].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[6].Tween],"pi":[{"n":"tween","pt":$n[6].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[6].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForKill", function () { return {"td":$n[8].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[8].Tween],"pi":[{"n":"tween","pt":$n[8].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[8].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForKill end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForElapsedLoops start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops", function () { return {"td":$n[6].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[6].Tween,$n[0].Int32],"pi":[{"n":"tween","pt":$n[6].Tween,"ps":0},{"n":"elapsedLoops","pt":$n[0].Int32,"ps":1}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"elapsedLoops","t":4,"rt":$n[0].Int32,"sn":"elapsedLoops","ro":true,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"t","t":4,"rt":$n[6].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops", function () { return {"td":$n[8].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[8].Tween,$n[0].Int32],"pi":[{"n":"tween","pt":$n[8].Tween,"ps":0},{"n":"elapsedLoops","pt":$n[0].Int32,"ps":1}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"elapsedLoops","t":4,"rt":$n[0].Int32,"sn":"elapsedLoops","ro":true,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"t","t":4,"rt":$n[8].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForElapsedLoops end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForPosition start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForPosition", function () { return {"td":$n[6].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[6].Tween,$n[0].Single],"pi":[{"n":"tween","pt":$n[6].Tween,"ps":0},{"n":"position","pt":$n[0].Single,"ps":1}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"position","t":4,"rt":$n[0].Single,"sn":"position","ro":true,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"t","t":4,"rt":$n[6].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForPosition", function () { return {"td":$n[8].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[8].Tween,$n[0].Single],"pi":[{"n":"tween","pt":$n[8].Tween,"ps":0},{"n":"position","pt":$n[0].Single,"ps":1}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"position","t":4,"rt":$n[0].Single,"sn":"position","ro":true,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"t","t":4,"rt":$n[8].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForPosition end.*/
 
     /*DG.Tweening.DOTweenCYInstruction+WaitForStart start.*/
-    $m("DG.Tweening.DOTweenCYInstruction.WaitForStart", function () { return {"td":$n[6].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[6].Tween],"pi":[{"n":"tween","pt":$n[6].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[6].Tween,"sn":"t","ro":true}]}; }, $n);
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForStart", function () { return {"td":$n[8].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[8].Tween],"pi":[{"n":"tween","pt":$n[8].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[8].Tween,"sn":"t","ro":true}]}; }, $n);
     /*DG.Tweening.DOTweenCYInstruction+WaitForStart end.*/
 
     /*DG.Tweening.DOTweenModuleUtils start.*/
-    $m("DG.Tweening.DOTweenModuleUtils", function () { return {"nested":[$n[6].DOTweenModuleUtils.Physics],"att":1048961,"a":2,"s":true,"m":[{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"Init","is":true,"t":8,"sn":"Init","rt":$n[0].Void},{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":1,"n":"Preserver","is":true,"t":8,"sn":"Preserver","rt":$n[0].Void},{"a":1,"n":"_initialized","is":true,"t":4,"rt":$n[0].Boolean,"sn":"_initialized","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUtils", function () { return {"nested":[$n[8].DOTweenModuleUtils.Physics],"att":1048961,"a":2,"s":true,"m":[{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"Init","is":true,"t":8,"sn":"Init","rt":$n[0].Void},{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":1,"n":"Preserver","is":true,"t":8,"sn":"Preserver","rt":$n[0].Void},{"a":1,"n":"_initialized","is":true,"t":4,"rt":$n[0].Boolean,"sn":"_initialized","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUtils end.*/
 
     /*DG.Tweening.DOTweenModuleUtils+Physics start.*/
-    $m("DG.Tweening.DOTweenModuleUtils.Physics", function () { return {"td":$n[6].DOTweenModuleUtils,"att":1048962,"a":2,"s":true,"m":[{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"CreateDOTweenPathTween","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].MonoBehaviour,"ps":0},{"n":"tweenRigidbody","pt":$n[0].Boolean,"ps":1},{"n":"isLocal","pt":$n[0].Boolean,"ps":2},{"n":"path","pt":$n[10].Path,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"pathMode","pt":$n[6].PathMode,"ps":5}],"sn":"CreateDOTweenPathTween","rt":$n[9].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].MonoBehaviour,$n[0].Boolean,$n[0].Boolean,$n[10].Path,$n[0].Single,$n[6].PathMode]},{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"HasRigidbody","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Component,"ps":0}],"sn":"HasRigidbody","rt":$n[0].Boolean,"p":[$n[1].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"HasRigidbody2D","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Component,"ps":0}],"sn":"HasRigidbody2D","rt":$n[0].Boolean,"p":[$n[1].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"SetOrientationOnPath","is":true,"t":8,"pi":[{"n":"options","pt":$n[12].PathOptions,"ps":0},{"n":"t","pt":$n[6].Tween,"ps":1},{"n":"newRot","pt":$n[1].Quaternion,"ps":2},{"n":"trans","pt":$n[1].Transform,"ps":3}],"sn":"SetOrientationOnPath","rt":$n[0].Void,"p":[$n[12].PathOptions,$n[6].Tween,$n[1].Quaternion,$n[1].Transform]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUtils.Physics", function () { return {"td":$n[8].DOTweenModuleUtils,"att":1048962,"a":2,"s":true,"m":[{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"CreateDOTweenPathTween","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].MonoBehaviour,"ps":0},{"n":"tweenRigidbody","pt":$n[0].Boolean,"ps":1},{"n":"isLocal","pt":$n[0].Boolean,"ps":2},{"n":"path","pt":$n[12].Path,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"pathMode","pt":$n[8].PathMode,"ps":5}],"sn":"CreateDOTweenPathTween","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].MonoBehaviour,$n[0].Boolean,$n[0].Boolean,$n[12].Path,$n[0].Single,$n[8].PathMode]},{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"HasRigidbody","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Component,"ps":0}],"sn":"HasRigidbody","rt":$n[0].Boolean,"p":[$n[1].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"HasRigidbody2D","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Component,"ps":0}],"sn":"HasRigidbody2D","rt":$n[0].Boolean,"p":[$n[1].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"SetOrientationOnPath","is":true,"t":8,"pi":[{"n":"options","pt":$n[14].PathOptions,"ps":0},{"n":"t","pt":$n[8].Tween,"ps":1},{"n":"newRot","pt":$n[1].Quaternion,"ps":2},{"n":"trans","pt":$n[1].Transform,"ps":3}],"sn":"SetOrientationOnPath","rt":$n[0].Void,"p":[$n[14].PathOptions,$n[8].Tween,$n[1].Quaternion,$n[1].Transform]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUtils+Physics end.*/
 
     }});
